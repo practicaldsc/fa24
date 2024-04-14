@@ -1,0 +1,14 @@
+@import "./color_schemes/light";
+
+$link-color: #0066cc;
+
+/* container */
+.two-columns-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* columns */
+.two-columns-grid > * {
+    padding:1rem;
+}
