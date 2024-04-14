@@ -23,6 +23,12 @@ EECS 398-003, Fall 2024 at the <b><span style="background-color: #FFCB05; color:
 <!-- <small><b>What's this class about? 🙋</b></small><br> -->
 Skills and tools for building practical data science projects, along with their theoretical underpinnings. `pandas`, `numpy`, `scikit-learn`, `BeautifulSoup`, and Jupyter Notebooks, and also the math behind loss functions, gradient descent, and linear and logistic regression.
 
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lOnq_nwpJPg?si=gT7krC_Sf5IpFknA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+---
+
 ### Content
 
 The course will roughly be split into two halves:
@@ -57,14 +63,6 @@ The course will roughly be split into two halves:
 </div>
 </center>
 
-
-<center>
-<small>
-
-
-</small>
-</center>
-
 The course will be based on courses I've taught in the past at both UC San Diego and UC Berkeley, including:
 - [DSC 80: Practice of Data Science](https://dsc-courses.github.io/dsc80-2024-wi)
 - [DSC 40A: Theoretical Foundations of Data Science](https://dsc-courses.github.io/dsc40a-2024-sp)
@@ -72,7 +70,7 @@ The course will be based on courses I've taught in the past at both UC San Diego
 
 If the lectures, videos, and assignments linked above seem interesting to you, I think you'll enjoy this course. With that said, I will tailor the course to best suit the needs of enrolled students – for instance, I know that students in the course haven't necessarily seen Python before, so we'll introduce it as necessary.
 
-<br>
+---
 
 ### Format and Assessment
 
@@ -80,7 +78,7 @@ Lectures will be held in-person and will be recorded. Discussions will be held i
 
 Students will be expected to complete **weekly homework assignments**, which will mostly comprise of programming assignments in Python and Jupyter Notebooks, with theoretical questions sprinkled throughout. The course will have **one midterm exam** and **one final exam** (dates TBD).
 
-<br>
+---
 
 ### Prerequisites
 
@@ -90,13 +88,13 @@ The enforced prerequisites are discrete math (EECS 203), programming (EECS 280),
 
 If you're interested in the class but don't meet one of the prerequisites, email me and we can chat about your background. I'm happy to support students of all backgrounds who are curious about data science!
 
-<br>
+---
 
 ### Credit
 
 The course counts for 4 credits. It counts as an Upper Level CS (ULCS) elective course for Computer Science majors; any further credit will be listed here as it becomes available.
 
-<br>
+---
 
 ### Frequently Asked Questions
 
