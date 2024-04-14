@@ -21,7 +21,7 @@ EECS 398-003, Fall 2024 at the <b><span style="background-color: #FFCB05; color:
 
 {: .success }
 <!-- <small><b>What's this class about? 🙋</b></small><br> -->
-Skills and tools for building practical data science projects, along with their theoretical underpinnings. `pandas`, `numpy`, `scikit-learn`, `BeautifulSoup`, and Jupyter Notebooks, but also the math behind loss functions, gradient descent, and linear and logistic regression.
+Skills and tools for building practical data science projects, along with their theoretical underpinnings. `pandas`, `numpy`, `scikit-learn`, `BeautifulSoup`, and Jupyter Notebooks, and also the math behind loss functions, gradient descent, and linear and logistic regression.
 
 ### Content
 
@@ -76,7 +76,7 @@ If the lectures, videos, and assignments linked above seem interesting to you, I
 
 ### Format and Assessment
 
-Lectures will be held in-person and will be recorded. Discussions will be held in-person and run by GSIs/IAs. Office hours will largely be in-person, but with some remote options as well.
+Lectures will be held in-person and will be recorded. Discussions will be held in-person and run by GSIs/IAs. Office hours will largely be in-person, but there will be some remote options as well.
 
 Students will be expected to complete **weekly homework assignments**, which will mostly comprise of programming assignments in Python and Jupyter Notebooks, with theoretical questions sprinkled throughout. The course will have **one midterm exam** and **one final exam** (dates TBD).
 
