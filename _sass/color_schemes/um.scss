@@ -12,3 +12,8 @@ $link-color: #0066cc;
 .two-columns-grid > * {
     padding:1rem;
 }
+
+::selection {
+    background: #FFCB05;
+    color: #00274C;
+  }
