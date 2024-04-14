@@ -24,7 +24,7 @@ EECS 398-003, Fall 2024 at the <b><span style="background-color: #FFCB05; color:
 Skills and tools for building practical data science projects, along with their theoretical underpinnings. `pandas`, `numpy`, `scikit-learn`, `BeautifulSoup`, and Jupyter Notebooks, and also the math behind loss functions, gradient descent, and linear and logistic regression.
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lOnq_nwpJPg?si=gT7krC_Sf5IpFknA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Video coming soon!
 </center>
 
 ---
