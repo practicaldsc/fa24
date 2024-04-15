@@ -67,18 +67,6 @@ The course will roughly be split in two halves; while the topics in it may overl
 </div>
 </center>
 
-<center>
-
-<iframe src="assets/3d-plane.html" frameBorder="0" width="500" height="500"></iframe>
-
-<br>
-
-This plot is interactive! Click to drag.<br>
-How do we find this "plane of best fit?" efficiently? How do we use it to make predictions?<br>
-These are the types of problems we will explore in this course.
-
-</center>
-
 The course will be based on courses I've taught in the past at both UC San Diego and UC Berkeley, including:
 - [DSC 80: Practice of Data Science](https://dsc-courses.github.io/dsc80-2024-wi) (most similar)
 - [DSC 40A: Theoretical Foundations of Data Science](https://dsc-courses.github.io/dsc40a-2024-sp)
@@ -123,3 +111,18 @@ No. While it's true that there's a lot in this class that isn't covered in EECS 
 **What specific topics from linear algebra will the course use?**
 
 In addition to matrix-vector multiplication, we will expect students to be familiar with the ideas of linear independence, spans, projections, and orthogonality. We will review these ideas when necessary, but it will help to have seen them already. We will provide links to linear algebra review material.
+
+---
+
+The plot below is interactive! Click to drag.
+
+<center>
+
+<iframe src="assets/3d-plane.html" frameBorder="0" width="500" height="500"></iframe>
+
+<br>
+
+</center>
+
+How do we find this "plane of best fit?" efficiently? How do we use it to make predictions?<br>
+These are the types of problems we will explore in this course.
