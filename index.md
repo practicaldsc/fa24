@@ -25,7 +25,9 @@ EECS 398-003, Fall 2024 at the <b><span style="background-color: #FFCB05; color:
 Skills and tools for building practical data science projects, along with their theoretical underpinnings. `pandas`, `numpy`, `scikit-learn`, `BeautifulSoup`, and Jupyter Notebooks, and also the math behind loss functions, gradient descent, linear and logistic regression, and other key ideas in machine learning.
 
 <center>
-Video coming soon!
+
+<iframe width="600" height="320" src="https://www.youtube.com/embed/Z75-_YK5_XM?si=ilsVZvq51tBPyHG3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 </center>
 
 ---
@@ -63,6 +65,18 @@ The course will roughly be split in two halves; while the topics in it may overl
     </small>
     </div>
 </div>
+</center>
+
+<center>
+
+<iframe src="assets/3d-plane.html" frameBorder="0" width="500" height="500"></iframe>
+
+<br>
+
+This plot is interactive! Click to drag.<br>
+How do we find this "plane of best fit?" efficiently? How do we use it to make predictions?<br>
+These are the types of problems we will explore in this course.
+
 </center>
 
 The course will be based on courses I've taught in the past at both UC San Diego and UC Berkeley, including:
