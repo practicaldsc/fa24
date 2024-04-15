@@ -11,7 +11,8 @@ description: >-
 EECS 398-003, Fall 2024 at the <b><span style="background-color: #FFCB05; color: #00274C">University of Michigan</span></b>
 {: .no_toc }
 {: .fs-6 .fw-300 .mb-2 }
-**Lecture**: TuTh 1:30-3:00PM, [1013 DOW](https://maps.app.goo.gl/Sw7tgHarQKJ9SBrFA); **Discussion**: F 2:30-3:30PM, [1670 BBB](https://maps.app.goo.gl/wuMosGqmKQ4KUmqdA)
+**Lecture**: TuTh 1:30-3:00PM, [1013 DOW](https://maps.app.goo.gl/Sw7tgHarQKJ9SBrFA); **Discussion**: F 2:30-3:30PM, [1670 BBB](https://maps.app.goo.gl/wuMosGqmKQ4KUmqdA)<br>
+4 credits, ULCS for Computer Science majors
 
 
 {% assign instructors = site.staffers | where: 'role', 'Instructor' %}
@@ -75,7 +76,7 @@ If the lectures, videos, and assignments linked above seem interesting to you, I
 
 ### Format and Assessment
 
-Lectures will be held in-person and will be recorded. Discussions will be held in-person and run by GSIs/IAs. Office hours will largely be in-person, but there will be some remote options as well.
+Lectures will be held in-person and recorded, and attendance will not be required. Discussions will be held in-person and run by GSIs/IAs, and attendance will also not be required. Office hours will largely be in-person, but there will be some remote options as well.
 
 Students will be expected to complete **weekly homework assignments**, which will mostly comprise of programming assignments in Python and Jupyter Notebooks, with theoretical questions sprinkled throughout. The course will have **one midterm exam** and **one final exam** (dates TBD).
 
@@ -91,11 +92,6 @@ If you're interested in the class but don't meet one of the prerequisites, email
 
 ---
 
-### Credit
-
-This is a 4 credit course. It counts as an Upper Level CS (ULCS) elective course for Computer Science majors; any further credit will be listed here as it becomes available.
-
----
 
 ### Frequently Asked Questions
 
