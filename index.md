@@ -80,7 +80,7 @@ If the lectures, videos, and assignments linked above seem interesting to you, I
 
 Lectures will be held in-person and recorded, and attendance will not be required. Discussions will be held in-person and run by GSIs/IAs, and attendance will also not be required. Office hours will largely be in-person, but there will be some remote options as well.
 
-Students will be expected to complete **weekly homework assignments**, which will mostly comprise of programming assignments in Python and Jupyter Notebooks, with theoretical questions sprinkled throughout. The course will have **one midterm exam** and **one final exam** (dates TBD).
+Students will be expected to complete **weekly homework assignments**, which will mostly comprise of programming assignments in Python and Jupyter Notebooks, with theoretical questions sprinkled throughout. The course will have **one midterm exam** and **one final exam** (dates TBD), both of which will be held in-person.
 
 ---
 
