@@ -114,7 +114,9 @@ In addition to matrix-vector multiplication, we will expect students to be famil
 
 ---
 
-The plot below is interactive! Click to drag.
+### Examples
+
+The plots below are interactive, and involve examples we'll work on in the class.
 
 <center>
 
@@ -124,5 +126,16 @@ The plot below is interactive! Click to drag.
 
 </center>
 
-How do we find this "plane of best fit?" efficiently? How do we use it to make predictions?<br>
-These are the types of problems we will explore in this course.
+How do we find this "plane of best fit?" efficiently? How do we use it to make predictions?
+
+<br>
+
+<center>
+
+<iframe src="assets/outages_by_year.html" frameBorder="0" width="600" height="425"></iframe>
+
+<br>
+
+</center>
+
+What are the trends in power outages over time?
