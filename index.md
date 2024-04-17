@@ -12,7 +12,7 @@ EECS 398-003, Fall 2024 at the <b><span style="background-color: #FFCB05; color:
 {: .no_toc }
 {: .fs-6 .fw-300 .mb-2 }
 **Lecture**: TuTh 1:30-3:00PM, [1013 DOW](https://maps.app.goo.gl/Sw7tgHarQKJ9SBrFA); **Discussion**: F 2:30-3:30PM, [1670 BBB](https://maps.app.goo.gl/wuMosGqmKQ4KUmqdA)<br>
-4 credits, ULCS for Computer Science majors
+4 credits, ULCS for Computer Science majors; elective credit TBD for Data Science majors
 
 
 {% assign instructors = site.staffers | where: 'role', 'Instructor' %}
