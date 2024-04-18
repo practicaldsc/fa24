@@ -87,8 +87,8 @@ Students will be expected to complete **weekly homework assignments**, which wil
 ### Prerequisites
 
 The enforced prerequisites are discrete math (EECS 203), programming (EECS 280), calculus I, calculus II, and linear algebra. To satisfy the calculus and linear algebra requirement, we will accept:
-- One of Math 214, Math 217, Math 296, Math 417, or Math 419.
-- ROB 101, in combination with one of Math 116, Math 156, Math 176, or Math 186.
+- One of Math 214, Math 217, Math 296, Math 417, or Math 419, OR
+- ROB 101, in combination with one of Math 116, Math 156, Math 176, or Math 186. (To be clear, ROB 101 itself is not a prereq. All you need to have taken is one linear algebra class, but if the linear algebra class you've taken is ROB 101, you need to also have taken a separate calculus class.)
 
 If you're interested in the class but don't meet one of the prerequisites, email me and we can chat about your background. I encourage students of all backgrounds who are curious about data science to reach out!
 
