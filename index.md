@@ -61,7 +61,7 @@ The course will roughly be split in two halves; while the topics in it may overl
         Gradient Descent<br>
         Logistic Regression<br>
         Decision Trees and Random Forests<br>
-        Neural Networks<br>
+        Unsupervised Learning<br>
     </small>
     </div>
 </div>
@@ -86,7 +86,7 @@ Students will be expected to complete **weekly homework assignments**, which wil
 
 ### Prerequisites
 
-The enforced prerequisites are discrete math (EECS 203), programming (EECS 280), calculus I, calculus II, and linear algebra.
+The course is open to students from all majors. The enforced prerequisites are discrete math (EECS 203), programming (EECS 280), calculus I, calculus II, and linear algebra.
 
 <!-- - One of Math 214, Math 217, Math 296, Math 417, or Math 419, OR
 - ROB 101, in combination with one of Math 116, Math 156, Math 176, or Math 186. (To be clear, ROB 101 itself is not a prereq. All you need to have taken is one linear algebra class, but if the linear algebra class you've taken is ROB 101, you need to also have taken a separate calculus class.) -->
@@ -98,16 +98,9 @@ If you're interested in the class but don't meet one of the prerequisites, email
 
 ### Frequently Asked Questions
 
-**If I plan to take EECS 445 (Machine Learning) in the future, should I still take this course?**
+**If I plan to take, or have already taken, a dedicated machine learning course (such as EECS 445), should I still take this course?**
 
-Yes, for two reasons:
-1. There's a lot of content in this course that isn't covered in EECS 445 – specifically, the first half of the topics. Taking this course will build a diverse set of practical skills that aren't typically covered in machine learning courses, like using more sophisticated features in `pandas`, scraping data from the internet, finding patterns in text data, etc.
-1. This course will provide a gentle introduction to the theoretical ideas that EECS 445 will expand on further. So, in that sense, it will serve as good preparation for EECS 445.
-1. Even the topics that do overlap with EECS 445 will be covered from a very practical, programming-heavy perspective, which will complement (but not replace) what you see in EECS 445.
-
-**If I've already taken EECS 445 (Machine Learning), can I still take this course?**
-
-No. While it's true that there's a lot in this class that isn't covered in EECS 445, the second half of the class would be review for you. If you fall in this boat and you're still interested, you will be able to follow along with the course online – all materials (lectures, recordings, assignments) will be posted publicly here, at [practicaldsc.org](#).
+Yes! The first half of this course introduces students to several tools and skills that aren't typically covered in other machine learning courses, like using more sophisticated features in `pandas`, scraping data from the internet, finding patterns in text data, etc. While the second half of the class does overlap a bit with more traditional machine learning courses, this course covers the content from a much more practical perspective. Students who have already seen machine learning will reinforce their understanding of the relevant concepts through hands-on, real-world examples (e.g. hyperparameter tuning in `sklearn`). Students who haven't already seen machine learning will develop an intuition for how various machine learning algorithms work, both practically and mathematically, giving them a strong foundation upon which further machine learning courses can build off of.
 
 **What specific topics from linear algebra will the course use?**
 
