@@ -12,8 +12,8 @@ EECS 398-003, Fall 2024 at the <b><span style="background-color: #FFCB05; color:
 {: .no_toc }
 {: .fs-6 .fw-300 .mb-2 }
 **Lecture**: TuTh 1:30-3:00PM, [1013 DOW](https://maps.app.goo.gl/Sw7tgHarQKJ9SBrFA); **Discussion**: F 2:30-3:30PM, [1670 BBB](https://maps.app.goo.gl/wuMosGqmKQ4KUmqdA)<br>
-4 credits, ULCS for Computer Science majors; elective credit TBD for Data Science majors
-
+4 credits; ULCS for Computer Science majors, <br>
+Advanced Technical Elective or Application Elective for Data Science majors
 
 {% assign instructors = site.staffers | where: 'role', 'Instructor' %}
 {% for staffer in instructors %}
@@ -86,12 +86,15 @@ Students will be expected to complete **weekly homework assignments**, which wil
 
 ### Prerequisites
 
-The course is open to students from all majors. The enforced prerequisites are discrete math (EECS 203), programming (EECS 280), calculus I, calculus II, and linear algebra.
+The course is open to students from all majors. 
+
+The enforced prerequisites are discrete math (EECS 203), programming (EECS 280), calculus I, calculus II, and linear algebra. A probability and statistics course is an advisory prerequisite. Options include DATASCI 101, STATS 206, STATS 250, STATS 280, STATS 412, IOE 265, or ECON 451.
+
 
 <!-- - One of Math 214, Math 217, Math 296, Math 417, or Math 419, OR
 - ROB 101, in combination with one of Math 116, Math 156, Math 176, or Math 186. (To be clear, ROB 101 itself is not a prereq. All you need to have taken is one linear algebra class, but if the linear algebra class you've taken is ROB 101, you need to also have taken a separate calculus class.) -->
 
-If you're interested in the class but don't meet one of the prerequisites, email me and we can chat about your background. I encourage students of all backgrounds who are curious about data science to reach out!
+If you're interested in the class but don't meet one of the prerequisites, email me and we can chat about your background. I encourage students of all backgrounds who are curious about data science to reach out! We will provide review material for the necessary linear algebra and probability/statistics material closer to the start of the semester.
 
 ---
 
@@ -104,7 +107,7 @@ Yes! The first half of this course introduces students to several tools and skil
 
 **What specific topics from linear algebra will the course use?**
 
-In addition to matrix-vector multiplication, we will expect students to be familiar with the ideas of linear independence, spans, projections, and orthogonality. We will review these ideas when necessary, but it will help to have seen them already. We will provide links to linear algebra review material.
+In addition to matrix-vector multiplication, we will expect students to be familiar with the ideas of linear independence, spans, projections, and orthogonality. We will review these ideas when necessary, but it will help to have seen them already. As mentioned above, we will provide links to linear algebra review material closer to the start of the semester.
 
 ---
 
