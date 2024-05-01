@@ -13,7 +13,8 @@ EECS 398-003, Fall 2024 at the <b><span style="background-color: #FFCB05; color:
 {: .fs-6 .fw-300 .mb-2 }
 **Lecture**: TuTh 1:30-3:00PM, [1013 DOW](https://maps.app.goo.gl/Sw7tgHarQKJ9SBrFA); **Discussion**: F 2:30-3:30PM, [1670 BBB](https://maps.app.goo.gl/wuMosGqmKQ4KUmqdA)<br>
 4 credits; ULCS for Computer Science majors, <br>
-Advanced Technical Elective or Application Elective for Data Science majors
+Advanced Technical Elective or Application Elective for Data Science majors,<br>
+Flexible Technical Elective for Electrical Engineering majors
 
 {% assign instructors = site.staffers | where: 'role', 'Instructor' %}
 {% for staffer in instructors %}
