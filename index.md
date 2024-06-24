@@ -2,10 +2,11 @@
 layout: minimal
 title: Practical Data Science 🛠️
 description: >-
-    Information about Practical Data Science, offered as EECS 398-003 in Fall 2024 at the University of Michigan.
+  Information about Practical Data Science, offered as EECS 398-003 in Fall 2024 at the University of Michigan.
 ---
 
 # {{ site.title }} 🛠️
+
 {: .no_toc }
 {: .mb-2 }
 EECS 398-003, Fall 2024 at the <b><span style="background-color: #FFCB05; color: #00274C">University of Michigan</span></b>
@@ -22,7 +23,9 @@ Flexible Technical Elective for Electrical Engineering majors
 {% endfor %}
 
 {: .success }
+
 <!-- <small><b>What's this class about? 🙋</b></small><br> -->
+
 Skills and tools for building practical data science projects, along with their theoretical underpinnings. `pandas`, `numpy`, `scikit-learn`, `BeautifulSoup`, and Jupyter Notebooks, and also the math behind loss functions, gradient descent, linear and logistic regression, and other key ideas in machine learning.
 
 <center>
@@ -69,6 +72,7 @@ The course will roughly be split in two halves; while the topics in it may overl
 </center>
 
 The course will be based on courses I've taught in the past at both UC San Diego and UC Berkeley, including:
+
 - [DSC 80: Practice of Data Science](https://dsc-courses.github.io/dsc80-2024-wi) (most similar)
 - [DSC 40A: Theoretical Foundations of Data Science](https://dsc-courses.github.io/dsc40a-2024-sp)
 - [Data 100: Principles and Techniques of Data Science](https://ds100.org/su20)
@@ -81,16 +85,15 @@ If the lectures, videos, and assignments linked above seem interesting to you, I
 
 Lectures will be held in-person and recorded, and attendance will not be required. Discussions will be held in-person and run by GSIs/IAs, and attendance will also not be required. Office hours will largely be in-person, but there will be some remote options as well.
 
-Students will be expected to complete **weekly homework assignments**, which will mostly comprise of programming assignments in Python and Jupyter Notebooks, with theoretical questions sprinkled throughout. The course will have **one midterm exam** and **one final exam** (dates TBD), both of which will be held in-person.
+Students will be expected to complete **weekly homework assignments**, which will mostly comprise of programming assignments in Python and Jupyter Notebooks, with theoretical questions sprinkled throughout. The course will have **one midterm exam** (date TBD) and **one final exam** (4-6PM on Thursday, December 12th), both of which will be held in-person.
 
 ---
 
 ### Prerequisites
 
-The course is open to students from all majors. 
+The course is open to students from all majors.
 
 The enforced prerequisites are discrete math (EECS 203), programming (EECS 280), calculus I, calculus II, and linear algebra. A probability and statistics course is an advisory prerequisite. Options include DATASCI 101, STATS 206, STATS 250, STATS 280, STATS 412, IOE 265, or ECON 451.
-
 
 <!-- - One of Math 214, Math 217, Math 296, Math 417, or Math 419, OR
 - ROB 101, in combination with one of Math 116, Math 156, Math 176, or Math 186. (To be clear, ROB 101 itself is not a prereq. All you need to have taken is one linear algebra class, but if the linear algebra class you've taken is ROB 101, you need to also have taken a separate calculus class.) -->
@@ -98,7 +101,6 @@ The enforced prerequisites are discrete math (EECS 203), programming (EECS 280),
 If you're interested in the class but don't meet one of the prerequisites, email me and we can chat about your background. I encourage students of all backgrounds who are curious about data science to reach out! We will provide review material for the necessary linear algebra and probability/statistics material closer to the start of the semester.
 
 ---
-
 
 ### Frequently Asked Questions
 
