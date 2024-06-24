@@ -11,7 +11,7 @@ description: >-
 EECS 398-003, Fall 2024 at the <b><span style="background-color: #FFCB05; color: #00274C">University of Michigan</span></b>
 {: .no_toc }
 {: .fs-6 .fw-300 .mb-2 }
-**Lecture**: TuTh 1:30-3:00PM, [1013 DOW](https://maps.app.goo.gl/Sw7tgHarQKJ9SBrFA); **Discussion**: F 2:30-3:30PM, [1670 BBB](https://maps.app.goo.gl/wuMosGqmKQ4KUmqdA)<br>
+**Lecture**: TuTh 1:30-3:00PM, [1500 EECS](https://maps.app.goo.gl/JBGihmGrYYsgcnwN8); **Discussion**: F 2:30-3:30PM, [1670 BBB](https://maps.app.goo.gl/wuMosGqmKQ4KUmqdA)<br>
 4 credits; ULCS for Computer Science majors, <br>
 Advanced Technical Elective or Application Elective for Data Science majors,<br>
 Flexible Technical Elective for Electrical Engineering majors
