@@ -18,15 +18,15 @@ iframe {
   max-width: 100%;
 }
 
-details {
-  @extend .mb-4;
-}
+// details {
+//   @extend .mb-4;
+// }
 
-summary {
-  @extend .btn, .btn-outline;
+// summary {
+//   @extend .btn, .btn-outline;
 
-  width: 100%;
-}
+//   width: 100%;
+// }
 
 .main-content-wrap {
   max-width: $content-width;
