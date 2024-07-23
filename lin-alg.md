@@ -264,7 +264,7 @@ $$\vec{u} = \begin{bmatrix} 1 \\ -3 \\ 8 \end{bmatrix} \qquad \vec{v} = \begin{b
 
 Here, $$\vec{w} = 2 \vec{u} - \vec{v}$$, which means that $$\vec{w} \in \text{span}(\vec{u}, \vec{v})$$, i.e. that $$\vec{w}$$ can be written as a linear combination of other vectors in the set. Therefore, vectors $$\vec{u}, \vec{v}, \vec{w}$$ are **not** linearly independent, and are instead linearly **dependent**.
 
-If you want to see how this ties into the formal definition of linearly independence, note that starting with $$\vec{w} = 2 \vec{u} - \vec{v}$$, we can re-arrange to get $$2 \vec{u} - \vec{v} - \vec{w} = \vec{0}$$, which means that we've found a solution to $$a \vec{u} + b \vec{v} + c \vec{w} = \vec{0}$$ **that isn't** $$a = b = c = 0$$. Specifically, we've found that $$a = 2, b = -1, c = -1$$ also satisfies $$a \vec u + b \vec v + c \vec w = \vec 0$$. This means, again, that $$\vec u, \vec v, \vec w$$ are not linearly independent.
+If you want to see how this ties into the formal definition of linear independence, note that starting with $$\vec{w} = 2 \vec{u} - \vec{v}$$, we can re-arrange to get $$2 \vec{u} - \vec{v} - \vec{w} = \vec{0}$$, which means that we've found a solution to $$a \vec{u} + b \vec{v} + c \vec{w} = \vec{0}$$ **that isn't** $$a = b = c = 0$$. Specifically, we've found that $$a = 2, b = -1, c = -1$$ also satisfies $$a \vec u + b \vec v + c \vec w = \vec 0$$. This means, again, that $$\vec u, \vec v, \vec w$$ are not linearly independent.
 
 Practically, this means that $$\text{span}(\vec{u}, \vec{v}, \vec{w}) = \text{span}(\vec{u}, \vec{v})$$, i.e. $$\vec{w}$$ doesn't "contribute" or "unlock any new vectors" to the span of just $$\vec{u}$$ and $$\vec{v}$$.
 
