@@ -5,6 +5,9 @@ description: >-
   Information about Practical Data Science, offered as EECS 398-003 in Fall 2024 at the University of Michigan.
 ---
 
+{: .green }
+**Taking _Practical Data Science_ this fall? Work through [LARDS: Linear Algebra Review for Data Science](lin-alg).**
+
 # {{ site.title }} 🛠️
 
 {: .no_toc }
@@ -12,10 +15,9 @@ description: >-
 EECS 398-003, Fall 2024 at the <b><span style="background-color: #FFCB05; color: #00274C">University of Michigan</span></b>
 {: .no_toc }
 {: .fs-6 .fw-300 .mb-2 }
-**Lecture**: TuTh 1:30-3:00PM, [1500 EECS](https://maps.app.goo.gl/JBGihmGrYYsgcnwN8); **Discussion**: F 2:30-3:30PM, [1670 BBB](https://maps.app.goo.gl/wuMosGqmKQ4KUmqdA)<br>
-4 credits; ULCS for Computer Science majors, <br>
-Advanced Technical Elective or Application Elective for Data Science majors,<br>
-Flexible Technical Elective for Electrical Engineering majors
+**Lecture**: TuTh 1:30-3:00PM, [1500 EECS](https://maps.app.goo.gl/JBGihmGrYYsgcnwN8)<br>
+**Discussions**: F 12:30-1:30PM, [2147 GGBL](https://maps.app.goo.gl/U6R5aH5cdY838Tj77), or F 2:30-3:30PM, [1670 BBB](https://maps.app.goo.gl/wuMosGqmKQ4KUmqdA)<br>
+4 credits • ULCS for Computer Science majors, Advanced Technical Elective or Application Elective for Data Science majors, Flexible Technical Elective for Electrical Engineering majors
 
 {% assign instructors = site.staffers | where: 'role', 'Instructor' %}
 {% for staffer in instructors %}
@@ -98,7 +100,10 @@ The enforced prerequisites are discrete math (EECS 203), programming (EECS 280),
 <!-- - One of Math 214, Math 217, Math 296, Math 417, or Math 419, OR
 - ROB 101, in combination with one of Math 116, Math 156, Math 176, or Math 186. (To be clear, ROB 101 itself is not a prereq. All you need to have taken is one linear algebra class, but if the linear algebra class you've taken is ROB 101, you need to also have taken a separate calculus class.) -->
 
-If you're interested in the class but don't meet one of the prerequisites, email me and we can chat about your background. I encourage students of all backgrounds who are curious about data science to reach out! We will provide review material for the necessary linear algebra and probability/statistics material closer to the start of the semester.
+If you're interested in the class but don't meet one of the prerequisites, email me and we can chat about your background. I encourage students of all backgrounds who are curious about data science to reach out!
+
+{: .green }
+**All students, especially those who haven't taken a linear algebra course, should work through [LARDS: Linear Algebra Review for Data Science](lin-alg) before the semester starts.**
 
 ---
 

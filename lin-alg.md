@@ -1,14 +1,14 @@
 ---
 layout: minimal
-title: Linear Algebra Crash Course
+title: "LARDS: Linear Algebra Review for Data Science"
 ---
 
 [⬅️ back home](../)
 
-# Linear Algebra Crash Course
+# LARDS: Linear Algebra Review for Data Science
 {: .no_toc }
 {: .mb-2 }
-EECS 398-003, Fall 2024 at the <b><span style="background-color: #FFCB05; color: #00274C">University of Michigan</span></b>
+Designed for EECS 398-003, Fall 2024 at the <b><span style="background-color: #FFCB05; color: #00274C">University of Michigan</span></b>
 {: .no_toc }
 {: .fs-6 .fw-300 .mb-2 }
 
@@ -17,17 +17,25 @@ EECS 398-003, Fall 2024 at the <b><span style="background-color: #FFCB05; color:
 <!-- ## Overview
 {: .no_toc } -->
 
-Linear algebra is a formal prerequisite of this course. However, many students either (1) expressed interest in taking the course but didn't satisfy the prerequisite, and hence were granted a waiver, or (2) have some linear algebra experience but would like a refresher before the course.
+<small>
+<a href="#content">jump to the table of contents</a> • last updated Wednesday, July 24th
+</small>
 
-The goal of the videos and problems below is to get you up to speed on the linear algebra you'll need to know later on in this course. Most of the videos are taken from [DSC 40A](https://dsc-courses.github.io/dsc40a-2024-sp), a class I taught in my final quarter at UCSD. This content **is not** replacement for a formal linear algebra course – there are lots of ideas that are important in linear algebra that aren't touched on here at all – but it should give you enough to get by.
+Linear algebra is a formal prerequisite of this course. However, many students either (1) expressed interest in taking the course but didn't satisfy the prerequisite, and hence were granted a waiver, or (2) have some linear algebra experience but would like a refresher before the course. The goal of the videos and questions below is to get you up to speed on the linear algebra you'll need to know later on in this course. We call this page LARDS, short for **L**inear **A**lgebra **R**eview for **D**ata **S**cience.
 
-Questions? Mistakes? Let me know at rampure@umich.edu.
+Most of the videos are taken from [DSC 40A](https://dsc-courses.github.io/dsc40a-2024-sp), a class Suraj taught in his final quarter at UCSD. (The videos often refer to a class called Math 18, which is a linear algebra class at UCSD, similar to Math 214/217 here at Michigan.) **LARDS is not a replacement for a formal linear algebra course** – there are lots of ideas that are important in linear algebra that aren't touched on here at all – but it'll develop the skills necessary to succeed in _Practical Data Science_. The content here also doesn't cover everything in linear algebra that is useful for data science; for instance, we don't discuss eigenvalues and eigenvectors here at all, so if that material appears in _Practical Data Science_, we'll cover it from the ground up. 
 
-<!-- TODO: mention that 40A assumed a prior linear algebra course -->
+{: .blue }
+> **To really learn the material here, you need to work through the provided Practice Questions!** These questions are all carefully chosen to develop particular skills, and build upon each other. They'll gauge not only how well you understood the concepts from the videos, but also build your ability to problem-solve and extrapolate from what's given.<br><br>
+> We know you're still on summer break, so we're not requiring that you submit your answers anywhere. But, it's a good idea to work through as much as you can, regardless of your linear algebra background.<br><br>
+> **We won't be providing answers to the Practice Questions right off the bat.** Instead, we want you to attempt them on your own. If you have questions about any of the videos or problems, you can ask us on Ed, the course forum we'll be using this fall (instead of Piazza).<br><br>
+> <small>
+[🙋 Join Ed here (using your @umich.edu email)](https://edstem.org/us/join/PKnfHw){: .btn }
+</small>
 
-<!-- My hope is that these resources are useful not only to the students in this class, but also to students in other machine learning classes that have linear algebra as a prerequisite. (When I taught similar classes at UCSD and Berkeley, students always seemed to struggle with linear algebra.)  -->
+Our hope is that these resources are useful not only to the students in this class, but also to students in other machine learning classes that have linear algebra as a prerequisite. (When we taught similar classes at UCSD and Berkeley, students struggled with applying concepts from traditional linear algebra courses to machine learning.) 
 
-<!-- TODO: what do students need to be able to do? work through the practice problems. these are all carefully chosen and build upon each other. they'll gauge not only how well you followed the videos but also how well you're able to extrapolate from them. -->
+**LARDS is brand-new and is a work in progress.** Explanations may be updated, and questions may be added/removed. If you notice any errors or typos (or have questions about LARDS but aren't taking _Practical Data Science_ this fall), let Suraj know at rampure@umich.edu.
 
 ---
 
@@ -54,9 +62,9 @@ Questions? Mistakes? Let me know at rampure@umich.edu.
 
 <details markdown="1">
 
-<summary><b>Practice Questions 1-3</b></summary>
+<summary><b>Practice Questions 1.1-1.3</b></summary>
 
-**Question 1**
+**Question 1.1**
 
 Consider the vectors $$\vec{u}$$ and $$\vec{v}$$ defined below:
 
@@ -72,7 +80,7 @@ Determine the values of the following quantities.
 
 ---
 
-**Question 2**
+**Question 1.2**
 
 Suppose that on your way home from discussion section on North Campus, you drive 2 miles east and 7 miles north. (For the purposes of this question, assume that North Campus can be represented by just a single point.)
 
@@ -82,7 +90,7 @@ Suppose that on your way home from discussion section on North Campus, you drive
 
 ---
 
-**Question 3**
+**Question 1.3**
 
 Suppose $$\vec{1} \in \mathbb{R}^n$$ is a vector containing the value 1 for each element, i.e. $$\vec{1} = \begin{bmatrix} 1 \\ 1 \\ \vdots \\ 1 \end{bmatrix}$$. For any other vector $$\vec{b} = \begin{bmatrix} b_1 \\ b_2 \\ \vdots \\ b_n \end{bmatrix}$$, what is the value of $$\vec{1} \cdot \vec{b}$$?
 
@@ -104,9 +112,9 @@ Suppose $$\vec{1} \in \mathbb{R}^n$$ is a vector containing the value 1 for each
 
 <details markdown="1">
 
-<summary><b>Practice Questions 4-6</b></summary>
+<summary><b>Practice Questions 2.1-2.3</b></summary>
 
-**Question 4**
+**Question 2.1**
 
 Consider the vectors $$\vec{u}$$ and $$\vec{v}$$ defined below:
 
@@ -116,7 +124,7 @@ Determine the angle between $$\vec u$$ and $$\vec v$$ in the form of $$\cos^{-1}
 
 ---
 
-**Question 5**
+**Question 2.2**
 
 _Note: In addition to reviewing the concepts in the video, this question is also designed to refresh your understanding of limits from Calculus 1._
 
@@ -142,7 +150,7 @@ $$\lim_{c \rightarrow \infty} \theta_c = \cos^{-1} \left( \frac{3}{5} \right)$$
 
 ---
 
-**Question 6**
+**Question 2.3**
 
 As we saw in the first two videos, the dot product $$\vec u \cdot \vec v$$ of two vectors $$\vec u, \vec v \in \mathbb{R}^n$$:
 - returns a **scalar** – that is, a single number.
@@ -187,9 +195,9 @@ There are infinitely many vectors that are orthogonal to both $$\vec u$$ and $$\
 
 <details markdown="1">
 
-<summary><b>Practice Question 7</b></summary>
+<summary><b>Practice Question 3.1</b></summary>
 
-**Question 7**
+**Question 3.1**
 
 Consider the vectors $$\vec{u}$$ and $$\vec{v}$$ defined below:
 
@@ -219,14 +227,14 @@ _Hint: You'll need to use the [distributive property of the dot product](https:/
 </center>
 
 <small>
-[📝 slides](../resources/lin-alg/4-linear-combinations-and-span.pdf){: .btn } &nbsp; [🎥 video 1 (3b1b) on YouTube](https://youtu.be/k7RM-ot2NWY?si=Wnu77kbGduollatl){: .btn } &nbsp; [🎥 video 2 on YouTube](https://youtu.be/GIMVvXHj9y8){: .btn }
+[📝 slides](../resources/lin-alg/4-linear-combinations-and-span.pdf){: .btn } &nbsp; [🎥 video 1 (3Blue1Brown) on YouTube](https://youtu.be/k7RM-ot2NWY?si=Wnu77kbGduollatl){: .btn } &nbsp; [🎥 video 2 on YouTube](https://youtu.be/GIMVvXHj9y8){: .btn }
 </small>
 
 <details markdown="1">
 
-<summary><b>Practice Question 8</b></summary>
+<summary><b>Practice Question 4.1</b></summary>
 
-**Question 8**
+**Question 4.1**
 
 Consider the vectors $$\vec{a}$$ and $$\vec{b}_k$$ defined below:
 
@@ -244,7 +252,7 @@ $$\vec a = \begin{bmatrix} 2 \\ -1 \end{bmatrix} \qquad \vec{b}_k = \begin{bmatr
 
 There's no past lecture video that addresses this idea in detail, but it's an important one.
 
-In the 3blue1brown video in the section above, you saw a graphical depiction of when three vectors in $$\mathbb{R}^3$$ **do** span all of $$\mathbb{R}^3$$, and of when they **don't** span all of $$\mathbb{R}^3$$. But, given three vectors in $$\mathbb{R}^3$$ in component form, how do we determine whether or not they span all of $$\mathbb{R}^3$$?
+In the 3Blue1Brown video in the section above, you saw a graphical depiction of when three vectors in $$\mathbb{R}^3$$ **do** span all of $$\mathbb{R}^3$$, and of when they **don't** span all of $$\mathbb{R}^3$$. But, given three vectors in $$\mathbb{R}^3$$ in component form, how do we determine whether or not they span all of $$\mathbb{R}^3$$?
 
 It turns out that this question will be of great importance to us when we study machine learning later on in the quarter. Our ability to make predictions about the future in some cases, strangely enough, will depend on whether or not a collection of $$d$$ vectors in $$\mathbb{R}^n$$ are linearly independent. When we get to that point, our vectors will contain data about the individuals in our dataset – for instance, we may have a height vector, that contains the height of every person in our dataset in inches, and a weight vector, that contains the weight of every person in our dataset in pounds. (That's not terribly important right now – but it's important to keep that in perspective. There's a reason you need to know all of this.)
 
@@ -278,9 +286,9 @@ which means that the vector with everyone's height in centimeters is redundant w
 
 <details markdown="1">
 
-<summary><b>Practice Question 9</b></summary>
+<summary><b>Practice Question 5.1</b></summary>
 
-**Question 9**
+**Question 5.1**
 
 <!-- In the case where we have 3 arbitrary vectors $$\vec u, \vec v, \vec w \in \mathbb{R}^3$$ – that is, $$n = d = 3$$ – there is a special way we can determine whether $$\vec u, \vec v, \vec w$$ are linearly independent. -->
 
@@ -315,9 +323,9 @@ $$\vec{u} = \begin{bmatrix} 1 \\ -3 \\ 8 \end{bmatrix} \qquad \vec{v} = \begin{b
 
 <details markdown="1">
 
-<summary><b>Practice Questions 10-11</b></summary>
+<summary><b>Practice Questions 6.1-6.2</b></summary>
 
-**Question 10**
+**Question 6.1**
 
 Before we get into any calculations, we'll start by recapping the most recent video through some proofs. Our conclusion was that the vector in $$\text{span}(\vec x)$$ that was closest to $$\vec y$$ was the vector $$w^* \vec x$$, where:
 
@@ -331,7 +339,7 @@ Show, using **calculus**, that $$w^*$$ minimizes $$\text{error}(w)$$. _Hint: Not
 
 ---
 
-**Question 11**
+**Question 6.2**
 
 Vectors get lonely, and so we will give each vector one friend to keep them company.
 
@@ -380,7 +388,7 @@ _Note that this question appeared in an exam for the class these videos are from
 </center>
 
 <small>
-[📝 slides](../resources/lin-alg/6-projecting-onto-multiple-vectors.pdf){: .btn } &nbsp; [🎥 video 1 on YouTube](https://youtu.be/wKc2Oxx0FpU){: .btn } &nbsp; [🎥 video 2 (animation) on YouTube](https://youtu.be/dJcbJKpYywk){: .btn }
+[📝 slides](../resources/lin-alg/6-projecting-onto-multiple-vectors.pdf){: .btn } &nbsp; [🎥 video 1 on YouTube](https://youtu.be/wKc2Oxx0FpU){: .btn } &nbsp; [🎥 video 2 (animation by Jack Determan) on YouTube](https://youtu.be/dJcbJKpYywk){: .btn }
 </small>
 
 ---
@@ -397,9 +405,9 @@ _Note that this question appeared in an exam for the class these videos are from
 
 <details markdown="1">
 
-<summary><b>Practice Questions 12-</b></summary>
+<summary><b>Practice Questions 7.1-7.2</b></summary>
 
-**Question 12**
+**Question 7.1**
 
 Suppose $$M \in \mathbb{R}^{m \times n}$$ is a matrix, $$\vec{v} \in \mathbb{R}^n$$ is a vector, and $$s \in \mathbb{R}$$ is a scalar.
 
@@ -429,7 +437,7 @@ Determine whether each of the following quantities is a matrix, vector, scalar, 
 
 ---
 
-**Question 13**
+**Question 7.2**
 
 Consider the matrix $$X$$ and vector $$\vec w$$ defined below:
 
@@ -443,7 +451,7 @@ Fill in each blank below with a single number from the start of Question 13.
 
 $$X \vec{w} = \underline{\hspace{0.5cm}} \begin{bmatrix} \underline{\hspace{0.5cm}} \\ \underline{\hspace{0.5cm}} \\ \underline{\hspace{0.5cm}} \end{bmatrix} + \underline{\hspace{0.5cm}} \begin{bmatrix} \underline{\hspace{0.5cm}} \\ \underline{\hspace{0.5cm}} \\ \underline{\hspace{0.5cm}} \end{bmatrix} + \underline{\hspace{0.5cm}} \begin{bmatrix} \underline{\hspace{0.5cm}} \\ \underline{\hspace{0.5cm}} \\ \underline{\hspace{0.5cm}} \end{bmatrix}$$
 
-**(c)** Let's generalize the idea from part (b). Now, suppose $$X \in \mathbb{n \times d}$$ is a matrix whose columns, $$\vec{x}^{(1)}, \vec{x}^{(2)}, ..., \vec{x}^{(d)}$$ are all vectors in $$\mathbb{R}^n$$, and suppose that $$\vec{w} \in \mathbb{R}^d$$.
+**(c)** Let's generalize the idea from part (b). Now, suppose $$X \in \mathbb{R}^{n \times d}$$ is a matrix whose columns, $$\vec{x}^{(1)}, \vec{x}^{(2)}, ..., \vec{x}^{(d)}$$ are all vectors in $$\mathbb{R}^n$$, and suppose that $$\vec{w} \in \mathbb{R}^d$$.
 
 Fill in the blanks:
 
@@ -451,82 +459,178 @@ $$X \vec{w} = \sum_{i = 1}^{\boxed{\:\:\:}} \boxed{\:\:\:}$$
 
 **(e)** Evaluate $$X^TX$$ and $$XX^T$$.
 
----
-
-**Question 14**
-
-Consider the matrices $$A$$ and $$B$$ defined below:
-
-$$A = ...$$
-
 </details>
 
 ---
 
 ## Projecting onto the span of multiple vectors, again
 
-https://dsc-courses.github.io/dsc40a-2024-sp/resources/homeworks/hw03.pdf
+Before watching the following video, you may want to review the idea of matrix inverses – [here's a link to a relevant lesson on Khan Academy](https://www.khanacademy.org/math/precalculus/matrices/intro-to-matrix-inverses/v/inverse-matrix-introduction).
+
+<center>
+<iframe width="800" height="225" src="https://www.youtube.com/embed/d6Z-r_j8EYg?si=DB8uhRCZYmrSVoqP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+The video below summarizes the last few videos on projections. It doesn't introduce any new content – so you don't _need_ it to solve the questions below – but you may want to watch it nevertheless for review.
+
+<center>
+<iframe width="800" height="225" src="https://www.youtube.com/embed/OpThKsgUffY?si=00scur_99TqGvLih" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+<small>
+[📝 slides 1](../resources/lin-alg/8-projecting-onto-multiple-again.pdf){: .btn } &nbsp; [📝 slides 2](../resources/lin-alg/9-recap.pdf){: .btn } &nbsp; [🎥 video 1 on YouTube](https://youtu.be/d6Z-r_j8EYg){: .btn } &nbsp; [🎥 video 2 on YouTube](https://youtu.be/OpThKsgUffY){: .btn }
+</small>
+
+<details markdown="1">
+
+<summary><b>Practice Question 8.1</b></summary>
+
+<!-- **Question 8.1**
+
+Consider the vectors $$\vec{x}^{(1)}$$, $$\vec{x}^{(2)}$$, and $$\vec y$$, defined below:
+
+$$\vec{x}^{(1)} = \begin{bmatrix} 0 \\ 3 \end{bmatrix} \qquad \vec{x}^{(2)} = \begin{bmatrix} 5 \\ 23 \end{bmatrix} \qquad \vec y = \begin{bmatrix} 7 \\ 2 \end{bmatrix}$$
+
+Suppose we want to find the vector in $$\text{span}(\vec{x}^{(1)}, \vec{x}^{(2)})$$ that is closest to $$\vec{y}$$. Explain why we **don't** need to use anything discussed in the most recent video to do so. -->
+
+**Question 8.1**
+
+Consider the vectors $$\vec{u}$$, $$\vec{v}$$, defined below:
+
+$$\vec{u} = \begin{bmatrix} 1 \\ 0 \\ 0 \end{bmatrix} \qquad \vec{v} = \begin{bmatrix} 0 \\ 1 \\ 1 \end{bmatrix}$$
+
+We define $$X \in \mathbb{R}^{3 \times 2}$$ to be the matrix whose first column is $$\vec u$$ and whose second column is $$\vec v$$.
+
+**(a)** In this part only, let $$\vec y = \begin{bmatrix} -1 \\ k \\ 252 \end{bmatrix}$$. Find a scalar $$k$$ such that $$\vec y$$ is in $$\text{span}(\vec u, \vec v)$$.
+
+**(b)** Show that:
+
+$$(X^TX)^{-1}X^T = \begin{bmatrix} 1 & 0 & 0 \\ 0 & \frac{1}{2} & \frac{1}{2} \end{bmatrix}$$
+
+_Hint: If $$A = \begin{bmatrix} a_1 & 0 \\ 0 & a_2 \end{bmatrix}$$, then $$A^{-1} = \begin{bmatrix} \frac{1}{a_1} & 0 \\ 0 & \frac{1}{a_2} \end{bmatrix}$$._
+
+**(c)** Now, let $$\vec y = \begin{bmatrix} 4 \\ 2 \\ 8 \end{bmatrix}$$.
+
+Find scalars $$a$$ and $$b$$ such that $$a \vec u + b \vec v$$ is the vector in $$\text{span}(\vec u, \vec v)$$ that is as close to $$\vec y$$ as possible.
+
+**(d)** Let $$\vec e = \vec y - (a \vec u + b \vec v)$$, where $$a$$ and $$b$$ are the values you found in part (c).
+
+You should notice that the sum of the entries in $$\vec e$$ is 0. Why is that the case?
+
+</details>
 
 ---
 
 ## Gradients
 
-First, some context. TODO.
+The concepts explained above are typically covered – or, are related to what's covered – in a linear algebra course. In addition to all of that, though, we'll also need a few concepts that are traditionally covered in a multivariate calculus course, such as Math 215.
+
+To start, let's remember the idea of derivatives from single variable calculus. Consider, for example, the function $$f(t) = 5t^4 - t^3 - 5t^2 + 2t - 9$$. Then, we have:
 
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 
-**Key ideas**:
-
-- $$\frac{df}{dt}(t)$$ is the <span style="color:red">slope of the tangent line</span> to $$f$$ at the point $$(t, f(t))$$.
-- When the <span style="color:red">slope of the tangent line</span> is negative, increasing $$t$$ brings you closer to a minimum.
-- When the <span style="color:red">slope of the tangent line</span> is positive, increasing $$t$$ brings you further away from a minimum.
+- The derivative, $$\frac{df}{dt}(t) = 20t^3 - 3t^2 - 10t + 2$$, is the <span style="color:red">slope of the tangent line</span> to $$f$$ at the point $$(t, f(t))$$. For example, at $$t = 0$$, the derivative is 2, which means the slope of the tangent line at $$(0, -9)$$ is 2.
+- The derivative at a point describes the instantaneous rate of change of the function at that point – the larger the derivative is at a point, the more quickly the function is increasing at that point (i.e. the steeper it is).
 - The closer $$t$$ is to a minimum, the shallower the <span style="color:red">slope of the tangent line</span> is – at a minimum, the <span style="color:red">slope of the tangent line</span> is 0!
 
 <center>
 
 <iframe src="../resources/lin-alg/slopes_changing.html" frameBorder=0 width=800 height=450></iframe>
 
+<small>The animation above might automatically start playing – to restart it, click "⏯️ Stop animation" and then "▶️ Start animation."</small>
+
 </center>
 
-Now, a video that describes this in multiple dimensions.
+Moving forward, we will encounter functions that take in multiple inputs, such as:
+
+$$f(x, y) = (x - 2)^2 + 2x - (y - 3)^2$$
+
+The [graph of a function like this](https://www.desmos.com/3d/3ifa5tljma) is a _surface_ in 3 dimensions.
+
+<iframe src="https://www.desmos.com/3d/3ifa5tljma" width="800" height="400"></iframe>
+
+Now, since $$f$$ has multiple input variables, it has multiple rates of change – one in the $$x$$ direction and one in the $$y$$ direction. So, instead of just a single derivative, $$f$$ has two partial derivatives, $$\frac{\partial f}{\partial x}$$ and $$\frac{\partial f}{\partial y}$$.
+
+$$\frac{\partial f}{\partial x}$$ describes the rate of change in the $$x$$ direction – that is, the rate of change of $$f$$ when $$x$$ changes, but $$y$$ is held constant. To compute $$\frac{\partial f}{\partial x}$$, we treat $$y$$ as a constant and take the derivative with respect to $$x$$. Since $$f(x, y) = (x - 2)^2 + 2x - (y - 3)^2$$, we have that:
+
+$$\frac{\partial f}{\partial x} = 2(x-2) + 2 \qquad \frac{\partial f}{\partial y} = -2(y-3)$$
+
+We expand on this idea, and its connection to linear algebra, below, but it's advised that you first work through the following articles on Khan Academy:
+- [Introduction to partial derivatives](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivative-and-gradient-articles/a/introduction-to-partial-derivatives).
+- [The gradient](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivative-and-gradient-articles/a/the-gradient).
+
 
 <center>
 <iframe width="800" height="225" src="https://www.youtube.com/embed/q_OJDHWNpOU?si=61AgG89aHLgT_kyS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 
+
 <small>
 [📝 slides](../resources/lin-alg/10-gradients.pdf){: .btn } &nbsp; [🎥 video on YouTube](https://youtu.be/q_OJDHWNpOU){: .btn }
 </small>
 
-https://dsc-courses.github.io/dsc40a-2024-sp/resources/groupworks/gw04.pdf
+<details markdown="1">
+
+<summary><b>Practice Questions 9.1-9.2</b></summary>
+
+**Question 9.1**
+
+Suppose $$g: \mathbb{R}^2 \rightarrow \mathbb{R}$$ is the function:
+
+$$g(\vec x) = (x_1 - 3)^2 + (x_1^2 - x_2)^2$$
+
+**(a)** Find $$\nabla g(\vec x)$$, the gradient of $$g$$, and use it to show that $$\nabla g \left( \begin{bmatrix} -1 \\ 1 \end{bmatrix} \right) = \begin{bmatrix} -8 \\ 0 \end{bmatrix}$$.
+
+**(b)** Using $$\nabla g(\vec x)$$, determine the vector $$\vec x^*$$ that minimizes the output of $$g$$. How can you tell, without the use of any second derivative tests, that $$g$$ has a global minimum?
 
 ---
 
-<!-- ## Span -->
+**Question 9.2**
 
-<!-- ---
+**(a)** Suppose $$\vec{a} \in \mathbb{R}^3$$, and suppose $$f: \mathbb{R}^3 \rightarrow \mathbb{R}$$ is the function:
 
-### Video 3: Projecting 1D
+$$f(\vec x) = \vec{a}^T \vec{x} = a_1x_1 + a_2x_2 + a_3x_3$$
 
+What is the gradient of $$f$$?
 
-### Video 4: XYZ -->
+**(b)** Suppose $$f: \mathbb{R}^n \rightarrow \mathbb{R}$$ is the function:
 
+$$f(\vec x) = \vec x \cdot \vec x = x_1^2 + x_2^2 + ... + x_n^2$$
+
+What is the gradient of $$f$$?
+
+</details>
 
 ---
 
-<!-- ## Other Resources
+## Other Resources
 
-The videos below are more detailed than those above, covering lots of important ideas we didn't touch on above (and won't get a chance to touch on in the course).
+The videos below are more detailed than those above, covering lots of important ideas we didn't touch on above (and won't get a chance to cover in _Practical Data Science_).
 
 ### Khan Academy
 
-Take a look at Khan Academy's [linear algebra](https://www.khanacademy.org/math/linear-algebra) course. Specifically, look at:
-- All of [Unit 1: Vectors and spaces](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces).
+For more depth and added explanations, take a look at Khan Academy's [linear algebra](https://www.khanacademy.org/math/linear-algebra) course. Specifically, look at:
+1. All of [Unit 1: Vectors and spaces](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces).
+1. The first four lessons in [Unit 2: Matrix transformations](https://www.khanacademy.org/math/linear-algebra/matrix-transformations), through Inverse functions and transformations.
+1. The first two lessons in [Unit 3: Alternate coordinate systems (bases)](https://www.khanacademy.org/math/linear-algebra/alternate-bases), through Orthogonal projections. **Understanding the content of the orthogonal projections lesson is the primary learning objective of LARDS.**
 
-https://www.khanacademy.org/math/linear-algebra/matrix-transformations
+In addition, look at Khan Academy's [Multivariable calculus](https://www.khanacademy.org/math/multivariable-calculus) course, specifically:
+1. Most of [Unit 1: Thinking about multivariable functions](https://www.khanacademy.org/math/multivariable-calculus/thinking-about-multivariable-function), though the lesson on Visualizing vector-valued functions is not necessary.
+1. The first three lessons in [Unit 2: Derivatives of multivariable functions](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives), through Partial derivative and gradient. (These are also linked above.)
 
--  Specific topics:
-    https://www.khanacademy.org/math/multivariable-calculus/thinking-about-multivariable-function https://www.khanacademy.org/math/multivariable-calculus/thinking-about-multivariable-function/x786f2022:vectors-and-matrices/a/multivariable-calculus-prerequisites vectors and matrices
-    - 
 
-### 3blue1brown -->
+### 3Blue1Brown
+
+Grant Sanderson (3Blue1Brown) produces excellent visual explanations of a lot of ideas that are central to data science, including neural networks, but also linear algebra. His Essence of Linear Algebra series overlaps a fair bit with the videos we've provided above, but with some content missing (namely, projecting onto the span of multiple vectors) and other content more heavily emphasized (e.g. the idea of a linear transformation). The series exists in two forms:
+- As [videos on YouTube](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab).
+- As [written articles](https://www.3blue1brown.com/topics/linear-algebra).
+
+Either way, (at least) **the first 9 chapters** are relevant to us.
+
+### Mathematics for Machine Learning
+
+[Mathematics for Machine Learning](https://gwthomas.github.io/docs/math4ml.pdf), by Garrett Thomas, is a document that discusses the mathematics relevant for machine learning in **much** greater detail than we'll need in this course. It's quite advanced, so don't be alarmed if the material there feels inaccessible. (More of it will make sense after _Practical Data Science_!)
+
+<br>
+
+Have other resources you think we should add here? Let us know!

@@ -74,12 +74,15 @@ liquid:
 
 # callouts
 callouts:
-  warning:
-    title: Warning
+  red:
+    title: 
     color: red
-  note:
-    title: Note
+  yellow:
+    title: 
     color: yellow
-  success:
-    title: ""
+  blue:
+    title: 
     color: blue
+  green:
+    title: 
+    color: green
