@@ -19,7 +19,9 @@ EECS 398-003, Fall 2024 at the <b><span style="background-color: #FFCB05; color:
 
 Linear algebra is a formal prerequisite of this course. However, many students either (1) expressed interest in taking the course but didn't satisfy the prerequisite, and hence were granted a waiver, or (2) have some linear algebra experience but would like a refresher before the course.
 
-The goal of the videos and problems below is to get you up to speed on the linear algebra you'll need to know later on in this course. Most of the videos are taken from [DSC 40A](https://dsc-courses.github.io/dsc40a-2024-sp), a class I taught in my final quarter at UCSD. This content **is not** replacement for a formal linear algebra course – there are lots of ideas that are important in linear algebra that aren't touched on here at all – but it should give you enough to get by. 
+The goal of the videos and problems below is to get you up to speed on the linear algebra you'll need to know later on in this course. Most of the videos are taken from [DSC 40A](https://dsc-courses.github.io/dsc40a-2024-sp), a class I taught in my final quarter at UCSD. This content **is not** replacement for a formal linear algebra course – there are lots of ideas that are important in linear algebra that aren't touched on here at all – but it should give you enough to get by.
+
+Questions? Mistakes? Let me know at rampure@umich.edu.
 
 <!-- TODO: mention that 40A assumed a prior linear algebra course -->
 
@@ -29,7 +31,7 @@ The goal of the videos and problems below is to get you up to speed on the linea
 
 ---
 
-## Table of contents
+## Content
 {: .no_toc .text-delta }
 
 1. TOC
@@ -264,7 +266,7 @@ $$\vec{u} = \begin{bmatrix} 1 \\ -3 \\ 8 \end{bmatrix} \qquad \vec{v} = \begin{b
 
 Here, $$\vec{w} = 2 \vec{u} - \vec{v}$$, which means that $$\vec{w} \in \text{span}(\vec{u}, \vec{v})$$, i.e. that $$\vec{w}$$ can be written as a linear combination of other vectors in the set. Therefore, vectors $$\vec{u}, \vec{v}, \vec{w}$$ are **not** linearly independent, and are instead linearly **dependent**.
 
-If you want to see how this ties into the formal definition of linearly independence, note that starting with $$\vec{w} = 2 \vec{u} - \vec{v}$$, we can re-arrange to get $$2 \vec{u} - \vec{v} - \vec{w} = \vec{0}$$, which means that we've found a solution to $$a \vec{u} + b \vec{v} + c \vec{w} = \vec{0}$$ **that isn't** $$a = b = c = 0$$. Specifically, we've found that $$a = 2, b = -1, c = -1$$ also satisfies $$a \vec u + b \vec v + c \vec w = \vec 0$$. This means, again, that $$\vec u, \vec v, \vec w$$ are not linearly independent.
+If you want to see how this ties into the formal definition of linear independence, note that starting with $$\vec{w} = 2 \vec{u} - \vec{v}$$, we can re-arrange to get $$2 \vec{u} - \vec{v} - \vec{w} = \vec{0}$$, which means that we've found a solution to $$a \vec{u} + b \vec{v} + c \vec{w} = \vec{0}$$ **that isn't** $$a = b = c = 0$$. Specifically, we've found that $$a = 2, b = -1, c = -1$$ also satisfies $$a \vec u + b \vec v + c \vec w = \vec 0$$. This means, again, that $$\vec u, \vec v, \vec w$$ are not linearly independent.
 
 Practically, this means that $$\text{span}(\vec{u}, \vec{v}, \vec{w}) = \text{span}(\vec{u}, \vec{v})$$, i.e. $$\vec{w}$$ doesn't "contribute" or "unlock any new vectors" to the span of just $$\vec{u}$$ and $$\vec{v}$$.
 
@@ -383,13 +385,81 @@ _Note that this question appeared in an exam for the class these videos are from
 
 ---
 
-## Matrices
+## Matrices and matrix-vector multiplication
 
-here, add lots of questions about matrix-vector object sizes:
+<center>
+<iframe width="800" height="225" src="https://www.youtube.com/embed/SqqmMRKwNw8?si=o7UBbbVEf0JgUM8i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
 
-https://dsc-courses.github.io/dsc40a-2024-sp/resources/groupworks/gw03.pdf
+<small>
+[📝 slides](../resources/lin-alg/7-matrices.pdf){: .btn } &nbsp; [🎥 video on YouTube](https://youtu.be/SqqmMRKwNw8){: .btn }
+</small>
 
-also good questions about matrix-vector multiplication
+<details markdown="1">
+
+<summary><b>Practice Questions 12-</b></summary>
+
+**Question 12**
+
+Suppose $$M \in \mathbb{R}^{m \times n}$$ is a matrix, $$\vec{v} \in \mathbb{R}^n$$ is a vector, and $$s \in \mathbb{R}$$ is a scalar.
+
+Determine whether each of the following quantities is a matrix, vector, scalar, or undefined. If the result is a matrix or vector, determine its dimensions.
+
+**(a)** $$M\vec{v}$$
+
+**(b)** $$\vec{v} M$$
+
+**(c)** $$\vec{v}^2$$
+
+**(d)** $$M^TM$$
+
+**(e)** $$MM^T$$
+
+**(f)** $$\vec{v}^T M \vec{v}$$
+
+**(g)** $$(sM\vec{v}) \cdot (sM\vec{v})$$
+
+**(h)** $$(s \vec{v}^T M^T)^T$$
+
+**(i)** $$\vec{v}^T M^T M \vec{v}$$
+
+**(j)** $$\vec{v}\vec{v}^T + M^TM$$
+
+**(k)** $$\frac{M \vec{v}}{\lVert \vec{v} \rVert} + (\vec{v}^T M^T M \vec{v}) M \vec{v}$$
+
+---
+
+**Question 13**
+
+Consider the matrix $$X$$ and vector $$\vec w$$ defined below:
+
+$$X = \begin{bmatrix} 1 & 2 & 3 \\ 1 & 2 & 3 \\ 5 & 1 & -2 \end{bmatrix} \qquad \vec{w} = \begin{bmatrix} 4 \\ 3 \\ -1 \end{bmatrix}$$
+
+**(a)** Evaluate $$X \vec{w}$$.
+
+**(b)** As we learned in the video above, the matrix-vector product $$X \vec{w}$$ is a linear combination of the columns of the matrix, $$X$$, using weights from the vector $$\vec{w}$$.
+
+Fill in each blank below with a single number from the start of Question 13.
+
+$$X \vec{w} = \underline{\hspace{0.5cm}} \begin{bmatrix} \underline{\hspace{0.5cm}} \\ \underline{\hspace{0.5cm}} \\ \underline{\hspace{0.5cm}} \end{bmatrix} + \underline{\hspace{0.5cm}} \begin{bmatrix} \underline{\hspace{0.5cm}} \\ \underline{\hspace{0.5cm}} \\ \underline{\hspace{0.5cm}} \end{bmatrix} + \underline{\hspace{0.5cm}} \begin{bmatrix} \underline{\hspace{0.5cm}} \\ \underline{\hspace{0.5cm}} \\ \underline{\hspace{0.5cm}} \end{bmatrix}$$
+
+**(c)** Let's generalize the idea from part (b). Now, suppose $$X \in \mathbb{n \times d}$$ is a matrix whose columns, $$\vec{x}^{(1)}, \vec{x}^{(2)}, ..., \vec{x}^{(d)}$$ are all vectors in $$\mathbb{R}^n$$, and suppose that $$\vec{w} \in \mathbb{R}^d$$.
+
+Fill in the blanks:
+
+$$X \vec{w} = \sum_{i = 1}^{\boxed{\:\:\:}} \boxed{\:\:\:}$$
+
+**(e)** Evaluate $$X^TX$$ and $$XX^T$$.
+
+---
+
+**Question 14**
+
+Consider the matrices $$A$$ and $$B$$ defined below:
+
+$$A = ...$$
+
+</details>
 
 ---
 
@@ -400,6 +470,33 @@ https://dsc-courses.github.io/dsc40a-2024-sp/resources/homeworks/hw03.pdf
 ---
 
 ## Gradients
+
+First, some context. TODO.
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+
+**Key ideas**:
+
+- $$\frac{df}{dt}(t)$$ is the <span style="color:red">slope of the tangent line</span> to $$f$$ at the point $$(t, f(t))$$.
+- When the <span style="color:red">slope of the tangent line</span> is negative, increasing $$t$$ brings you closer to a minimum.
+- When the <span style="color:red">slope of the tangent line</span> is positive, increasing $$t$$ brings you further away from a minimum.
+- The closer $$t$$ is to a minimum, the shallower the <span style="color:red">slope of the tangent line</span> is – at a minimum, the <span style="color:red">slope of the tangent line</span> is 0!
+
+<center>
+
+<iframe src="../resources/lin-alg/slopes_changing.html" frameBorder=0 width=800 height=450></iframe>
+
+</center>
+
+Now, a video that describes this in multiple dimensions.
+
+<center>
+<iframe width="800" height="225" src="https://www.youtube.com/embed/q_OJDHWNpOU?si=61AgG89aHLgT_kyS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+<small>
+[📝 slides](../resources/lin-alg/10-gradients.pdf){: .btn } &nbsp; [🎥 video on YouTube](https://youtu.be/q_OJDHWNpOU){: .btn }
+</small>
 
 https://dsc-courses.github.io/dsc40a-2024-sp/resources/groupworks/gw04.pdf
 
