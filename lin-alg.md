@@ -1,6 +1,7 @@
 ---
 layout: minimal
-title: "LARDS: Linear Algebra Review for Data Science"
+nav_exclude: true
+title: "Linear Algebra"
 ---
 
 [⬅️ back home](../)
@@ -634,3 +635,7 @@ Either way, (at least) **the first 9 chapters** are relevant to us.
 <br>
 
 Have other resources you think we should add here? Let us know!
+
+### Linear Algebra for Data Science
+
+If you'd prefer to read a more formal textbook on these ideas, take a look at [Linear Algebra for Data Science](https://kyunghyuncho.me/linear-algebra-for-data-science/) by Wanmo Kang and Kyunghyun Cho (a PDF is available at the linked site). Specifically, read Chapters 1-4.
