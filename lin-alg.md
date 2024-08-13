@@ -267,7 +267,7 @@ $$a_1 = a_2 = ... = a_d = 0$$
 
 If there is any solution $$a_1 \vec v_1 + a_2 \vec v_2 + ... + a_d \vec v_d = \vec{0}$$ in which at least one of $$a_1, a_2, ..., a_d \neq 0$$, then $$\vec v_1, \vec v_2, ... \vec v_d$$ are **linearly dependent**.
 
-In general, there is a computational strategy for determining whether $$d$$ vectors in $$\mathbb{R}^n$$ are linearly independent, which you can learn more about [here](https://youtu.be/yLi8RxqfowA?feature=shared). But for us, the conceptual understanding will be more useful. Intuitively, a set of vectors is linearly independent if at least one vector in the set can be written as a linear combination of other vectors in the set.
+In general, there is a computational strategy for determining whether $$d$$ vectors in $$\mathbb{R}^n$$ are linearly independent, which you can learn more about [here](https://youtu.be/yLi8RxqfowA?feature=shared). But for us, the conceptual understanding will be more useful. Intuitively, a set of vectors is linearly dependent – that is, **not** linearly independent – if at least one vector in the set can be written as a linear combination of other vectors in the set.
 
 For instance, consider the vectors $$\vec{u}$$, $$\vec{v}$$, and $$\vec{w}$$, defined below:
 
