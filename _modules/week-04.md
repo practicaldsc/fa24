@@ -2,8 +2,8 @@
 title: "Week 4: Web Scraping and APIs"
 weekNumber: 4
 days:
-  - date: "2024-09-16"
-    events:
+  # - date: "2024-09-16"
+  #   events:
       # - name: CHK 3
       #   type: checkpoint
       #   title: Checkpoint 3

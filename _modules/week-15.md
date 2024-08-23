@@ -2,8 +2,8 @@
 title: "Week 15: Conclusion"
 weekNumber: 15
 days:
-  - date: "2024-12-02"
-    events:
+  # - date: "2024-12-02"
+  #   events:
       # - name: CHK 14
       #   type: checkpoint
       #   title: Checkpoint 14

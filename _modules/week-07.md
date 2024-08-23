@@ -2,8 +2,8 @@
 title: "Week 7: Midterm Exam<br><small>Note that lecture on Tuesday is cancelled, due to the Midterm Exam on Wednesday.</small>"
 weekNumber: 7
 days:
-  - date: "2024-10-07"
-    events:
+  # - date: "2024-10-07"
+  #   events:
       # - name: CHK 6
       #   type: checkpoint
       #   title: Checkpoint 6

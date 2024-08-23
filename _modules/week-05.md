@@ -2,8 +2,8 @@
 title: "Week 5: Regular Expressions"
 weekNumber: 5
 days:
-  - date: "2024-09-23"
-    events:
+  # - date: "2024-09-23"
+  #   events:
       # - name: CHK 4
       #   type: checkpoint
       #   title: Checkpoint 4

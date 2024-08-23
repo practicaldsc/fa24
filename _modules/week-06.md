@@ -2,8 +2,8 @@
 title: "Week 6: Text Processing"
 weekNumber: 6
 days:
-  - date: "2024-09-30"
-    events:
+  # - date: "2024-09-30"
+  #   events:
       # - name: CHK 5
       #   type: checkpoint
       #   title: Checkpoint 5

@@ -2,8 +2,8 @@
 title: "Week 12: Decision Trees, Gradient Descent"
 weekNumber: 12
 days:
-  - date: "2024-11-11"
-    events:
+  # - date: "2024-11-11"
+  #   events:
       # - name: CHK 10
       #   type: checkpoint
       #   title: Checkpoint 10

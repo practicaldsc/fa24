@@ -2,8 +2,8 @@
 title: "Week 11: Generalization"
 weekNumber: 11
 days:
-  - date: "2024-11-04"
-    events:
+  # - date: "2024-11-04"
+  #   events:
       # - name: CHK 9
         # type: checkpoint
         # title: Checkpoint 9

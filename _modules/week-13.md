@@ -2,8 +2,8 @@
 title: "Week 13: Gradient Descent, Logistic Regression"
 weekNumber: 13
 days:
-  - date: "2024-11-18"
-    events:
+  # - date: "2024-11-18"
+  #   events:
       # - name: CHK 11
       #   type: checkpoint
       #   title: Checkpoint 11

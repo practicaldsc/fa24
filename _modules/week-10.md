@@ -2,8 +2,8 @@
 title: "Week 10: More Regression, Feature Engineering"
 weekNumber: 10
 days:
-  - date: "2024-10-28"
-    events:
+  # - date: "2024-10-28"
+  #   events:
       # - name: CHK 8
       #   type: checkpoint
       #   title: Checkpoint 8

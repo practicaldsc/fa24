@@ -2,8 +2,8 @@
 title: "Week 9: Regression"
 weekNumber: 9
 days:
-  - date: "2024-10-21"
-    events:
+  # - date: "2024-10-21"
+  #   events:
       # - name: CHK 7
         # type: checkpoint
         # title: Checkpoint 7

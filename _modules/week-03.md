@@ -2,8 +2,8 @@
 title: "Week 3: Pandas and Exploratory Data Analysis"
 weekNumber: 3
 days:
-  - date: "2024-09-09"
-    events:
+  # - date: "2024-09-09"
+  #   events:
       # - name: CHK 2
       #   type: checkpoint
       #   title: Checkpoint 2
