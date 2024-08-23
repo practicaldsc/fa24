@@ -4,9 +4,9 @@ weekNumber: 12
 days:
   - date: "2024-11-11"
     events:
-      - name: CHK 10
-        type: checkpoint
-        title: Checkpoint 10
+      # - name: CHK 10
+      #   type: checkpoint
+      #   title: Checkpoint 10
   - date: "2024-11-12"
     events:
       - name: LEC 21
@@ -17,9 +17,9 @@ days:
       - name: LEC 22
         type: lecture
         title: Gradient Descent
-      - name: HW 9
+      - name: HW 10
         type: hw
-        title: Homework 9
+        title: Homework 10
   - date: "2024-11-15"
     events:
       - name: DIS 11

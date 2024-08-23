@@ -4,9 +4,9 @@ weekNumber: 15
 days:
   - date: "2024-12-02"
     events:
-      - name: CHK 14
-        type: checkpoint
-        title: Checkpoint 14
+      # - name: CHK 14
+      #   type: checkpoint
+      #   title: Checkpoint 14
   - date: "2024-12-03"
     events:
       - name: LEC 26
@@ -17,9 +17,9 @@ days:
       - name: LEC 27
         type: lecture
         title: Conclusion
-      - name: HW 11
+      - name: HW 12
         type: hw
-        title: Homework 11
+        title: Homework 12
   - date: "2024-12-06"
     events:
       - name: DIS 13

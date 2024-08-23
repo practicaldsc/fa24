@@ -10,9 +10,9 @@ days:
       - name: LEC 14
         type: lecture
         title: Introduction to Modeling
-      - name: HW 5
+      - name: HW 6
         type: hw
-        title: Homework 5
+        title: Homework 6
   - date: "2024-10-18"
     events:
       - name: DIS 7

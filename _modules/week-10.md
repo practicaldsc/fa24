@@ -4,9 +4,9 @@ weekNumber: 10
 days:
   - date: "2024-10-28"
     events:
-      - name: CHK 8
-        type: checkpoint
-        title: Checkpoint 8
+      # - name: CHK 8
+      #   type: checkpoint
+      #   title: Checkpoint 8
   - date: "2024-10-29"
     events:
       - name: LEC 17
@@ -17,9 +17,9 @@ days:
       - name: LEC 18
         type: lecture
         title: Feature Engineering
-      - name: HW 7
+      - name: HW 8
         type: hw
-        title: Homework 7
+        title: Homework 8
   - date: "2024-11-01"
     events:
       - name: DIS 9

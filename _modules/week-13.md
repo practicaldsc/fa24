@@ -4,9 +4,9 @@ weekNumber: 13
 days:
   - date: "2024-11-18"
     events:
-      - name: CHK 11
-        type: checkpoint
-        title: Checkpoint 11
+      # - name: CHK 11
+      #   type: checkpoint
+      #   title: Checkpoint 11
   - date: "2024-11-19"
     events:
       - name: LEC 23
@@ -17,9 +17,9 @@ days:
       - name: LEC 24
         type: lecture
         title: Logistic Regression
-      - name: HW 10
+      - name: HW 11
         type: hw
-        title: Homework 10
+        title: Homework 11
   - date: "2024-11-22"
     events:
       - name: DIS 12

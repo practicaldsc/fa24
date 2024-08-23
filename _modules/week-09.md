@@ -4,9 +4,9 @@ weekNumber: 9
 days:
   - date: "2024-10-21"
     events:
-      - name: CHK 7
-        type: checkpoint
-        title: Checkpoint 7
+      # - name: CHK 7
+        # type: checkpoint
+        # title: Checkpoint 7
   - date: "2024-10-22"
     events:
       - name: LEC 15
@@ -17,9 +17,9 @@ days:
       - name: LEC 16
         type: lecture
         title: Multiple Linear Regression through Linear Algebra
-      - name: HW 6
+      - name: HW 7
         type: hw
-        title: Homework 6
+        title: Homework 7
   - date: "2024-10-25"
     events:
       - name: DIS 8

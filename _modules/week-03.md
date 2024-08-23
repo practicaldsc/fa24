@@ -4,9 +4,9 @@ weekNumber: 3
 days:
   - date: "2024-09-09"
     events:
-      - name: CHK 2
-        type: checkpoint
-        title: Checkpoint 2
+      # - name: CHK 2
+      #   type: checkpoint
+      #   title: Checkpoint 2
   - date: "2024-09-10"
     events:
       - name: LEC 5
@@ -17,9 +17,9 @@ days:
       - name: LEC 6
         type: lecture
         title: Pandas III and EDA
-      - name: HW 1
+      - name: HW 2
         type: hw
-        title: Homework 1
+        title: Homework 2
   - date: "2024-09-13"
     events:
       - name: DIS 3

@@ -4,9 +4,9 @@ weekNumber: 14
 days:
   - date: "2024-11-25"
     events:
-      - name: CHK 13
-        type: checkpoint
-        title: Checkpoint 13
+      # - name: CHK 13
+      #   type: checkpoint
+      #   title: Checkpoint 13
   - date: "2024-11-26"
     events:
       - name: LEC 25

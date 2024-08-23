@@ -4,9 +4,9 @@ weekNumber: 2
 days:
   - date: "2024-09-02"
     events:
-      - name: CHK 1
-        type: checkpoint
-        title: Checkpoint 1
+      # - name: CHK 1
+      #   type: checkpoint
+      #   title: Checkpoint 1
       - name: SUR
         type: survey
         title: Welcome Survey

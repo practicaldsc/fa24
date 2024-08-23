@@ -4,9 +4,9 @@ weekNumber: 7
 days:
   - date: "2024-10-07"
     events:
-      - name: CHK 6
-        type: checkpoint
-        title: Checkpoint 6
+      # - name: CHK 6
+      #   type: checkpoint
+      #   title: Checkpoint 6
   - date: "2024-10-08"
     events:
       - title: "No Lecture: Day Before Exam 📝"
