@@ -13,25 +13,36 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Practical Data Science
-tagline: EECS 398-003, Fall 2024 at the University of Michigan
+title: EECS 398-003
+tagline: Practical Data Science, Fall 2024 at the University of Michigan
 # description: A modern, highly customizable, responsive Jekyll template for course websites
-author: Suraj Rampure
+author: Practical Data Science course staff
 baseurl: '/' # the subpath of your site, e.g. /blog
 url: 'https://practicaldsc.org' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 # Theme settings
-remote_theme: just-the-docs/just-the-docs@v0.8.1
+remote_theme: just-the-docs/just-the-docs@v0.9.0
 color_scheme: um
 search_enabled: true
 heading_anchors: true
 permalink: pretty
+aux_links:
+  💻 GitHub:
+    - 'https://github.com/practicaldsc/fa24'
+  🙋 Ed:
+    - 'https://edstem.org/us/courses/61012/discussion/'
+  💯 Gradescope:
+    - 'https://www.gradescope.com/courses/823979'
+  🤔 Lecture Questions:
+    - 'https://docs.google.com/forms/d/e/1FAIpQLSd4oliiZYeNh76jWy-arfEtoAkCrVSsobZxPwxifWggo3EO0Q/viewform'
+
 footer_content:
 
 # Collections for website data
 collections:
   staffers:
+  staffersnobio:
   modules:
   schedules:
   announcements:
@@ -40,6 +51,13 @@ defaults:
   - scope:
       path: ''
       type: staffers
+    values:
+      layout: staffer
+      height: 300
+      width: 300
+  - scope:
+      path: ''
+      type: staffersnobio
     values:
       layout: staffer
       height: 300

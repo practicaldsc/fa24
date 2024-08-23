@@ -1,10 +1,10 @@
 ---
-layout: minimal
-nav_exclude: true
-title: "Linear Algebra"
+layout: default
+nav_order: 6
+title: "🧮 Linear Algebra Review"
 ---
 
-[⬅️ back home](../)
+<!-- [⬅️ back home](../) -->
 
 # LARDS: Linear Algebra Review for Data Science
 {: .no_toc }
@@ -19,7 +19,7 @@ Designed for EECS 398-003, Fall 2024 at the <b><span style="background-color: #F
 {: .no_toc } -->
 
 <small>
-<a href="#content">jump to the table of contents</a> • last updated Wednesday, July 24th
+<a href="#content">jump to the table of contents</a> • last updated Saturday, August 3rd
 </small>
 
 Linear algebra is a formal prerequisite of this course. However, many students either (1) expressed interest in taking the course but didn't satisfy the prerequisite, and hence were granted a waiver, or (2) have some linear algebra experience but would like a refresher before the course. The goal of the videos and questions below is to get you up to speed on the linear algebra you'll need to know later on in this course. We call this page LARDS, short for **L**inear **A**lgebra **R**eview for **D**ata **S**cience.

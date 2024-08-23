@@ -1,10 +1,10 @@
 ---
-name: Suraj Rampure
-role: Instructor
+name: Nishant Kheterpal
+role: TA
 pronouns: he/him
-email: rampure@umich.edu
-website: https://rampure.org
-photo: assets/staff-images/suraj.png
+email: nskh@umich.edu
+website: https://nishant.page
+photo: assets/staff-images/nishant.jpg
 description: PhD (in-progress), Robotics, University of Michigan
 hometown: Ann Arbor, MI
 askabout: cars, baking, urbanism, bikes, trains

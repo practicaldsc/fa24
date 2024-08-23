@@ -1,4 +1,92 @@
-<h2 class="fs-4" id="{{ page.title | slugify }}" >{{ page.title }}</h2>
 <div class="module">
-  {{ content }}
+  <h3 class="module-header" id="{{ page.title | slugify }}">{{ page.title }}</h3>
+  {% if page.days %}
+  <dl class="module-days">
+    {% for day in page.days %}
+      <dt class="module-day main">{{ day.date | date: '%a %b %e' }}</dt>
+      {% for event in day.events %}
+        {% if event.markdown_content %}
+          <dd class="module-event{% if forloop.first %} main{% endif %}">
+            {{ event.markdown_content | markdownify }}
+          </dd>
+        {% else %}
+          <dd class="module-event{% if forloop.first %} main{% endif %}">
+            <p>
+              {% if event.type %}
+              <strong class="label label-{{ event.type }}">
+                {{ event.name }}
+              </strong>
+              {% endif %}
+              {% if event.url %}
+                <a href="{{ event.url }}">{{ event.title }}</a>
+              {% else %}
+                {{ event.title }}
+              {% endif %}
+              {%- if event.type == "lecture" or event.type == "review" -%}
+                {%- if event.blank -%}
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <small><a href="{{ event.blank }}"><button type="button" class="btn btn-info">🌗 blank</button></a></small>
+                {%- endif -%}
+                {%- if event.filled -%}
+                <small>&nbsp;&nbsp;<a href="{{ event.filled }}"><button type="button" class="btn btn-info">📝 filled</button></a></small>
+                {%- endif -%}
+                {%- if event.code -%}
+                <small>&nbsp;&nbsp;<a href="{{ event.code }}"><button type="button" class="btn btn-info">💻 code</button></a></small>
+                {%- endif -%}
+                {%- if event.animations -%}
+                <small>&nbsp;&nbsp;<a href="{{ event.animations }}"><button type="button" class="btn btn-info">🧮 animations</button></a></small>
+                {%- endif -%}
+                {%- if event.podcast -%}
+                <small>&nbsp;&nbsp;<a href="{{ event.podcast }}"><button type="button" class="btn btn-info">🎥 podcast</button></a></small>
+                {%- endif -%}
+                {%- if event.videos -%}
+                <small>&nbsp;&nbsp;<a href="{{ event.videos }}"><button type="button" class="btn btn-info">⏯️ extra videos</button></a></small>
+                {%- endif -%}
+                {%- if event.faqs -%}
+                <small>&nbsp;&nbsp;<a href="{{ event.faqs }}"><button type="button" class="btn btn-info">🙋 FAQs</button></a></small>
+                {%- endif -%}
+              {%- endif -%}
+              {%- if event.type == "hw" or event.type == "disc" -%}
+                {%- if event.problems -%}
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <small><a href="{{ event.problems }}"><button type="button" class="btn btn-info">📄 problems</button></a></small>
+                {%- endif -%}
+                {%- if event.template -%}
+                <small>&nbsp;&nbsp;<a href="{{ event.template }}"><button type="button" class="btn btn-info">🍃 template</button></a></small>
+                {%- endif -%}
+                {%- if event.walkthrough -%}
+                <small>&nbsp;&nbsp;<a href="{{ event.walkthrough }}"><button type="button" class="btn btn-info">🎥 walkthrough</button></a></small>
+                {%- endif -%}
+                {%- if event.solutions -%}
+                <small>&nbsp;&nbsp;<a href="{{ event.solutions }}"><button type="button" class="btn btn-info">📝 solutions</button></a></small>
+                {%- endif -%}
+              {%- endif -%}
+            </p>
+            <p>
+              <!-- 
+              {%- if event.filled and event.podcast -%}
+                <span> | </span>
+              {%- endif -%} -->
+              <!-- {%- if event.podcast and event.reading -%}
+                <span> | </span>
+              {%- endif -%} -->
+              <!-- {%- if event.reading -%}
+                {{ event.reading | markdownify | remove: '<p>' | remove: '</p>' }}
+              {%- endif -%} -->
+            </p>
+            <!-- {{ event | first | markdownify }} {{ event | last | markdownify }} -->
+          </dd>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </dl>
+  {% endif %}
+  {% assign content_strip = content | strip %}
+  {% if content_strip != "" %}
+  <div class="module-body">
+    <small>{{ content }}</small>
+  </div>
+  {% endif %}
 </div>

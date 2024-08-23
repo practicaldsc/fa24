@@ -1,23 +1,31 @@
 ---
-title: Basic Data Structures
+title: "Week 2: NumPy and Pandas"
+weekNumber: 2
+days:
+  - date: "2024-09-02"
+    events:
+      - name: CHK 1
+        type: checkpoint
+        title: Checkpoint 1
+      - name: SUR
+        type: survey
+        title: Welcome Survey
+  - date: "2024-09-03"
+    events:
+      - name: LEC 3
+        type: lecture
+        title: NumPy
+  - date: "2024-09-05"
+    events:
+      - name: LEC 4
+        type: lecture
+        title: Pandas, Part 1
+      - name: HW 1
+        type: hw
+        title: Homework 1
+  - date: "2024-09-06"
+    events:
+      - name: DISC 2
+        type: disc
+        title: Discussion 2
 ---
-
-Oct 5
-: [Linked Lists & Encapsulation](#)
-  : [3.1](#), [2.2](#), [2.3](#)
-
-Oct 6
-: **Section**{: .label .label-purple }[Linked Lists](#)
-  : [Solution](#)
-
-Oct 7
-: [Resizing Arrays](#)
-  : [2.4](#), [2.5](#)
-
-Oct 8
-: **Lab**{: .label .label-purple } [Resizing Arrays](#)
-
-Oct 9
-: [Runtime Analysis](#)
-  : [8.1](#), [8.2](#), [8.3](#), [8.4](#)
-: **HW 2 due**{: .label .label-red }

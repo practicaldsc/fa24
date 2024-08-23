@@ -7,6 +7,9 @@
 @import 'schedule';
 @import 'staffer';
 
+@import 'mixins';
+
+
 // Overrides
 code {
   font-size: 14px;
@@ -33,28 +36,28 @@ iframe {
   margin: auto;
 }
 
-.main-content {
-  dl {
-    display: block;
-    grid-template-columns: none;
-  }
+// .main-content {
+//   dl {
+//     display: block;
+//     grid-template-columns: none;
+//   }
 
-  dt {
-    font-weight: 700;
-    text-align: start;
+//   dt {
+//     font-weight: 700;
+//     text-align: start;
 
-    &::after {
-      content: normal;
-    }
-  }
+//     &::after {
+//       content: normal;
+//     }
+//   }
 
-  dd {
-    font-weight: normal;
+//   dd {
+//     font-weight: normal;
 
-    + dt {
-      margin-top: 1em;
-    }
-  }
-}
+//     + dt {
+//       margin-top: 1em;
+//     }
+//   }
+// }
 
 $link-color: #0066cc;
