@@ -36,6 +36,8 @@ aux_links:
     - 'https://www.gradescope.com/courses/823979'
   🤔 Lecture Questions:
     - 'https://docs.google.com/forms/d/e/1FAIpQLSd4oliiZYeNh76jWy-arfEtoAkCrVSsobZxPwxifWggo3EO0Q/viewform'
+  📬 Feedback:
+    - 'https://docs.google.com/forms/d/e/1FAIpQLSfoxQfKubwtj5HQJtUQILx0scuzApPeEIZg8fEQXCDhzrTM4g/viewform'
 
 footer_content:
 
@@ -59,7 +61,7 @@ defaults:
       path: ''
       type: staffersnobio
     values:
-      layout: staffer
+      layout: staffer-no-bio
       height: 300
       width: 300
   - scope:

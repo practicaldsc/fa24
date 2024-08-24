@@ -5,9 +5,10 @@ pronouns: he/him
 email: rampure@umich.edu
 website: https://rampure.org
 photo: ../assets/staff-images/suraj.png
-description: PhD (in-progress), Robotics, University of Michigan
-hometown: Ann Arbor, MI
-askabout: cars, baking, urbanism, bikes, trains
-foodemoji: 🌮
-food: Taco Stand, Mike's Taco Club, It's Raw Poke Shop, Lofty Coffee
+description: MS, Electrical Engineering and Computer Sciences, UC Berkeley
+hometown: Windsor, Ontario, Canada 🇨🇦
+askabout: Credit card points, <a href="https://my.flightradar24.com/surajrampure">traveling</a>, and planes; my dog Junior, my academic journey, and <a href="https://rampure.org/assets/me_dancing.gif">this</a>
+foodemoji: 🍜
+food: Kitab Cafe, Bash Izakaya, Zingerman's, Selden Standard, Buffalo Wild Wings
+lecture: TuTh 1:30-3:00PM, 1500 EECS
 ---

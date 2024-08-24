@@ -14,7 +14,7 @@ days:
     events:
       - name: EXAM
         type: exam
-        title: <b>Midterm Exam (tentative; 7-9PM)</b>
+        title: <b>Midterm Exam (7-9PM)</b>
   - date: "2024-10-10"
     events:
       - name: LEC 13
