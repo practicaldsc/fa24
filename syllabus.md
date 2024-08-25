@@ -97,6 +97,19 @@ The enforced prerequisites are discrete math (EECS 203), programming (EECS 280),
 The course website, [practicaldsc.org](../), will contain links to all
 course content. There are also a few things you'll need to do to get set up.
 
+
+### Computer and Network Recommendations
+
+Make sure you have a laptop consistent with [CAEN recommendations](https://caen.engin.umich.edu/percomps/).
+
+Test your internet connection with the [UM Custom Speedtest website](http://umich.speedtestcustom.com/) and make sure it meets the [minimum requirements for any UM service](https://teamdynamix.umich.edu/TDClient/76/Portal/KB/ArticleDet?ID=5091). You'll need more bandwidth if there will be multiple simultaneous users in your household.
+
+Resources for help with computing equipment:
+- Information and Technology Services (ITS) [Laptop loaner program](https://its.umich.edu/computing/computers-software/sites-at-home)
+College of Engineering (CoE) [Office of Student Affairs](https://studentaffairs.engin.umich.edu/), email requests to coe-studentaffairs@umich.edu
+
+You may also use computer workstations in CAEN labs on campus or [connect remotely](https://caen.engin.umich.edu/connect/).
+
 ### Websites
 
 You'll need to make accounts on the following sites:
@@ -121,18 +134,6 @@ You'll need to make accounts on the following sites:
 
 Note that we will **not** be using Canvas for anything this semester (so please don't try and send us messages on Canvas!).
 
-### Computer and Network Recommendations
-
-Make sure you have a laptop consistent with [CAEN recommendations](https://caen.engin.umich.edu/percomps/).
-
-Test your internet connection with the [UM Custom Speedtest website](http://umich.speedtestcustom.com/) and make sure it meets the [minimum requirements for any UM service](https://teamdynamix.umich.edu/TDClient/76/Portal/KB/ArticleDet?ID=5091). You'll need more bandwidth if there will be multiple simultaneous users in your household.
-
-Resources for help with computing equipment:
-- Information and Technology Services (ITS) [Laptop loaner program](https://its.umich.edu/computing/computers-software/sites-at-home)
-College of Engineering (CoE) [Office of Student Affairs](https://studentaffairs.engin.umich.edu/), email requests to coe-studentaffairs@umich.edu
-
-You may also use computer workstations in CAEN labs on campus or [connect remotely](https://caen.engin.umich.edu/connect/).
-
 ### Development Environment
 
 As soon as you are able to, go follow the steps in the [⚙️ Environment Setup](../env-setup) page of the course website to set up your programming
@@ -140,7 +141,7 @@ environment for the course. Discussion 1 will be dedicated to making sure you've
 
 ### Forms
 
-Please fill out the [Welcome Survey](#) to tell us a bit more about yourself and tell us if you need an alternate exam.
+Please fill out the required [Welcome Survey](https://docs.google.com/forms/d/e/1FAIpQLSemfn-uzlSZUeY6rsonpboIv_6ANg9mGxWZ8tETDk4N4g4q_A/viewform) to tell us a bit more about your background and whether you need an alternate exam **no later than Monday, September 2nd**.
 
 ---
 
@@ -255,15 +256,14 @@ schedule (which is subject to change in any given week):
 ## Exams
 
 This class has one Midterm Exam and one Final Exam. Exams are cumulative,
-though the Final Exam will emphasize material after the Midterm Exam.
+though the Final Exam will emphasize material after the Midterm Exam. The exams will feature a mix of multiple choice, select all, short answer, and long answer questions, including questions that require you to write code and do math.
 
 - **Midterm Exam**: Wednesday, October 9th, 7-9PM
 
 - **Final Exam:** Thursday, December 12th, 4-6PM
 
 **Both exams will be administered in-person**. If you have conflicts with
-either of the exams, please let us know on the [Welcome
-Survey](#). We may provide alternate exam times for students with a valid, documented conflict with a required activity in another course or official university-affiliated activity, or to help students avoid negative academic consequences when their religious obligations conflict with academic requirements.
+either of the exams, please let us know on the [Welcome Survey](https://docs.google.com/forms/d/e/1FAIpQLSemfn-uzlSZUeY6rsonpboIv_6ANg9mGxWZ8tETDk4N4g4q_A/viewform). We may provide alternate exam times for students with a valid, documented conflict with a required activity in another course or official university-affiliated activity, or to help students avoid negative academic consequences when their religious obligations conflict with academic requirements.
 
 ### Redemption Policy
 

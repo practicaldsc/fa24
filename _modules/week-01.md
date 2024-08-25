@@ -12,6 +12,10 @@ days:
         # filled: resources/lectures/lec01/lec01-filled.pdf
         # podcast: https://podcast.ucsd.edu/watch/sp24/dsc40a_b00/1
         # reading:
+      - name: SUR
+        type: survey
+        title: <b>Welcome Survey</b>
+        url: https://docs.google.com/forms/d/e/1FAIpQLSemfn-uzlSZUeY6rsonpboIv_6ANg9mGxWZ8tETDk4N4g4q_A/viewform
   - date: "2024-08-29"
     events:
       - name: LEC 2
