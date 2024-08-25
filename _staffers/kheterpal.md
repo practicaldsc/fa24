@@ -5,9 +5,9 @@ pronouns: he/him
 email: nskh@umich.edu
 website: https://nishant.page
 photo: ../assets/staff-images/nishant.jpg
-description: PhD (in-progress), Robotics, University of Michigan
+description: Fifth-year PhD, Robotics
 hometown: Ann Arbor, MI
 askabout: cars, baking, urbanism, bikes, trains
 foodemoji: 🌮
-food: Taco Stand, Mike's Taco Club, It's Raw Poke Shop, Lofty Coffee
+food: Ricewood, Zingerman's, Pacific Rim, Loomi Cafe (RIP), Hyperion Coffee
 ---
