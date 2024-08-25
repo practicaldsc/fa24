@@ -7,6 +7,7 @@ days:
       - name: LEC 1
         type: lecture
         title: Introduction
+        note: Come meet the staff from 3-4PM in the diag in front of BBB!
         # blank: resources/lectures/lec01/lec01-blank.pdf
         # filled: resources/lectures/lec01/lec01-filled.pdf
         # podcast: https://podcast.ucsd.edu/watch/sp24/dsc40a_b00/1

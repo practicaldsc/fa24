@@ -5,7 +5,7 @@ pronouns: he/him
 email: rampure@umich.edu
 website: https://rampure.org
 photo: ../assets/staff-images/suraj.png
-description: MS, Electrical Engineering and Computer Sciences, UC Berkeley
+description: Lecturer III, Computer Science and Engineering
 hometown: Windsor, Ontario, Canada 🇨🇦
 askabout: Credit card points, <a href="https://my.flightradar24.com/surajrampure">traveling</a>, and planes; my dog Junior, my academic journey, and <a href="https://rampure.org/assets/me_dancing.gif">this</a>
 foodemoji: 🍜

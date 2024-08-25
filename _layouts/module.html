@@ -46,6 +46,9 @@
                 {%- if event.faqs -%}
                 <small>&nbsp;&nbsp;<a href="{{ event.faqs }}"><button type="button" class="btn btn-info">🙋 FAQs</button></a></small>
                 {%- endif -%}
+                {%- if event.note -%}
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>{{ event.note }}</small>
+                {%- endif -%}
               {%- endif -%}
               {%- if event.type == "hw" or event.type == "disc" -%}
                 {%- if event.problems -%}
