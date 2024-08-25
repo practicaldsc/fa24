@@ -203,7 +203,7 @@ Subsequent discussion sections will be focused on exam preparation. Students wil
 
 There will be **~12 homework assignments** due weekly throughout the semester. Expect each homework assignment to take ~8-10 hours to complete. Even though this is a programming-heavy class, expect it to have the workload patterns of a more theoretical class – that is, expect a constant, moderate level of work each week, rather than having some weeks with very little work and some extremely heavy weeks.
 
-Homework assignments will usually be in the form of Jupyter Notebooks, where you will write Python code and answer free-response and multiple-choice questions, though some homework assignments may be done on pen-and-paper to assess more theoretical concepts. For programming problems, public tests will be provided to make sure you're on the right track, however, your submission will be graded using an autograder with hidden tests. We may also grade your code on style.
+Homework assignments will usually be in the form of Jupyter Notebooks, where you will write Python code and answer free-response and multiple-choice questions, though some homework assignments may include work that must be done on pen-and-paper to assess more theoretical concepts. For programming problems, public tests will be provided to make sure you're on the right track, however, your submission will be graded using an autograder with hidden tests. We may also grade your code on style.
 
 Each homework is worth the same amount, but the lowest homework will be dropped when
 calculating your final score. Homeworks will usually be released on Friday mornings and usually due on
@@ -332,7 +332,8 @@ go to submit your homework. Slip days are meant to be used in exceptional
 circumstances, so **you probably should not need to use all 6, but if you have
 something going on in your life that is impeding your ability to do your
 classwork on time, please reach out to us as soon as possible so we can work
-something out**.
+something out**. The earlier you let us know that something's going on,
+the more we can do to help, so please reach out.
 
 **Slip days are applied automatically at the end of the semester, and you don’t
 need to ask in order to use one.** It’s your responsibility to keep track of
