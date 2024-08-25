@@ -1,33 +1,28 @@
 ---
 layout: page
-title: Practical Data Science 🛠️
+title: 🧐 About
 nav_exclude: true
 description: >-
   Information about Practical Data Science, offered as EECS 398-003 in Fall 2024 at the University of Michigan.
 ---
 
-{: .green }
-**Taking _Practical Data Science_ this fall? Work through [LARDS: Linear Algebra Review for Data Science](lin-alg).**
+<!-- {: .green }
+**Taking _Practical Data Science_ this fall? Work through [LARDS: Linear Algebra Review for Data Science](lin-alg).** -->
 
-# Practical Data Science 🛠️
+<!-- # Practical Data Science 🛠️ -->
+
+# {{ page.title }}
 
 {: .no_toc }
 {: .mb-2 }
 EECS 398-003, Fall 2024 at the <b><span style="background-color: #FFCB05; color: #00274C">University of Michigan</span></b>
 {: .no_toc }
 {: .fs-6 .fw-300 .mb-2 }
-**Lecture**: TuTh 1:30-3:00PM, [1500 EECS](https://maps.app.goo.gl/JBGihmGrYYsgcnwN8)<br>
-**Discussions**: F 12:30-1:30PM, [2147 GGBL](https://maps.app.goo.gl/U6R5aH5cdY838Tj77), or F 2:30-3:30PM, [1670 BBB](https://maps.app.goo.gl/wuMosGqmKQ4KUmqdA)<br>
+<!-- **Lecture**: TuTh 1:30-3:00PM, [1500 EECS](https://maps.app.goo.gl/JBGihmGrYYsgcnwN8)<br>
+**Discussions**: F 12:30-1:30PM, [2147 GGBL](https://maps.app.goo.gl/U6R5aH5cdY838Tj77), or F 2:30-3:30PM, [1670 BBB](https://maps.app.goo.gl/wuMosGqmKQ4KUmqdA)<br> -->
 4 credits • ULCS for Computer Science majors, Advanced Technical Elective or Application Elective for Data Science majors, Flexible Technical Elective for Electrical Engineering majors
 
-{% assign instructors = site.staffers | where: 'role', 'Instructor' %}
-{% for staffer in instructors %}
-{{ staffer }}
-{% endfor %}
-
 {: .success }
-
-<!-- <small><b>What's this class about? 🙋</b></small><br> -->
 
 Skills and tools for building practical data science projects, along with their theoretical underpinnings. `pandas`, `numpy`, `scikit-learn`, `BeautifulSoup`, and Jupyter Notebooks, and also the math behind loss functions, gradient descent, linear and logistic regression, and other key ideas in machine learning.
 
@@ -126,7 +121,7 @@ The plots below are interactive, and involve examples we'll work on in the class
 
 <center>
 
-<iframe src="assets/3d-plane.html" frameBorder="0" width="500" height="500"></iframe>
+<iframe src="../assets/3d-plane.html" frameBorder="0" width="500" height="500"></iframe>
 
 <br>
 
@@ -138,7 +133,7 @@ How do we find this "plane of best fit?" efficiently? How do we use it to make p
 
 <center>
 
-<iframe src="assets/outages_by_year.html" frameBorder="0" width="600" height="425"></iframe>
+<iframe src="../assets/outages_by_year.html" frameBorder="0" width="600" height="425"></iframe>
 
 <br>
 

@@ -494,3 +494,5 @@ Language in this syllabus has been adopted from other courses as well, including
 ## Disclaimer
 
 While we try to do our best to plan ahead, unfortunately, sometimes circumstances do arise that necessitate a policy change. When this happens, the change will be announced, and this document will be updated with the new policy.
+
+We appreciate any and all feedback, given that this course is new and evolving. If you'd like to provide us with anonymous feedback at any point, you can do so at [this form](https://docs.google.com/forms/d/e/1FAIpQLSfoxQfKubwtj5HQJtUQILx0scuzApPeEIZg8fEQXCDhzrTM4g/viewform). Thank you!
