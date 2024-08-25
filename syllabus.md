@@ -41,7 +41,7 @@ See the [👩‍🏫 Staff](../staff) page for contact information.
 
 This course will train students to use industry-standard tools to solve real-world problems, while giving them an understanding of how these tools work under the hood. After taking this course, students will be prepared to build data science portfolios, participate in research across campus, and succeed in data science internships.
 
-The course will roughly be split in two halves; while the topics in it may overlap with other existing courses, it will take a very practical approach.
+The course will roughly be split in two halves; while the topics in it may overlap with other existing courses, it will take a very practical approach. Refer to the [course homepage](../) for a more specific list of topics.
 
 <center>
 <div class="two-columns-grid">
