@@ -132,6 +132,7 @@ You'll need to make accounts on the following sites:
   [github.com/practicaldsc/fa24](https://github.com/practicaldsc/fa24). Don't worry if you've never used Git before – the [⚙️ Environment Setup](../env-setup) page will walk you through all of the necessary steps.
   <!-- For the most part, you won't need to _push_ anything to GitHub, though if and when you do, we will provide sufficient guidance. -->
 
+{: .red }
 Note that we will **not** be using Canvas for anything this semester (so please don't try and send us messages on Canvas!).
 
 ### Development Environment
