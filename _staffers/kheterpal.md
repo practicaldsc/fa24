@@ -5,7 +5,7 @@ pronouns: he/him
 email: nskh@umich.edu
 website: https://nishant.page
 photo: ../assets/staff-images/nishant.jpg
-description: Fifth-year PhD, Robotics
+description: 5th year PhD, Robotics
 hometown: Ann Arbor, MI
 askabout: cars, baking, urbanism, bikes, trains
 foodemoji: 🌮

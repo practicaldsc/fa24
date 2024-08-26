@@ -8,13 +8,174 @@ description: Instructions on how to set up your computing environment in this co
 # {{ page.title }}
 {:.no_toc}
 
-
-<!-- ## Table of contents
+## Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc} -->
+{:toc}
+---
+
+## Introduction
+
+In EECS 280, you used an IDE – likely either XCode or Visual Studio – to write, compile, and execute your C++ code. In this class, we'll be writing Python code, specifically in the context of data science. Instead of using a more traditional IDE or text editor + Terminal setup, where you write your code in one window and run it in a separate command-line, we will be using [Jupyter](https://jupyter.org), which allows us to write and run code within a single document. Within a _Jupyter Notebook_, not only can you run code and see its results in-line (from the results of `print` statements to interactive visualizations), but you can also write text and include images, which will be useful when communicating the results of data analyses to others.
+
+Here, we'll show you how to install the necessary tools in the Jupyter ecosystem to work on assignments for this class locally – that is, on your own computer. Setting up your environment for Practical Data Science will be slightly more involved than it was in EECS 280, but most of these steps only need to be done once.
+
+There has been a lot written about how to set up a Python environment, so we won't reinvent the wheel. This page will only be a summary; Google will be your main resource. But always feel free to come to a staff member's office hours if you have a question about setting up your environment, using Git, or similar — we're here to help.
 
 ---
 
-Coming soon!
+
+## Environments and Package Managers
+
+For this class, the software you'll need includes Python 3.10, a few specific Python packages, and Git.
+
+Gradescope – the platform to which you'll submit your assignments – has an **environment** which it uses to autograde your work. You can think of an environment as a combination of a Python version and _specific_ versions of Python packages that is isolated from the rest of your computer. In practice, developers create different environments for different projects, so that they can use different versions of packages in different projects.
+
+We're going to have you replicate the environment Gradescope has on your computer. The reason for this is so that your code behaves the same when you submit it to Gradescope as it does when you work on it on your computer. For example, our Gradescope environment uses `numpy` version `1.26.0`; if you install a different version of `numpy` on your computer, for example, you might see different results than Gradescope sees.
+
+How do you install packages, then? `pip` is a common choice, but even though it's widely used, it lacks built-in support for creating isolated environments. This limitation makes it challenging to maintain version consistency and avoid conflicts between packages. **Consequently, we do not recommend relying solely on `pip install` for environment management**, as it may inadvertently introduce incompatible package versions.
+
+`conda`, on the other hand, is a powerful tool that not only installs packages but also manages environments effortlessly. It allows you to create isolated environments and ensures compatibility among the packages within those environments.
+
+**The tool we're going to use, though, is `mamba`, which is a wrapper around `conda` that is designed to be much faster.** If you should need to install a new Python package, you can use the `mamba` command (once you have `mamba` installed). Inside the Terminal, type `mamba install <package_name>`, where `<package_name>` is replaced by the name of the package you want to install, and hit enter. **However, you should only run `mamba install` once you've entered your `pds` environment** – more on this below.
+
+---
+
+## Replicating the Gradescope Environment
+
+Below, we're going to walk you through how to create the same environment that Gradescope uses. Before you proceed, though, it's a good idea to refresh your memory on how to use the command-line by looking at the [EECS 280 Command-Line Tutorial](https://eecs280staff.github.io/tutorials/cli.html).
+
+### Step 0: If using Windows, install WSL
+
+If you're using macOS or Linux, you can skip to Step 1.
+
+If you're using a Windows machine, you'll need to install the Windows Subsystem for Linux (WSL). This will run an Ubuntu Linux guest virtual machine on your Windows computer, giving you access to a Terminal that behaves the same way as on macOS and Linux. You already had to do this in EECS 280, but in the event you don't have WSL already, follow the [EECS 280 tutorial on how to install and use it](https://eecs280staff.github.io/tutorials/setup_wsl.html), then come back here. We'll wait!
+
+### Step 1: Install `mamba`
+    
+1. Download the `mamba` installer. To do this, open your Terminal and run:
+
+    ```
+    curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+    ```
+
+    This will place a file named something like `Miniforge3-Darwin-arm64.sh` wherever you ran the command. If you get an error saying `command not found: curl`, replace `curl -L -O` with `wget` and re-run the same command.
+
+2. Run the installer. To do this, immediately after the last command, run:
+
+    ```
+    bash Miniforge3-$(uname)-$(uname -m).sh
+    ```
+
+### Step 2: Download [`environment.yml`](https://github.com/practicaldsc/fa24/tree/gh-pages/resources/environment.yml)
+
+[This file](https://github.com/practicaldsc/fa24/tree/gh-pages/resources/environment.yml) contains the necessary details to configure your environment. If you take a look at it, you'll see that it contains a specific Python version (`python=3.10`) along with specific package versions (like `pandas==2.1.0` and `scikit-learn==1.5.1`, for example).
+
+### Step 3: Create a new `conda` environment
+
+Yes, we said `conda` environment, even though we're using `mamba` to create it.
+
+To create the environment, in your Terminal, run:
+
+```
+mamba env create -f environment.yml
+```
+
+Note that if you put `environment.yml` in your Downloads or Desktop folder, you should replace `environment.yml` with the path to the file, for example: `mamba env create -f /Users/yourusername/Desktop/environment.yml`. Otherwise, you might get an error saying `environment.yml` does not exist. Alternatively, you can `cd` to the directory on your computer in which `environment.yml` lives before running the above command.
+
+This step may take several minutes, and that's fine!
+
+### Step 4: Activate the environment
+
+To do so, run:
+
+```
+mamba activate pds
+```
+
+_Where did the name `pds` come from, you might ask? We defined it for you at the top of `environment.yml` with `name: pds`._
+
+If you get an error saying `mamba` isn't defined, try closing and reopening your Terminal first and then rerunning the command.
+
+---
+
+## Working on Assignments
+
+### Activating the `conda` environment
+
+The setup instructions above only need to be run once. Now, every time you work on assignments for this class, all you need to do is run
+
+```
+mamba activate pds
+```
+
+in your Terminal. If you need to install any packages into your `pds` environment using `mamba install`, make sure to activate the environment first.
+
+### Launching Jupyter Notebooks
+
+There are a few different-looking IDEs in the Jupyter universe, all built on JupyterLab, **all of which you run in your browser (e.g. Google Chrome)**. You can launch each one with a different command in your Terminal:
+
+- JupyterLab is a full-fledged IDE that allows you to open multiple notebooks in a single browser window, along with a text editor and embedded Terminal. To launch it, use `jupyter lab`.
+- Jupyter Notebook is a more simplistic-looking interface that shows you just one document at a time, without a file explorer on the side. To launch it, use `jupyter notebook`.
+- Jupyter Notebook Classic is the older, more classic Jupyter Notebook interface from before the JupyterLab era. To launch it, use `jupyter nbclassic`.
+
+You can launch the other two interfaces from JupyterLab, by clicking "Open In" in the top right corner of the screen. Suraj personally uses Jupyter Notebook Classic out of habit, but you're encouraged to try out all three and decide which one works best for you.
+
+You can also use [VSCode](https://code.visualstudio.com/) (not the same as Visual Studio) to access your Jupyter Notebooks. If you'd like to do this, then you’ll need to make sure to activate your `pds` conda environment within your notebook in VSCode. Here’s how to do that.
+1. Open a Juypter Notebook in VSCode.
+2. Click "Select Kernel" in the top right corner of the window.
+3. Click "Python Environments" in the toolbar that appears in the middle.
+4. Finally, click "pds (Python 3.10.14)".
+
+### Accessing assignments using Git
+
+All of our course materials, including your assignments, are hosted on
+GitHub in [this Git repository](https://github.com/practicaldsc/fa24). This means that you'll need to download and use
+[Git](https://git-scm.com/) in order to work with the course
+materials.
+
+Git is a *version control system*. In short, it is used to keep track of
+the history of a project. With Git, you can go back in time to any
+previous version of your project, or even work on two different versions
+(or \"branches\") in parallel and \"merge\" them together at some point
+in the future. We\'ll stick to using the basic features of Git in Practical Data Science.
+
+There are Git GUIs, and you can use them for this class. You can also
+use the command-line version of Git. To get started, you\'ll need to
+\"clone\" the course repository. The command to do this is:
+
+    git clone https://github.com/practicaldsc/fa24
+
+This will copy the repository to a directory on your computer. You should only need to do this once.
+
+Moving forward, to bring in the latest version of the repository, in your local repository, run:
+
+```
+git pull
+```
+
+This will **not** overwrite your work. In fact, Git is designed to make it very difficult
+to lose work (although it\'s still possible!).
+
+**Merge Conflicts**
+
+You might – but hopefully won't! – face issues when using `git pull` regarding merge issues and branches. This is caused by files being updated on your side while we are also changing the [Git repository](https://github.com/practicaldsc/fa24) by updating assignments on our side.
+
+To minimize frustration, working with GitHub pulls, merges, etc., it's a good idea to save your important work locally so that if you accidentally overwrite your files you still have the work saved. **Save your work locally before following the steps below.**
+
+1. `git status` shows the current state of your Git working directory and staging area. It's a good sanity check to start with. You will probably see your project and lab files that you have worked on.
+1. `git add .`  will add all your files to be ready to commit.
+1. `git commit -m "some message of your choice"`  will commit the files, with some description in the quotations. This can be whatever you want, it won't matter.
+
+At this stage, if you `git pull`, it should work. You should double-check that you have new files, as well as that your old files are unchanged. If they are changed then you should be able to just copy-paste from your local backup.
+
+If the above steps do **not** work and you actually have a **merge conflict**, then:
+
+1. `git checkout --theirs [FILENAME]`  will tell git that whenever a conflict occurs in `[FILENAME]` to keep your version. Run this for each file with a conflict.
+1. `git add [FILENAME]` to mark each file with a conflict as resolved. 
+1. `git rebase --continue` or `git merge`, depending on the setup.
+
+---
+
+Run into any other issues? Let us know on Ed and we're happy to update these instructions.
