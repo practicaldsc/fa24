@@ -106,3 +106,6 @@ callouts:
   green:
     title: 
     color: green
+
+plugins:
+  - jekyll-redirect-from
