@@ -17,7 +17,7 @@ description: Instructions on how to set up your computing environment in this co
 
 ## Introduction
 
-In EECS 280, you used an IDE – likely either XCode or Visual Studio – to write, compile, and execute your C++ code. In this class, we'll be writing Python code, specifically in the context of data science. Instead of using a more traditional IDE or text editor + Terminal setup, where you write your code in one window and run it in a separate command-line, we will be using [Jupyter](https://jupyter.org), which allows us to write and run code within a single document. Within a _Jupyter Notebook_, not only can you run code and see its results in-line (from the results of `print` statements to interactive visualizations), but you can also write text and include images, which will be useful when communicating the results of data analyses to others.
+In EECS 280, you either used an IDE, like XCode, to write, compile, and execute your C++ code, or wrote your code in a text editor (such as VS Code) and compiled and ran it in a Terminal. In this class, we'll be writing Python code, specifically in the context of data science. Instead of using a more traditional IDE or text editor + Terminal setup, where you write your code in one window and run it in a separate command-line, we will be using [Jupyter](https://jupyter.org), which allows us to write and run code within a single document. Within a _Jupyter Notebook_, not only can you run code and see its results in-line (from the results of `print` statements to interactive visualizations), but you can also write text and include images, which will be useful when communicating the results of data analyses to others.
 
 Here, we'll show you how to install the necessary tools in the Jupyter ecosystem to work on assignments for this class locally – that is, on your own computer. Setting up your environment for Practical Data Science will be slightly more involved than it was in EECS 280, but most of these steps only need to be done once.
 
@@ -131,9 +131,8 @@ You can also use [VSCode](https://code.visualstudio.com/) (not the same as Visua
 ### Accessing assignments using Git
 
 All of our course materials, including your assignments, are hosted on
-GitHub in [this Git repository](https://github.com/practicaldsc/fa24). This means that you'll need to download and use
-[Git](https://git-scm.com/) in order to work with the course
-materials.
+GitHub in [this Git repository](https://github.com/practicaldsc/fa24). This means that you'll need to download and use Git in order to work with the course
+materials. You can do so [here](https://git-scm.com/).
 
 Git is a *version control system*. In short, it is used to keep track of
 the history of a project. With Git, you can go back in time to any
@@ -162,7 +161,7 @@ to lose work (although it\'s still possible!).
 
 You might – but hopefully won't! – face issues when using `git pull` regarding merge issues and branches. This is caused by files being updated on your side while we are also changing the [Git repository](https://github.com/practicaldsc/fa24) by updating assignments on our side.
 
-To minimize frustration, working with GitHub pulls, merges, etc., it's a good idea to save your important work locally so that if you accidentally overwrite your files you still have the work saved. **Save your work locally before following the steps below.**
+To minimize frustration, working with GitHub pulls, merges, etc., it's a good idea to save your important work locally so that if you accidentally overwrite your files you still have the work saved. **Save your work locally, in a separate, duplicated folder (e.g. duplicate `eecs398` to `eecs398-copy`, if your local folder is called `eecs398`) before following the steps below.**
 
 1. `git status` shows the current state of your Git working directory and staging area. It's a good sanity check to start with. You will probably see your project and lab files that you have worked on.
 1. `git add .`  will add all your files to be ready to commit.
@@ -175,6 +174,8 @@ If the above steps do **not** work and you actually have a **merge conflict**, t
 1. `git checkout --theirs [FILENAME]`  will tell git that whenever a conflict occurs in `[FILENAME]` to keep your version. Run this for each file with a conflict.
 1. `git add [FILENAME]` to mark each file with a conflict as resolved. 
 1. `git rebase --continue` or `git merge`, depending on the setup.
+
+There's a lot more to using Git than we've outlined here. What's here should be sufficient for this class, but if you find yourself needing more help, take a look [here](https://www.w3schools.com/git/) or [here](https://dsc-capstone.org/2023-24/lessons/06/).
 
 ---
 
