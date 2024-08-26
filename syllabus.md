@@ -250,7 +250,7 @@ schedule (which is subject to change in any given week):
 | Monday | Tuesday | Wednesday | Thursday | Friday     |
 | ------ | ------- | --------- | -------- | ---------- |
 |        | Lecture |           | Lecture  |  Discussion |
-| | | | <span style='color:red'><b>Homework N - 1 due</b></span> | <span style='color:red'><b>Homework N released</b></span> |
+| | | | <span style='color:red'><b>Homework N - 1 due 11:59PM</b></span> | <span style='color:red'><b>Homework N released</b></span> |
 
 ---
 
