@@ -179,7 +179,7 @@ Note that more students are enrolled in the course than the lecture room can fit
 
 Lecture slides/notebooks will be your main resource in this class. You can access
 them, along with all course materials, by pulling from the course GitHub
-repository, [github.com/practicaldsc/fa24](github.com/practicaldsc/fa24); instructions on how to do this are in the [⚙️ Environment Setup](../env-setup) page. We will also link HTML previews of each lecture notebook from the course
+repository, [github.com/practicaldsc/fa24](https://github.com/practicaldsc/fa24); instructions on how to do this are in the [⚙️ Environment Setup](../env-setup) page. We will also link HTML previews of each lecture notebook from the course
 homepage; you can use these to annotate the lecture notebooks with a tablet, if
 you'd like.
 
