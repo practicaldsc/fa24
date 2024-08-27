@@ -23,16 +23,16 @@
                 {{ event.title }}
               {% endif %}
               {%- if event.type == "lecture" or event.type == "review" -%}
-                {%- if event.blank -%}
+                {%- if event.html -%}
                 <br>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <small><a href="{{ event.blank }}"><button type="button" class="btn btn-info">🌗 blank</button></a></small>
+                <small><a href="{{ event.html }}"><button type="button" class="btn btn-info">📝 <small>HTML</small></button></a></small>
                 {%- endif -%}
-                {%- if event.filled -%}
-                <small>&nbsp;&nbsp;<a href="{{ event.filled }}"><button type="button" class="btn btn-info">📝 filled</button></a></small>
+                {%- if event.github -%}
+                <small>&nbsp;&nbsp;<a href="{{ event.github }}"><button type="button" class="btn btn-info">💻 <small>GitHub</small></button></a></small>
                 {%- endif -%}
-                {%- if event.code -%}
-                <small>&nbsp;&nbsp;<a href="{{ event.code }}"><button type="button" class="btn btn-info">💻 code</button></a></small>
+                {%- if event.reading and event.reading_text -%}
+                <small>&nbsp;&nbsp;<a href="{{ event.reading }}"><button type="button" class="btn btn-info">📕 <small>Read: {{ event.reading_text }}</small></button></a></small>
                 {%- endif -%}
                 {%- if event.animations -%}
                 <small>&nbsp;&nbsp;<a href="{{ event.animations }}"><button type="button" class="btn btn-info">🧮 animations</button></a></small>
@@ -43,9 +43,9 @@
                 {%- if event.videos -%}
                 <small>&nbsp;&nbsp;<a href="{{ event.videos }}"><button type="button" class="btn btn-info">⏯️ extra videos</button></a></small>
                 {%- endif -%}
-                {%- if event.faqs -%}
+                <!-- {%- if event.faqs -%}
                 <small>&nbsp;&nbsp;<a href="{{ event.faqs }}"><button type="button" class="btn btn-info">🙋 FAQs</button></a></small>
-                {%- endif -%}
+                {%- endif -%} -->
                 {%- if event.note -%}
                 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>{{ event.note }}</small>
                 {%- endif -%}

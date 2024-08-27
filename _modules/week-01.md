@@ -8,10 +8,12 @@ days:
         type: lecture
         title: Introduction
         note: Come meet the staff from 3-4PM in the diag in front of BBB!
-        # blank: resources/lectures/lec01/lec01-blank.pdf
+        html: resources/lectures/lec01/lec01.html
+        github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec01/lec01.ipynb
         # filled: resources/lectures/lec01/lec01-filled.pdf
         # podcast: https://podcast.ucsd.edu/watch/sp24/dsc40a_b00/1
-        # reading:
+        reading: https://learningds.org/ch/01/lifecycle_intro.html
+        reading_text: LDS 1
       - name: SUR
         type: survey
         title: <b>Welcome Survey</b>
