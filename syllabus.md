@@ -200,19 +200,19 @@ Subsequent discussion sections will be focused on exam preparation. Students wil
 **Discussion sections will not be recorded**. The purpose of discussion is to give you hands-on problem-solving experience, so you really need to attend and participate to reap the benefits.
 
 
-### Homework
+### Homeworks
 
 There will be **~12 homework assignments** due weekly throughout the semester. Expect each homework assignment to take ~8-10 hours to complete. Even though this is a programming-heavy class, expect it to have the workload patterns of a more theoretical class – that is, expect a constant, moderate level of work each week, rather than having some weeks with very little work and some extremely heavy weeks.
 
 Homework assignments will usually be in the form of Jupyter Notebooks, where you will write Python code and answer free-response and multiple-choice questions, though some homework assignments may include work that must be done on pen-and-paper to assess more theoretical concepts. For programming problems, public tests will be provided to make sure you're on the right track, however, your submission will be graded using an autograder with hidden tests. We may also grade your code on style.
 
 Each homework is worth the same amount, but the lowest homework will be dropped when
-calculating your final score. Homework will usually be released on Friday mornings and usually due on
+calculating your final score. Homeworks will usually be released on Friday mornings and usually due on
 **Thursdays at 11:59PM**, though this schedule is subject to change. You will access homework by pulling the course GitHub repository, and will submit your completed homework as Jupyter Notebooks to Gradescope (we will not be using the EECS autograder). You may turn them in as many times as you like before
 the deadline, and only the most recent submission will be graded, so it’s a
 good idea to **submit early and often**.
 
-Note that **all homework assignments are to be completed individually**; there are no group assignments in this course. See the [Collaboration and Academic Integrity](#collaboration-and-academic-integrity) section for more details.
+Note that **all homeworks are to be completed individually**; there are no group assignments in this course. See the [Collaboration and Academic Integrity](#collaboration-and-academic-integrity) section for more details.
 
 Note that you may not work with partners on homework assignments, however you're
 encouraged to discuss all assignments with others at a conceptual level in
@@ -226,7 +226,7 @@ office hours per week. The vast majority of office hours will be held in-person 
 {: .yellow }
 **We use the term "office hours" but really, office hours are held in a common room where you can come to work on assignments, meet your classmates, and get help from course staff. We don’t bite and we would love to see you in office hours!**
 
-Office hours are your chance to ask for general help, clarification on homework, and to review previous homework. Course staff will not tell you if your answer is correct, and it is inappropriate to ask. Here are some really good questions to ask instead:
+Office hours are your chance to ask for general help, clarification on homeworks, and to review previous homework. Course staff will not tell you if your answer is correct, and it is inappropriate to ask. Here are some really good questions to ask instead:
 - I got confused about a concept in class. Can you explain it?
 - When the assignment says X, does it mean A or B?
 - My code is giving a weird error - can you help me understand why?
@@ -292,7 +292,7 @@ Here is how we'll compute your grade:
 
 | Component                               | Weight              | Notes                           |
 | --------------------------------------- | ------------------- | ------------------------------- |
-| Homework                                    | 50% | lowest score dropped; 6 [slip days](#late-policy-slip-days-and-drops) available   |
+| Homeworks                                    | 50% | lowest score dropped; 6 [slip days](#late-policy-slip-days-and-drops) available   |
 | Midterm Exam                            | 20%                 | see the [Redemption Policy](#redemption-policy) above |
 | Final Exam                              | 30%                 |                                 |
 
@@ -317,7 +317,7 @@ We’re in this together ❤️.
 
 ### Late Policy, Slip Days, and Drops
 
-All homework must be submitted by 11:59PM Ann Arbor time on the due date to
+All homeworks must be submitted by 11:59PM Ann Arbor time on the due date to
 be considered on time. **You may turn them in as many times as you like before
 the deadline, and only the most recent submission will be graded, so it’s a
 good habit to submit early and often.** If you make a submission after the
@@ -344,7 +344,7 @@ we calculate grades at the end of the semester.
 
 ### Regrade Requests
 
-Most homework are entirely autograded, but some questions are manually
+Most homeworks are entirely autograded, but some questions are manually
 graded. If you feel that there in an error in the autograder or that the manual
 grader has made a mistake, you may submit a regrade request within **three
 days** of the grades being released. If you do not submit a regrade request
@@ -386,7 +386,7 @@ In this course, you can read books, surf the web, talk to your friends and cours
   <tbody>
     <tr>
       <td>
-        Discussing the general approach to homework
+        Discussing the general approach to homeworks
         <br><br>
         Talking about problem-solving strategies or issues you ran into and how you solved them
         <br><br>
@@ -396,7 +396,7 @@ In this course, you can read books, surf the web, talk to your friends and cours
         <br><br>
         Google searching for documentation on Python or <code>pandas</code>
         <br><br>
-        Working together with other students on homework without copying or sharing answers
+        Working together with other students on homeworks without copying or sharing answers
         <br><br>
         Posting a question about your approach to a problem on Ed, without sharing your code
       </td>
@@ -438,7 +438,7 @@ Proceed with caution when using tools to assist you with your assignments. This 
 
 If your assignment submission includes any content generated by an AI tool, it should be cited to acknowledge the source of the material. In each assignment, you will be provided with a space to explain and reflect on your use of GenAI tool(s).  -->
 
-Our course policy on the use of GenAI tools for homework is simple: **you _can_ use these tools to build an understanding of course material and to assist you on assignments, keeping in mind that no tool is a substitute for a strong understanding of course concepts.**
+Our course policy on the use of GenAI tools for homeworks is simple: **you _can_ use these tools to build an understanding of course material and to assist you on assignments, keeping in mind that no tool is a substitute for a strong understanding of course concepts.**
 
 Some examples of responsible use of generative AI include autocompleting repetitive/boilerplate code and suggesting edge cases. Creating large sections of code you do not understand yourself is using generative AI in an irresponsible way.
 
