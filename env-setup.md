@@ -68,6 +68,8 @@ If you're using a Windows machine, you'll need to install the Windows Subsystem 
     bash Miniforge3-$(uname)-$(uname -m).sh
     ```
 
+When you're asked `"Do you wish to update your shell profile..."`, type `yes` and hit enter.
+
 Now, if you restart your Terminal, it should show `(base)` at the start of each line. This is telling you you're in the base, or default, `conda` environment.
 
 {: .yellow }

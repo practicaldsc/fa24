@@ -31,14 +31,14 @@
                 {%- if event.github -%}
                 <small>&nbsp;&nbsp;<a href="{{ event.github }}"><button type="button" class="btn btn-info">💻 <small>GitHub</small></button></a></small>
                 {%- endif -%}
+                {%- if event.recording -%}
+                <small>&nbsp;&nbsp;<a href="{{ event.recording }}"><button type="button" class="btn btn-info">🎥 recording</button></a></small>
+                {%- endif -%}
                 {%- if event.reading and event.reading_text -%}
                 <small>&nbsp;&nbsp;<a href="{{ event.reading }}"><button type="button" class="btn btn-info">📕 <small>Read: {{ event.reading_text }}</small></button></a></small>
                 {%- endif -%}
                 {%- if event.animations -%}
                 <small>&nbsp;&nbsp;<a href="{{ event.animations }}"><button type="button" class="btn btn-info">🧮 animations</button></a></small>
-                {%- endif -%}
-                {%- if event.podcast -%}
-                <small>&nbsp;&nbsp;<a href="{{ event.podcast }}"><button type="button" class="btn btn-info">🎥 podcast</button></a></small>
                 {%- endif -%}
                 {%- if event.videos -%}
                 <small>&nbsp;&nbsp;<a href="{{ event.videos }}"><button type="button" class="btn btn-info">⏯️ extra videos</button></a></small>

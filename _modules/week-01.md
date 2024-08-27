@@ -10,6 +10,7 @@ days:
         note: Come meet the staff from 3-4PM in the diag in front of BBB!
         html: resources/lectures/lec01/lec01.html
         github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec01/lec01.ipynb
+        recording: https://leccap.engin.umich.edu/leccap/player/r/ajQs9f
         # filled: resources/lectures/lec01/lec01-filled.pdf
         # podcast: https://podcast.ucsd.edu/watch/sp24/dsc40a_b00/1
         reading: https://learningds.org/ch/01/lifecycle_intro.html
