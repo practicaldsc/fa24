@@ -70,6 +70,9 @@ If you're using a Windows machine, you'll need to install the Windows Subsystem 
 
 Now, if you restart your Terminal, it should show `(base)` at the start of each line. This is telling you you're in the base, or default, `conda` environment.
 
+{: .yellow }
+Run into an error saying `ERROR: File or directory already exists: /Users/<username>/miniforge3`? Check out [this Ed post](https://edstem.org/us/courses/61012/discussion/5184184?comment=11993121).
+
 ### Step 2: Download [`environment.yml`](https://github.com/practicaldsc/fa24/tree/gh-pages/resources/environment.yml)
 
 [This file](https://github.com/practicaldsc/fa24/tree/gh-pages/resources/environment.yml) contains the necessary details to configure your environment. If you take a look at it, you'll see that it contains a specific Python version (`python=3.10`) along with specific package versions (like `pandas==2.1.0` and `scikit-learn==1.5.1`, for example).
