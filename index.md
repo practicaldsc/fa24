@@ -25,11 +25,12 @@ EECS 398-003, Fall 2024 at the <b><span style="background-color: #FFCB05; color:
 {% endfor %}
 
 {: .green }
-> Welcome to Practical Data Science! We're excited to meet you on Tuesday. Some action items:
+> Welcome to Practical Data Science! Some action items:
 > - **Read the [Syllabus](syllabus)**.
 > - **Follow the instructions in [⚙️ Environment Setup](env-setup)**.
 > - **Fill out the [Welcome Survey](https://docs.google.com/forms/d/e/1FAIpQLSemfn-uzlSZUeY6rsonpboIv_6ANg9mGxWZ8tETDk4N4g4q_A/viewform)**.
 > - **Make sure you can access [Ed](https://edstem.org/us/join/PKnfHw) (please post in [#4](https://edstem.org/us/courses/61012/discussion/5178244)!) and [Gradescope](https://www.gradescope.com/courses/823979).**
+>
 > On the waitlist? Make sure to still complete the Environment Setup and keep up with all assignments. We're trying to expand and will keep you posted.
 
 
