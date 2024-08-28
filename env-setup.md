@@ -21,7 +21,7 @@ description: Instructions on how to set up your computing environment in this co
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/b74ed3c77fe74ef4a4fa4fcc2b247699?sid=15db74ca-5f63-401a-bdac-a86ef00ecab5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-It's a long, but useful video. Here are some relevant timestamps:
+It's a long, but useful video. In addition to walking you through the setup stages, it gives you some command-line tips and tricks, and shows you the various Jupyter Notebook interfaces you can choose between (JupyterLab, Notebook, Notebook Classic, VSCode). Here are some relevant timestamps:
 
 - [2:40](https://www.loom.com/share/b74ed3c77fe74ef4a4fa4fcc2b247699?t=160): Downloading and running the Miniforge3 installer, creating the `pds` conda environment
 - [9:00](https://www.loom.com/share/b74ed3c77fe74ef4a4fa4fcc2b247699?t=540): Cloning the course GitHub repository
