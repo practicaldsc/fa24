@@ -27,6 +27,11 @@ days:
         # blank: resources/lectures/lec02/lec02-blank.pdf
         # filled: resources/lectures/lec02/lec02-filled.pdf
         # podcast: https://podcast.ucsd.edu/watch/sp24/dsc40a_b00/2
+      - name: EX HW
+        type: hw
+        title: <b>Example Homework (not due!)</b>
+        note: This is not a real assignment! Watch <a href="https://www.loom.com/share/b74ed3c77fe74ef4a4fa4fcc2b247699">this video</a>.
+        github: https://github.com/practicaldsc/fa24/blob/main/homeworks/example-hw/example-hw.ipynb
   - date: "2024-08-30"
     events:
       - name: DISC 1

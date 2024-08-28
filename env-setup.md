@@ -15,6 +15,26 @@ description: Instructions on how to set up your computing environment in this co
 {:toc}
 ---
 
+## 🆕 Walkthrough Video
+
+[This video](https://www.loom.com/share/b74ed3c77fe74ef4a4fa4fcc2b247699) walks through most of the steps here, but it’s not a substitute for reading this page carefully.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/b74ed3c77fe74ef4a4fa4fcc2b247699?sid=15db74ca-5f63-401a-bdac-a86ef00ecab5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+It's a long, but useful video. Here are some relevant timestamps:
+
+- [2:40](https://www.loom.com/share/b74ed3c77fe74ef4a4fa4fcc2b247699?t=160): Downloading and running the Miniforge3 installer, creating the `pds` conda environment
+- [9:00](https://www.loom.com/share/b74ed3c77fe74ef4a4fa4fcc2b247699?t=540): Cloning the course GitHub repository
+- [11:25](https://www.loom.com/share/b74ed3c77fe74ef4a4fa4fcc2b247699?t=685): Launching JupyterLab
+- [12:28](https://www.loom.com/share/b74ed3c77fe74ef4a4fa4fcc2b247699?t=748): Jupyter Notebook basics and the autograder
+- [22:09](https://www.loom.com/share/b74ed3c77fe74ef4a4fa4fcc2b247699?t=1329): Restarting the kernel and submitting to Gradescope
+- [24:53](https://www.loom.com/share/b74ed3c77fe74ef4a4fa4fcc2b247699?t=1493): JupyterLab, Jupyter Notebook, Juypter Notebook Classic, VSCode, and Bash Profiles
+- [29:25](https://www.loom.com/share/b74ed3c77fe74ef4a4fa4fcc2b247699?t=1765): Verifying public tests pass on Gradescope
+
+You're encouraged to follow along by walking through and submitting the "Example Homework", which can be found in our public course GitHub repository. It is not a real assignment, but just exists to make sure you know how to access, run, and submit our assignments.
+
+---
+
 ## Introduction
 
 In EECS 280, you either used an IDE, like XCode, to write, compile, and execute your C++ code, or wrote your code in a text editor (such as VS Code) and compiled and ran it in a Terminal. In this class, we'll be writing Python code, specifically in the context of data science. Instead of using a more traditional IDE or text editor + Terminal setup, where you write your code in one window and run it in a separate command-line, we will be using [Jupyter](https://jupyter.org), which allows us to write and run code within a single document. Within a _Jupyter Notebook_, not only can you run code and see its results in-line (from the results of `print` statements to interactive visualizations), but you can also write text and include images, which will be useful when communicating the results of data analyses to others.
@@ -24,7 +44,6 @@ Here, we'll show you how to install the necessary tools in the Jupyter ecosystem
 There has been a lot written about how to set up a Python environment, so we won't reinvent the wheel. This page will only be a summary; Google will be your main resource. But always feel free to come to a staff member's office hours if you have a question about setting up your environment, using Git, or similar — we're here to help.
 
 ---
-
 
 ## Environments and Package Managers
 
@@ -186,4 +205,4 @@ There's a lot more to using Git than we've outlined here. What's here should be 
 
 ---
 
-Run into any other issues? Let us know on Ed and we're happy to update these instructions.
+Run into any issues? Let us know on Ed.
