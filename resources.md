@@ -32,6 +32,7 @@ We're working on putting together a similar site for our course, which will be u
 ### Textbooks
 
 - [Principles and Techniques of Data Science](https://www.textbook.ds100.org/), the textbook for Berkeley's [Data 100](https://ds100.org) course.
+    - These are also supplemented by a set of [Course Notes](https://ds100.org/course-notes/).
 - [DSC 80 Course Notes](https://notes.dsc80.com). These notes were originally written for UCSD's version of this course, but have not been updated in a few years.
 - [Python for Data Analysis](https://wesmckinney.com/book/), an online textbook by Wes Mickinney, the original developer of `pandas`. 
 - [DSC 10 Course Notes](https://notes.dsc10.com). These notes were written for UCSD's more introductory data science course, which introduces Python and Jupyter Notebooks. You'll find a lot of the material here useful, too.
