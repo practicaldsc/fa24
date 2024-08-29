@@ -11,7 +11,7 @@ The times and locations of office hours, as well as lectures and discussions, ar
 
 The events are color-coded:
 - Lectures and discussions appear in <span style="color:#668cd9"><b>blue</b></span>. These are all held on North Campus.
-- In-person office hours held on North Campus appear in <span style="color:#e0c23f"><b>gold</b></span>. These are typically held in a room in either BBB, EECS, or Dow.
+- In-person office hours held on North Campus appear in <span style="color:#e0c23f"><b>gold</b></span>. These are typically held either in the BBB Atrium or a BBB conference room, though occasionally in other North Campus areas.
 - In-person office hours held on Central Campus appear in <span style="color:#3b995b"><b>green</b></span>. These are held in the Shapiro Undergraduate Library, i.e. the "UgLi", in the back of the basement where the desktop computers are.
 - Remote office hours appear in <span style="color:#e6804d"><b>orange</b></span>, and can be accessed at [**this Zoom link**](https://umich.zoom.us/j/95923283134). Only a few of our office hours are being held remotely, so if you’re able to, you’re strongly encouraged to attend in-person.
 
