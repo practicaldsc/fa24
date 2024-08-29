@@ -24,7 +24,8 @@ days:
       - name: LEC 2
         type: lecture
         title: Python and Jupyter Notebooks
-        # blank: resources/lectures/lec02/lec02-blank.pdf
+        html: resources/lectures/lec02/lec02.html
+        github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec02/lec02.ipynb
         # filled: resources/lectures/lec02/lec02-filled.pdf
         # podcast: https://podcast.ucsd.edu/watch/sp24/dsc40a_b00/2
       - name: EX HW
