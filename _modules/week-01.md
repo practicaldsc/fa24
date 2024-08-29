@@ -11,8 +11,6 @@ days:
         html: resources/lectures/lec01/lec01.html
         github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec01/lec01.ipynb
         recording: https://leccap.engin.umich.edu/leccap/player/r/ajQs9f
-        # filled: resources/lectures/lec01/lec01-filled.pdf
-        # podcast: https://podcast.ucsd.edu/watch/sp24/dsc40a_b00/1
         reading: https://learningds.org/ch/01/lifecycle_intro.html
         reading_text: LDS 1
       - name: SUR
@@ -26,8 +24,7 @@ days:
         title: Python and Jupyter Notebooks
         html: resources/lectures/lec02/lec02.html
         github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec02/lec02.ipynb
-        # filled: resources/lectures/lec02/lec02-filled.pdf
-        # podcast: https://podcast.ucsd.edu/watch/sp24/dsc40a_b00/2
+        recording: https://leccap.engin.umich.edu/leccap/player/r/ddOyP8
       - name: EX HW
         type: hw
         title: <b>Example Homework (not due!)</b>
