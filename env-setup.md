@@ -206,3 +206,23 @@ There's a lot more to using Git than we've outlined here. What's here should be 
 ---
 
 Run into any issues? Let us know on Ed.
+
+---
+
+## FAQs
+
+### Issue: Libraries Not Importing Correctly in Jupyter Notebook after Successful Installation
+
+*Problem:*
+A student completed the setup process but encountered issues with importing libraries in Jupyter Notebook. Although the `pds` environment was active, the versions of the libraries did not match those specified in `environment.yml`. The `environment.yml` was confirmed to be in the correct directory.
+
+*Cause:*
+The issue arose because Jupyter was previously installed using `pip`, causing the system to use the Jupyter binary located in `~/.local/bin` instead of the one associated with the `pds` environment. This occurred due to `~/.local/bin` being prioritized in the system’s `$PATH`. (You can check this by running `echo $PATH`)
+
+*Resolution:*
+1. Confirm the problem by running `import sys; print(sys.executable)` in a Jupyter Notebook, which revealed that the incorrect Python executable (`/usr/bin/python`) was being used instead of `miniforge3/envs/pds/bin/python` (which is the Python installed in the `pds` environment).
+2. Uninstall the old versions of Jupyter with `pip uninstall notebook` and `pip uninstall jupyter`. This worked, but the binaries remained in `~/.local/bin`. These were manually removed by `cd`-ing to `~/.local/bin` and running `rm jupyter*`. WARNING: this is dangerous, so only run this if you're confident you're deleting the right files.
+3. Reinstall Jupyter using `conda install jupyter` and `conda install notebook`, which corrected the issue.
+4. [Not everyone will see this error] Finally, an error related to `matplotlib` and `pyparsing` was resolved by running `pip uninstall pyparsing` followed by `pip install pyparsing`.
+
+*Takeaway*: If it looks like the wrong libraries/programs are running, confirm that by running commands like `which jupyter`, `sys.executable`, and `echo $PATH`. Use that information to what to remove or install.
