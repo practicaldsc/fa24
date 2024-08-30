@@ -35,5 +35,6 @@ days:
     events:
       - name: DISC 1
         type: disc
-        title: Environment Setup
+        title: Introductions, Python Review
+        github: https://github.com/practicaldsc/fa24/blob/main/discussions/disc01/disc01.ipynb
 ---
