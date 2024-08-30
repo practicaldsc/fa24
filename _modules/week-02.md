@@ -14,7 +14,8 @@ days:
         title: Pandas, Part 1
       - name: HW 1
         type: hw
-        title: Homework 1
+        title: <b>Python Fundamentals</b>
+        github: https://github.com/practicaldsc/fa24/blob/main/homeworks/hw01/hw01.ipynb
   - date: "2024-09-06"
     events:
       - name: DISC 2
