@@ -226,3 +226,21 @@ The issue arose because Jupyter was previously installed using `pip`, causing th
 4. [Not everyone will see this error] Finally, an error related to `matplotlib` and `pyparsing` was resolved by running `pip uninstall pyparsing` followed by `pip install pyparsing`.
 
 *Takeaway*: If it looks like the wrong libraries/programs are running, confirm that by running commands like `which jupyter`, `sys.executable`, and `echo $PATH`. Use that information to what to remove or install.
+
+### Issue: `(base)` not showing up in Terminal
+
+If it doesn't look like the `(base)` conda environment doesn't seem active, you may have installed `conda` in the past without updating your shell profile. The initial install probably didn't get to that step last time because conda was already installed. If that's the case,
+- Open the user folder on your computer and rename the `miniforge3` folder to `miniforge3-old`.
+- Try running again the instructions: `bash Miniforge3-$(uname)-$(uname -m).sh`, wherever you have the Miniforge3 installer downloaded.
+- When you do it this time, it should ask you about updating your shell profile.
+
+### Issue: "Operation not permitted" when accessing `environment.yml`
+
+Your terminal may not be able to access files on, say `Desktop`, `Downloads`, or `Documents` where `environment.yml` is stored. Try moving `environment.yml` to another folder and trying again.
+
+### Issue: wanting to exit `(base)` on Terminal
+With `mamba` installed, your terminal will permanently say `(base)`, at least for the rest of the semester. There's a command you can run to get rid of that, too, but when you do that you won't be able to `conda activate pds` anymore. Yes, you can still use your Terminal as normal even if it says `(base)`. Here's are [instructions](https://docs.anaconda.com/anaconda/install/uninstall/) to uninstall conda entirely.
+
+### Issue: Tests that should be passing are failing and displaying `np.True_`
+
+You may have the wrong version of `numpy` installed, likely because you ran `pip install numpy` in the past. In a Jupyter cell, run `!pip install numpy==1.26.0`, then restart your kernel and try again. From the terminal, `pip install numpy==1.26.0` will suffice.
