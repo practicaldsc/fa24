@@ -22,11 +22,13 @@
               {% else %}
                 {{ event.title }}
               {% endif %}
-              {%- if event.type == "lecture" or event.type == "review" -%}
-                {%- if event.html -%}
-                <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <small><a href="{{ event.html }}"><button type="button" class="btn btn-info"><small>📝 HTML</small></button></a></small>
+              <div style="margin-left: 2.1cm; line-height: 0.75cm; margin-bottom: -25px;">
+              {%- if event.type == "lecture"-%}
+                {%- if event.blank -%}
+                <small><a href="{{ event.blank }}"><button type="button" class="btn btn-info"><small>📝 blank</small></button></a></small>
+                {%- endif -%}
+                {%- if event.filled -%}
+                <small>&nbsp;&nbsp;<a href="{{ event.filled }}"><button type="button" class="btn btn-info"><small>✍️ filled</small></button></a></small>
                 {%- endif -%}
                 {%- if event.github -%}
                 <small>&nbsp;&nbsp;<a href="{{ event.github }}"><button type="button" class="btn btn-info"><small>💻  GitHub</small></button></a></small>
@@ -43,19 +45,12 @@
                 {%- if event.videos -%}
                 <small>&nbsp;&nbsp;<a href="{{ event.videos }}"><button type="button" class="btn btn-info"><small>⏯️ extra videos</small></button></a></small>
                 {%- endif -%}
-                <!-- {%- if event.faqs -%}
-                <small>&nbsp;&nbsp;<a href="{{ event.faqs }}"><button type="button" class="btn btn-info">🙋 FAQs</button></a></small>
-                {%- endif -%} -->
               {%- endif -%}
               {%- if event.type == "hw" or event.type == "disc" -%}
                 {%- if event.problems -%}
-                <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <small><a href="{{ event.problems }}"><button type="button" class="btn btn-info">📄 problems</button></a></small>
                 {%- endif -%}
                 {%- if event.github -%}
-                <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <small><a href="{{ event.github }}"><button type="button" class="btn btn-info"><small>💻  GitHub</small></button></a></small>
                 {%- endif -%}
                 {%- if event.template -%}
@@ -69,22 +64,10 @@
                 {%- endif -%}
               {%- endif -%}
               {%- if event.note -%}
-              <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>{{ event.note }}</small>
+              <br><small>{{ event.note }}</small>
               {%- endif -%}
+            </div>
             </p>
-            <p>
-              <!-- 
-              {%- if event.filled and event.podcast -%}
-                <span> | </span>
-              {%- endif -%} -->
-              <!-- {%- if event.podcast and event.reading -%}
-                <span> | </span>
-              {%- endif -%} -->
-              <!-- {%- if event.reading -%}
-                {{ event.reading | markdownify | remove: '<p>' | remove: '</p>' }}
-              {%- endif -%} -->
-            </p>
-            <!-- {{ event | first | markdownify }} {{ event | last | markdownify }} -->
           </dd>
         {% endif %}
       {% endfor %}
