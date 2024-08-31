@@ -26,6 +26,8 @@ days:
         github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec02/lec02.ipynb
         recording: https://leccap.engin.umich.edu/leccap/player/r/ddOyP8
         videos: https://youtu.be/IaEuWJCcwjk?feature=shared
+        reading: https://wesmckinney.com/book/python-basics
+        reading_text: PDS 2
       - name: EX HW
         type: hw
         title: <b>Example Homework (not due!)</b>
