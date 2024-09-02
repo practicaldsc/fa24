@@ -10,6 +10,22 @@
   }
 }
 
+.event-links {
+  margin-top: 2px;
+  margin-left: 80px;
+  line-height: 15px;
+}
+
+.event-links .btn {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.btn-sm {
+  font-size: 0.6rem;
+  padding: 0.25rem 0.5rem;
+}
+
 .module-date {
   @extend .card-header;
 }
