@@ -36,6 +36,8 @@ EECS 398-003, Fall 2024 at the <b><span style="background-color: #FFCB05; color:
 {: .green }
 **Welcome to Practical Data Science! 👋**
 
+[Jump to the current week](#week-2-numpy-and-pandas){: .btn }
+
 {% for module in site.modules %}
 {{ module }}
 {% endfor %}
