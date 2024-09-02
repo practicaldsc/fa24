@@ -61,3 +61,39 @@ iframe {
 // }
 
 $link-color: #0066cc;
+
+.aux-nav-list-item a[href*="github.com"]::before {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-image: url("../../assets/site-images/github-mark.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.aux-nav-list-item a[href*="edstem.org"]::before {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-image: url("../../assets/site-images/ed.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.aux-nav-list-item a[href*="gradescope.com"]::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../../assets/site-images/gradescope.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 5px;
+  vertical-align: middle;
+}

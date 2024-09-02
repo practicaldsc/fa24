@@ -11,7 +11,7 @@ days:
     events:
       - name: LEC 4
         type: lecture
-        title: Pandas, Part 1
+        title: Pandas I
       - name: HW 1
         type: hw
         title: <b>Python Fundamentals</b>

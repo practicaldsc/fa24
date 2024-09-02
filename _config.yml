@@ -28,11 +28,11 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
-  💻 GitHub:
+  GitHub:
     - 'https://github.com/practicaldsc/fa24'
-  🙋 Ed:
+  Ed:
     - 'https://edstem.org/us/courses/61012/discussion/'
-  💯 Gradescope:
+  Gradescope:
     - 'https://www.gradescope.com/courses/823979'
   🤔 Lecture Questions:
     - 'https://docs.google.com/forms/d/e/1FAIpQLSd4oliiZYeNh76jWy-arfEtoAkCrVSsobZxPwxifWggo3EO0Q/viewform'
