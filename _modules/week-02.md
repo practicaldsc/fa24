@@ -11,6 +11,7 @@ days:
         github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec03/
         reading: https://wesmckinney.com/book/numpy-basics
         reading_text: PDA 4
+        recording: https://leccap.engin.umich.edu/leccap/player/r/VCo5ns
   - date: "2024-09-05"
     events:
       - name: LEC 4
