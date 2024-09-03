@@ -38,10 +38,6 @@ We're working on putting together a similar site for our course, which will be u
 - [DSC 10 Course Notes](https://notes.dsc10.com). These notes were written for UCSD's more introductory data science course, which introduces Python and Jupyter Notebooks. You'll find a lot of the material here useful, too.
 - [Stanford's Python Reference](https://cs.stanford.edu/people/nick/py/).
 
-<!-- ### Lecture-Specific Readings
-
-- [Fast Permutation Tests](resources/lectures/lec07/lec07-fast-permutation-tests.html).
-- [More Missingness Examples](resources/lectures/lec12/lec12-more-examples.html). -->
 
 ### Articles
 

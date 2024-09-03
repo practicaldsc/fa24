@@ -8,7 +8,7 @@ days:
         type: lecture
         title: Introduction
         note: Come meet the staff from 3-4PM in the diag in front of BBB!
-        blank: resources/lectures/lec01/lec01.html
+        html: resources/lectures/lec01/lec01.html
         github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec01/
         recording: https://leccap.engin.umich.edu/leccap/player/r/ajQs9f
         reading: https://learningds.org/ch/01/lifecycle_intro.html
@@ -22,8 +22,7 @@ days:
       - name: LEC 2
         type: lecture
         title: Python and Jupyter Notebooks
-        blank: resources/lectures/lec02/lec02-blank.html
-        filled: resources/lectures/lec02/lec02-filled.html
+        html: resources/lectures/lec02/lec02-filled.html
         github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec02/
         recording: https://leccap.engin.umich.edu/leccap/player/r/ddOyP8
         videos: https://youtu.be/IaEuWJCcwjk?feature=shared

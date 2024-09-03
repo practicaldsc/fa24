@@ -25,11 +25,8 @@
             </p>
             <div class="event-links">
               {%- if event.type == "lecture" -%}
-                {%- if event.blank -%}
-                <a href="{{ event.blank }}" class="btn btn-info btn-sm">📝 blank</a>
-                {%- endif -%}
-                {%- if event.filled -%}
-                <a href="{{ event.filled }}" class="btn btn-info btn-sm">✍️ filled</a>
+                {%- if event.html -%}
+                <a href="{{ event.html }}" class="btn btn-info btn-sm">📝 filled html</a>
                 {%- endif -%}
                 {%- if event.github -%}
                 <a href="{{ event.github }}" class="btn btn-info btn-sm">{% include icon-github.html %} GitHub</a>

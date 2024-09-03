@@ -183,7 +183,7 @@ repository, [github.com/practicaldsc/fa24](https://github.com/practicaldsc/fa24)
 homepage; you can use these to annotate the lecture notebooks with a tablet, if
 you'd like.
 
-Supplementary readings will be made available on the course homepage, and primarily come from _Learning Data Science_ (LDS), an online textbook freely available at [learningds.org](https://learningds.org). Some readings will come from [notes.dsc80.com](https://notes.dsc80.com), a set of notes that were originally written to supplement the UCSD version of this class. Supplementary readings are not required, in that you won't be tested on anything that appears only in the readings but not in lectures or assignments, but you should still complete them to supplement your understanding!
+Supplementary readings will be made available on the course homepage, drawn from a variety of online resources. Additional supplementary resources can be found in the [Readings](../resources#readings) section of the Resources tab of the course website.
 
 ### Discussions
 

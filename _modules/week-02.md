@@ -7,6 +7,10 @@ days:
       - name: LEC 3
         type: lecture
         title: NumPy
+        html: resources/lectures/lec03/lec03-filled.html
+        github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec03/
+        reading: https://wesmckinney.com/book/numpy-basics
+        reading_text: PDA 4
   - date: "2024-09-05"
     events:
       - name: LEC 4
