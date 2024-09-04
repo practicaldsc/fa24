@@ -146,6 +146,9 @@ There are a few different-looking IDEs in the Jupyter universe, all built on Jup
 - Jupyter Notebook is a more simplistic-looking interface that shows you just one document at a time, without a file explorer on the side. To launch it, use `jupyter notebook`.
 - Jupyter Notebook Classic is the older, more classic Jupyter Notebook interface from before the JupyterLab era. To launch it, use `jupyter nbclassic`.
 
+{: .yellow }
+In some cases, launching a Jupyter notebook from the integrated VSCode Terminal may lead to dependency issues, where `otter`, `numpy`, `pandas`, and other modules may not be able to be imported. To fix this, run commands like `jupyter notebook` from the Terminal app, not the VSCode integrated Terminal.
+
 You can launch the other two interfaces from JupyterLab, by clicking "Open In" in the top right corner of the screen. Suraj personally uses Jupyter Notebook Classic out of habit, but you're encouraged to try out all three and decide which one works best for you.
 
 You can also use [VSCode](https://code.visualstudio.com/) (not the same as Visual Studio) to access your Jupyter Notebooks. If you'd like to do this, then you’ll need to make sure to activate your `pds` conda environment within your notebook in VSCode. Here’s how to do that.
@@ -217,7 +220,9 @@ Run into any issues? Let us know on Ed.
 A student completed the setup process but encountered issues with importing libraries in Jupyter Notebook. Although the `pds` environment was active, the versions of the libraries did not match those specified in `environment.yml`. The `environment.yml` was confirmed to be in the correct directory.
 
 *Cause:*
-The issue arose because Jupyter was previously installed using `pip`, causing the system to use the Jupyter binary located in `~/.local/bin` instead of the one associated with the `pds` environment. This occurred due to `~/.local/bin` being prioritized in the system’s `$PATH`. (You can check this by running `echo $PATH`)
+The issue can arise for two reasons:
+1) Jupyter was launched from the VSCode integrated Terminal. To resolve this, try opening Jupyter from the system Terminal, not the one in VSCode.
+2) Jupyter was previously installed using `pip`, causing the system to use the Jupyter binary located in `~/.local/bin` instead of the one associated with the `pds` environment. This occurred due to `~/.local/bin` being prioritized in the system’s `$PATH`. (You can check this by running `echo $PATH`). The rest of this FAQ concerns this second issue.
 
 *Resolution:*
 1. Confirm the problem by running `import sys; print(sys.executable)` in a Jupyter Notebook, which revealed that the incorrect Python executable (`/usr/bin/python`) was being used instead of `miniforge3/envs/pds/bin/python` (which is the Python installed in the `pds` environment).
