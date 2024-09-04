@@ -221,8 +221,8 @@ A student completed the setup process but encountered issues with importing libr
 
 *Cause:*
 The issue can arise for two reasons:
-1) Jupyter was launched from the VSCode integrated Terminal. To resolve this, try opening Jupyter from the system Terminal, not the one in VSCode.
-2) Jupyter was previously installed using `pip`, causing the system to use the Jupyter binary located in `~/.local/bin` instead of the one associated with the `pds` environment. This occurred due to `~/.local/bin` being prioritized in the system’s `$PATH`. (You can check this by running `echo $PATH`). The rest of this FAQ concerns this second issue.
+1. Jupyter was launched from the VSCode integrated Terminal. To resolve this, try opening Jupyter from the system Terminal, not the one in VSCode.
+2. Jupyter was previously installed using `pip`, causing the system to use the Jupyter binary located in `~/.local/bin` instead of the one associated with the `pds` environment. This occurred due to `~/.local/bin` being prioritized in the system’s `$PATH`. (You can check this by running `echo $PATH`). The rest of this FAQ concerns this second issue.
 
 *Resolution:*
 1. Confirm the problem by running `import sys; print(sys.executable)` in a Jupyter Notebook, which revealed that the incorrect Python executable (`/usr/bin/python`) was being used instead of `miniforge3/envs/pds/bin/python` (which is the Python installed in the `pds` environment).
