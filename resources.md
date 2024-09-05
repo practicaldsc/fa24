@@ -37,6 +37,7 @@ We're working on putting together a similar site for our course, which will be u
 - [Python for Data Analysis](https://wesmckinney.com/book/), an online textbook by Wes Mickinney, the original developer of `pandas`. 
 - [DSC 10 Course Notes](https://notes.dsc10.com). These notes were written for UCSD's more introductory data science course, which introduces Python and Jupyter Notebooks. You'll find a lot of the material here useful, too.
 - [Stanford's Python Reference](https://cs.stanford.edu/people/nick/py/).
+- [EECS 201: Computer Science Pragmatics](https://www.eecs.umich.edu/courses/eecs201/fa2024/schedule). This class covers "the essentials of using a computer effectively for EECS students," and covers Unix-like systems, shells, version control, build systems, debugging, and scripting.
 
 
 ### Articles
