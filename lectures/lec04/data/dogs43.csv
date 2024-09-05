@@ -1,0 +1,44 @@
+breed,kind,lifetime_cost,longevity,size,weight,height
+Brittany,sporting,22589.0,12.92,medium,35.0,19.0
+Cairn Terrier,terrier,21992.0,13.84,small,14.0,10.0
+English Cocker Spaniel,sporting,18993.0,11.66,medium,30.0,16.0
+Cocker Spaniel,sporting,24330.0,12.5,small,25.0,14.5
+Shetland Sheepdog,herding,21006.0,12.53,small,22.0,14.5
+Siberian Husky,working,22049.0,12.58,medium,47.5,21.75
+Lhasa Apso,non-sporting,22031.0,13.92,small,15.0,10.5
+Miniature Schnauzer,terrier,20087.0,11.81,small,15.5,13.0
+Chihuahua,toy,26250.0,16.5,small,5.5,5.0
+English Springer Spaniel,sporting,21946.0,12.54,medium,45.0,19.5
+German Shorthaired Pointer,sporting,25842.0,11.46,large,62.5,24.0
+Pointer,sporting,24445.0,12.42,large,59.5,25.5
+Tibetan Spaniel,non-sporting,25549.0,14.42,small,12.0,10.0
+Labrador Retriever,sporting,21299.0,12.04,medium,67.5,23.0
+Maltese,toy,19084.0,12.25,small,5.0,9.0
+Shih Tzu,toy,21152.0,13.2,small,12.5,9.75
+Irish Setter,sporting,20323.0,11.63,large,65.0,26.0
+Golden Retriever,sporting,21447.0,12.04,medium,60.0,22.75
+Chesapeake Bay Retriever,sporting,16697.0,9.48,large,67.5,23.5
+Tibetan Terrier,non-sporting,20336.0,12.31,small,24.0,15.5
+Gordon Setter,sporting,19605.0,11.1,large,62.5,25.0
+Pug,toy,18527.0,11.0,medium,16.0,16.0
+Norfolk Terrier,terrier,24308.0,13.07,small,12.0,9.5
+English Toy Spaniel,toy,17521.0,10.1,small,11.0,10.0
+Cavalier King Charles Spaniel,toy,18639.0,11.29,small,15.5,12.5
+Basenji,hound,22096.0,13.58,medium,23.0,16.5
+Staffordshire Bull Terrier,terrier,21650.0,12.05,medium,31.0,15.0
+Pembroke Welsh Corgi,herding,23978.0,12.25,small,26.0,11.0
+Clumber Spaniel,sporting,18084.0,10.0,medium,70.0,18.5
+Dandie Dinmont Terrier,terrier,21633.0,12.17,small,21.0,9.0
+Giant Schnauzer,working,26686.0,10.0,large,77.5,25.5
+Scottish Terrier,terrier,17525.0,10.69,small,20.0,10.0
+Kerry Blue Terrier,terrier,17240.0,9.4,medium,36.5,18.5
+Afghan Hound,hound,24077.0,11.92,large,55.0,26.0
+Newfoundland,working,19351.0,9.32,large,125.0,27.0
+Rhodesian Ridgeback,hound,16530.0,9.1,large,77.5,25.5
+Borzoi,hound,16176.0,9.08,large,82.5,28.0
+Bull Terrier,terrier,18490.0,10.21,medium,60.0,21.5
+Alaskan Malamute,working,21986.0,10.67,large,80.0,24.0
+Bloodhound,hound,13824.0,6.75,large,85.0,25.0
+Bullmastiff,working,13936.0,7.57,large,115.0,25.5
+Mastiff,working,13581.0,6.5,large,175.0,30.0
+Saint Bernard,working,20022.0,7.78,large,155.0,26.5
