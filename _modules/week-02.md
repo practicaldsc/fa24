@@ -21,6 +21,7 @@ days:
         github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec04/
         reading: https://learningds.org/ch/06/pandas_subsetting.html
         reading_text: LDS 6.1
+        recording: https://leccap.engin.umich.edu/leccap/player/r/D3Hj4A
       - name: HW 1
         type: hw
         title: <b>Python Fundamentals</b>
