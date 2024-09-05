@@ -42,6 +42,7 @@ We're working on putting together a similar site for our course, which will be u
 
 ### Articles
 
+- [Facts and myths about Python names and values](https://nedbatchelder.com/text/names.html) – good to read if you're confused about how variables and mutability work in Python.
 - [Views and Copies in `pandas`](https://www.practicaldatascience.org/html/views_and_copies_in_pandas.html) – a great read if you'd like to learn more about the infamous `SettingWithCopyWarning`.
 <!-- - [jwilber.me/permutationtest](https://www.jwilber.me/permutationtest/), a great visual explanation of permutation testing. -->
 - [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) and [Model Tuning and the Bias-Variance Tradeoff](http://www.r2d3.us/visual-intro-to-machine-learning-part-2/), excellent visual descriptions of the last few weeks of the course (some terminology is different, but the ideas are the same).
