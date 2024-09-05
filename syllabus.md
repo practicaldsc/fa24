@@ -226,7 +226,7 @@ office hours per week. The vast majority of office hours will be held in-person 
 {: .yellow }
 **We use the term "office hours" but really, office hours are held in a common room where you can come to work on assignments, meet your classmates, and get help from course staff. We don’t bite and we would love to see you in office hours!**
 
-Office hours are your chance to ask for general help, clarification on homeworks, and to review previous homework. Course staff will not tell you if your answer is correct, and it is inappropriate to ask. Here are some really good questions to ask instead:
+Office hours are your chance to ask for general help, clarification on homeworks, and to review previous homeworks. Course staff will not tell you if your answer is correct, and it is inappropriate to ask. Here are some really good questions to ask instead:
 - I got confused about a concept in class. Can you explain it?
 - When the assignment says X, does it mean A or B?
 - My code is giving a weird error - can you help me understand why?
@@ -323,7 +323,7 @@ the deadline, and only the most recent submission will be graded, so it’s a
 good habit to submit early and often.** If you make a submission after the
 deadline, your assignment will be counted as late.
 
-You have **6 "slip days"** to use throughout the homework. A slip day extends
+You have **6 "slip days"** to use throughout the semester. A slip day extends
 the deadline of a homework by 24 hours. **You may use up to 2 slip days on any one homework assignment.**
 
 Slip days are designed to be a transparent and predictable source of leniency
