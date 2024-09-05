@@ -30,5 +30,6 @@ days:
     events:
       - name: DISC 2
         type: disc
-        title: Discussion 2
+        title: Arrays and DataFrames
+        problems: http://study.practicaldsc.org/disc02/index.html
 ---

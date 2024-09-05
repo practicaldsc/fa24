@@ -18,12 +18,12 @@ description: Supplementary resources around the internet – some made for this 
 
 ## Past Exams
 
-While this class specifically hasn't been offered yet, it is inspired by a few different courses that have been offered many times, many of which have banks of old exams available online. In particular, refer to:
+While this class specifically hasn't been offered yet, it is inspired by a few different courses that have been offered many times, many of which have banks of old exams available online. **The most relevant problems will be posted at our brand-new [🧠 Study Site](http://study.practicaldsc.org/), which you'll use in discussion section.**
+
+If you'd like some additional practice, you can refer to:
 - [practice.dsc80.com](https://practice.dsc80.com) – most similar to our course.
 - [practice.dsc40a.com](https://practice.dsc40a.com) – more theoretical than our course, but some problems will be relevant.
 - [practice.dsc10.com](https://practice.dsc10.com) – more introductory-level than our course, but some DataFrame-related problems will be relevant.
-
-We're working on putting together a similar site for our course, which will be used in discussion section. Stay tuned!
 
 ---
 
