@@ -21,6 +21,8 @@ days:
         github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec04/
         reading: https://learningds.org/ch/06/pandas_subsetting.html
         reading_text: LDS 6.1
+        reading2: https://inferentialthinking.com/chapters/09/3/Simulation.html
+        reading2_text: CIT 9.3
         recording: https://leccap.engin.umich.edu/leccap/player/r/D3Hj4A
       - name: HW 1
         type: hw

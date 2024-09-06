@@ -37,6 +37,9 @@
                 {%- if event.reading and event.reading_text -%}
                 <a href="{{ event.reading }}" class="btn btn-info btn-sm">📕 Read: {{ event.reading_text }}</a>
                 {%- endif -%}
+                {%- if event.reading2 and event.reading2_text -%}
+                <a href="{{ event.reading2 }}" class="btn btn-info btn-sm">📕 Read: {{ event.reading2_text }}</a>
+                {%- endif -%}
                 {%- if event.animations -%}
                 <a href="{{ event.animations }}" class="btn btn-info btn-sm">🧮 animations</a>
                 {%- endif -%}

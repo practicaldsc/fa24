@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "⚙️ Environment Setup"
+title: "⚙️ Environment Setup + FAQs"
 nav_order: 4
 description: Instructions on how to set up your computing environment in this course.
 ---
@@ -249,3 +249,19 @@ With `mamba` installed, your Terminal will permanently say `(base)`, at least fo
 ### Issue: Tests that should be passing are failing and displaying `np.True_`
 
 You may have the wrong version of `numpy` installed, likely because you ran `pip install numpy` in the past. In a Jupyter cell, run `!pip install numpy==1.26.0`, then restart your kernel and try again. From the Terminal, `pip install numpy==1.26.0` will suffice.
+
+### Issue: Getting a `RecursionError` when running `grader.check`
+
+This is a convoluted issue. See [here](https://github.com/ucbds-infra/otter-grader/issues/480) for more details, but to fix it, open the following directory:
+
+```
+/Users/<username>/miniforge3/envs/pds/lib/python3.10/site-packages/
+```
+
+and delete the following file (it may not be named exactly this, but it will involve `pdb`, `hijack`, and `.pth`):
+
+```
+PDBPP_HIJACK_PDB.pth
+```
+
+Then, try restarting your kernel and running all of your cells again.
