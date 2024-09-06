@@ -18,7 +18,7 @@ description: Supplementary resources around the internet – some made for this 
 
 ## Past Exams
 
-While this class specifically hasn't been offered yet, it is inspired by a few different courses that have been offered many times, many of which have banks of old exams available online. **The most relevant problems will be posted at our brand-new [🧠 Study Site](http://study.practicaldsc.org/), which you'll use in discussion section.**
+While this class specifically hasn't been offered yet, it is inspired by a few different courses that have been offered many times, many of which have banks of old exams available online. **The most relevant problems will be posted at our brand-new [🧠 Study Site](https://study.practicaldsc.org/), which you'll use in discussion section.**
 
 If you'd like some additional practice, you can refer to:
 - [practice.dsc80.com](https://practice.dsc80.com) – most similar to our course.

@@ -31,5 +31,5 @@ days:
       - name: DISC 2
         type: disc
         title: Arrays and DataFrames
-        problems: http://study.practicaldsc.org/disc02/index.html
+        problems: https://study.practicaldsc.org/disc02/index.html
 ---
