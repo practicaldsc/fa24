@@ -19,7 +19,8 @@ days:
         title: Pandas III and EDA
       - name: HW 2
         type: hw
-        title: Homework 2
+        title: <b>Arrays and DataFrames</b>
+        url: https://github.com/practicaldsc/fa24/blob/main/homeworks/hw02/hw02.ipynb
   - date: "2024-09-13"
     events:
       - name: DIS 3
