@@ -18,6 +18,7 @@ days:
         reading_text: LDS 6.2
         reading2: https://wesmckinney.com/book/data-aggregation
         reading2_text: PDA 10
+        recording: https://leccap.engin.umich.edu/leccap/player/r/AvwZpU
   - date: "2024-09-12"
     events:
       - name: LEC 6
