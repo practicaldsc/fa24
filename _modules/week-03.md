@@ -11,7 +11,13 @@ days:
     events:
       - name: LEC 5
         type: lecture
-        title: Pandas II
+        title: Querying and Grouping
+        html: resources/lectures/lec05/lec05-filled.html
+        github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec05/
+        reading: https://learningds.org/ch/06/pandas_aggregating.html
+        reading_text: LDS 6.2
+        reading2: https://wesmckinney.com/book/data-aggregation
+        reading2_text: PDA 10
   - date: "2024-09-12"
     events:
       - name: LEC 6

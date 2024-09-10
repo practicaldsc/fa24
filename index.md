@@ -25,7 +25,7 @@ EECS 398-003, Fall 2024 at the <b><span style="background-color: #FFCB05; color:
 {% endfor %}
 
 
-[Jump to the current week](#week-2-numpy-and-pandas){: .btn }
+[Jump to the current week](#week-3-pandas-and-exploratory-data-analysis){: .btn }
 
 {% for module in site.modules %}
 {{ module }}
