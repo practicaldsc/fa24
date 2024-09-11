@@ -23,7 +23,13 @@ days:
     events:
       - name: LEC 6
         type: lecture
-        title: Pandas III and EDA
+        title: Grouping, Pivoting, and Merging
+        html: resources/lectures/lec06/lec06-filled.html
+        github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec06/
+        reading: https://learningds.org/ch/06/pandas_joining.html
+        reading_text: LDS 6.3
+        reading2: https://notes.dsc80.com/content/05/introduction.html
+        reading2_text: DSP 5
   - date: "2024-09-13"
     events:
       - name: DIS 3
