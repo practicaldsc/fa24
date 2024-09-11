@@ -27,6 +27,10 @@ color_scheme: um
 search_enabled: true
 heading_anchors: true
 permalink: pretty
+# for sticky scroll
+sass:
+  custom_css: _sass/custom/custom.scss
+
 aux_links:
   GitHub:
     - 'https://github.com/practicaldsc/fa24'

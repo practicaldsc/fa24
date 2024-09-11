@@ -97,3 +97,19 @@ $link-color: #0066cc;
   margin-right: 5px;
   vertical-align: middle;
 }
+
+// header bar sticky scroll
+#main-header {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  // background-color: #333; /* Adjust this to fit your theme */
+  padding: 10px;
+}
+
+/* Adjust for sticky header overlap */
+/* Offset the position of any anchored elements */
+h1, h2, h3, h4, h5, h6 {
+  scroll-margin-top: 80px; /* Adjust based on the height of your sticky toolbar */
+}
