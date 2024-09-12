@@ -30,6 +30,7 @@ days:
         reading_text: LDS 6.3
         reading2: https://notes.dsc80.com/content/05/introduction.html
         reading2_text: DSP 5
+        recording: https://leccap.engin.umich.edu/leccap/player/r/aYdeGq
   - date: "2024-09-13"
     events:
       - name: DIS 3
