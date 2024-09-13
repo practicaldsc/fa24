@@ -19,7 +19,8 @@ days:
         title: Web Scraping and APIs
       - name: HW 3
         type: hw
-        title: Homework 3
+        title: <b>Grouping, Pivoting, and Merging</b>
+        github: https://github.com/practicaldsc/fa24/blob/main/homeworks/hw03/hw03.ipynb
   - date: "2024-09-20"
     events:
       - name: DIS 4
