@@ -35,7 +35,7 @@ days:
     events:
       - name: DIS 3
         type: disc
-        title: Querying, Pivoting, and Merging
+        title: Grouping, Pivoting, and Merging
         problems: https://study.practicaldsc.org/disc03/index.html
       - name: HW 2
         type: hw
