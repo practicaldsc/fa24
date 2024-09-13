@@ -4,9 +4,9 @@ weekNumber: 3
 days:
   # - date: "2024-09-09"
   #   events:
-      # - name: CHK 2
-      #   type: checkpoint
-      #   title: Checkpoint 2
+  # - name: CHK 2
+  #   type: checkpoint
+  #   title: Checkpoint 2
   - date: "2024-09-10"
     events:
       - name: LEC 5
@@ -36,10 +36,10 @@ days:
       - name: DIS 3
         type: disc
         title: Discussion 3
+        problems: https://study.practicaldsc.org/disc03/index.html
       - name: HW 2
         type: hw
         title: <b>Arrays and DataFrames</b>
         note: Note the 24 hour extension!
         github: https://github.com/practicaldsc/fa24/blob/main/homeworks/hw02/hw02.ipynb
-
 ---
