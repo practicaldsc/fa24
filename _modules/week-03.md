@@ -1,5 +1,5 @@
 ---
-title: "Week 3: Pandas and Exploratory Data Analysis"
+title: "Week 3: More Pandas"
 weekNumber: 3
 days:
   # - date: "2024-09-09"

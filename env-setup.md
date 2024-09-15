@@ -265,3 +265,23 @@ PDBPP_HIJACK_PDB.pth
 ```
 
 Then, try restarting your kernel and running all of your cells again.
+
+### Issue: Can't access the debugger
+
+A student on Ed asked:
+
+> Is there a way to do line by line debugging in Jupyter Notebooks? I want to be able to see the values of the code I'm running as it runs in each cell.
+
+There's actually a debugger built into Jupyter Lab. You might be able to access it here, by clicking the bug:
+
+<center>
+<img src="../assets/site-images/debugger.png" width="50%">
+</center>
+
+Unfortunately, it is often greyed out by default. To enable it, go to this file on your computer, but replace `surajrampure` with your username:
+
+```
+/Users/surajrampure/miniforge3/envs/pds/share/jupyter/kernels/python3/kernel.json
+```
+
+Open it, and edit `"debugger": false` to be `"debugger": true`. Once you save and close the file, and restart Jupyter Lab, the debugger should work!

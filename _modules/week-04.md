@@ -1,5 +1,5 @@
 ---
-title: "Week 4: Web Scraping and APIs"
+title: "Week 4: Data Cleaning and Web Scraping"
 weekNumber: 4
 days:
   # - date: "2024-09-16"
@@ -11,7 +11,7 @@ days:
     events:
       - name: LEC 7
         type: lecture
-        title: Pandas IV
+        title: Data Cleaning and EDA
   - date: "2024-09-19"
     events:
       - name: LEC 8
