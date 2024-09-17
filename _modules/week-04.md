@@ -11,7 +11,11 @@ days:
     events:
       - name: LEC 7
         type: lecture
-        title: Data Cleaning and EDA
+        title: EDA, Data Cleaning, and Visualization
+        html: resources/lectures/lec07/lec07-filled.html
+        github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec07/
+        reading: https://learningds.org/ch/10/eda_intro.html
+        reading_text: LDS 10
   - date: "2024-09-19"
     events:
       - name: LEC 8
