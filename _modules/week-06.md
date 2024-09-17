@@ -11,12 +11,12 @@ days:
     events:
       - name: LEC 11
         type: lecture
-        title: Text Processing
+        title: Regular Expressions
   - date: "2024-10-03"
     events:
       - name: LEC 12
         type: lecture
-        title: Midterm Review
+        title: Text Processing
       - name: HW 5
         type: hw
         title: Homework 5

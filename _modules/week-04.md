@@ -1,5 +1,5 @@
 ---
-title: "Week 4: Data Cleaning and Web Scraping"
+title: "Week 4: Exploratory Data Analysis"
 weekNumber: 4
 days:
   # - date: "2024-09-16"
@@ -16,11 +16,12 @@ days:
         github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec07/
         reading: https://learningds.org/ch/10/eda_intro.html
         reading_text: LDS 10
+        recording: https://leccap.engin.umich.edu/leccap/player/r/bRZE6K
   - date: "2024-09-19"
     events:
       - name: LEC 8
         type: lecture
-        title: Web Scraping and APIs
+        title: More Visualization, Missing Values
       - name: HW 3
         type: hw
         title: <b>Grouping, Pivoting, and Merging</b>

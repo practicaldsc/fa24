@@ -1,5 +1,5 @@
 ---
-title: "Week 7: Midterm Exam<br><small>Note that lecture on Tuesday is cancelled, due to the Midterm Exam on Wednesday.</small>"
+title: "Week 7: Midterm Exam"
 weekNumber: 7
 days:
   # - date: "2024-10-07"
@@ -9,7 +9,7 @@ days:
       #   title: Checkpoint 6
   - date: "2024-10-08"
     events:
-      - title: "No Lecture: Day Before Exam 📝"
+      - title: "Midterm Review"
   - date: "2024-10-09"
     events:
       - name: EXAM

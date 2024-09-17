@@ -1,5 +1,5 @@
 ---
-title: "Week 5: Regular Expressions"
+title: "Week 5: Web Scraping and APIs"
 weekNumber: 5
 days:
   # - date: "2024-09-23"
@@ -11,12 +11,12 @@ days:
     events:
       - name: LEC 9
         type: lecture
-        title: APIs, Spreadsheets, and SQL
+        title: Web Scraping and APIs
   - date: "2024-09-26"
     events:
       - name: LEC 10
         type: lecture
-        title: Regular Expressions
+        title: APIs, Spreadsheets, and SQL
       - name: HW 4
         type: hw
         title: Homework 4
