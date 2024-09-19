@@ -22,6 +22,15 @@ days:
       - name: LEC 8
         type: lecture
         title: More Visualization, Missing Values
+        html: resources/lectures/lec08/lec08-filled.html
+        extra: resources/lectures/lec08/lec08-extra.html
+        extra_text: more visualization examples
+        github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec08/
+        reading: https://learningds.org/ch/11/viz_intro.html
+        reading_text: LDS 11
+        reading2: https://stefvanbuuren.name/fimd/sec-MCAR.html
+        reading2_text: Missingness
+        videos: https://ds100.org/su20/lecture/lec10/
       - name: HW 3
         type: hw
         title: <b>Grouping, Pivoting, and Merging</b>

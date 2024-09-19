@@ -28,6 +28,9 @@
                 {%- if event.html -%}
                 <a href="{{ event.html }}" class="btn btn-info btn-sm">📝 filled html</a>
                 {%- endif -%}
+                {%- if event.extra -%}
+                <a href="{{ event.extra }}" class="btn btn-info btn-sm">🎁 {{ event.extra_text }}</a>
+                {%- endif -%}
                 {%- if event.github -%}
                 <a href="{{ event.github }}" class="btn btn-info btn-sm">{% include icon-github.html %} GitHub</a>
                 {%- endif -%}
