@@ -39,12 +39,10 @@ If you'd like some additional practice, you can refer to:
 - [Stanford's Python Reference](https://cs.stanford.edu/people/nick/py/).
 - [EECS 201: Computer Science Pragmatics](https://www.eecs.umich.edu/courses/eecs201/fa2024/schedule). This class covers "the essentials of using a computer effectively for EECS students," and covers Unix-like systems, shells, version control, build systems, debugging, and scripting.
 
-
 ### Articles
 
 - [Facts and myths about Python names and values](https://nedbatchelder.com/text/names.html) – good to read if you're confused about how variables and mutability work in Python.
 - [Views and Copies in `pandas`](https://www.practicaldatascience.org/html/views_and_copies_in_pandas.html) – a great read if you'd like to learn more about the infamous `SettingWithCopyWarning`.
-<!-- - [jwilber.me/permutationtest](https://www.jwilber.me/permutationtest/), a great visual explanation of permutation testing. -->
 - [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) and [Model Tuning and the Bias-Variance Tradeoff](http://www.r2d3.us/visual-intro-to-machine-learning-part-2/), excellent visual descriptions of the last few weeks of the course (some terminology is different, but the ideas are the same).
 - [MLU Explain](https://mlu-explain.github.io/), a collection of interactive articles (prepared by [Jared Wilber](https://www.jwilber.me/)) that explain core machine learning ideas, like cross-validation, random forests, and precision and recall.
 
@@ -54,12 +52,23 @@ If you'd like some additional practice, you can refer to:
 
 ---
 
-## Regular Expressions
+## Topic-Specific Resources
+
+### Visualization
+- [UC Berkeley Data 100 Lecture 10 (by Suraj)](https://ds100.org/su20/lecture/lec10).
+- [UCSD DSC 106: Data Visualization](https://dsc-courses.github.io/dsc106-wi24).
+- [UW CSE 442: Data Visualization](https://courses.cs.washington.edu/courses/cse442/23au/).
+
+### Missing Values
+
+- [Concepts of MCAR, MAR and MNAR](https://stefvanbuuren.name/fimd/sec-MCAR.html)/
+
+
+### Regular Expressions
 
 - [regex101.com](https://regex101.com), a helpful site to have open while writing regular expressions.
 - Python [`re` library documentation](https://docs.python.org/3/library/re.html) and [how-to](https://docs.python.org/3/howto/regex.html).
 - [regex "cheat sheet"](https://dsc80.com/resources/other/berkeley-regex-reference.pdf) (taken from [here](https://ds100.org/sp22/resources/)).
-
 
 ---
 
