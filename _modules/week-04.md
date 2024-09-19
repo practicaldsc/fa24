@@ -30,6 +30,7 @@ days:
         reading_text: LDS 11
         reading2: https://stefvanbuuren.name/fimd/sec-MCAR.html
         reading2_text: Missingness
+        recording: https://leccap.engin.umich.edu/leccap/player/r/kqf8Ju
         videos: https://ds100.org/su20/lecture/lec10/
       - name: HW 3
         type: hw
