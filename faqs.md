@@ -1,13 +1,13 @@
 ---
 layout: page
-title: 🙋 FAQs (new)
+title: 🙋 FAQs (new!)
 description: Answers to frequently asked questions each week.
 nav_order: 7
 ---
 
 # 🙋FAQs
 
-Moving forward, we're going to **try** and update this page each week to provide answers to questions asked (1) live in lecture, (2) at [practicaldsc.org/q](practicaldsc.org/q) during lecture, and (3) on Ed. If you have other related questions, feel free to post them on Ed.
+Moving forward, we're going to **try** and update this page each week to provide answers to questions asked (1) live in lecture, (2) at [practicaldsc.org/q](https://practicaldsc.org/q) during lecture, and (3) on Ed. If you have other related questions, feel free to post them on Ed.
 
 Jump to:
 
