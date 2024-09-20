@@ -40,5 +40,6 @@ days:
     events:
       - name: DIS 4
         type: disc
-        title: Discussion 4
+        title: Visualization, Missing Values, More Practice
+        problems: https://study.practicaldsc.org/disc04/index.html
 ---
