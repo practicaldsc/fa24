@@ -19,7 +19,8 @@ days:
         title: APIs, Spreadsheets, and SQL
       - name: HW 4
         type: hw
-        title: Homework 4
+        title: <b>Exploratory Data Analysis and Missing Values</b>
+        github: https://github.com/practicaldsc/fa24/blob/main/homeworks/hw04/hw04.ipynb
   - date: "2024-09-27"
     events:
       - name: DIS 5

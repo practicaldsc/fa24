@@ -1,6 +1,6 @@
 ---
 name: Neeru Uppalapati
-role: Grader
+role: TA
 pronouns: he/him
 email: neeru@umich.edu
 photo: ../assets/staff-images/neeru.png

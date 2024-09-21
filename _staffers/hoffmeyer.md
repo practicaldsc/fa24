@@ -1,6 +1,6 @@
 ---
 name: Kyle Hoffmeyer
-role: TA
+role: Alumni
 pronouns: he/him
 email: hoffkyle@umich.edu
 photo: ../assets/staff-images/kyle.jpg

@@ -27,3 +27,10 @@ nav_order: 6
 {% for staffer in tas %}
 {{ staffer }}
 {% endfor %}
+
+## Alumni
+
+{% assign tas = site.staffers | where: 'role', 'Alumni' %}
+{% for staffer in tas %}
+{{ staffer }}
+{% endfor %}
