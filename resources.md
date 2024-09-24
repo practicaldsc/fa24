@@ -80,7 +80,7 @@ There are lots of readings linked on the course website. Here, we're collecting 
 
 ## Finding Datasets
 
-### Generic sources of data
+### Generic Sources of Data
 
 These sites allow you to search for datasets (in CSV format) from a variety of different domains. Some may require you to sign up for an account; these are generally reputable sources.
 
@@ -98,7 +98,7 @@ These sites allow you to search for datasets (in CSV format) from a variety of d
 - [Sage Research Methods Datasets](https://methods.sagepub.com/datasets).
 - [Links to even more sources](https://rockcontent.com/blog/data-sources/).
 
-### Domain-specific sources of data
+### Domain-Specific Sources of Data
 
 - Sports: [Basketball Reference](https://www.basketball-reference.com/), [Baseball Reference](https://www.baseball-reference.com/), etc.
 - US Government Sources: [census.gov](https://www.census.gov/data/tables.html), [data.gov](https://www.data.gov/), [data.ca.gov](https://data.ca.gov/), [data.sfgov.org](https://data.sfgov.org/browse?), [FBI’s Crime Data Explorer](https://crime-data-explorer.fr.cloud.gov/), [Centers for Disease Control and Prevention](https://data.cdc.gov/browse?category=NCHS).
