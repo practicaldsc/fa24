@@ -18,6 +18,7 @@ days:
         reading_text: LDS 14.3
         reading2: https://notes.dsc80.com/content/07/html.html
         reading2_text: DSP 7.3
+        note: Looking for other sources of data for personal projects? Check out our <a href="resources#Finding-Data">Resources</a> page.
         # recording: https://leccap.engin.umich.edu/leccap/player/r/kqf8Ju
   - date: "2024-09-26"
     events:
