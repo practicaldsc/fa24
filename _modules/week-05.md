@@ -11,7 +11,14 @@ days:
     events:
       - name: LEC 9
         type: lecture
-        title: Web Scraping and APIs
+        title: Web Scraping
+        html: resources/lectures/lec09/lec09-filled.html
+        github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec09/
+        reading: https://learningds.org/ch/14/web_http.html
+        reading_text: LDS 14.3
+        reading2: https://notes.dsc80.com/content/07/html.html
+        reading2_text: DSP 7.3
+        # recording: https://leccap.engin.umich.edu/leccap/player/r/kqf8Ju
   - date: "2024-09-26"
     events:
       - name: LEC 10

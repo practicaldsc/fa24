@@ -25,7 +25,7 @@ EECS 398-003, Fall 2024 at the <b><span style="background-color: #FFCB05; color:
 {% endfor %}
 
 
-[Jump to the current week](#week-4-exploratory-data-analysis){: .btn }
+[Jump to the current week](#week-5-web-scraping-and-apis){: .btn }
 
 {% for module in site.modules %}
 {{ module }}
