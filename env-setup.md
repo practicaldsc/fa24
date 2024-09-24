@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "⚙️ Environment Setup + FAQs"
+title: "⚙️ Environment Setup"
 nav_order: 4
 description: Instructions on how to set up your computing environment in this course.
 ---
@@ -212,7 +212,7 @@ Run into any issues? Let us know on Ed.
 
 ---
 
-## FAQs
+## Troubleshooting
 
 ### Issue: Libraries not importing correctly in Jupyter Notebook after successful installation
 
