@@ -120,9 +120,10 @@ The university library system maintains several guides on how to conduct researc
 - Guide on [Geospatial Data](https://guides.lib.umich.edu/c.php?g=283021&p=1885741).
     - Guide on [Detroit Maps](https://guides.lib.umich.edu/detroitmaps).
 - Guide on [Political Science Data](https://guides.lib.umich.edu/polisci).
+    - Watch [this video](https://www.mivideo.it.umich.edu/media/t/1_7fy6i5ze) for guidance on how to search for Political Science data.
 - Guide on [News Data](https://guides.lib.umich.edu/news).
 - General [Engineering](https://guides.lib.umich.edu/engineering) and [Computer Science](https://guides.lib.umich.edu/cse) research guides.
 
-If you have questions about how to use any of these guides, or how to use any of the other resources our library has to offer, contact Sarah Barbrow (sbarbrow@umich.edu), our Engineering librarian!
+If you have questions about how to use any of these guides, or how to use any of the other resources our library has to offer, contact Sarah Barbrow (sbarbrow@umich.edu), our Engineering librarian (who also recorded [this video](https://www.mivideo.it.umich.edu/media/t/1_7fy6i5ze), of interest to students who are looking to get into social sciences research)!
 
 ---

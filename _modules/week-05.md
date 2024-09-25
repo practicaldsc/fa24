@@ -30,6 +30,7 @@ days:
         type: hw
         title: <b>Exploratory Data Analysis and Missing Values</b>
         github: https://github.com/practicaldsc/fa24/blob/main/homeworks/hw04/hw04.ipynb
+        note: Watch <a href="https://www.loom.com/share/58287a89121545fdbd0131d22c2d9c94?sid=10e6190f-4988-40d8-b999-c63c30101693"><b>this video</b></a> before submitting Homework 4!
   - date: "2024-09-27"
     events:
       - name: DIS 5
