@@ -20,12 +20,17 @@ days:
         reading2_text: DSP 7.3
         note: Looking for other sources of data for personal projects? Check out our <a href="resources#finding-datasets">Resources</a> page.
         recording: https://leccap.engin.umich.edu/leccap/player/r/OXKEO2
-        # recording: https://leccap.engin.umich.edu/leccap/player/r/kqf8Ju
   - date: "2024-09-26"
     events:
       - name: LEC 10
         type: lecture
         title: APIs, Spreadsheets, and SQL
+        html: resources/lectures/lec10/lec10-filled.html
+        github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec10/
+        reading: https://learningds.org/ch/07/sql_intro.html?highlight=sql
+        reading_text: LDS 7
+        reading2: https://learningds.org/ch/14/web_json.html?highlight=api
+        reading2_text: LDS 14.2
       - name: HW 4
         type: hw
         title: <b>Exploratory Data Analysis and Missing Values</b>
