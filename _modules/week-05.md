@@ -31,6 +31,7 @@ days:
         reading_text: LDS 7
         reading2: https://learningds.org/ch/14/web_json.html?highlight=api
         reading2_text: LDS 14.2
+        recording: https://leccap.engin.umich.edu/leccap/player/r/eapSNe
       - name: HW 4
         type: hw
         title: <b>Exploratory Data Analysis and Missing Values</b>
