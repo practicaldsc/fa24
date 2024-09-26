@@ -17,6 +17,21 @@ Jump to:
 
 ## DataFrame Manipulation
 
+### Why does `round`ing 0.5 sometimes round down?
+#### Question
+Sometimes when I try use `Series.round()` or `np.round()` on a number that's exactly x.5, it rounds **down**—why is this?
+
+#### Answer
+This is expected behavior by `pandas` and `numpy` ([documentation](https://numpy.org/doc/stable/reference/generated/numpy.round.html#numpy.round:~:text=For%20values%20exactly%20halfway%20between%20rounded%20decimal%20values%2C%20NumPy%20rounds%20to%20the%20nearest%20even%20value.%20Thus%201.5%20and%202.5%20round%20to%202.0%2C%20%2D0.5%20and%200.5%20round%20to%200.0%2C%20etc.)), even though Python's `round()` function does not do this:
+> For values exactly halfway between rounded decimal values, NumPy rounds to the _nearest even value_. Thus 1.5 and 2.5 round to 2.0, -0.5 and 0.5 round to 0.0, etc.
+
+<img src="/assets/site-images/pandas-rounding.png" alt="Illustration of Pandas series rounding" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+One reason to do this is to avoid biasing a dataset's average upwards by always rounding up at 0.5. From a great [StackOverflow answer](https://stackoverflow.com/a/68788317):
+> This kind of rounding is called rounding to even (or banker’s rounding). It is the case because if we always round 0.5 up to the next largest number, then the average of a large data set rounded numbers is likely to be slightly larger than the average of the unrounded numbers: this bias or drift can have very bad effects on some numerical algorithms and make them inaccurate.
+
+
+
 ### Why do we pass in just `iqr` to `agg`?
 
 #### Question 
