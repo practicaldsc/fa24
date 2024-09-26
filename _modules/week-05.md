@@ -4,9 +4,9 @@ weekNumber: 5
 days:
   # - date: "2024-09-23"
   #   events:
-      # - name: CHK 4
-      #   type: checkpoint
-      #   title: Checkpoint 4
+  # - name: CHK 4
+  #   type: checkpoint
+  #   title: Checkpoint 4
   - date: "2024-09-24"
     events:
       - name: LEC 9
@@ -41,5 +41,6 @@ days:
     events:
       - name: DIS 5
         type: disc
-        title: Discussion 5
+        title: Web Scraping
+        problems: https://study.practicaldsc.org/disc05/index.html
 ---
