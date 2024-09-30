@@ -9,12 +9,12 @@ days:
         # title: Checkpoint 7
   - date: "2024-10-22"
     events:
-      - name: LEC 15
+      - name: LEC 16
         type: lecture
         title: Simple Linear Regression
   - date: "2024-10-24"
     events:
-      - name: LEC 16
+      - name: LEC 17
         type: lecture
         title: Multiple Linear Regression through Linear Algebra
       - name: HW 7

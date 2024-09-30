@@ -9,7 +9,9 @@ days:
       #   title: Checkpoint 6
   - date: "2024-10-08"
     events:
-      - title: "Midterm Review"
+      - name: LEC 13
+        type: lecture
+        title: Midterm Review
   - date: "2024-10-09"
     events:
       - name: EXAM
@@ -17,7 +19,7 @@ days:
         title: <b>Midterm Exam (7-9PM)</b>
   - date: "2024-10-10"
     events:
-      - name: LEC 13
+      - name: LEC 14
         type: lecture
         title: Inference and A/B Testing
   - date: "2024-10-11"

@@ -9,12 +9,12 @@ days:
         # title: Checkpoint 9
   - date: "2024-11-05"
     events:
-      - name: LEC 19
+      - name: LEC 20
         type: lecture
         title: Generalization
   - date: "2024-11-07"
     events:
-      - name: LEC 20
+      - name: LEC 21
         type: lecture
         title: Regularization and Cross-Validation
       - name: HW 9
