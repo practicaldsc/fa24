@@ -10,7 +10,7 @@ days:
         html: resources/lectures/lec11/lec11-filled.html
         github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec11/
         reading: https://learningds.org/ch/13/text_regex.html?highlight=regular%20expressions
-        reading_text: LDS 13.2-13.3
+        reading_text: LDS 13.3
   - date: "2024-10-03"
     events:
       - name: LEC 12
