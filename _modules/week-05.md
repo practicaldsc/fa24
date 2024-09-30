@@ -32,6 +32,8 @@ days:
         reading2: https://learningds.org/ch/14/web_json.html?highlight=api
         reading2_text: LDS 14.2
         recording: https://leccap.engin.umich.edu/leccap/player/r/eapSNe
+        videos: https://www.loom.com/share/eb06b185428542c391f21e55480a0d2d?sid=21ac597b-b8e5-4b3b-8c09-a3a3d7d5a219
+        note: The extra video linked above walks through the spreadsheets section of the lecture. The Google Sheet used in the video is linked <a href="https://docs.google.com/spreadsheets/d/15RspFWbO_x7PHOJHc-DuyhTrQOlJ66nIKRBIkHBfcyM/edit?gid=0#gid=0">here</a>.
       - name: HW 4
         type: hw
         title: <b>Exploratory Data Analysis and Missing Values</b>
