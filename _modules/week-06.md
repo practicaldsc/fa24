@@ -11,6 +11,7 @@ days:
         github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec11/
         reading: https://learningds.org/ch/13/text_regex.html?highlight=regular%20expressions
         reading_text: LDS 13.3
+        recording: https://leccap.engin.umich.edu/leccap/player/r/cLPbN6
   - date: "2024-10-03"
     events:
       - name: LEC 12
