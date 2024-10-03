@@ -16,7 +16,13 @@ days:
     events:
       - name: LEC 12
         type: lecture
-        title: Text Processing
+        title: Text as Data
+        html: resources/lectures/lec12/lec12-filled.html
+        github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec12/
+        reading: https://notes.dsc80.com/content/08/nlp.html
+        reading_text: DSP 8.2
+        reading2: https://learningds.org/ch/13/text_sotu.html
+        reading2_text: LDS 13.4
       - name: HW 5
         type: hw
         title: <b>Web Scraping and APIs</b>

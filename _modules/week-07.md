@@ -2,11 +2,11 @@
 title: "Week 7: Midterm Exam"
 weekNumber: 7
 days:
-  # - date: "2024-10-07"
-  #   events:
-      # - name: CHK 6
-      #   type: checkpoint
-      #   title: Checkpoint 6
+  - date: "2024-10-07"
+    events:
+      - name: REV
+        type: review
+        title: Midterm Exam Review (6-8PM, FXB 1109)
   - date: "2024-10-08"
     events:
       - name: LEC 13
