@@ -29,4 +29,5 @@ days:
       - name: DIS 6
         type: disc
         title: Discussion 6
+        problems: https://study.practicaldsc.org/disc06/index.html
 ---
