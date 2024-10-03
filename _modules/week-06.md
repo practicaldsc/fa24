@@ -28,6 +28,6 @@ days:
     events:
       - name: DIS 6
         type: disc
-        title: Discussion 6
+        title: Regular Expressions and Text Features
         problems: https://study.practicaldsc.org/disc06/index.html
 ---
