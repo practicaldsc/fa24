@@ -6,12 +6,13 @@ days:
     events:
       - name: REV
         type: review
-        title: Midterm Exam Review (6-8PM, FXB 1109)
+        title: Midterm Review (6-8PM, FXB 1109, led by TAs, **recorded**)
+        note: We've submitted a request to have this session be recorded too, but we haven't heard back yet.
   - date: "2024-10-08"
     events:
       - name: LEC 13
         type: lecture
-        title: Midterm Review
+        title: Midterm Review (during lecture, led by Suraj)
   - date: "2024-10-09"
     events:
       - name: EXAM
@@ -19,9 +20,7 @@ days:
         title: <b>Midterm Exam (7-9PM)</b>
   - date: "2024-10-10"
     events:
-      - name: LEC 14
-        type: lecture
-        title: Inference and A/B Testing
+      - title: "No Lecture: (Early) Fall Break 🍁"
   - date: "2024-10-11"
     events:
       - title: "No Discussion: (Early) Fall Break 🍁"

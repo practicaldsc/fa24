@@ -9,12 +9,12 @@ days:
       #   title: Checkpoint 10
   - date: "2024-11-12"
     events:
-      - name: LEC 22
+      - name: LEC 21
         type: lecture
         title: Decision Trees and Random Forests
   - date: "2024-11-14"
     events:
-      - name: LEC 23
+      - name: LEC 22
         type: lecture
         title: Gradient Descent
       - name: HW 10

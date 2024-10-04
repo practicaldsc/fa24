@@ -9,12 +9,12 @@ days:
       #   title: Checkpoint 11
   - date: "2024-11-19"
     events:
-      - name: LEC 24
+      - name: LEC 23
         type: lecture
         title: Gradient Descent, Continued
   - date: "2024-11-21"
     events:
-      - name: LEC 25
+      - name: LEC 24
         type: lecture
         title: Logistic Regression
       - name: HW 11

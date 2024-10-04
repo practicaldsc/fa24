@@ -7,7 +7,7 @@ days:
       - title: "No Lecture: Fall Break 🍁"
   - date: "2024-10-17"
     events:
-      - name: LEC 15
+      - name: LEC 14
         type: lecture
         title: Introduction to Modeling
       - name: HW 6

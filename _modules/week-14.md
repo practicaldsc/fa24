@@ -9,7 +9,7 @@ days:
       #   title: Checkpoint 13
   - date: "2024-11-26"
     events:
-      - name: LEC 26
+      - name: LEC 25
         type: lecture
         title: Logistic Regression, Continued
   - date: "2024-11-28"

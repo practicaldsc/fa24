@@ -9,12 +9,12 @@ days:
       #   title: Checkpoint 8
   - date: "2024-10-29"
     events:
-      - name: LEC 18
+      - name: LEC 17
         type: lecture
         title: More Regression
   - date: "2024-10-31"
     events:
-      - name: LEC 19
+      - name: LEC 18
         type: lecture
         title: Feature Engineering
       - name: HW 8

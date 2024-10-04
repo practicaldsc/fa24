@@ -9,12 +9,12 @@ days:
       #   title: Checkpoint 14
   - date: "2024-12-03"
     events:
-      - name: LEC 27
+      - name: LEC 26
         type: lecture
         title: Clustering
   - date: "2024-12-05"
     events:
-      - name: LEC 28
+      - name: LEC 27
         type: lecture
         title: Conclusion
       - name: HW 12
