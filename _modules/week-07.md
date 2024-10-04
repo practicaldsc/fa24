@@ -6,7 +6,7 @@ days:
     events:
       - name: REV
         type: review
-        title: Midterm Review (6-8PM, FXB 1109, led by TAs, **recorded**)
+        title: Midterm Review (6-8PM, FXB 1109, led by TAs, <b>recorded</b>)
         note: We've submitted a request to have this session be recorded too, but we haven't heard back yet.
   - date: "2024-10-08"
     events:
