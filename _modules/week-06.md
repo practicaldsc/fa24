@@ -23,6 +23,7 @@ days:
         reading_text: DSP 8.2
         reading2: https://learningds.org/ch/13/text_sotu.html
         reading2_text: LDS 13.4
+        recording: https://leccap.engin.umich.edu/leccap/player/r/Zs5a1f
       - name: HW 5
         type: hw
         title: <b>Web Scraping and APIs</b>
