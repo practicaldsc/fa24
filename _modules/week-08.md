@@ -12,7 +12,8 @@ days:
         title: Introduction to Modeling
       - name: HW 6
         type: hw
-        title: Homework 6
+        title: <b>SQL, Regular Expressions, and GPTEECS</b>
+        github: https://github.com/practicaldsc/fa24/blob/main/homeworks/hw06/hw06.ipynb
   - date: "2024-10-18"
     events:
       - name: DIS 7
