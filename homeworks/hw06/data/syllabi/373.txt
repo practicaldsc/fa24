@@ -1,0 +1,61 @@
+Course Catalog Description:
+This course focuses on the principles of designing application-specific computer systems that interact with the physical world. Topics covered included memory-mapped I/O, interrupts, analog interfacing, microprocessors, reconfigurable hardware, sensors, and actuators. Lectures will focus broadly on principles of embedded systems and microcontrollers. The labs will illustrate these principles using an ARM Cortex M3 based development kit. The class will culminate in a final project where teams of students will apply what they have learned to design, build, and test an open-ended and substantial student-defined project. Lecture & Lab - Credits: 4
+
+Prerequisites
+EECS 270
+EECS 370
+Junior standing or above
+Having taken the prerequisites of EECS 270 and EECS 370 implies students have also taken EECS 280. To be successful in EECS 373 students should be familiar with: (on the hardware side) Boolean algebra, gates, multiplexers, flip-flops, and finite-state machines, (on the computer architecture side) assembly language, pipelining, memory, and caching, and (on the software side) program control structures (if/then/else, while and for loops), functions, procedures, parameter passing, pointer-based data structures, and basic structured programming techniques (information hiding, modular programming, etc.).
+
+Learning Outcomes
+There are a number of educational goals for EECS 373, the primary ones are:
+
+Learning the basics of embedded systems including hardware/software interfacing
+Learning about computer architecture outside of the CPU core
+Design and implementation of non-trivial projects involving both hardware and software
+Grading
+The following gives the grade breakdown lecture and labs components.
+
+            Overall breakdown:
+            Item                  Weight         
+            ======                =========
+            Class Participation     4%
+            Homework                9%
+            Labs (7)               24% 
+            Exam 1                 15%
+            Exam 2                 15%
+            Oral Presentation       5%
+            Final Project          28%
+
+        
+General Policy & Honor code
+All students in the class are presumed to be decent and honorable, and all students in the class are bound by the College of Engineering Honor Code. Your primary goal should be to learn and master the material in the course so that you can be productive, effective, and knowledgeable engineers and scientists! Grades should only be a reflection of the level of knowledge you have gained not a goal until itself.
+
+You may not seek to gain an unfair advantage over your fellow students; you are also not allowed to possess, look at, use, or in any way derive advantage from the existence of code, lab reports, or other material prepared in prior years; and you must appropriately acknowledge your use of another’s work. Any violation of the honor policies appropriate to each piece of course work will be reported to the Honor Council.
+
+Exams
+Each student must complete the exam solely by their own efforts. Questions can be asked only of the course instructors. The exam must be completed within the specified time. Instructions on acceptable calculators and notes will be given before the exam. Exams will consist of two midterms given early in the semester to allow for an extended amount of time for the final project. As such, there is no final exam for this class.
+
+Homework (Limited collaboration):
+You may discuss homework assignments with your fellow students at the conceptual level, but you must complete all calculations and write-ups, from scratch to final form, on your own. Verbatim copying of another student’s work is forbidden. You may not consult homework solutions from a previous term unless they are made available in a publicly accessible form (no unfair advantage can be sought). If you find a direct solution to homework problems online you are to inform the instructors.
+
+Labs & Final Project (Limited collaboration):
+You may discuss the labs and the final project with fellow students outside your lab group at the conceptual level, but must complete all calculations, coding and write-up, from scratch to final form, on your own. Verbatim copying of another student’s work is forbidden. You may not consult labs and final project solutions from a previous term unless they are made available in a publicly accessible form (no unfair advantage can be sought). If you find a direct solution to labs and final projects problems online you are to inform the instructors.
+
+The embedded systems industry and community have generated a significant amount of online example code, tutorials, and libraries to help engineering rapidly build embedded systems. You are allowed and encouraged to use these resources. However, you must explicitly credit other people's work. Clearly identify any libraries and source code you are using or referencing, and importantly draw a clear distinction between what you have done versus what others have created.
+
+Late Policy for Homework & Labs
+Homework is to be submitted via Gradescope on the due dates indicated. Homework can be submitted up to 24 hours after the due date but will receive a 10% penalty. No homework will be accepted after the “late” deadline. Students with extenuating circumstances should contact the instructors before the homework is due.
+
+Lab assignments will be submitted to Gradescope on the due dates indicated. It is important that labs are completed on time to ensure students keep up with the class. Labs submitted up to 24 hours late will receive a 5% penalty. This reduced penalty in the first 24 hours is intended to accommodate minor errors and lapses that can cause students to be “a little late”. After 24 hours the late penalty is 10% per day up to a maximum of 5 days late in total. For example, an “in lab demo” that is due on Tuesday at 11:59, will receive a 5% penalty if submitted at or before 11:59 on Wednesday, the same lab submitted on or before Thursday at 11:59 will receive a total late penalty of 15%, submitted on Friday will receive a total of 25%, and submitted on Saturday will receive a 35% penalty. Students with extenuating circumstances should contact the instructors before the lab is due.
+
+Extenuating Circumstances & Getting Help
+We fully understand that sometimes events outside of students' control can impact their ability to learn and thrive in class. We are committed to making sure everyone can be successful in EECS 373. Students that are experiencing difficulties for any reason are encouraged to reach out to the instructors as early as possible. The earlier you make us aware of a problem, the easier it is for us to help. We are happy to work with and accommodate students that are making a good faith effort to responsibly resolve issues early on. In contrast, it is much more difficult to make accommodations for an issue after an assignment is due, or an exam is given.
+
+Dropping the Class Late
+Occasionally, students may request to withdraw from the class late in the semester, resulting in a "W" on their transcript. While we respect each student's right to make decisions that align with their educational goals, dropping the course or abandoning a project near the end of the semester can have a substantial negative impact on their teammates and the overall project completion. Therefore, requests to withdraw from the class after the 11th week are discouraged and will require exceptional circumstances, such as unforeseen life events beyond the student's control.
+
+Student Mental Health and Wellbeing
+The University of Michigan is committed to advancing the mental health and well-being of its students. If you or someone you know is feeling overwhelmed, depressed, and/or in need of support, services are available. For help, contact Counseling and Psychological Services (CAPS) at (734) 764-8312 and https://caps.umich.edu during and after hours, on weekends and holidays, or through its counselors physically located in schools on both North and Central Campus. You may also consult University Health Service (UHS) at (734) 764-8320 and https://www.uhs.umich.edu/mentalhealthsvcs, or for alcohol or drug concerns, see www.uhs.umich.edu/aodresources.
+
+For a listing of other mental health resources available on and off campus, visit http://umich.edu/~mhealth/.

@@ -1,0 +1,74 @@
+Course Instructor: Prof. Qing Qu
+
+Course Time: Mon/Wed 12:00 PM – 1:30 PM,  3 credit hour
+
+Office Hour: Wed 3:30 PM – 5:00 PM
+
+Prerequisite: EECS 351, or EECS 301, or any linear algebra courses
+
+Notice: This is an entry-level ECE machine learning course targeted for senior EE & CE undergraduate, and junior master students outside SIPML area. All students outside EECS that want to learn the basics of ML are also welcome! Compared to EECS 445, this course places slightly greater emphasis on mathematical principles and is better suited for students who have limited experience with programming and machine learning. 
+
+Overview: The class will cover basic principles in machine learning, such as unsupervised learning (e.g., clustering, mixture models, dimension reduction), and supervised learning (e.g., regression, classification, neural networks & deep learning). For each topic, key algorithmic ideas/intuitions and basic theoretical insights will be highlighted.
+
+Course Materials: slides and videos will be accessed via Canvas (TBA). Tentative topics that will be covered in this course are supervised learning, unsupervised learning, and reinforcement learning:
+
+Basics of probability, linear algebra, and optimization
+Regression and linear prediction
+Support vector machines and kernel methods
+Deep neural networks
+Dimension reduction: PCA, autoencoder
+Clustering (Kmeans, Mixture of Gaussians, EM)
+Representation learning: nonnegative matrix factorization, dictionary learning
+Assessment: (i) 5 homework assignments (40%), (ii) mid-term exam (30%), (iii) course projects (25%), (iv) participation & course evaluation (5%)
+
+Assessment	 Percentage  
+Homework (5)	40%
+Midterm Exam	30%
+Projects	25%
+Participation & Course Evaluation	5%
+Textbook: We recommend the following books and articles, although we will not follow them closely.
+
+Foundations of Machine Learning, by Mehryar Mohri, Afshin Rostamizadeh, and Ameet Talwalkar.
+The Elements of Statistical Learning: Data Mining, Inference, and Prediction, by Trevor Hastie, Robert Tibshirani, and Jerome Friedman.
+Deep Learning, by Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+Mathematics for Machine Learning, by Marc Peter Deisenroth, A. Aldo Faisal, and Cheng Soon Ong.
+Linear Algebra and Optimization for Machine Learning, by Charu C. Aggarwal.
+Related courses:
+
+EECS 445. Introduction to Machine Learning
+EECS 453. Applied Matrix Algorithms for Signal Processing, Data Analysis, and Machine Learning
+EECS 505. Computational Data Science and Machine Learning
+EECS 545. Machine Learning
+Course Syllabus (Note: the schedule is tentative, and is subject to change during the semester.)
+
+Week	Date	 Topic	Contents	Homework, Review
+Week-1-1	08/29	Introduction (Remote)	Course overview	 
+Week-1-2	08/31	Supervised Learning (Remote)	Introduction to supervised learning, linear models, regularization	Linear Algebra Review 
+Week-2-1	09/05	Labor Day	No class	 
+Week-2-2	09/07	Supervised Learning	Learning Theory	Probability Review, HW1 Release 
+Week-3-1	09/12	Supervised Learning	Linear regression I	 
+Week-3-2	09/14	Supervised Learning	Linear regression II	Python Review 
+Week-4-1	09/19	Supervised Learning	Linear Classifiers	 
+Week-4-2	09/21	Supervised Learning	Linear Discriminant Analysis	HW1 Due, HW2 Release 
+Week-5-1	09/26	Supervised Learning (remote)	Logistic regression	 
+Week-5-2	09/28	Supervised Learning (remote)	Optimization methods I	 
+Week-6-1	10/03	Supervised Learning	Optimization methods II	 
+Week-6-2	10/05	Supervised Learning 	Support vector machine (SVM) I	HW2 Due,  HW3 Release  
+Week-7-1	10/10	Supervised Learning 	Support vector machine (SVM) II	 
+Week-7-2	10/12	Supervised Learning 	Support vector machine (SVM) III	 
+Week-8-1	10/17	Fall Study Day	No class	 
+Week-8-2	10/19	Supervised Learning	Dual SVM	 HW3 Due
+Week-9-1	10/24	Supervised Learning	Nonlinear models, kernel methods	 
+Week-9-2	10/26	Supervised Learning	Introduction to deep neural networks I	 
+Week-10-1	10/31	Supervised Learning	Introduction to deep neural networks II	 
+Week-10-2	11/02	Supervised Learning	Introduction to deep neural networks III	 
+Week-11-1	11/07	Midterm	Midterm	 
+Week-11-2	11/09	Unsupervised Learning	Introduction to unsupervised learning, clustering problem, K-means	Project Proposal Due, HW4 Release
+Week-12-1	11/14	Unsupervised Learning	K-means, mixtures of Gaussian, expectation maximization	 
+Week-12-2	11/16	Unsupervised Learning	Dimension reduction, PCA	 
+Week-13-1	11/21	Unsupervised Learning	Dimension reduction II	 
+Week-13-2	11/23	Thanksgiving	No Class	 
+Week-14-1	11/28	Unsupervised Learning (Remote)	Representation learning, matrix factorization	HW4 Due, HW5 Release   
+Week-14-2	11/30	Unsupervised Learning (Remote)	Autoencoder & self-supervised learning	 
+Week-15-1	 12/05	Unsupervised Learning	Generative Models	HW5 Due 
+Week-15-2	 12/07	 Final Presentation	

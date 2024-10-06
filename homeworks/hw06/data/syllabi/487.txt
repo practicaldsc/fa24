@@ -1,0 +1,42 @@
+EECS 487: Introduction to Natural Language Processing
+Instructors:
+
+Professor Lu Wang
+GSI Yujian Liu
+Time and Location:
+
+Lectures: Mondays and Wednesdays, 9-10:30am, 1005 Dow Building [Lu Wang]
+Labs/Discussions: Thursdays, 12:30-1:30pm, 3150 Dow Building [Yujian Liu]
+Staff and Office Hours:
+
+Prof. Lu Wang, Wednesdays 4:30pm-5:30pm, BBB 3757
+GSI Yujian Liu, Tuesdays and Thursdays 4-5pm, BBB 1637
+Discussion Forum: Piazza, sign up at piazza.com/umich/winter2022/eecs487
+
+Course Description
+The purpose of this course is to provide a broad introduction to the fundamental concepts, tasks, and techniques of natural language processing, and its recent advances based on machine learning algorithms (e.g., neural networks) and applications for interdisciplinary subjects. The successful student will finish the course with specific modeling and analytical skills, knowledge of the most important language concepts and machine learning schemes, and a broad understanding of natural language processing models and practice. The course will serve to prepare the student for further study of NLP and AI in general, as well as to inform any work involving the design of computer programs for substantial application domains.
+
+Syllabus, schedule, assignments, and other course-related materials are available on Canvas.
+
+Textbook and References
+Main Textbook:
+
+Dan Jurafsky and James H. Martin, "Speech and Language Processing, 2nd Edition".
+Third edition draft is available at web.stanford.edu/~jurafsky/slp3/.
+Other References:
+
+Jacob Eisenstein, "Introduction to Natural Language Processing", The MIT Press, 2019
+Prerequisites
+This course is designed for junior/senior undergraduate students majoring in computer science, information science, linguistics, and other related areas. Students who take this course are expected to be able to write code in some programming languages (e.g., Python is recommended) proficiently, and finish courses in algorithms, probability, and statistics. Linear algebra is optional, but highly recommended. It would be beneficial if the students have prior knowledge on supervised machine learning.
+
+Grading
+Each assignment or report is due by the end of day on the corresponding due date (i.e. 11:59pm, EST). Canvas is used for electronic submission. Assignment or report turned in late will be charged 20 points (out of 100 points) off for each late day (i.e. every 24 hours). Each student has a budget of 8 days throughout the semester before a late penalty is applied. You may want to use it wisely, e.g. save for emergencies. Each 24 hours or part thereof that a submission is late uses up one full late day. Late days are not applicable to final presentation. Each group member is charged with the same number of late days, if any, for their submission. There is no need to inform the instructors if late days are used; timestamp of the last submission on Canvas will be used for automatic grade calculation.
+
+Grades will be determined based on homeworks, quizzes, a course project, an exam, and participation:
+
+Homeworks (44%): four assignments, each of 11%
+Lecture quizzes (8%): ten quick in-class tests, each of 1%; two with lowest grades will be dropped, and no make-up
+Discussion quizzes (4%): nine quick in-class tests, each of 0.5%; one with lowest grade will be dropped, and no make-up
+Project (16%): team of 2 to 3 students, proposal (2%), reports (4%+6%, mid-term progress and final), presentations (4%, with 1% as bonus if selected as best project by peer students)
+Midterm exam (25%): open-book
+Participation (3%): participating in-class discussions, interaction on Piazza (answering questions, sharing notes, etc)

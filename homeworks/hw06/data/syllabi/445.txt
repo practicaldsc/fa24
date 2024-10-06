@@ -1,0 +1,38 @@
+Syllabus
+Introduction to Machine LearningFall 2016
+The course is a programming-focused introduction to Machine Learning. Increasingly, extracting value from data is an important contributor to the global economy across a range of industries. The field of Machine Learning provides the theoretical underpinnings for data-analysis as well as more broadly for modern artificial intelligence approaches to building artificial agents that interact with data; it has had a major impact on many real-world applications.
+
+This is an undergraduate course. Graduate students seeking to take a machine learning course should consider EECS 545.
+
+The course will emphasize understanding the foundational algorithms and “tricks of the trade” through implementation and basic-theoretical analysis. On the implementation side, the emphasis will be on practical applications of machine learning to computer vision, data mining, speech recognition, text processing, bioinformatics, and robot perception and control. Real data sets will be used whenever feasible to encourage understanding of practical issues. The course will provide an opportunity for an open-ended research project. On the theoretical side, the course will give a undergraduate-level introduction to the foundations of machine learning topics including regression, classification, kernel methods, regularization, neural networks, graphical models, and unsupervised learning.
+
+Basic Information
+Professors	Dr. Jacob Abernethy and Dr. Jia Deng
+TAs	Chansoo Lee, Zhao Fu, Ben Bray, Valli Chockalingham
+Prerequisites	
+The only enforced prerequisite is EECS 281. However, if you are not familiar with at least one of the following topics you will struggle in this course.
+
+Linear algebra at the level of MATH 419 or MATH 214, but preferrably at the level of MATH 217.
+Probability at the level of EECS 401, MATH 425, or equivalent.
+We understand that most EECS students will only ever encounter a proper subset of these topics, so we will be providing a brief review of important concepts at the beginning of the semester. We'll move fast, though, so be warned!
+
+Textbook	
+A good textbook is invaluable for self-study. Although there is no required textbook, we highly recommend purchasing one of the following books for your own use and future reference:
+
+Murphy, Kevin P. Machine learning: A Probabilistic Perspective. MIT press, 2012.
+Bishop, Christopher M. Pattern Recognition and Machine Learning. Springer-Verlag New York, Inc., 2006.
+Lectures	
+This semester, we will be experimenting with a flipped classroom format. The later section will be a typical lecture and will be video recorded for online viewing. The earlier section will be more hands-on, where students will spend most of their time working together in groups to better understand challenging concepts.
+
+Section 001 (Hands-on Lecture) Mon/Wed 4:30-6pm, 1670 BBB
+Section 002 (Standard Lecture) Mon/Wed 6-7:30pm, Chesebrough Auditorium
+Discussion	
+Discussions begin Tuesday, September 13, 2016.
+
+Discussion 011 (Ben) Fri 11:30am-12:30pm, 1006 DOW
+Discussion 012 (Zhao) Thu 4:30-5:30pm, 1017 DOW
+Discussion 013 (Zhao) Fri 1:30-2:30pm, 1303 EECS
+Discussion 014 (Chansoo) Tue 4:30-5:30pm, 2150 DOW
+Discussion 016 (Valli) Thu 2:30-3:30pm, 1005 EECS
+Office Hours	See the course calendar below for our office hour schedule.
+Communication	No email policy! Use Piazza instead! Our only exception to this policy is for personal issues, for which you may email or make an appointment with a professor.

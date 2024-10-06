@@ -1,0 +1,173 @@
+EECS 493: User Interface Development
+The University of Michigan, Fall 2024
+
+For students to gain practical experience with the design, implementation, and testing of user interfaces. This course will present design methods, UI abstractions, and practical examples of tools and languages commonly used in UI development. The course and project will be focused on user-centered research, design, and development process. Significant experience with object-oriented programming is assumed, and experience with web technologies is beneficial. The course will cover core concepts and methods in web programming.
+
+Instructors: Anhong Guo <anhong@umich.edu>, Dhruv Jain <profdj@umich.edu>
+
+FAQ
+Q: Can I attend any lecture, and any discussion section?
+
+A: Yes.
+
+Q: Is in-person attendance required?
+
+A: It is strongly encouraged but not required. For most lectures and discussions, you can watch the recordings and answer several surveys within a time window to get attendance points. There will be 3-4 lectures that require in-person attendance, including project bake-offs, final presentations, and practitioner's panel.
+
+Q: I'm currently on the waitlist. What can I do?
+
+A: The undergraduate advising office manages overrides and enrollment. Please email the staff mailing list, with EECS493 in the email title to be added to Canvas.
+
+Q: I saw this class has a 3% workload on Canvas. Is this accurate?
+
+A: No, the current workfload of 493 is much higher than 3% as rated on Atlas. The Atlas rating (collected for the past 10 years?) does not reflect the current workload of the class. This class has been evolving in the past three years, with new homework assignments, and updated projects. We received many course evaluations that 3% was a wrong assessment. Some said this was ~30%. Students regretted pairing 493 with a difficult class. Please expect to spend ~12 hours a week on this class, as reflected in the credit.
+
+Instruction
+We will support both in-person and remote participation in the course.
+
+Lectures will be held in-person and recorded.
+
+Discussions will be held in-person and recorded.
+
+Quizzes will be administered and completed individually on Canvas.
+
+Assignments will be completed individually and turned in on Canvas.
+
+A Final Project will be completed in groups.
+
+Exams will be in-person.
+
+Office hours will be both in-person and online.
+
+Communication
+eecs493.org links to all course resources.
+
+Piazza is the course discussion forum, best for technical questions. Please only expect prompt replies between 10am and 6pm ET - IAs/GSIs have lives too, so please leave yourself time to get help if it's needed.
+
+eecs493-f24-staff@umich.edu reaches the course staff, best for questions not appropriate for Piazza.
+
+Individual professor email addresses are best for confidential matters. Please use the email title prefix: “EECS493-Term: " or your email will most likely get lost.
+
+Office hours see course calendar.
+
+Overview
+Objectives
+For students to gain practical experience with the design, implementation, and testing of user interfaces. This course will present design methods, UI abstractions, and practical examples of tools and languages commonly used in UI development. The course and project will be focused on user-centered research, design, and development process. The course will cover core concepts and methods in web programming.
+
+Prerequisites
+The prerequisite is EECS 281.
+
+Substantial experience with object-oriented programming is assumed, and experience with web technologies is beneficial.
+
+Participation
+Required
+We use in-class surveys to count lecture and discussion attendance (participation).
+
+For lectures, you will have 24 hours after the lecture to complete the surveys to receive full credit.
+
+For discussions, you will have 24 hours after the last discussion section of the current week's rotation to complete the surveys to receive full credit.
+
+Bonus
+In addition to the required participation policies, if you participate live in-person for ≥ 70% of the lectures (N=22), we'll give 1.0 bonus point to your overall lecture participation grade (i.e. max possible 8.0/7.0). Note N is tentatively 22, excluding the required L12: Industry Practitioner's Perspective, L15: In-class Bake-off - Storyboards, and L24: In-class Bake-off - Final Prototype Show-off.
+
+For discussions, if you participate live in-person for ≥ 70% of the discussions (N=10), we'll give 0.5 bonus point to the discussion participation grade (i.e. max possible 3.5/3.0).
+
+Quizzes
+Most quizzes will focus on the materials in the last two weeks. The lowest quiz grade will be dropped.
+
+We give everyone two attempts on all the quizzes. After each attempt, you'll see which questions you got wrong, but you won't see the correct answer. You have a second chance to attempt the quiz and get a higher score. The highest score of the two will be kept.
+
+Quizzes will be available on Friday by 5 pm and due by Tuesday at 11:59 pm. Plan to take 20-40 minutes.
+
+Students are not to discuss the quiz with anyone during the time when the quiz is available. This includes clarification questions in Discussion, and certainly not discussing answers or reasoning in Piazza.
+
+We encourage discussion about the quiz after it is finished - that's a great opportunity to learn. While we review the quizzes before posting, we do make mistakes. If we have made a mistake in a question, we can and will correct the grading. But discussing questions should wait until after the quiz period.
+
+Assignments
+This course contains 5 assignments. The first assignment is an online training for conducting HCI research, and the remaining four assignments are web programming.
+
+We improve the assignments each semester, so they may change any time before the assignment release date.
+
+Final Project
+The scale of the project will be what 4 people working for a semester can accomplish. See Exemplary Project Videos from Fall 2022 for some awesome past projects.
+
+You will choose your own team members. You will choose your own projects, but they will be based in a small set of themes (e.g., help people go outside, explore the world, and social with friends) that we pick.
+
+We will have a forum for matchmaking teams, if you don't know people in the class already. The forum will also serve to find team members if you have a project idea you'd like to do.
+
+The project will consist of 5 milestones and a final presentation.
+
+Readings
+No textbook is required for this class , though some readings will be assigned for each major section. These will help you get a better sense of the space, and understand more deeply some of the concepts from class.
+
+Grades
+Here is the grading breakdown.
+
+Task	Percentage of Grade	Remarks
+Lecture Participation	7%	
+7% if you participate in 80% of in-class surveys
+6% if 70%
+5% if 60%
+0 if less than 60%
+Discussion Participation	3%	
+3% if you participate in 70% of in-class surveys
+2% if 50%
+1% if 30%
+0 if less than 30%
+Quizzes	10%	Drop the lowest, 2 attempts per quiz
+Assignments	25%	
+2% for Assignment 1
+5% for Assignment 2
+6% for Assignment 3
+6% for Assignment 4
+6% for Assignment 5
+Final Project	25%	
+0% for Milestone 0 (complete/incomplete)
+5% for Milestone 1
+5% for Milestone 2
+5% for Milestone 3
+7% for Milestone 4
+3% for Final Presentation
+Midterm Exam	15%	
+Final Exam	15%	
+Lateness
+There is no leniency on late quizzes or exams due to scheduling constraints and quiz reviews. Quizzes turned in after the due time and date receive zero credit.
+
+You will have a total of 4 free late days across the 5 individual assignments. These 4 late days will be applied as soon as they happen (cannot be retrospectively used in a different assignment); then 10 points off the assignments each additional day. E.g., if a student's A1 is late for 6 days and got 100, and A2 is late for 1 day and got 95, then this student gets 80 for A1 while using up the late days, and 85 for A2. The rationale is if a student is already late, to encourage them to submit the best work they can do rather than giving up.
+
+For the project, your team will have a total of 3 free late days that do not require in-class bakeoffs or presentations.
+
+We will only grade the last submission of an assignment or project checkpoint without exception. Re-submissions of an assignment after grades have been released is not allowed, please see the policy below on regrade requests.
+
+Exceptions to this policy (allowed for reasons such as medical or a family emergency) can be arranged by contacting the staff.
+
+Exceptions
+Please contact the staff via email to arrange for any exceptions (e.g., medical reasons, family emergencies) to the posted policies. We will discuss and decide each individual exception on a per-case basis.
+
+Regrades
+Please check Piazza for individual regrade request forms for the assignments, quizzes, participation, and exams.
+
+The problem will be reviewed by the grader of that problem or quiz first. If you are dissatisfied with the response, you can email the staff, indicating that you are challenging the regrade, and an instructor will review. That's the court of last resort.
+
+You may request a regrade only within one week after the grade is posted in Canvas.
+
+Academic Integrity
+We want you to get all the help you need to complete the individual assignments, including working with other students.
+
+You are going to learn the most by writing your own code, and making sure that you understand any code that you work on with others. We may use automatic plagiarism detection software, comparing your code to others in the class, past terms, and examples we can find on-line. If it indicates that you might have copied code from someone else, we will contact you so that we can all understand what went wrong. We'll work with you to get you back on track.
+
+Please do not work with others on quizzes or exams. There's plenty of ways to get help in this course, so let's find a legitimate way to get you the knowledge + grade you want.
+
+Honor Code [Official]
+All students (including LS&A and Engineering) are required to observe the Engineering Honor Code in all assignments and exams. A copy of the honor code can be found at this link. Please make sure that you clearly understand what constitutes cheating. If you are not sure in any specific case, you should ask the teaching staff. The University takes honor code violations seriously, and penalties can be severe.
+
+You are not allowed to share your code with anyone other than your partner.
+
+You are not allowed to make use of project or homework solutions by others, including solutions from previous semesters.
+
+Do not post code on piazza or any other discussion forum. Make sure that you do not upload your code on GitHub public repositories or anywhere else on the Internet.
+
+Any suspected violations of the honor code will be reported.
+
+Accommodations for Students with Disabilities
+Students with disabilities that are documented with the Services for Students with Disabilities Office should contact the professor during the first three weeks of class to make appropriate arrangements.

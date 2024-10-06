@@ -1,0 +1,30 @@
+EECS 484 provides a basic introduction to relational database management systems (DBMSs). By the end of the course, you will know how to use and implement a DBMS. Among other topics, we will cover SQL, relational algebra, query excecution, optimization, and ACID semantics.
+
+When emailing course staff, please use 484questions@umich.edu with "EECS484" in the Subject.
+
+Course Policies
+
+Course Schedule
+
+Course Meetings
+The course will consist of live lectures and discussion/lab sessions. We will be using Zoom. All lectures and discussions/labs will be recorded and posted to Piazza.
+
+Lecture:
+MW 9:00AM - 10:30AM Eastern time (Morning)
+Morning Lecture Zoom Link: https://umich.zoom.us/j/99119739602
+MW 3:30PM - 5:00PM Eastern time (Afternoon)
+Afternoon Lecture Zoom Link: https://umich.zoom.us/s/95682117707
+You can join either lecture.
+Discussion/Lab:
+F 9:30, 10:30, 11:30AM Eastern (AM)
+AM Discussion Zoom Link: https://umich.zoom.us/j/95682117707
+F 12:30PM, 1:30, 2:30PM Eastern (PM)
+PM Discussion Zoom Link: https://umich.zoom.us/j/91292753804
+You can join any discussion you like.
+Office Hours:
+OH and corresponding Zoom Links are shown on the Calendar below.
+
+Office hours are conducted through Zoom. Join the big room for group questions, and we'll make breakouts for individual questions.
+
+If you have an individual question, join the Queue at eecsoh.org.
+The recordings are managed in a thread on Piazza. The lecture slides will be posted according to the schedule (TBA).

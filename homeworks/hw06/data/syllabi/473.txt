@@ -1,0 +1,58 @@
+Class overview
+This class is a follow-on to EECS 373. EECS 373 gave you a very solid background in the fundamentals of working with embedded systems: memory-mapped I/O, application binary interface issues, interrupts, peripherals and related topics. It also gave you a chance to build a prototype embedded system.
+In this class we are going to shift focus from foundational to applications. We will explore rapid prototyping, design of APIs for hardware devices, PCB design (from basics to power converters and power integrity issues), Real-time operating systems, and device drivers for high-level systems using Linux.
+
+The class does have labs, homework assignments and exams, but the focus of the class is on product design and clear communication. Three weeks into the course you will have formed a project group of 4-5 and started on the design process. You will be tasked with writing a formal proposal as well as memos that report on your status. The majority of your time will be spent on the technical aspects of your course project as design solutions and then prototype and test them. Your code and design techniques are expected to be of a quality you could hand them off to a customer.
+
+
+Lab
+You are to attend your lab section. You are to watch the lab instructor's introduction each week. These will often be quite short, so get there on time. We will be using an online help queue for student questions.
+In general, having a sealed water bottle at your workstation is fine. Otherwise we would like you not eating or drinking at the stations. Generally if there is room it's okay to eat/drink at the central tables if there is room and you clean up after yourself.
+
+Lectures
+Lectures cover a variety of material. We'll start mainly with software topics (software interface design, coding for real-time systems, coding device drivers for Linux and other POSIX systems). We'll also cover topics that bridge the CS/EE gap (scheduling theory, networking including the 802.15.4-2003 standard), and some pure EE topics (power integrity, batteries, power supply design, etc.).
+Graded components
+As noted above, the final project is a major focus of the class, but there are other components including exams, labs, homework and topic reports.
+Labs
+There will be 5 labs. The prelabs are to be done individually while the inlab and postlabs will be done in a group of two. The prelabs are generally worth 25% of the lab grade. The initial labs will focus on a simple embedded system platform Arduino. That platform will be used to explore rapid prototyping and on how to create clean software interfaces to hardware and intuitive user interfaces. Later labs will introduce PCB CAD tools, real-time operating systems, and Linux device drivers. The intent of these labs is to get you started on these topics--you are expected to explore further on your own. Late labs lose 10% per school day late.
+Homework
+Homework will be graded out of a bit more than 400 points over three assignments. A part of the homework grade is for attendance when we have guest speakers.
+Homework assignment 0 is to come up with two project proposals. It is worth 75 points.
+Homework assignments 1 and 2 will be due before the midterm and final exam respectively and will act as an exam review. They will be worth about 150 (125-200 is normal) points each.
+Exams
+There will be a midterm and a final exam. The midterm will focus on the lab material but some of the more conceptual topics from lecture will also be there. The final exam will be cumulative but focus on the later material. Old midterms and finals can be found under "references".
+Project
+The project is quite open-ended but for the most part projects should be able to be done to completion. That is, the final product should meet the needs of the target application including constraints such as: form factor, weight, battery life, and usability. Projects should take advantage the knowledge gained in this class as well as that learned in 373 and other courses in EECS. Ideally projects should have a customer who intends to use the device supplied.
+In addition, it is imperative that the work done be in a state that others can, without undue effort, understand what you've done and make changes as needed. Your final report will not only include an overview, it will also include well-documented code, PCB design files, and whatever else is needed. A design narrative, explaining the design and not just the functionality will be required. It should be in a state that another student from the class could pick up your project and, within a few days, start making non-trivial modifications.
+
+Your project is due during the Design Expo near the end of the semester. See the course schedule for details.
+
+Grading
+Your grade will be computed as shown below.
+ 
+ 20%	Labs
+  5%	Homework 
+ 17%	Midterm
+ 18%	Final exam
+ 40%	Final Project
+ 	Final project grading is broken down as follows:  
+	   3% draft proposal
+	  12% proposal
+	   5% milestone 1
+	   5% milestone 2
+	  60% final project status (works, etc.)
+	  15% final report and documentation
+Other Stuff/Disclaimer
+Keep in mind, due to the nature of the class we find ourselves updating labs and other material a lot more than other classes. As such, things will break and go wrong. Lectures will have errors and you'll encounter problems we don't understand. What we will promise is to work hard to fix and address these issues as they arise. Also, be aware that on your project, each group will almost certainly be encountering issues/parts/roadblocks that none of the staff has ever seen. So you'll have to be the expert...
+This class is taken by both undergraduates and graduate students. The prerequisites for this class are EECS 373 (embedded systems) and either EECS 215 (introductory circuits) or EECS 281 (data structures and algorithms). Everyone should be comfortable with the following material:
+
+Memory-mapped I/O, application binary interface issues, interrupts, peripherals and related topics (EECS 373)
+C programming (EECS 370, a prereq of 373)
+FPGA basics (EECS 270, a prereq of 373, and covered in more detail in 373)
+C++ programming, structures, pointers, and non-trivial data structures (EECS 280)
+Basic electronics (Physics 240). (CS-LSA students may not know this material, if that's the case please contact the instructor, we can get you up to speed with that material by the time you need it.)
+In addition you should be familiar with one of the two topics:
+RCL circuits, diodes, transistors (EECS 215)
+Complex data structures, programming large systems (EECS 281)
+Any undergraduate in this class should have the appropriate material (other than maybe Physics 240 which we can work around as noted above). Graduate students will have to self-evaluate to see if they have a sufficient background to take the course. All graduate students who have not taken EECS 373 here should talk with the instructor in the first week so you can evaluate how prepared you are for the course.
+GOOD LUCK!

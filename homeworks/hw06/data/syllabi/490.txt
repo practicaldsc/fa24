@@ -1,0 +1,106 @@
+EECS 490: Programming Languages
+Fall 2024
+
+Programming languages are rich mathematical structures and powerful user interfaces. This course covers the design and use of modern programming languages. We will build up systematically from formal first principles while considering human factors in language design, language prototyping, and techniques for reasoning precisely about program behavior throughout the course.
+
+The goal is to change the way you think about programming and programming language design in ways that will remain relevant across the many technology hype cycles that you will encounter over the course of your careers.
+
+Welcome to EECS 490, Fall 2024
+We're excited to start this semester with you!
+
+Please join the Piazza right away. All announcements will be made there (not on Canvas!)
+
+Lecture will meet the first week of class -- see the schedule below.
+
+Lectures attendance is required. Lectures will be live-streamed via Zoom for your occasional use when you cannot make it in person, but I expect you to come in person most of the time -- this is not a large class, so we want it to be interactive! The link to the Zoom is available from the sidebar.
+
+Lecture recordings will also be available after the fact via the CAEN room capture system, click 'Recordings' in the sidebar to the left. We make no promises about the quality or completeness of these recordings! You are responsible for what is covered in lecture even if it is not legible in the recording.
+
+Exams will be held in person. Make sure you are available on the dates and times indicated below.
+
+Please read the syllabus (linked to the left) as soon as you can. It is required reading.
+
+Make sure to have a computer (not just a tablet) and a reliable internet connection. CAEN computer labs can be used if you do not have your own computer or your internet connection is bad.
+
+Students may also be interested in the following complementary courses:
+EECS 390 (Programming Paradigms), which focuses more on making effective use of various language features, and less on mathematical first principles and program reasoning.
+EECS 483 (Compiler Construction), goes more in depth on language implementation topics like parsing and low-level optimization that are covered only minimally in this course.
+EECS 590 (Advanced Programming Languages) is a graduate-level course on programming languages and program analysis. Graduate students without a prior PL course can and should register for 590 when possible.
+Schedule
+monthweekdaySep 29 – Oct 5, 2024
+Sun 9/29	Mon 9/30	Tue 10/1	Wed 10/2	Thu 10/3	Fri 10/4	Sat 10/5
+ Open in Google Calendar
+
+Day	#	Lecture Topic	Deadline	Readings
+Tue 27 Aug	1	Course Overview		Required: EECS 490 Syllabus
+Thu 29 Aug	2	Programming with Mathematical Expressions	
+Preliminary Survey released
+Optional: Cornell CS 3110 Notes, Ch. 2-3 (except 3.1.3)
+Tue 3 Sep	3	Recursive Datatypes and Recursion Schemes	
+A1 released
+Optional: Cornell CS 3110 Notes, Ch. 4
+Thu 5 Sep	4	Equational and Inductive Reasoning		Optional: Princeton COS 326 Notes on Reasoning: Basics, Lists
+Tue 10 Sep	5	Syntax		
+Thu 12 Sep	6	Semantics		
+Fri 13 Sep		
+Preliminary Survey due
+A1 due
+A2 released
+Tue 17 Sep	7	Variables and Types		
+Thu 19 Sep	8	Functions (the Lambda Calculus)		
+Fri 20 Sep		
+A2 due
+A3 released
+Tue 24 Sep	9	Products and Isomorphisms		
+Thu 26 Sep	10	Sums		
+Fri 27 Sep		
+A3 due
+A4 released
+Tue 1 Oct	11	Recursive Expressions		
+Thu 3 Oct	12	Recursive Types		
+Fri 4 Oct		
+A4 due
+A5 released
+Midterm Study Materials released
+Tue 8 Oct	13	Universal Types (Parametric Polymorphism)		
+Thu 10 Oct	14	Constructive Logic (Proofs are Programs)		Optional: Propositions as Types by Philip Wadler
+Fri 11 Oct		
+A5 due
+Tue 15 Oct	No Lecture - Fall Study Break
+Thu 17 Oct	Midterm Exam (in class)
+Tue 22 Oct	15	Dynamic Classification, Gradual Typing, and Typed Holes	
+Mid-Semester Survey released
+Optional: What is Gradual Typing by Jeremy Siek
+Thu 24 Oct	16	Imperative Programming I - Side Effects		Optional: TAPL Ch. 13
+Fri 25 Oct		
+A6 released
+Mid-Semester Survey due
+Tue 29 Oct	17	Imperative Programming II - Mutable Data Structures 😱		
+Thu 31 Oct	18	Imperative Program Analysis I		Optional: CMU 17-654: Hoare Logic: Proving Programs Correct
+Optional: Washington CSE 331: Reasoning About Code (Hoare Logic)
+Fri 1 Nov		
+A6 due
+A7 released
+Tue 5 Nov	19	Imperative Program Analysis II		
+Thu 7 Nov	20	Memory Management + Ownership in Rust		Optional: Rust Book Ch. 4.1-4.2: Understanding Ownership
+Tue 12 Nov	21	Borrowing in Rust	
+Thu 14 Nov	22	Parallelism and Cost Semantics I		Optional: PFPL Ch. 37-38
+Fri 15 Nov		
+A7 due
+A8 released
+Tue 19 Nov	23	Parallelism and Cost Semantics II		
+Thu 21 Nov	24	Concurrent Interaction		Optional: PFPL Ch. 39
+Fri 22 Nov		
+A8 due
+A9 released
+Final Exam study materials released
+Tue 26 Nov	No Lecture - Happy Thanksgiving!
+Thu 28 Nov	No Lecture - Happy Thanksgiving!
+Tue 3 Dec	25	Distributed Computation and Module Systems		Optional: PFPL Ch. 40
+Thu 5 Dec	26	Special Topic: TBA		
+Fri 6 Dec		
+A9 due
+End-of-semester Survey released
+Fri 13 Dec		
+End-of-semester Survey due
+Wed 18 Dec	Final Exam (10:30am-12:30pm) (Location: TBD)

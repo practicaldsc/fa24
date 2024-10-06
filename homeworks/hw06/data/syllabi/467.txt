@@ -1,0 +1,74 @@
+EECS 467: Autonomous Robots
+Software methods and implementation for robot perception, world mapping, and control, using physical robots. Topics include: sensors, sensor processing, control, motion planning, localization and mapping, and forward and inverse kinematics. Multiple team projects, culminating in a major design experience (MDE) project. (4 credits)
+
+
+Fall 2019.
+When/Where: MW 9:00 - 10:30 am (1690 Beyster)
+Professor Benjamin Kuipers (kuipers@umich.edu)
+Office hours: M 1-2 pm; W 2-3 pm (3741 CSE)
+GSI: Tiancheng Ge (gtcheng@umich.edu)
+Office hours: TTh 6:30 - 7:30 pm (SRB 429)
+Prerequisite: EECS 281 and (MATH 214 or 217 or 296 or 417 or 419) and (EECS 367 or EECS 373).
+
+For F19, I am waiving the (EECS 367 or EECS 373) prerequisite.
+For F19, I will accept general mathematical maturity and some familiarity with linear algebra for the (MATH 214 or 217 or 296 or 417 or 419) prerequisite.
+Midterm exam: Wednesday, October 30, 9:00 to 10:30 am.
+Project Expo (Tishman Hall): Wednesday, December 11, 9:00 am to 12:30 pm.
+
+Do NOT make conflicting travel plans.
+Most recent update: 9-4-2019. Check for updates.
+Relevant information may also be in Canvas.
+Piazza
+We use Piazza as a discussion tool for asking and answering questions among students and class staff.
+piazza.com/umich/fall2019/eecs467001fa2019/home
+There is a lot of important sharable knowledge about "incantations" for accomplishing various goals that you can teach each other, and learn more effectively from each other.
+
+Post your questions on Piazza. Answer other people's questions. Search previous discussions for answers to your questions.
+
+Textbook
+Handouts
+Probabilistic Robotics, by Thrun, Burgard, and Fox, is an important book in robotics. It is not a textbook for this course, and I will not be assigning readings from it, but you may find it a useful part of your professional library, and it may well come in handy for this course.
+Schedule
+The schedule describes the sequence of lecture topics, the readings to be done before each lecture, and the assignment due dates.
+This is close to final, but it may still change.
+The dates of the classes, and of the final project expo, are correct and will not change.
+Do not make travel plans that conflict with the midterm exam or final presentation.
+Course Overview
+This course is a very demanding project class in Robotics, in which student teams propose, implement, and demonstrate a self-determined design project using physical robots. In preparation for this, there is one short individual assignment, and three assignments done in randomly-assigned teams. The entire course is directed toward the final Project Expo in Tishman Hall on the final class day.
+
+Assignment 0 is a short “Hello, World!” assignment for individual students to get acquainted with the software development and data visualization tools.
+
+In Assignment 1, each team works with a small mobile robot with odometry sensors and a rotating laser rangefinder. They develop control laws to guide their robot several times around a square environment, comparing the performance of open-loop motor control (generally terrible), closed-loop control based on odometry sensing (better, but still with cumulative errors), and closed-loop control based on both odometry and wall-following using the laser (quite good).
+
+In Assignment 2, new teams of students build SLAM (Simultaneous Localization and Mapping) systems for their mobile robots, first building an occupancy grid map given a sensor trace with localized positions, then implementing an incremental Markov localization algorithm, and finally putting localization and mapping together on the robot so it can learn the structure of its environment from its own observations during exploration.
+
+In Assignment 3, new teams of students work with table-top 5-DOF robot arms with cameras. Their task is to build systems so that pairs of robot arms can compete playing tic-tac-toe on a shared physical board by picking and placing colored ping-pong balls. Playing tic-tac-toe is not difficult algorithmically, but doing it in the physical world is a very different matter. Reliably picking and placing markers on a board, implementing their own vision system, and their own forward- and inverse-kinematics systems, is much more challenging!
+
+Throughout, the theme of the course is integration of sensing, planning, and acting to make changes in the environment. Assignments 1, 2, and 3 are done in randomly-assigned groups.
+
+Based on these assignments, students form their own teams for the final project. Each team proposes a project, sets milestones to track its own progress, submits a progress report, prepares for and gives a final public demonstration in the Beyster atrium (Tishman Hall), and submits a written final report. All projects involve physical robots accomplishing non-trivial tasks in the physical world, dealing with "real-world" constraints,, through sensing, decision-making, and acting.
+
+Grading
+Assignment 0	5%	individual
+Assignment 1	10%	group
+Assignment 2	15%	group
+Assignment 3	15%	group
+MDE Project	30%	group
+Midterm exam	15%	individual
+Participation	5%	individual
+Robot return	4%	group
+Course eval	1%	individual
+On Working Together
+A Major Design Experience (MDE) course is fundamentally group-based. Success of the group depends critically on the abilities of the members of the group to collaborate toward defining and reaching a shared goal.
+
+Group members will have different strengths and weaknesses, and each group will need to find ways to work together effectively. Essentially, each member of a team functions partly as a teacher, and partly as a student, of the other members of their team. This means that individual group members must respect and support each other, but they must also earn the respect of the others, and know when and how to ask for (and accept) their support.
+
+The final project is done in self-organized teams, but the earlier assignments are done in randomly-assigned teams, which is arguably a more realistic model. This is done to help you learn to collaborate effectively with anyone.
+
+After each team assignment, including the final project, each of the members will submit an individual evaluation of each member of their team, including themselves, on a 1 to 5 scale. The course also includes a few individual evaluations, such as the "Hello, World!" assignment and the mid-term exam. But the bulk of the evaluation is based on group performance.
+
+It is well-understood that collective activities can be positive-sum, zero-sum, or negative-sum. Collaborative teamwork is intended to be very much positive-sum: "the whole is greater than the sum of its parts." But there are zero-sum and negative-sum pitfalls, that you must learn to identify and avoid.
+
+This course has the potential to be an outstanding experience, but you must make it so.
+
+BJK

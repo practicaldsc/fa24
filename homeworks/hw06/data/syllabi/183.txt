@@ -1,0 +1,275 @@
+﻿EECS 183:  Elementary Programming Concepts
+Syllabus, Fall 2024
+Last updated: 8/5/24
+1. Course Overview
+EECS 183 is an introductory course in computer programming for computer science majors and non-majors alike. Topics include control flow, introductory data structures, algorithms using selection and iteration, basic object-oriented programming, testing and debugging. We primarily use C++ and Python as programming languages. There are no prerequisites. EECS 183 assumes no prior programming experience.
+By the end of this course, a successful student will be able to:
+1. Read a specification and translate it to a computer program
+2. Follow a process of writing one small part of a program at a time
+3. Comfortably use Visual Studio or XCode to write and debug code
+4. Write test cases that test the full range of code functionality
+5. Design an algorithm to generate a given output
+6. Write functions using both pass by reference and pass by value parameters 
+7. Use file streams and standard streams to read input and write output
+8. Write a class and successfully access private and public member variables 
+9. Run test inputs to a program and compare them to test outputs to verify a program works correctly
+10. Format a program according to a style guide
+1.2. Website
+The primary location for course resources is https://eecs183.github.io/eecs183.org/.
+1.3. Schedule of Assignments and Due Dates
+The tentative schedule of topics, assignments, and due dates for the semester are found on the Schedule page of the course website - https://eecs183.github.io/eecs183.org/schedule.html
+1.4. Important Dates
+* Exam 1:  Wednesday, October 2nd 2024 at 8:00 pm
+* Exam 2:  Wednesday, November 6th at 8:00 pm
+* EECS 183 Showcase event: Wednesday, December 11th - times TBA
+* No final exam
+1.5. Required Materials
+* You should have a laptop computer capable of using Visual Studio Community 2022 (Windows) or Xcode (Mac).
+   * Information and Technology Services (ITS) has a laptop loaner program.
+   * EECS department also has a laptop loaner program for EECS 183 students. Contact the staff admin form, linked below, to request access.
+* Course tools: For purchasing and registration information see Course Tools Registration
+
+
+1.6. Contact the Staff
+The table below summarizes the various ways in which you can contact the course staff, when to use each contact method, and how quickly you can expect a response. Note that the teaching staff do not respond to Canvas messages.
+
+
+Method
+	Best suited for
+	Response time
+	Piazza
+	Project questions without need to share code, course logistics, questions about lectures, labs, or assignments
+	Within 12 hours
+	Admin form
+	Illness, grading issues, other personal circumstance or emergency
+	Within 1 business day
+	Office Hours
+	Project questions where we need to look at your code, getting started with the projects, debugging, course content, struggling with the course, most anything!
+	Immediate
+	Email
+	Individual circumstances that do not fit the other communication methods. Sharing sensitive information that you don't want to put in the Admin form.
+	Within 3 business days
+	1.7. In-Person and Remote Learning
+Lectures, labs, exams, and special events will be in-person. Attendance in lectures and labs will be part of your grade. Our experience is that students who attend in-person more often are able to form more connections with others in the course, learn more of the material, and do better on exams and projects. Office hours will be offered remotely and in person.
+
+
+Exams will be held in person, and the Showcase event on December 11th will also be in person. If you have a special circumstance that prevents you from taking exams in person, please let us know using the Admin Form.
+
+
+1.7.1 Attendance Grading 
+Attendance in lectures and labs is part of your final grade in the course. Lecture attendance will be graded by iClicker participation during lectures. See Course Tools Registration for instructions. We will use the free app for iClicker participation. Lab attendance will be taken by your lab instructor.
+2. How the Course is Organized
+2.1. Lectures 
+There are two lectures most weeks. Recordings of lectures will be available on Canvas. 
+2.2. zyBooks Readings and Activities
+zyBooks is an interactive environment with several exercises to see how well you understand the material.  You may attempt each exercise multiple times -- it will tell you if you have it correct.  It matters that your final answer is correct.  This is for you to learn so we don't care how many attempts it takes. 
+The required readings in zyBooks are listed on the Course Schedule and within zyBooks. You earn your score by completing the "Participation Activities" in the readings. Note: "Challenge Activities" within the reading are optional (but encouraged) and do not contribute to your score. 
+2.3. CodeLab
+CodeLab is a practice tool, with exercises connected with each lecture. You have unlimited submissions for each CodeLab exercise before the deadline. 
+2.4. Labs
+Lab meetings will give you the opportunity to practice the course material in a supportive environment and get personal attention from an instructor. Labs begin the first week of classes according to the scheduled Wolverine Access time. Each lab contains an assignment with submission instructions. Labs may be completed in groups, and every student in the group is allowed to submit identical solutions for lab assignments.
+2.5. Exams
+There are two written exams. You are expected to take the exam the day it is administered. If you miss an exam, and a medical or personal emergency is not involved, you will receive a zero for that exam. If you anticipate an exam in another course or a religious holiday that conflicts with our exam day, ​you must notify the staff at least two weeks before the exam.
+2.6. Projects
+There are four regular projects during the semester, and one larger final project. Each project will require a substantial time commitment on your part. We strongly recommend that you plan out your time for each project, get started early, and set intermediate goals for yourself. Projects have suggested timelines to help you manage your schedule. 
+2.6.1. Due Times
+Projects will be submitted to the autograder and are due 8:00 pm on the due date but will be accepted until 11:59 pm on the due date with no penalty.  
+2.6.2. Bonus Point Policy
+For the four regular projects, if your last submission is 2 days (or more) before the due date, you will receive bonus points calculated at 5% of your “correctness” points - the score you see on the autograder. If your last submission is between 1 day and 2 days before the due date, you will receive bonus points calculated at 2.5% of your “correctness” points. For the purposes of bonus points, the deadline on each date is 11:59 pm.
+
+For example, if the project is due Friday at 11:59 pm and your last submission is before Wednesday at 11:59 pm, you will earn 5% bonus points. If your last submission is after 11:59 pm Wednesday, but before 11:59 pm on Thursday, you will earn 2.5% bonus points. Style grades will not be included in the bonus point calculation. 
+2.6.3. Late Policy for Projects
+Sometimes unexpected events make it difficult to submit a project on time. For this reason, each student will have a pool of 3 late days to be used for any of Project 1 - 4 during the semester. That is 3 days total for the semester, not three days per project. These late days should only be used to deal with unexpected problems such as illness or internet outage. Note that each student is responsible for tracking their own late days. The policy for partnerships and late days can be found in Google Drive.
+
+
+For late days, the deadline for project submission is 11:59 pm. For example, if a project is due on Friday at 11:59 pm, and your last submission on Saturday by 11:59 pm, that is one late day. Using a second late day would give you until Sunday at 11:59 pm to submit your last submission.
+2.6.4. Extension Policy
+To request an extension beyond the three free late days, you must discuss your situation with an instructor before the deadline. You may be asked to provide written documentation. If a family/personal emergency causes you to miss a significant number of days, please contact us using the Admin Form so we can meet with you to decide the best course of action. If you are having trouble understanding the material or starting a project, please come to office hours for help right away.
+2.6.6. Collaboration Policy
+Make sure to read the Honor Code section for information on what types of collaboration are encouraged and what types are not allowed. Projects 1 and 2 are assignments that must be completed individually. Projects 3 and 4 are expected to be completed either individually or within a partnership between two current students in the course. The final project is a group assignment to be completed in teams of four current students.    
+2.7 Final Project
+There will be a final project that you will complete in teams of four. You will be responsible for finding your own team, but we will have some help to connect anyone who needs to find a team. The Final Project has two phases: the Core, similar to one of the previous projects, and the Reach, where you extend the project along guidelines provided by instructors.
+2.8. Other Assignments
+There will be a few surveys and other assignments during the semester.  They will be for a variety of reasons: to help us get to know you better, to tell us where you are having difficulties, how we can help you more, etc.
+2.9. Late Policies
+The late submission and drop policies for various assignments are summarized in the following table. Note that, for example, "2 drops" means we will drop your two (2) lowest scores within the category. These are implemented using Canvas and applied automatically - you do not need to request that a grade be dropped. 
+Assignment Type
+	Late policy
+	Drop Policy
+	Lab Assignments
+	No late submissions
+	No drops
+	zyBooks Readings
+	No late submissions
+	4 drops
+	CodeLab
+	No late submissions
+	4 drops
+	Projects 1 - 4
+	3 "late days" to use throughout the semester. 
+	No drops
+	Lecture attendance
+	No late submissions
+	6 drops
+	Lab attendance
+	No late submissions
+	2 drops
+	Final Project Core and Reach
+	No late submissions
+	No drops
+	Other Assignments
+	No late submissions
+	No drops
+	
+
+3. Resources
+3.1. Piazza
+All students should register on Piazza, the course’s discussion forum, at piazza.com. We do not answer technical questions via email. 
+Do not post source code on Piazza. Publicly posting error messages is allowed, and can be a great way to get debugging help from your fellow students.
+3.2. Office Hours
+Office hours are opportunities for students to get individualized assistance from course instructors on projects, CodeLab exercises and understanding concepts. More details about office hours are at https://eecs183.github.io/eecs183.org/officehours.html
+3.3. Problem Roulette
+Problem Roulette is a great way to study for exams.  It holds years of the multiple-choice section of past exams.  You can use it to study individual concepts or to create practice exams. 
+3.4. Canvas
+We will be using Canvas to make announcements, posting grades, and for lecture recordings. We use Canvas announcements to communicate critical information about the course. It is your responsibility to ensure you are able to receive Canvas announcements. You should make sure that your Canvas settings for the course are set to email you when a new announcement is posted.
+3.5. ECoach
+ECoach is a free, personalized, web‐based coaching tool aimed at helping you do your best in this course. ECoach gives you strategies about the best ways to study, insider tips on course resources, feedback on your scores, and evidence‐based tools to boost your scores. Use of ECoach is totally optional – you can use it as much or as little as you want. At a few points during the semester, we will offer extra credit for important activities on ECoach.
+* Introduction to ECoach video
+* To sign up: https://ecoach.ai.umich.edu/.
+* ECoach Feedback and Support: ecoach-support@umich.edu.
+4. Grades
+4.1. Taking the Course Pass/Fail
+If you are taking this course Pass/Fail, you will need a grade of C-minus or better for LSA (see below for details on points and percentage grade for C-minus) in the course to achieve a passing grade. We will not notify you when you have enough points to pass.
+4.2. Adding After First Week of Class
+If you add the course after the first day of class, see this document for how to request extensions for work due before you join.
+4.3. Illness, and Other Significant Life Events
+If you experience an unexpected event (e.g., illness, internet outage, family emergency) that is affecting your participation in the course, please let us right away using the Admin Form. We will work with you to figure out a plan for moving forward. We'll be following the University's guidelines regarding documentation of medical and other unexpected events.
+4.4. Tentative Grade Distribution
+Final grades will be based on the total percentage earned during the course. The tentative percentage breakdown is:
+Item
+	Percentage
+	Assignments (surveys and other things posted as "Assignments" in the course schedule)
+	1%
+	Lecture attendance
+	1%
+	ZyBooks readings & exercises
+	5%
+	CodeLab
+	5%
+	Lab assignments
+	5%
+	Lab attendance
+	5%
+	Final Project
+	13%
+	Exams (2, equally weighted)
+	30%
+	Projects 1-4
+	35%
+	Total
+	100%
+	
+
+4.5. Letter Grades
+The number of points you earn will determine your final grade in the class based on a straight scale, as shown in the table below. We do not curve grades. We do not round scores to the closest percentage.
+Incompletes are rarely given. If you are having problems in the course that interfere with your ability to complete the course, the instructors are here to help. Please contact staff at the admin form as soon as possible so we can determine the best course of action.
+Score Range: In percentages
+	Grade
+	[100+
+	A+
+	[93,100)
+	A
+	[90,93)
+	A-
+	[87,90)
+	B+
+	[83,87)
+	B
+	[80,83)
+	B-
+	[77,80)
+	C+
+	[69,77)
+	C
+	[65,69)
+	C-
+	[60,65)
+	D
+	[0,60)
+	E
+	
+
+5. Commitment to a Culture of Respect & Student Support
+5.1. Creating a Supportive Learning Community
+A positive learning environment, whether in-person or online, requires all members of the course community to approach the course, and each other, with a respectful, inclusive, and supportive mindset. We are providing the following guidelines for respectful student behavior and interactions to help establish a supportive learning community within our course.
+* Acknowledge the ways everyone is being called upon to use a potentially new set of technology skills, and normalize the fact that everyone will have learning to do, though this will look different for different people.
+* Take pair work or small group work seriously. Remember that your peers’ learning is partly dependent upon your engagement. 
+* Understand that we are bound to make mistakes in this space, as anyone does when approaching complex tasks or learning new skills. Strive to see your mistakes and others’ as valuable elements of the learning process. 
+* Understand that your words have effects on others. Speak with care.
+* Understand that others will come to these discussions with different experiences from yours. Be careful about assumptions and generalizations you make based only on your own experience. Be open to hearing and learning from other perspectives. 
+* Recognize how your own social positionality (e.g., race, class, gender, sexuality, ability) informs your perspectives and reactions to your instructors and fellow students.
+5.2. Commitment to Equal Opportunity
+As indicated in the General Standards of Conduct for Engineering Students, we are committed to a policy of equal opportunity for all persons and do not discriminate on the basis of race, color, national origin, age, marital status, sex, sexual orientation, gender identity, gender expression, disability, religion, height, weight, or veteran status. Please feel free to contact us with any problem, concern, or suggestion. We ask that all students treat each other with respect.
+5.3. Student Well-Being
+Students may experience stressors that can impact both their academic experience and their personal well-being. These may include academic pressure and challenges associated with relationships, mental health, alcohol or other drugs, identities, finances, etc.
+If you are experiencing concerns, seeking help is a courageous thing to do for yourself and those who care about you. If the source of your stressors is academic, please contact me so that we can find solutions together. For personal concerns, U-M offers many resources, some of which are listed at Resources for Student Well-being on the Well-being for U-M Students website. You can also search for additional resources on that website. 
+A specific resource available to you as a U-M student is Wolverine Support Network, a student organization offering free peer-facilitated weekly groups on campus. With 30+ groups per week, students are placed in a group at a time and location most convenient for them. Trained students lead groups to promote students’ well-being and build community in an accessible, confidential, and inclusive environment. To sign up for a group, go to UMICHWSN.ORG/join, or email wsndirectors@umich.edu with any questions.
+5.4. Discrimination and Harassment
+Discrimination and harassment gave no place at Michigan. If you encounter inappropriate behavior or misconduct, or if you are unsure if you have experienced such behavior, there are resources and contacts available for you. The EECS 183 faculty are here for you. The Computer Science division has a list of resources available here.
+5.5. Accommodations for Students with Disabilities
+The University of Michigan recognizes disability as an integral part of diversity and is committed to creating an inclusive and equitable educational environment for students with disabilities. Students who are experiencing a disability-related barrier should contact Services for Students with Disabilities (https://ssd.umich.edu/; 734-763-3000 or ssdoffice@umich.edu). For students who are connected with SSD, accommodation requests can be made in Accommodate. If you have any questions or concerns please contact your SSD Coordinator or visit SSD’s Current Student webpage. SSD considers aspects of the course design, course learning objects and the individual academic and course barriers experienced by the student. Further conversation with SSD, instructors, and the student may be warranted to ensure an accessible course experience.
+
+
+If you are in the process of working with the SSD office regarding accommodations, but do not yet have official approval, please let us know. In some cases, we are able to provide accommodations ahead of receiving official approval, in consultation with the SSD office. 
+5.6. Recordings
+Students may not record or distribute any class activity without written permission from the instructor, except as necessary as part of approved accommodations for students with disabilities. Any approved recordings may only be used for the student’s own private use.
+Course lectures may be audio/video recorded and made available to other students in this course. As part of your participation in this course, you may be recorded. If you do not wish to be recorded, please contact us using the Admin Form the first week of class (or as soon as you enroll in the course, whichever is latest) to discuss alternative arrangements.
+5.7 COVID Policies
+Your participation in this course on an in-person basis is conditional upon your adherence to all safety measures mandated by the State of Michigan and the University. We will be enforcing all university guidelines regarding COVID protocols. 
+* We will follow the guidelines set by the University, shown here - https://healthresponse.umich.edu/policies-guidance/
+* If the University requires masking in instructional spaces, and in the unlikely event that a student in class refuses to comply after being reminded politely, instructors will ask the student to leave the class. If the student refuses, the instructor will leave and cancel class. Instructors will report to their department, school, or college if a case such as this does arise. Others in attendance will need to make up lecture material through watching recordings of other lectures, or make up a lab by completing the lab assignment on their own time.
+5.8. Research Disclosure
+Your class work might be used for research purposes. For example, we may use anonymized student assignments to design algorithms or build tools to help programmers. Any student who wishes to opt out can contact the course staff (via the Admin Form) to do so at any time up to seven days after final grades have been issued. This has no impact on your grade in any manner.
+6. Honor Code
+6.1. What is the Honor Code?
+Here is a video skit about Honor Code policies: EECS 183 Honor Code and Collaboration Policy
+The College of Engineering Honor Code outlines certain standards of ethical conduct for persons associated with the College of Engineering at the University of Michigan. As a student in EECS 183, you are expected to abide by the Honor Code, even though you may not be an Engineering student.
+You need to know that the extent to which collaboration is allowed under the Honor Code varies by course, and by semester. It is critical that you understand the collaboration policies for each of your courses. What is allowable in one course may constitute an Honor Code violation in another course. The Honor Code policy for EECS 183 is outlined in the following sections.
+6.2. Collaboration is Encouraged
+We want students to learn from and with each other, and we encourage you to collaborate. We also want to encourage you to reach out and get help when you need it. You are encouraged to:
+✔  Give or receive help in understanding course concepts covered in lecture or lab.
+✔  Practice and study with other students to prepare for assessments or exams.
+✔  Consult with other students to better understand project specifications.
+✔  Discuss general design principles or ideas as they relate to projects.
+✔  Help others understand compiler errors or how to debug parts of their code.
+To clarify the last item, you are permitted to look at another student’s code to help them understand what is going on with their code. You are not allowed to tell them what to write for their code, and you are not allowed to copy their work to use in your own solution.
+If you are at all unsure whether your collaboration is allowed, please contact the course staff via the admin form (found earlier in this document) before you do anything. We will help you determine if what you’re thinking of doing is in the spirit of collaboration for EECS 183. 
+6.3. Honor Code Violations
+The following are considered Honor Code violations:
+⊘ Submitting others' work as your own.
+⊘ Copying or deriving portions of your code from others' solutions. This includes solutions from any source, including AI-generated solutions.
+⊘ Collaborating to write your code so that your solutions are identifiably similar.
+⊘ Sharing your code with others to use as a resource when writing their code.
+⊘ Receiving help from others to write your code.
+⊘ Sharing test cases with others if they are turned in as part of your solution.
+⊘ Sharing your code code in any way, including making it publicly available in any form 
+   (e.g. a public GitHub repository or personal website).
+You remain responsible for following these rules even after finishing the course. Students may be nervous about being reported for coincidental similarities between their code and others, but we only report clear cases of academic misconduct (e.g., when there is overwhelming evidence code was copied from another student or online source). 
+You will not be reported for:
+* Using starter code provided by course instructors.
+* Having the same idea as someone else.
+* Receiving similar help/guidance from the same course staff member in office hours.
+* Helping another student understand compiler errors or debug part of their code. (You may NOT give/receive assistance with the process of writing the code originally.)
+If you are retaking the course, you may reuse your own code if it was entirely written by you and/or this semester’s partner and not derived from another source, following all the rules outlined here. It is possible for instructors to miss an Honor Code violation in a previous term, but catch and report it when the code is reused on a course retake.
+If you have any questions as to what is allowed, please talk to an instructor right away.
+Lab assignments may be completed in groups, and every student in the group is allowed to submit identical code for lab assignments. 
+6.4. The Honor Council Process
+We report suspected violations to the Engineering Honor Council. To identify violations, we use both manual inspection and automated software to compare submissions. The Honor Council determines whether a violation of academic standards has occurred, as well as any sanctions.
+Here's what you can expect if you are reported for an Honor Council violation:
+* The instructors submit an official report to the Honor Council.
+* The Honor Council notifies you of the report, and explains the next steps of the process. You receive a copy of the report, including the evidence of the suspected violation.
+* The course instructors play no role in determining the outcome of reported cases.
+* The Honor Council notifies course instructors when your case is resolved. Any penalties they prescribe are applied to your grade. If you are found not responsible, your grade is unaffected.
+* If you have a pending Honor Council case at the end of the term:
+   * You receive an "I" (incomplete) grade until the case is resolved.
+   * Your grade is updated once the case is resolved. The "I" should not remain on your transcript

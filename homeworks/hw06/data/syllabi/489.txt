@@ -1,0 +1,130 @@
+EECS 489: Computer Networks Syllabus
+The University of Michigan, Fall 2024
+
+Welcome to EECS 489. In this course, we will take a top-down approach to explore how networks operate and how network applications are written. We study how popular distributed systems such as video streaming, content distribution networks (CDNs), and cloud computing systems work in the application layer. We explore how these applications transfer data between their components and end users over the Internet using transport layer protocols such as TCP and UDP. We go deeper to understand what keeps the transport layer running; specifically , we look at how packets are routed and how routers work. Finally, we dive one more layer down to understand how the link layer transfers packets using Ethernet. In addition to cutting through the layers and covering the basics, we learn about the state-of-the-art topics in networking such as datacenter networks, software-defined networking (SDN), and programmable networks.
+
+Knowledge of these topics not only opens up career opportunities for you, it also helps you understand how the Internet works, improves your problem solving skills, and gives you hands-on experience in developing parts of a technology that you interact with everyday.
+
+Prerequisite
+The enforced prerequisite for this course is EECS 281 (Data Structures and Algorithms) and EECS 370 (Introduction to Computer Organization). This course does not assume or require any prior knowledge of EECS 482. Nonetheless, you must have a good working knowledge of C/C++ and Unix family of operating systems.
+
+Optional Textbook
+Kurose and Ross, Computer Networking: A Top-Down Approach, 7th. or Earlier Editions, Pearson, 2016. ISBN 978-0133594140.
+
+Larry Peterson and Bruce Davie, Computer Networks: A Systems Approach
+
+Instructor
+Saquib Razak <razak@umich.edu>
+Course Policies
+Lectures 
+Lectures are in-person with live recordings available sometime after the lecture is finished. We believe that our time together in lecture is an important part of our learning community. A computer screen is no substitute for the collaborative spirit and multimodal communication of working face-to-face, side-by-side. Thus, we encourage you to attend in person as much as possible. In order to incentivize in-person attendance, some in-person lectures will have short quizzes that cover topics covered before the quiz during the current and previous lectures. These quizzes will count for 2% bonus points.
+
+Discussions
+Discussions are every Friday of each week. You are expected to attend lecture regularly and to be at your discussion section weekly. Discussion sections allow you to get hands-on experience on topics covered in lectures, help you get started on assignments, and answer any questions you might have. Discussion section meetings will typically involve active participation by discussion, group exercises, or question-and-answer sessions.
+
+Exams
+There will be two exams during the semester: a midterm exam and the final exam. Both exams will be in-person. You are expected to take both exams at the scheduled times. If you miss an exam for reasons other than a documented medical or personal emergency, you will receive a zero for that exam. If you anticipate a conflict with an exam time, talk to the instructor at least one month before the exam date. Exam dates are given at the beginning of the semester so you can avoid scheduling job interviews or other commitments on those days. Outside commitments are not considered a valid reason for missing an exam.
+
+Assignments
+Four assignments will be assigned during the semester; the first one will be done individually and the rest will be in groups. Each group will have a total of 3 late days throughout the semester across assignments 2 to 4.
+
+These larger assignments provide hands-on experience and deepen you understanding of complex concepts. Here are how the three specific assignments help:
+
+Assignment 1: Sockets and Mininet.
+Get you started on programming sockets and familiarize yourself with a network simulator (mininet). Mininet allows you to simulate network environments similar to what you will see in the real world.
+
+Assignment 2: CDN.
+Practical Application: Students learn how content delivery networks (CDNs) work, which is crucial for efficiently delivering media content over the internet. Adaptive Streaming: By implementing multirate streaming, students grasp how video quality adapts to network conditions, enhancing their knowledge of real-world streaming technologies.
+
+Assignment 3: Reliable Transport.
+Fundamental Protocols: This assignment helps students understand the principles of reliable data transfer, flow control, and congestion control. Protocol Design: By creating a TCP-like protocol, students gain insights into the mechanisms that ensure data integrity and efficient transmission in networks.
+
+Assignment 4: Static Router.
+Network Routing: Students learn the basics of routing, including how data packets find their way through a network. Routing Tables: Implementing static routing involves understanding and creating routing tables, which is essential for network configuration and management.
+
+Office hours
+will be held in-person and virtually, both one-on-one and in groups.
+Grading
+Final grades will be based on the total points earned on the assignments and exams. Factors such as class participation may be used to adjust your final grade, especially if it falls on a borderline. The tentative point breakdown is:
+Assessment	Grade Allocation
+Assignment 1	5%
+Assignment 2	15%
+Assignment 3	15%
+Assignment 4	15%
+Midterm Exam	25%
+Final Exam	25%
+Total	100%
+Bonus Quizzes	2%
+Getting Help
+Ed (Like Piazza)
+We'll be using Ed this semester for EECS 489. It will serve a similar purpose to how you've probably used Piazza in the past. Please note:
+
+Our goal in using Ed is to promote discussions between students that focus on material covered in the course. Please note that Ed does not serve as a means for constant on-demand access to course staff.
+It’s a space for you to ask questions about technical material in the course.
+Please also contribute to our community by answering questions that are posted
+Be kind to your fellow students and course staff. We're all in this together, human beings doing our best. :)
+Staff office hours. Check the calendar.
+
+Professor office hours. Check the calendar.
+
+Diversity and Inclusion
+We care about our course community and want it to be a place where all students feel included, valued, and safe to learn from and with others. Diversity of thought and of people are important to us. We ask that you treat all other students with respect and work to create an inclusive community, and we hold ourselves to the same standard. Please feel free to contact us with any problem, concern, or suggestion. You may also report any concerns or misconduct via the resources linked at https://cse.engin.umich.edu/about/reporting-concerns-and-misconduct/.
+
+Academic Integrity
+We encourage collaboration in EECS 489, especially on concepts, tools, specifications, and strategies.
+
+All work you submit must be your own or your partnership's. Collaboration must not result in code that is identifiably similar to other solutions, past or present.
+
+Encouraged Collaboration	Unacceptable collaboration
+Sharing high-level design strategies, e.g., helper function organization or data structure choices	Walking through an important piece of code step-by-step, sharing pseudocode, sharing comments
+Helping others understand the spec or project nuances	Providing your code as a reference
+Helping someone debug	Debugging someone's code for them
+Explaining a compiler error to someone	Fixing a compiler error for someone
+Discussing test strategies	Sharing test code to verify someone else's design, even if test cases are not submitted
+Brainstorming edge cases for testing	Discussing specifics about what tests exposed instructor bugs on the autograder
+Using starter code provided with a project or based on examples shown in lecture	
+Copying code in whole or in part, even if the code is modified
+
+Writing original code for someone else, or paying someone to write your project
+
+ 	Sharing your code in a way that could be copied, e.g., sending code over email or taking a picture of code
+You are still responsible for following these rules even after finishing the course.
+
+If you are unsure about what constitutes an honor code violation, please contact the course staff with questions.
+
+Code reuse
+If you are retaking the course, you may not reuse your own code.
+
+Code publishing
+You may not make your code publicly available in any form, for example in a public GitHub repository or personal website. You are still responsible for following these rules even after finishing the course.
+
+Generative AI Policy
+The use of generative AI tools (e.g. GitHub Copilot, ChatGPT, Bard, etc.) is permitted only in the same contexts where collaboration with another person is allowed as described above.
+
+Honor Council Process
+We report suspected violations to the Engineering Honor Council. To identify violations, we use both manual inspection and automated software to compare present solutions with each other, with past solutions, and with code found online. The Honor Council determines whether a violation of academic standards has occurred, as well as any sanctions. Read the Honor Code for detailed definitions of cheating, plagiarism, and other forms of academic misconduct.
+
+Here's what you can expect if you are reported for an Honor Code violation:
+
+The EECS 489 instructor submits an official report to the Honor Council.
+The Honor Council notifies you of the report, and explains the next steps of the process. You receive a copy of the report, including the evidence of the suspected violation.
+The course instructors play no role in adjudicating reported cases.
+The Honor Council notifies course instructors when your case is resolved. Any penalties they prescribe are applied to your grade. If you are found not responsible, your grade is unaffected.
+If you have a pending honor council case at the end of the term, you receive an "I" (incomplete) grade until the case is resolved. We will send you a grade projection via email to help with planning. Your grade is updated once the case is resolved. The "I" should not remain on your transcript.
+
+Commitment to Equal Opportunity
+As indicated in the General Standards of Conduct for Engineering Students, we are committed to a policy of equal opportunity for all persons and do not discriminate on the basis of race, color, national origin, age, marital status, sex, sexual orientation, gender identity, gender expression, disability, religion, height, weight, or veteran status.
+
+Students' Mental Health and Well-being
+University of Michigan is committed to advancing the mental health and well-being of its students. If you or someone you know is feeling overwhelmed, depressed, and/or in need of support, services are available. For help, contact Counseling and Psychological Services (CAPS) at (734) 764-8312 and https://caps.umich.edu during and after hours, on weekends and holidays, or through its counselors physically located in schools on both North and Central Campus. You may also consult University Health Service (UHS) at (734) 764-8320 and https://www.uhs.umich.edu/mentalhealthsvcs, or for alcohol or drug concerns, see www.uhs.umich.edu/aodresources. For a listing of other mental health resources available on and off campus, visit: https://caps.umich.edu/resources.
+
+Wolverine Support Network
+Another resource available to you as a U-M student is Wolverine Support Network, a student organization offering free peer-facilitated weekly groups on campus. With 30+ groups per week, students are placed in a group at a time and location most convenient for them. Trained students lead groups to promote students' well-being and build community in an accessible, confidential, and inclusive environment. To sign up for a group, go to umichwsn.org/join, or email wsndirectors@umich.edu with any questions.
+
+Accommodations for Students with Disabilities
+If you think you need an accommodation for a disability, please let your instructor know during the first three weeks of the semester. Some aspects of this course may be modified to facilitate your participation and progress. As soon as you make us aware of your needs, we can work with the Services for Students with Disabilities (SSD) office to help us determine appropriate academic accommodations. SSD (734-763-3000; http://ssd.umich.edu) typically recommends accommodations through a Verified Individualized Services and Accommodations (VISA) form. Any information you provide is private and confidential and will be treated as such.
+
+Recordings
+Course lectures may be audio/video recorded and made available to other students in this course. As part of your participation in this course, you may be recorded. If you do not wish to be recorded, please contact your instructor the first week of class to discuss alternative arrangements.
+
+Students may not record or distribute any class activity without written permission from the instructor, except as necessary as part of approved accommodations for students with disabilities. Any approved recordings may only be used for the student's own private use.

@@ -1,0 +1,32 @@
+Syllabus:
+
+Historic ciphers, and perfect secrecy. 
+Symmetric encryption, including pseudorandom generators, stream ciphers, pseudo- random functions/permutations.
+Message authentication. 
+Cryptographic hash functions. 
+Public key encryption.
+Expected outcomes: By the end of this course, you should be able to critically think about the design of cryptographic primitives and ways of safely composing and utilizing them in applications. You should gain insights, based on mathematical principles, on good and bad practices in the design of cryptographic systems. While practical considerations such as the actual implementations and the concrete choice of various parameters are generally beyond the scope of this course, you will be able to understand the foundations and have a clear insight on principles underlying secure cryptosystems.
+
+
+
+
+Required textbook: Introduction to Modern Cryptography (3rd edition) by Jonathan Katz and Yehuda Lindell.
+
+
+
+Prerequisites: The formal prerequisites are: (EECS 203 or MATH 312 or MATH 412) and (EECS 180 or EECS 183 or EECS 280) and EECS 376. Other helpful, but not required, courses include: EECS 477 and/or 586 (Algorithms), and Math 425 (Probability).
+
+
+Note: This course is quite mathsy by design, as mathematics is the fundamental pillar of good cryptography. Hence the main prerequisite is a level of “mathematical maturity.” Specifically, students should be comfortable with discrete mathematics (e.g., counting, summations, modular arithmetic), basic probability (e.g., probability spaces, random variables, elementary laws and manipulations), and design and analysis of algorithms (e.g., precisely describing an algorithm, reasoning about its correctness, and analyzing its running time). We will discuss selected proofs in some detail, and heavily use the idea of reductions from Theory of Computation (i.e., assuming A is impossible, show B is impossible by showing solving B can lead to a solution for A). You may recall examples of this from EECS 376.
+
+
+Evaluation criteria: Participation, Homework (almost once every two weeks), Midterm Exam, Scribe Notes, Final Project (written report).
+
+
+Lectures: Mon/Wed 10:30 AM - 12:00 PM at 1311 EECS (from Aug 28 to Dec 6, 2023)
+
+
+Discussions: Fridays 12:30PM - 1:30PM at 1571 GGBL.
+
+
+Graduate students: This is an Upper Level CS (ULCS) elective course and is not intended for graduate students. There is a graduate version (EECS 575) that is specifically designed for graduate students.

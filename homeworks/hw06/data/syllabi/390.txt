@@ -1,0 +1,260 @@
+EECS 390: Programming Paradigms Syllabus
+The University of Michigan, Winter 2024
+
+Survey of programming language features and paradigms, with a focus on how to effectively use them. Introduces common features for structuring program execution, data, and resource management. Exploration of programming paradigms including imperative, functional, object-oriented, and declarative paradigms, as well as advanced techniques such as metaprogramming. Students will gain programming experience in large projects that incorporate these paradigms and techniques.
+
+Course Overview
+The main goal of this course is to become better programmers, by learning about common programming-language techniques and paradigms and developing significant programs that incorporate these techniques. We expect that everyone will come out of the course with the background needed to quickly learn a new language or programming system and then effectively write code in that language or system. Regardless of where you end up, you will likely have to learn a new programming system sooner or later, and our goal is to help you develop the skills to succeed at that.
+
+While we will be using several languages, learning different languages is not our main purpose here. Instead, we will explore the fundamental features, concepts, and paradigms of programming languages. Gaining the ability to learn a new language quickly and to make better use of its constructs is much more important than memorizing the syntax of several different languages. To analogize with spoken languages, we are more concerned with linguistics than with specific languages.
+
+The main themes of the course are:
+
+Foundations. These are features common to different languages, including names and scope, control flow, memory management, and so on. We will also learn about syntax and grammar, which are the fundamental structural building-blocks of a language.
+Functional programming. This is a fundamental paradigm that models computation in terms of inputs and outputs of functions, and it includes concepts such as recursion, higher-order functions, anonymous (lambda) functions, and continuations. Modern languages include those that are functional-first, such as Rust and F#, as well as other languages that incorporate functional features, including C++, Python, Ruby, and Java.
+Data abstraction. Code operates on data, and data must be organized in ways that are conducive to reasoning about the data and their accompanying functionality. We will explore data abstraction at a conceptual level as well as common patterns for describing and organizing data. These include object-orientation, typing, generics, and modules.
+Declarative programming. Different pieces of code or data are often related to one another, and declarative programming organizes computation around these relationships. Logic programming involves expressing general relationships and making queries on those relationships to perform computation. Declarative systems can also be built around expressing constraints or dependencies between data and tasks.
+Metaprogramming. This is the general idea of writing programs that operate on other programs, including automatic generation of program components. A specific example of this is template metaprogramming, which uses a compiler's facility for reasoning about types and generics to perform compile-time computation.
+Special topics. We will also cover a few other topics of interest in the area of programming languages, as time allows.
+Please refer to the course schedule for a full list of topics that we plan to explore.
+
+Instructor
+Amir Kamil <akamil@umich.edu>
+Mode of Instruction
+All dates and times in this course are with respect to Ann Arbor (Eastern) time.
+
+Lectures are offered live in person, and recordings will be made available. We do not take attendance in lecture.
+
+Labs will be held in person. You may attend any lab section, even if it's different than your registered section, subject to space availability. We do not take attendance in lab. We are planning to make recordings available.
+
+Homework assignments and projects will be turned in electronically to the autograder.
+
+Exams will be held in person. Refer to the course schedule for exam dates and times.
+
+Office hours are expected to be held in both in-person and remote formats.
+
+Prerequisites
+Passing EECS 281 is all you need to be prepared for this course. Everyone who has made it through EECS 281 is able to complete EECS 390 successfully.
+
+Prior experience in Python, Scheme, or Prolog is not required.
+
+Textbook
+We use a set of course notes developed specifically for this class. Required reading assignments are listed on the schedule. We encourage you to read them in advance of lecture, but it's fine if you read them afterwards instead.
+
+If you would like an additional resource, we recommend Programming Languages: Principles and Paradigms by Gabbrielli and Martini. It is available in print form and DRM-free electronic form here.
+
+Communication
+The course website links to all course resources. Please check the website regularly for updates.
+
+We use Piazza as a collaborative discussion forum for the course, and it is the best place for technical questions, project updates, and policy questions. Please do not publicly post your code; if you have a specific question about your code, please make a private post instead. Please search the forum before posting; duplicate questions create extra work for everyone, and they make it harder for others to find answers to their questions.
+
+eecs390w24@umich.edu reaches the full course staff.
+
+Please reach out to us using our individual email addresses for confidential matters.
+
+We publish important announcements and grades on Canvas. Please ensure that you can receive Canvas announcements.
+
+Exams
+We will have one midterm and one final examination. Exam dates are on the course website. Make sure to verify you can attend both exams before registering.
+
+Alternate Exams
+We are only capable of providing alternate exams for documented conflicts due to a religious holiday, university-affiliated athletics, or mandatory class meetings that conflict with the midterm exam time.
+
+We will also work with you if you have SSD accommodations.
+
+We will post forms for requesting alternate exams and letting us know about SSD accommodations in the first few weeks of the semester. To ensure that we can accommodate requests, we will announce a deadline for submitting the forms.
+
+Labs
+In addition to lectures, we will hold lab sections each week. While the main goal of lectures is to introduce new concepts, lab sections are intended to give you some hands-on experience with exercises, as well as help you get started on assignments. Though attendance is not required, you do need to be familiar with the material covered in lab.
+
+Projects and Homework
+We will have five major programming projects and three smaller homework assignments. These assignments will give you hands-on, in-depth experience with the concepts covered in the course.
+
+Assignment Partnerships
+We encourage working with a partner on the assignments that allow it. Coding is a collaborative endeavor, and working with another person helps you both learn from each other. Past data from several courses (EECS 280, EECS 390, EECS 490) have shown that partnerships do better on projects than people who work individually.
+
+However, if you do wish to work on your own, we will support that as well.
+
+Project 1 must be done individually, since it is intended to ensure that everyone is up and running in Python. You may work either alone or in a partnership for the remaining projects and for any of the homework assignments.
+
+A partnership is composed of two students. If you work in a partnership, you and your partner must both be registered for EECS 390 this term (any section). Partnerships are not allowed with anyone outside the course.
+
+For those retaking the course (under any previous number, including EECS 390, EECS 398, or EECS 490): if you submitted an assignment in a previous term, you have the following options on the same assignment this term:
+
+Do the assignment individually. You may reuse your code from the previous term if you choose this option.
+Work with a partner. You must restart the assignment from scratch if you choose this option.
+This is to ensure that both members of a partnership contribute to all aspects of a solution, as required below.
+
+You may change partners between projects. Changing partners during a project is not allowed. In exceptional cases, you may request partnership dissolution by sending email to us. If we grant a dissolution, both partners may use previously shared code and both partners must work alone on the remainder of the project. We want both partners to have an opportunity to complete the project, so we do not generally grant dissolutions close to a deadline. Please let us know early if you run into partnership issues, and we will help you in resolving them.
+
+For some assignments, we may place additional restrictions if you work in a different partnership than a previous assignment. This is the case when an assignment reuses work done on the prior assignment. Refer to the assignment specifications for when this applies and what the restrictions are.
+
+To work in a partnership, register your partnership on the autograder prior to the first submission for an assignment. The autograder will then treat you and your partner as a unit, and a submission from one partner counts for both.
+
+We require partners to collaborate on all aspects of a solution. This ensures that both partners meet all the learning goals of the projects. We do not allow splitting up the project and working on separate parts individually. For both grading and honor-code purposes, both partners are held equally responsible for anything submitted on behalf of the partnership.
+
+Assignment Grading
+We use a web-based autograder to provide early feedback, and to evaluate correctness and programming practices. We also hand grade some assignments for programming practices. This allows us to provide better feedback than we can get from automated tools.
+
+Before the deadline, we allow 3 submissions a day per partnership, with the count resetting at midnight Eastern Time. After each submission, the autograder shows the results of the public tests released with the project.
+
+After the deadline, the autograder shows the results of private tests, which are usually more thorough than the public tests.
+
+The final assignment score is a combination of public tests, private tests, and hand grading. We use the submission that received the combined best score on the public and private autograder tests. If multiple submissions share the best score, we grade the last such submission.
+
+For hand grading, we grade the same submission that is used to determine your correctness score -- it is important for programs to simultaneously have the correct behavior and be readable and maintainable by following good practices. Make sure to always use good programming practices. This will ensure that you do well on the hand grading, even if we end up grading a submission you did not expect.
+
+Project Checkpoints
+Several projects have optional checkpoints that entail meeting a specific correctness threshold in advance of the final deadline. These are inteded to get you on track for completing the project on time. Refer to the project specifications for details.
+
+Programming Environment
+You may develop your programs on any platform you like. However, use only standard features and libraries of the programming environment for an assignment (e.g. Python 3.11, Scheme R5RS, and C++20).
+
+Since the autograder is the system we use for grading, make sure that your code works correctly on the autograder. In particular, submit before the due date so that you have the opportunity to fix any errors.
+
+Assignment Tips
+Tips for doing well on the assignments:
+
+Start early. This is the most common problem.
+Try a debugger. One major requirement of programming is learning to test and debug your programs independently.
+Ask for help. We want to help you in office hours!
+Back up. We can't help you with lost data.
+Tips for assignment partnerships include:
+
+Form your partnership early. Since you and your partner must work on all apsects of the assignments together, you cannot partner with someone if one of you has already made substantial progress on the solution.
+Plan your strategy. When will you meet? Do you plan to attend office hours? Do you prefer to work during the day, at night, or on the weekends? Will you start early?
+Work on all parts of the project together, as required. We strongly encourage pair programming.
+Do NOT split the work in half and work separately. Not only is this against the rules, you'll have no control over your partner's contribution. Splitting the work also harms your readiness for exams.
+Grades
+While we do not consider grades to be the metric for success in this course, we do have to assign grades at the end of the semester. We will do so based on scores from homework assignments, programming projects, survey participation, and two exams. The tentative point distribution is included in the following table. It is not likely that this will change, but circumstances might occur that would make changes necessary (see the Revisions section for how we handle changes).
+
+Assignment	Weight
+Homework assignments (5% each)	15%
+Projects (P1 6%; P2-P5 10% each)	46%
+Midterm exam	19%
+Final exam	19%
+Course surveys	1%
+Total	100%
+There are no letter grades for individual projects or exams. The final course letter grade is based on the total weighted score earned. Passing EECS 390 requires meeting the following criteria:
+
+Your weighted average project score must be a passing score. The threshold for a passing score will be no higher than 65% of the available project points, weighted as above.
+Your weighted average exam score must be a passing score. The threshold for a passing score will be no higher than 50% of the available exam points, weighted as above.
+Your weighted total for the course as a whole must be a passing score.
+These thresholds are to ensure both sufficient hands-on experience with the core concepts through successful completion of the projects, and sufficient understanding of the material as reflected by individual performance on the exams. We may adjust thresholds in your favor.
+
+After computing the total weighted score, we use these ranges to assign letter grades, as long as the passing thresholds for projects and exams are met. Each range is inclusive at the bottom and exclusive at the top; for example, a score of 88.9999% is a B+ and a score of 89.0% is an A-. We do not round scores. We may adjust thresholds in your favor.
+
+Total Weighted Score	Letter Grade
+0 - 50%	E
+50 - 58%	D
+58 - 65%	C-
+65 - 73%	C
+73 - 77%	C+
+77 - 81%	B-
+81 - 85%	B
+85 - 89%	B+
+89 - 93%	A-
+93 - 100%	A
+If you score 65% overall, and your weighted exam average is above 50%, and your weighted project average is above 65%, you will pass the course with a C or better.
+
+There is no guaranteed threshold for an A+. A grade of A+ is only awarded for exceptional work at the discretion of the instructors.
+
+Please note:
+
+We do not round scores when computing grades.
+We do not offer the opportunity for “make-up” or extra credit work.
+We do not reconsider final grades after they have been released. We can only submit grade changes to correct errors in recording or calculating scores.
+A final thought on grades: we assign grades solely based on scores on the course assignments. We do not consider grades to be a value judgment. We value everyone's participation, and we treat everyone with respect and consideration regardless of what scores or grades they obtain.
+
+Deadlines
+We typically set deadlines for assignments to be at 8pm Eastern Time on the due date. This allows us to support the assignments until the deadline. We also do not want to encourage working late into the night, since that can negatively impact your well-being and your work the following day.
+
+We do not accept late submissions. Assignments turned in late for any reason will receive a zero, unless we have worked out an extension in advance. We consider extensions for the following reasons:
+
+Religious holidays or planned medical procedures. Please let us know at least two weeks in advance, and we will do our best to accommodate the request.
+Unanticipated medical or personal emergencies. We understand that such situations do happen, and we do not want them to get in the way of your participation in the class. So that we understand the circumstances and can come up with an appropriate accommodation, we need documentation of the emergency to provide an extension. Please contact us, and we will work with you on this.
+We may also consider extensions for students adding the course late to make up work that was previously due. Please contact the course staff to request such an extension.
+
+Regrades
+Some components of assignments and exams are graded by hand. Request a regrade via the mechanism announced for the assignment. We accept requests only to correct grading errors, not disagreement with the rubric. Your score may go up or down.
+
+We do not accept regrade requests for automatically graded components of assignments or exams.
+
+In all cases, regrade requests are due no later than 7 days after a grade is released unless a shorter deadline is specified.
+
+Academic Integrity
+Outside of exams, we encourage collaboration in EECS 390, especially on concepts, tools, specifications, and strategies.
+
+All work you submit must be your own or your partnership's. Collobaration must not result in code that is identifiably similar to other solutions, past or present.
+
+Encouraged Collaboration	Unacceptable Collaboration
+✔ Discussing high-level design strategies, e.g., helper function organization or data structure choices	✘ Walking through an important piece of code step-by-step, sharing pseudocode, sharing comments
+✔ Helping others understand the spec or project nuances	✘ Providing your code as a reference
+✔ Helping someone debug	✘ Debugging someone's code for them
+✔ Explaining a compiler or runtime error to someone	✘ Fixing a compiler or runtime error for someone
+✔ Discussing test strategies	✘ Sharing test code to verify someone else's design, even if test cases are not submitted
+✔ Brainstorming edge cases for testing	✘ Discussing specifics about what test cases are on the autograder
+✔ Sharing code provided by the course staff	
+✘ Copying code in whole or in part, even if the code is modified
+
+✘ Writing original code for someone else, or having someone else write your project
+
+✔ Looking at small snippets of someone else's code to understand concepts	✘ Sharing your code in a way that could be copied, e.g., sending code over email or taking a picture of code
+These rules continue to apply even after the course is over.
+
+If you are unsure about what constitutes an Honor Code violation, please contact the course staff with questions.
+
+Generative AI Policy
+The use of generative AI tools (e.g. GitHub Copilot, ChatGPT, Bard, etc.) is permitted only in the same contexts where collaboration with another person is allowed, following the guidelines above. For example:
+
+Allowed Use	Prohibited Use
+✔ Learning course concepts, generating examples of a particular coding pattern, interactively checking your knowledge, etc.	✘ Generating project code, test cases, or any other work to be submitted (with or without modifications)
+✔ Understanding compiler errors or getting suggestions for debugging a problem	✘ Exhaustively proofreading your code to find and/or correct any mistakes
+✔ Brainstorming and identifying potential edge cases for testing	✘ Asking for a list of test cases (even if they aren't written out as code)
+✔ Generating additional practice exam questions or other use for studying	✘ Using generative AI tools during exams
+Additionally, the use of generative AI in a deceptive or malicious fashion is prohibited. This includes but is not limited to:
+
+Impersonating yourself or others in course contexts, for example in emails, virtual office hours, or online course forums.
+Using generative AI to facilitate harassment of others.
+Code Reuse
+If you are retaking the course, you may reuse your own code (subject to the partnership rules above), provided it was wholly written according to the rules outlined in this syllabus. It is possible for us to miss an Honor Code violation in a previous term, but catch and report it when the code is reused.
+
+Code Publishing
+You may not make your code publicly available in any form, for example in a public GitHub repository or personal website. These rules continue to apply even after the course is over.
+
+Honor Council Process
+As part of our own responsibilities under the Honor Code, we have to report suspected violations to the Engineering Honor Council. To identify violations, we use both manual inspection and automated software to compare present solutions with each other, with past solutions, and with code found online. The Honor Council determines whether a violation of academic standards has occurred, as well as any sanctions. Read the Honor Code for detailed definitions of cheating, plagiarism, and other forms of academic misconduct.
+
+Here's what you can expect if you are reported for an Honor Council violation:
+
+We submit an official report to the Honor Council.
+The Honor Council notifies you of the report and explains the next steps of the process. You receive a copy of the report, including the evidence of the suspected violation.
+We play no role in adjudicating reported cases.
+The Honor Council notifies us when your case is resolved. Any penalties they prescribe are applied to your grade. If you are found not responsible, your grade is unaffected.
+If you have a pending Honor Council case at the end of the term, you receive an "I" (incomplete) grade until the case is resolved. We will send you a grade projection via email to help with planning. Your grade is updated once the case is resolved.
+
+Course Policies
+Recordings
+We may record course lectures and labs and make them available to other students to facilitate their participation in this course. If you do not wish to be recorded, please contact your instructor the first week of class to discuss alternative arrangements.
+
+Students may not record or distribute any class activity without written permission from the instructor, except as necessary as part of approved accommodations for students with disabilities. Any approved recordings may only be used for the student’s own private use.
+
+Accommodations for Students with Disabilities
+If you think you need an accommodation for a disability, please let us know during the first three weeks of the semester. Some aspects of this course may be modified to facilitate your participation and progress. As soon as you make us aware of your needs, we can work with the Services for Students with Disabilities (SSD) office to help us determine appropriate academic accommodations. SSD (734-763-3000; http://ssd.umich.edu) typically recommends accommodations through a Verified Individualized Services and Accommodations (VISA) form. Any information you provide is private and confidential and will be treated as such.
+
+Commitment to Equal Opportunity
+As indicated in the General Standards of Conduct for Engineering Students, we are committed to a policy of equal opportunity for all persons and do not discriminate on the basis of race, color, national origin, age, marital status, sex, sexual orientation, gender identity, gender expression, disability, religion, height, weight, or veteran status. Please feel free to contact us with any problem, concern, or suggestion. We ask that all of us treat each other with respect.
+
+Student Well-being
+We all experience stressors that can impact both our academic experience and our personal well-being. These may include academic pressure and challenges associated with relationships, mental health, alcohol or other drugs, identities, finances, etc.
+
+If you are experiencing concerns, seeking help is a courageous thing to do for yourself and those who care about you. If the source of your stressors is academic, please contact us so that we can find solutions together. For personal concerns, U-M offers many resources, some of which are listed at Resources for Student Well-being on the Well-being for U-M Students website. You can also search for additional resources on that website.
+
+Research Disclosure
+We are always working hard to improve the course, our teaching methods, and the curriculum as a whole. Often, this requires using your class work for research purposes. However, we will not publish any identifying information about you or your work. For example, we may use anonymized student assignments to design algorithms or build tools to help programmers. Or we might survey responses to help us improve the course and better understand instructional techniques. If you wish to opt out, contact the course staff (eecs390w24@umich.edu) at any time up to seven days after final grades have been issued. Opting out has no impact on your grade in any manner.
+
+Revisions
+While we try to do our best to plan ahead, unfortunately, sometimes circumstances do arise that motivate a policy change. When this happens, the change will be announced, and this document will be updated with the new policy.
+
+Parting Thoughts
+We wish you the best of luck this semester! We will do our best to make it a positive and meaningful experience, and we hope that the course helps you in your future endeavors.

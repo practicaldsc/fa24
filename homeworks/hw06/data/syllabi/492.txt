@@ -1,0 +1,442 @@
+EECS 492: Introduction to Artificial
+Intelligence, Winter 2023
+Welcome to 492! We’re glad you’re here, and we’re looking forward to a great semester learning
+more about AI.
+Quick Links
+● TBD - The first week of class, we will post links here and on Canvas to the class
+calendar, the OH queue, and OH zoom links (for virtual office hours).
+Basic Information
+Lecture time: Tuesday & Thursday 3-4:30pm
+Lecture location: 1571 GGBL
+Faculty Instructor: Laura Burdick, BBB 3824, lburdick@umich.edu
+● Dr. Burdick typically responds to most e-mails within a day, though usually doesn’t
+respond during evenings and weekends.
+Faculty Office Hours: Tuesday 1-2pm (conference room, BBB 2733) & Thursday 1-2pm (Dr.
+Burdick’s office, BBB 3824)
+● Please note that the Tuesday and Thursday office hours are in different locations.
+● Office hours begin Tuesday, January 10.
+● If these times don’t work for you (or you’d prefer to meet remotely), please send an
+e-mail, and we can find another time to meet, either remotely or in-person.
+GSIs:
+Alex Li, xelail@umich.edu, Tuesday & Thursday 11:30-1:30pm (remote, logistics TBD)
+● Office hours begin Tuesday, January 10.
+Won Park, wonpark@umich.edu, Tuesday & Wednesday, 9:30-11:30am (remote, logistics TBD)
+● Office hours begin Tuesday, January 10.
+Discussion times and locations:
+Friday 11:30am-12:30pm 2166 DOW Won Park
+Friday 12:30pm-1:30pm 107 GFL Alex Li
+Friday 1:30pm-2:30pm 1005 DOW Alex Li
+Monday 4:30pm-5:30pm 185 EWRE Won Park
+Course Description
+This course is an introductory course to artificial intelligence. We will cover the following topics:
+● Agents. Agents give us a broad framework for understanding all kinds of AI systems,
+from robots operating in a disaster zone to social media chatbots. We will look at
+different kinds of agents and the environments they operate in.
+● Search. Search allows us to plan a path from a starting state to a goal state. Almost any
+problem in AI can fit into a search framework! You’ve already seen some search
+algorithms (breadth-first search, depth-first search), but we will study more advanced
+search algorithms, including algorithms that use external information (informed search)
+and algorithms that let you search for a goal state when you have an opponent
+(adversarial search, with some game theory).
+● Problem Solving. We will look at more complex problem solving frameworks, such as
+constraint satisfaction and planning.
+● Logic. We will study propositional logic and first-order logic to understand how AI
+systems can store knowledge internally and make decisions based on the knowledge
+they have.
+● Uncertainty. In the real world, uncertainty is everywhere. We will look at how AI systems
+handle this uncertainty. We will cover basic probability, and then apply this to AI by
+looking at Bayesian networks and MDPs/POMDPs.
+● Learning. We want our AI systems to learn from their previous observations and
+actions. In this unit, we will introduce algorithms that allow agents to learn. We will focus
+on a subset of machine learning algorithms, including llinear regression, decision trees,
+neural networks, and reinforcement learning.
+Broadly speaking, this course will contain the following components (more details in the rest of
+the syllabus):
+● Lectures. In-person attendance will be required for 20 of the 27 lectures. Lectures will
+be recorded.
+● Discussion sections. Attendance will not be required for most discussion sections (with
+a few exceptions discussed below). Discussion sections will be recorded.
+● Assignments. There will be three kinds of assignments - problem sets, coding
+assignments, and ethics assignments.
+● Exams. There will be an in-person midterm exam, and an in-person final exam.
+Prerequisites
+Students must have completed EECS 281 with a grade of C or better; exceptions will not be
+granted. CSE graduate students should enroll in EECS 592.
+Textbook and Course Materials
+The optional textbook for the course is Artificial Intelligence: A Modern Approach (4th Edition),
+by Stuart Russell and Peter Norvig (ISBN 9780134610993).
+Additional course materials will be posted on Canvas.
+Lecture
+Lectures in this class are interactive, with time for discussion and in-class exercises. Because of
+this, attending lectures in-person is an important part of the learning experience in this class.
+Attending lectures will allow you to learn the material better and remember it longer after the
+class has ended. This is why you will be required to attend a certain number of lectures
+in-person.
+There will be 27 lectures over the course of the semester (this doesn’t include the in-class
+midterm). In order to earn full credit, you will be required to attend 20 lectures. Attendance will
+be taken using a Google form. Each class, you will be given a Google form with several in-class
+exercises. We will complete the exercises together in class, and if you attend class, you must
+submit the form before 4:45pm on the day of lecture (class will end at 4:20pm, so this gives you
+a little buffer time to submit the form). The form will be graded for completion, not for
+correctness. If you successfully complete and submit the form before 4:45pm, you will be given
+attendance credit for that day. It is considered an Honor Code violation to submit this form
+if you don’t attend class in-person.
+Because you are only required to attend around 75% of the lectures, please stay home if you
+are sick. This also gives you some flexibility for job interviews, travel, etc. Because of this built-in
+flexibility, exceptions to the attendance policy will not be granted except in extenuating
+circumstances. If you have extenuating circumstances that cause you to miss more than seven
+lectures, please contact Dr. Burdick.
+Lectures will be recorded. The recordings should be used to review the material (and can be
+used if you miss a particular lecture). The recordings will not be posted until after 4:45pm the
+day of the lecture.
+Discussion Sections
+Discussion sections serve several purposes in this course:
+● Many weeks, discussion sections will talk about current events in AI, and show how the
+material we are learning connects to real-world problems and solutions.
+● Many weeks, discussion sections will give you an opportunity to work through exercises
+to deepen your understanding of the material. These will be new, interesting exercises
+not covered in lecture, so it will be worth your time to attend discussion section!
+● Some weeks, discussion sections will review material that you have learned in other
+classes that we will use in EECS 492 (e.g., probability). If a topic you have previously
+learned is covered in discussion sections, you will be expected to come to lectures
+prepared to use that material.
+● Some weeks, discussion sections will facilitate discussions about ethical issues in
+artificial intelligence (see more under “Assignments”).
+For most discussion sections, attendance is not required (the exception to this is the ethics
+discussion - please see the next section for more details). However, we think that attending
+discussion section is a valuable thing! To help you decide whether you should attend discussion
+section each week, we will announce the material that will be covered in discussion section
+ahead of time. Because discussion sections are smaller than lecture, they are a great
+opportunity to interact with the GSIs. We would encourage you to attend the same section every
+week, so that you can get to know your classmates and your instructor.
+Discussion sections will be recorded (except for the ethics discussions), though we strongly
+encourage you to attend in-person. If you are feeling sick, please watch the recording rather
+than coming to discussion section.
+Assignments
+There will be three different kinds of assignments in this class:
+● Problem sets - These will be conceptual and mathematical problems designed to help
+you learn the material better. You must work alone for these assignments, though you
+may discuss ideas and high-level concepts with classmates.
+● Coding assignments - These assignments will involve programming algorithms in
+Python. You may optionally work with a partner for these assignments, though you can
+work alone if you want.
+● Ethics assignments - There will be four ethics assignments throughout the semester.
+For each assignment, you will be given an assigned reading. After you do the reading,
+you have two options: (1) you can write a paper reflecting on the reading, or (2) you can
+attend a discussion section and participate in a discussion about the reading. If you are
+unable to attend a discussion section due to illness or other circumstances, you must
+complete the paper instead.
+Homework must be turned in on the date that it is due, by 11:59PM Ann Arbor time. The
+homework must be submitted electronically using Canvas and Gradescope and we will use the
+later timestamp to validate turn-in time. Late homework will be penalized 10% per day (where
+each day starts at 11:55pm on the due day). Homework turned in after three days will not be
+accepted. Certain homework assignments may be associated with a single late day, to facilitate
+exam study. This will be noted when the assignment is released.
+If you are unable to complete the homework assignment on time due to illness or a personal
+emergency, please contact Dr. Burdick.
+Note that the only method of submission is Canvas/Gradescope. It is your responsibility to
+ensure that the homework has been uploaded successfully by the due date. This may include
+checking a box to verify accordance with the honor code policy. Homework that is incorrectly
+uploaded will be subject to the associated late penalty. Homework not successfully uploaded by
+the due date will not be accepted.
+Also note that any changes you make to the homework already submitted on
+Canvas/Gradescope counts as a resubmission. If you make any changes to the assignment
+after the due date has passed you will be assigned a late penalty based on the number of days
+that have passed. For example, if you edit an assignment on February 5 and it was due on
+February 2 you will be assigned a 30% penalty (10% per day) as explained above. This is
+non-negotiable.
+Exams
+The midterm will take place on Thursday, February 23 during classtime (please note that this is
+the Thursday before spring break). The midterm will take place in-person - there will be no
+exceptions to this policy for spring break travel. Please plan your travel accordingly.
+The final exam will take place on Tuesday, April 25, from 8-10am. The final will take place
+in-person - there will be no exceptions to this policy for travel. Please plan your travel
+accordingly.
+Office Hours
+The instructors will have regularly scheduled office hours each week. You are encouraged to
+make use of these to discuss aspects of the course including lecture material and the homework
+problems. In cases where you cannot make office hours, contact the course staff to arrange an
+appointment; don’t wait until the last minute though!
+Piazza
+We will be using Piazza to host a course forum and asynchronous Q&A. You are encouraged to
+read this regularly and post technical questions. Please search before posting to avoid re-asking
+questions that have already been answered.
+It is important that you do NOT post your own code or homework solutions to the forum. If you
+have a question about any of these things, use a private post (visible only to instructors).
+Course staff will answer questions on Piazza throughout the day, but do not expect an
+immediate response (particularly on evenings and weekends). We will try to answer questions
+within 24 hours when possible. Of course, students are encouraged to answer each others’
+questions!
+Email Policy
+We do not answer technical questions via email. In order to save everyone time, we want all
+students to have the benefit of seeing each question and its answer, so please use Piazza
+instead.
+Grading
+Attendance 5%
+Problem sets 20%
+Coding assignments 20%
+Ethics assignments 20%
+Midterm 15%
+Final 20%
+The values are subject to slight adjustments based on the discretion of the instructor. If you
+have a problem with the grading on a particular assignment or exam, write a brief (one
+paragraph) description of the problem, and e-mail it, along with a copy of the assignment/exam,
+to Dr. Burdick for a regrade. Regrade requests must be submitted within one week of when
+the graded assignment is made available to the student. Later regrade requests will not be
+accepted.
+The midterm exam and final exam grades will most likely be curved. Final letter grades will be
+calculated according to the following table:
+A+ 98 ≤ % ≤ 100
+A 93 ≤ % < 98
+A- 90 ≤ % < 93
+B+ 87 ≤ % < 90
+B 83 ≤ % < 87
+B- 80 ≤ % < 83
+C+ 77 ≤ % < 80
+C 73 ≤ % < 77
+C- 70 ≤ % < 73
+D+ 67 ≤ % < 70
+D 63 ≤ % < 67
+D- 60 ≤ % < 63
+E % < 60
+Honor Code
+We encourage collaboration in EECS 492, especially on concepts, tools, specifications, and
+strategies. In this class, you are expected to follow the College of Engineering Honor Code.
+Suspected violations will be referred to the Engineering Honor Council.
+In particular, here are some ways that the Honor Code applies to this class:
+● Attendance. Attendance will be taken using a Google form submitted each class period.
+It is an Honor Code violation to submit this form if you did not attend the class in-person.
+It is an Honor Code violation to share the link to this form with a student who is not
+attending the class in-person.
+● Problem sets. Problem sets must be completed individually. You are free to discuss
+high-level ideas with other students, but all solutions must be your own. It is an Honor
+Code violation to work out the details of the problems with someone else. It is an Honor
+Code violation to compare your solutions, whether in scrap paper form or your final work
+product, to other students (and vice versa).
+● Coding assignments. You may collaborate with one other student for coding
+assignments. It is an Honor Code violation to collaborate with more than one other
+student.
+● Code publishing. You may not make your code publicly available in any form, for
+example in a public GitHub repository or personal website. You are still responsible for
+following these rules even after finishing the course.
+● Exams. Exams must be completed individually. It is an Honor Code violation to discuss
+exams with other students before the exam is completed.
+● Previous semesters. It is an Honor Code violation to possess, look at, use, or in
+anyway derive advantage from the existence of solutions prepared in prior years,
+whether these solutions were former students' work product or copies of solutions that
+had been made available by instructors.
+If you are at all unsure whether your collaboration is allowed, please contact the course staff via
+Piazza, office hours, or email before you do anything. We will help you determine if what you’re
+thinking of doing is in the spirit of collaboration for this class.
+Wellness
+If for any reason you are having difficulty in this course, please come talk to Dr. Burdick;
+we want to help. Any member of our community may experience stressors that can impact both
+their academic experience and their personal well-being. These may include academic pressure
+and challenges associated with relationships, mental health, alcohol or other drugs, finances,
+etc.
+If you are facing challenges, seeking help is a courageous thing to do for yourself and those
+who care about you. If the source of your stressors is academic, please contact Dr. Burdick so
+that we can find solutions together.
+Accomodations for Students with Disabilities
+The University of Michigan recognizes disability as an integral part of diversity and is committed
+to creating an inclusive and equitable educational environment for students with disabilities.
+Students who are experiencing a disability-related barrier should contact Services for Students
+with Disabilities (https://ssd.umich.edu/; 734-763-3000 or ssdoffice@umich.edu). For students
+who are connected with SSD, accommodation requests can be made in Accommodate. If you
+have any questions or concerns please contact your SSD Coordinator or visit SSD’s Current
+Student webpage. SSD considers aspects of the course design, course learning objects and the
+individual academic and course barriers experienced by the student. Further conversation with
+SSD, instructors, and the student may be warranted to ensure an accessible course experience.
+Recordings
+Course lectures may be audio/video recorded and made available to other students in this
+course. As part of your participation in this course, you may be recorded. If you do not wish to
+be recorded, please contact Dr. Burdick the first week of class to discuss alternative
+arrangements.
+Students may not record or distribute any class activity without written permission from the
+instructor, except as necessary as part of approved accommodations for students with
+disabilities. Any approved recordings may only be used for the student's own private use.
+Course Schedule - subject to change
+Date
+Lecture (with optional
+textbook reading) Discussion Assignments
+Week
+1 Thursday, Jan. 5
+Lecture 1: Class
+Introduction, Agents (Ch.
+1)
+Friday, Jan. 6 /
+Monday, Jan. 9
+Discussion 1: Get to
+know you, review of
+depth-first search
+and breadth-first
+search
+Week
+2 Tuesday, Jan. 10
+Lecture 2: Agents,
+Search (Ch. 2)
+Wednesday, Jan. 11 No assignments due
+Thursday, Jan. 12
+Lecture 3: Search (Ch.
+3)
+Friday, Jan. 13 /
+Monday, Jan. 16
+No discussion on
+either Friday or
+Monday - Happy
+MLK Day!
+Week
+3 TBD Python help session
+Tuesday, Jan. 17 Lecture 4: Search
+Wednesday, Jan. 18 Problem Set 1 due
+Thursday, Jan. 19
+Lecture 5: Search (Ch.
+4)
+Friday, Jan. 20 /
+Monday, Jan. 23
+Discussion 3: Ethics
+discussion 1 - not
+recorded
+Week
+4 Tuesday, Jan. 24
+Lecture 6: Adversarial
+search / game theory
+(Ch. 5)
+Wednesday, Jan. 25
+Coding Assignment 1 due,
+Ethics Assignment 1 due
+Thursday, Jan. 26
+Lecture 7: Adversarial
+search / game theory
+Friday, Jan. 27 /
+Monday, Jan. 30 Discussion 4: TBD
+Week
+5 Tuesday, Jan. 31
+Lecture 8: Adversarial
+search / game theory
+Wednesday, Feb. 1 Problem Set 2 due
+Thursday, Feb. 2
+Lecture 9: Constraint
+satisfaction (Ch. 6)
+Friday, Feb. 3 /
+Monday, Feb. 6
+Discussion 5:
+Review of logic
+Week
+6 Tuesday, Feb. 7
+Lecture 10: Constraint
+satisfaction, Planning
+(Ch. 11)
+Wednesday, Feb. 8 Coding Assignment 2 due
+Thursday, Feb. 9 Lecture 11: Logic (Ch. 7)
+Friday, Feb. 10 /
+Monday, Feb. 13
+Discussion 6: Ethics
+discussion 2 - not
+recorded
+Week
+7 Tuesday, Feb. 14 Lecture 12: Logic (Ch. 8)
+Wednesday, Feb. 15
+Problem Set 3 due,
+Ethics Assignment 2 due
+Thursday, Feb. 16 Lecture 13: Logic (Ch. 9)
+Friday, Feb. 17 /
+Monday, Feb. 20
+Discussion 7:
+Review of probability
+Week
+8 TBD
+Midterm review
+session
+Tuesday, Feb. 21 Lecture 14: Logic Tuesday, Feb. 21
+Wednesday, Feb 22 No assignments due
+Thursday, Feb. 23 In-person midterm
+Friday, Feb. 24 /
+Monday, Mar. 6
+No discussion on
+either Friday, Feb.
+24 or Monday, Mar.
+6 - Happy Spring
+Break!
+Week
+10 Tuesday, Mar. 7 Lecture 15: Logic
+No assignments due
+Thursday, Mar. 9
+Lecture 16: Probability
+(Ch. 12)
+Friday, Mar. 10 /
+Monday, Mar. 13
+Discussion 8: More
+probability practice
+Week
+11 Tuesday, Mar. 14
+Lecture 17: Bayesian
+networks (Ch. 13)
+Wednesday, Mar. 15 Problem Set 4 due
+Thursday, Mar. 16
+Lecture 18: Bayesian
+networks
+Friday, Mar. 17 /
+Monday, Mar. 20
+Discussion 9: Ethics
+discussion 3 - not
+recorded
+Week
+12 Tuesday, Mar. 21
+Lecture 19: MDPs and
+POMDPs (Ch. 17)
+Wednesday, Mar. 22
+Coding Assignment 3 due,
+Ethics Assignment 3 due
+Thursday, Mar. 23
+Lecture 20: MDPs and
+POMDPs, introduction to
+learning (Ch. 19)
+Friday, Mar. 24 /
+Monday, Mar. 27 Discussion 10: TBD
+Week
+13 Tuesday, Mar. 28
+Lecture 21: Introduction
+to learning
+Wednesday, Mar. 29 Problem Set 5 due
+Thursday, Mar. 30
+Lecture 22: Machine
+learning (Ch. 21)
+Friday, Mar. 31 /
+Monday, Apr. 3
+Discussion 11:
+Review of linear
+algebra
+Week
+14 Tuesday, Apr. 4
+Lecture 23: Machine
+learning
+Wednesday, Apr. 5 Coding Assignment 4 due
+Thursday, Apr. 6
+Lecture 24: Machine
+learning (Ch. 22)
+Friday, Apr. 7 /
+Monday, Apr. 10
+Discussion 12:
+Ethics discussion 4 -
+not recorded
+Week
+15 Tuesday, Apr. 11
+Lecture 25: Machine
+learning
+Wednesday, Apr. 12
+Problem Set 6 due,
+Ethics Assignment 4 due
+Thursday, Apr. 13
+Lecture 26: Machine
+learning
+Friday, Apr. 14 /
+Monday, Apr. 17 Discussion 13: TBD
+Week
+16 Tuesday, Apr. 18
+Lecture 27: Machine
+learning
+Finals TBD Final review session
+Week
+Tuesday, Apr. 25,
+8-10am In-person final

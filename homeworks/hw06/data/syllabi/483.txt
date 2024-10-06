@@ -1,0 +1,38 @@
+Course Description
+This course is an introduction to compiler construction. Topics covered will include the following: lexical scanning, parsing (top-down and bottom-up), abstract syntax trees, semantic analysis, intermediate code generation , optimization, and code generation. As part of the course, students will build a working compiler for the Decaf language (a subset of the C++ and Java programming language).
+
+This course provides the student with an experience of the design and construction of a working compiler. The course emphasizes techniques that have direct application to the construction of compilers and optimization.
+
+Textbook
+-Compilers: Principles, Techniques, and Tools (2nd Edition) , Aho, Lam, Sethi, and Ullman (the "purple dragon" book), 2006. (Handles the front-end in more depth).
+
+References
+-Engineering a Compiler by Keith Cooper, Linda Torczon (link)
+
+-Lex & Yacc, Levine, Mason and Brown, O'Reilly Publishers
+
+Course Prerequisites
+Enforced Pre-requisite: EECS 281, EECS 370
+Advisory Pre-requisite: EECS 376 or Graduate Standing
+
+Grading Policy
+Midterm Exam	20%	Feb 27th, in class, 1:30-3:00p, 1200 EECS
+Final Exam	30%	April 30th, 4-6p, Location: TBD
+Project	40%	Based on Decaf language. Groups of 2.
+Homeworks	5%	There will be six homeworks. To be done individually.
+Class and Forum Participation	5%	Likely to have impact only in the borderline cases.
+Request for re-grading will be considered within one week from the day the scores are declared. Instructor consent is required before re-grading is requested. This policy holds for all the homeworks and all the projects.
+
+Forum Usage Policy
+The EECS 483 Piazza forum is to be used for questions (and answers) about 483 homeworks, projects and anything else related to the class. Following rules should be observed:
+
+Stay on topic. It is okay to wander sometimes (like discussions about new features in compilers or posting pointers to related articles), but we really don't want to hear about the car you are selling.
+
+You MAY NOT post code or algorithms for the projects. Doing so will be treated as a violation of the honor code! If you can't ask your question without referring to code, you should bring your question to office hours, or failing that, you can mail your question to the GSI or Instructor.
+
+You MAY post generic C programming questions, including using code to illustrate the question. But the code should be generic and not code from your project nor it should refer to the project.
+
+Honor Code
+You can interact with other students for discussing course materials, provide each other with limited debugging assistance, and help each other learn development tools. Though you can discuss homeworks with others, you have to write it up individually. Do not refer to others source code for the projects. We use sophisticated automated program to correlate projects of different groups and check for plagiarism.
+
+The Engineering Honor Code obligates you not only to abide by this policy, but also to report any violations that you become aware of. Violations of this policy will be brought to the College of Engineering's Honor Council. For more information on the Honor Code, see Honor Council web page. If you have any doubts about whether a certain level of collaboration is permissible, or any other questions, contact the professor.

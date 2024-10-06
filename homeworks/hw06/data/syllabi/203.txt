@@ -1,0 +1,408 @@
+1. Course Overview
+Instructors
+● Prof. Kim Diaz (she) - kkhalsa@umich.edu
+○ Lecture livestream:
+https://umich.zoom.us/j/97410885365?pwd=R05zTksvajJmWTBJZVduNDNiTjlCQT09
+
+● Prof. Emily Graetz (they) - graetzer@umich.edu
+○ Lecture livestream:
+https://umich.zoom.us/j/91309976442?pwd=RE1Td2V2b0F3NzY0SWMwNDE0UGlXZz09
+
+● Prof. Greg Bodwin (he) - bodwin@umich.edu
+○ Lecture livestream:
+https://umich.zoom.us/j/95584386714?pwd=DxXZjSdQH6DYho1w6bVauMGn8YtADb.1
+
+See our Canvas page for a complete list of instructors, including Instructional Assistants (IAs) and
+Graduate Student Instructors (GSIs) & check out our staff profiles!
+
+1
+
+Course Description
+Discrete mathematics is often called the “language of computer science.” It is the backbone upon
+which all computational processes are built. In all likelihood, most of the mathematics you have
+studied so far concerns functions of real numbers and their derivatives, integrals, roots, etc. But
+there are other branches of mathematics that model real-world problems using very different
+objects. In discrete mathematics, we focus on operations on 1s and 0s (logic), modular arithmetic
+and number theory, set theory, functions and relations on sets, graphs, counting, discrete
+probability theory, and how these form the foundational language through which we formulate and
+solve real-world problems in computer science.
+Required Materials
+The official textbook for the course is “Discrete Mathematics” 8th Edition, by Ken Rosen.
+Alternatively, if you have access to the 7th edition, you will find most of the same material as in the
+8th edition, but page numbers, example numbers, etc. will differ. An online version of the book is
+available from the University of Michigan library at the following link. Note that access is limited to
+6 concurrent users at a time. There are also two print copies on reserve at the Art, Architecture,
+and Engineering Library in the Duderstadt Center.
+Textbook: https://search.lib.umich.edu/catalog/record/99187442213006381.
+
+Canvas
+We will use Canvas as the main web portal for the course. There is one common Canvas site for all
+six lectures and 26 discussion sections. Here we will post lecture slides, lecture recordings, course
+calendar, assignments and solutions, grades, and course announcements. The Canvas calendar
+includes assignment due dates, exam dates, review session information, and more. Our course
+Canvas page will include links to all of the other websites and tools that we use (Piazza, Gradescope,
+Google Calendar for Office Hours, etc).
+
+Important Dates
+Mark your calendar for the course exam dates, listed below. More information on exams can be
+found in the Exams section of this syllabus.
+
+Exam 1 Wednesday, September 18 7:00 - 8:30 pm
+Exam 2 Monday, November 4 7:00 - 9:00 pm
+Exam 3 Tuesday, December 17 7:00 - 9:00 pm
+
+2
+
+Communication Outside of Class
+Office Hours
+Office hours are a great way to get to know your instructors better and to ask any and all questions
+related to course content, homework, or anything else that might be on your mind. Many students
+report that actively engaging in office hours is the thing that benefited their understanding the
+most. A Google Calendar listing office hours can be found on both the Canvas homepage and a
+Piazza logistics page. This Calendar will always accurately reflect scheduled office hours, as these
+times may change during the course of the semester. You may go to any office hours you like and as
+many as you like.
+Remote office hours will be available. See the office hours calendar for times.
+
+Piazza
+We will be using a class interaction tool called Piazza for questions and answers. You can access our
+Piazza page through the link on Canvas. You will be able to post questions, answer other people's
+questions, give or ask for clarification on answers, and see instructors' comments. You can even ask
+questions privately to the staff. When making a Piazza post, please search before asking to see if
+your question has already been asked and answered. Do not share answers to homework publicly
+on Piazza.
+
+Admin Form
+Use the Admin Form for any administrative issues for EECS 203 including personal (health, absence,
+VISA accommodations), technical, distance learning, homework, gradescope, or exams. Please
+provide as much relevant information as possible. In particular, we will use the information you
+provide should you become ill or have to quarantine for an extended period of time in
+consideration of final grades. Content-related questions should be addressed through Piazza.
+
+2. Student Support and Well-Being
+Inclusion Statement
+It is our intention that students from all backgrounds and perspectives will be well served by this
+course, and that the diversity that students bring to this class will be viewed as an asset. We
+welcome individuals of all ages, backgrounds, beliefs, ethnicities, genders, gender identities, gender
+expressions, national origins, religious affiliations, sexual orientations, socioeconomic background,
+family education level, ability - and other visible and nonvisible differences. All members of this
+class are expected to contribute to a respectful, welcoming, and inclusive environment for every
+other member of the class. Your suggestions are encouraged and appreciated.
+Lived name/pronoun
+We will gladly honor your request to address you by your preferred name or gender pronoun. You
+3
+
+are welcome to advise us of this preference at any time during the semester, and we will make
+appropriate changes to our records.
+
+Accessibility and Disability Policy
+If you have any disability, as defined under the Americans with Disabilities Act, that might affect
+your ability to participate in class, or to turn in assignments on time or in the form required, please
+contact your instructor and the Office of Students with Disabilities at the start of the term so that
+arrangements can be made to accommodate you. The submission process for SSD VISA forms has
+changed, and instructors are now supposed to be able to get their students' VISA forms directly
+from the University. You will receive a confirmation email from the 203 admin with your
+accommodations. Please send an Admin Form ASAP if your accommodations are updated.
+
+Student Well-being
+As a student, you may experience a range of issues that can negatively impact your learning, such as
+anxiety, depression, interpersonal or sexual violence, difficulty eating or sleeping, loss/grief, and/or
+alcohol/drug problems. These mental health concerns or stressful events may lead to diminished
+academic performance and affect your ability to participate in day-to-day activities. In order to
+support you during such challenging times, the University of Michigan provides a number of
+confidential resources to all enrolled students, including:
+● Counseling and Psychological Services (CAPS): 734-764-8312; caps.umich.edu/contact
+● Sexual Assault Prevention and Awareness Center (SAPAC): 24-Hour Crisis Line: 734-936-3333;
+sapac.umich.edu
+● Psychiatric Emergency Services: 734-996-4747
+● Services for Students with Disabilities (SSD): 734-763-3000; 734-615-4461 [TDD]; 734-996-6661
+[VP]; ssdoffice@umich.edu
+Another resource available to you as a U-M student is Wolverine Support Network, a student
+organization offering free peer-facilitated weekly groups on campus. With 30+ groups per week,
+students are placed in a group at a time and location most convenient for them. Trained students
+lead groups to promote students’ well-being and build community in an accessible, confidential,
+and inclusive environment. To sign up for a group, go to UMICHWSN.ORG/JOIN, or email
+wsndirectors@umich.edu with any questions.
+3. Course Components
+Lectures
+There are six lecture sections, four of which meet on Tuesday/Thursday, while the other two do not
+have set meeting times. If you are enrolled in a section that doesn’t meet, you are welcome to
+attend one of the other sections provided there is space in the lecture hall. We encourage you to
+attend the lecture section you are enrolled in, however you are allowed to attend a different lecture
+section if you would like. Meeting times and locations for all lectures can be found on the Lecture &
+Discussion calendar, linked on Canvas.
+
+4
+
+One of the lecture sections will be marked as “accelerated”. This section will cover the same
+material, but slightly faster, and will then use the remaining time (10-30 minutes per week) to talk
+about other CS topics. Students attending this section will have the same homework and exams,
+and the additional material is not testable nor is it direct practice of the testable content. This
+section is taught at the same time as an ordinary section, so you may freely switch between them in
+either direction if you feel your lecture section does not fit your learning style. For more
+information on this, please see the “Details for Special Sections” document available on our
+website.
+
+Discussions
+During discussions the course staff will go over concepts introduced in lecture and present
+additional examples. You will have the opportunity to ask questions and get clarification regarding
+concepts covered in the lectures. Discussions will also help prepare you to complete the Weekly
+Check-in (see below).
+As with lectures, you are encouraged to attend the discussion section for which you are enrolled,
+but you can attend a different discussion if you need/want to, with the exception of the Focus on
+Fundamentals discussion sections.
+Focus on Fundamentals discussion section attendance is required for those enrolled in those
+sections, and attendance is also limited to those enrolled in those sections. A description of the
+Focus on Fundamentals sections can be found on the LSA Course Guide. If you are enrolled in a
+Focus on Fundamentals discussion section, but cannot attend that time, please enroll in a different
+discussion. Similarly, if you are enrolled in a Focus on Fundamentals discussion but do not
+anticipate being able to attend the class each week in person, please enroll in a different discussion.
+See the Canvas website for meeting times for other discussion sections.
+Attendance Policy
+We encourage you to attend the lecture section and discussion sections that you signed up for, but
+you may attend any section (with the exception of the Focus on Fundamentals discussion sections,
+which are open only to those enrolled in those sections).
+Attendance is not required in lecture, nor in discussion (with the exception of Focus on
+Fundamentals discussions, where regular attendance is required). All lectures and (most, if not all)
+discussions will be recorded and available through Canvas a few hours later. While we encourage
+you to attend in-person, we understand that you may choose to learn from the recordings instead,
+including if you are uncomfortable with the University’s COVID policies and prefer not to attend
+class. Consistent with that policy, if you’re sick, we ask that you not attend in-person until you have
+recovered from your illness.
+
+Exams
+There are three exams in this course which will be given in person on September 18 (from 7-8:30
+pm), November 4 (from 7-9 pm), and December 17 (from 7-9 pm). The exams will be held in
+5
+
+classrooms on north campus; exact locations will be announced closer to the exam dates. EECS 203
+covers a lot of material. Anything that has appeared in lecture, discussion, or homework is fair
+game to appear on an exam, with the exception of lecture content labeled "bonus" material.
+Practice exams will be posted prior to each exam. In addition, discussions and additional exam
+review sessions will be provided during the week prior to the exam. While the material in the
+course is inherently cumulative, the three exams are not explicitly cumulative; each question will
+primarily test a concept introduced since the last exam.
+
+Exam Conflicts
+It is the student’s responsibility to make sure they can attend the scheduled exams. All students,
+including students without exam conflicts, must complete the Exam Date Confirmation survey, due
+by the add/drop deadline, to confirm their availability for the scheduled exams or provide details
+about any conflicts. See Canvas for a link to the survey.
+Exam 1 and Exam 2: For the first two exams, there will typically be an alternate exam time offered
+for those with a conflict due to another academic requirement or religious holiday, or who are
+representing the University of Michigan in an athletic competition, performing arts performance,
+etc.
+Exam 3: Exam 3 takes place during the Final Exam time slot for EECS 203, which is set by the
+Registrar. We have very little flexibility around Final Exam time slots, and thus alternate times for
+Exam 3 are rarely granted. Unfortunately, we generally cannot grant alternate exam requests for
+weddings, family travel plans, and the like. If you have a conflict with the Final Exam date, please
+let us know right away. You must get approval from the Professors before the drop/add deadline
+for the semester. This gives you time to either drop the course, or reschedule your conflict, should
+your conflict not be approved. Do not assume an alternate Final Exam will be granted!
+
+Homework
+Homework (including an individual portion, a group component, and, starting with homework 2, a
+grading component) will generally be assigned on Friday and will be due the following Thursday at
+10 PM with a two-hour grace period (with no penalty) for late submissions up until 11:59 PM that
+same day. Homework solutions will be released early the next day (Friday). Homework assignments
+and solutions will be posted on our Canvas page. After the grace period ends, no late homework
+will be accepted for any reason.
+We cannot accept late homework nor offer homework extensions. We understand that you may be
+unable to turn in some homeworks on time due to illness, deaths, or other family emergencies. To
+accommodate these normal life events, we allow each student to drop 2 individual homework
+scores and 1 Groupwork score. If you need to request an additional individual homework drop,
+please submit your request using the Admin Form, and be prepared to include documentation
+justifying 3 missed homeworks.
+
+6
+
+Getting your homework done on time: Start early and attend office hours
+Many students find it beneficial to start the homework early and work on it in bits and pieces
+throughout the week. Cramming at the last minute is discouraged. Even the most seasoned
+professors of discrete mathematics will get stumped once in a while on the simplest of problems
+and it pays to budget your time so that you can walk away from your homework, get other things
+done, and return later when your brain is once again fresh and able to think out of the box. For this
+reason, office hours and Piazza will be shut down starting at 8 PM on Thursdays so that you have
+the time to write up your solutions clearly and succinctly.
+You are encouraged to look over the homework on Friday when it is posted, begin sketching out
+solutions for problems that look straightforward, and keep track of the problems that look much
+harder. Over the weekend, we ask you to work further through the problems so that office hours on
+Mondays/Tuesdays can be devoted to helping you “get started” on those problems that continue to
+stump you. On Thursday, we encourage you to submit your solutions even if some of them may be
+unfinished; the grading feedback you receive, even on partial solutions, is helpful in refining your
+understanding of the material and in preparing for the exams.
+Gradescope
+Homework is submitted by uploading your work to Gradescope. Please allow sufficient time to
+upload your assignment before the 10:00 pm deadline and make sure to match pages to assigned
+questions when you submit.
+Your work should be submitted as a PDF document. You are encouraged to learn the math
+formatting tool LaTeX, which produces PDF files of beautifully formatted mathematics. One
+recommended interface for writing LaTeX documents is Overleaf. We will provide LaTeX templates
+for each homework assignment to help you use this valuable tool. Handwritten homework, scanned
+to PDF, is acceptable, but must be clearly readable. You must ensure that each PDF file is relatively
+small (well under the 50MB limit).
+When submitting your homework on Gradescope, make sure you match each problem to a page
+(or pages). Matching pages ensures that the grader who is grading Problem 5, for example, will be
+shown the page(s) on which you solved Problem 5. If you do not match your pages for one or more
+problems, we will send you a courtesy email notifying you, and you will have 24 hours from the
+assignment due date to match your pages. After that point, the graders may start grading your
+assignment, at which point Gradescope will no longer allow you to match pages.
+You will get a 0 on all problem(s) for which you fail to match pages. If you do not select pages for a
+problem, you cannot submit a regrade request. Your score for that problem will remain a 0. If this
+significantly impacts your grade on the assignment, remember that we do drop your lowest 2
+homework grades. If you mark the wrong page for a problem (or forget to mark a second page for a
+problem), you can submit a regrade request to get points back for these problems (see below for
+details on submitting regrade requests), but in this case you will need to go through the full regrade
+process, listing the exact rubric items that you feel you deserve for each problem and the page
+number the problem is on.
+
+7
+
+Honor Code applies to Homework
+You are encouraged to study in groups and work on the homework problems together, but your
+individual homework submissions must be written individually. Directly copying homework
+solutions is a violation of the honor code.
+Weekly Check-ins
+In addition to your homework, most weeks will also have a Weekly Check-in, which you will
+complete on our course Canvas site. The goal of the weekly check-in is just that: to be a basic
+check-in on your understanding of the week's content, and to provide you with immediate
+feedback.
+Check-ins will be hosted as Canvas quizzes and will consist of a series of multiple-choice questions.
+You will have multiple attempts for each Check-in, and you will receive the highest score from any
+attempt. The questions on each Check-in will correspond directly to the problems covered in the
+week’s discussion, and may also contain review problems from previous weeks. If you attend
+discussion and feel fully comfortable with its concepts, the weekly check-in is intended to be
+straightforward.
+To maximize the value the Check-in provides you, we suggest that you plan to complete the
+Check-in shortly after your discussion section each week. To simplify scheduling, Check-ins are due
+at the same time as homework, which is generally Thursday 10pm.
+To accommodate these normal life events, we allow each student to drop 1 weekly check-in quiz
+score. Similar to homework, if you need to request an additional individual drop, please submit
+your request using the Admin Form, and be prepared to include documentation justifying 2 missed
+check-ins.
+
+ECoach
+EECS 203 offers U of M's ECoach, a free, personalized, web‐based coaching tool aimed at helping
+you do your best in this course. ECoach gives you strategies about the best ways to study, insider
+tips on course resources, feedback on your scores, and evidence‐based tools to boost your scores.
+Use of ECoach is totally optional – you can use it as much or as little as you want. At a few points
+during the semester, we will offer extra credit for important activities on ECoach. Note that in order
+to earn extra credit, you must complete the activity before its due date passes.
+● Introduction to ECoach video
+● To sign up: https://ecoach.ai.umich.edu/.
+● ECoach Feedback and Support: ecoach-support@umich.edu.
+
+Grades
+Homework and other assignments are not curved, however we do curve exam scores (the
+distribution will be very close to the exam grade distribution from previous semesters). All
+assignment grades and [curved] exam scores will be posted on Canvas, and your overall grade is
+computed using the weights in the table below. Exam scores will not be curved down.
+
+8
+
+2% of your grade is given for completing various surveys on your experience in EECS 203
+throughout the term. While we are hopeful that you will get full credit in this category, if you miss
+one or more surveys, your score in this category is still guaranteed to be at least your exam average.
+Course component % of course grade
+Individual Homework 23
+Group Homework 5
+Weekly Check-ins
+(and attendance for
+FoF students)
+
+10
+Exam 1 10
+Exam 2 25
+Exam 3 25
+Surveys 2
+Total 100
+
+Letter Grade Thresholds
+Your overall percentage in the course will determine your final course grade, according to the table
+below. We do not round scores to the nearest percentage.
+Total (in percentages) Letter Grade
+[93, 100] A
+[90, 93) A-
+[87, 90) B+
+[83, 87) B
+[80, 83) B-
+[77, 80) C+
+[73, 77) C
+[70, 73) C-
+[67, 70) D+
+[63, 67) D
+[60, 63) D-
+[0, 60) E
+
+9
+
+4. Academic Policies
+COVID-19 Policies and Procedures
+As they have throughout the past two years, policies around academic and public health are subject
+to change as this pandemic evolves. This course will follow all policies issued by the University,
+which are documented on the Campus Blueprint's FAQ. These policies may change over the course
+of the term, so please review the Campus Blueprint's FAQ for the most up to date information.
+
+Regrade Policy & Procedures
+[For additional important information, including regrade templates, please refer to the document
+Regrade Requests in EECS 203, available on Canvas.]
+Homework and Exams are eligible for regrades. Regrade requests are generally open for one week
+from the time the graded work is returned.
+While we strive to be consistent in grading, inconsistencies and errors do occur and we rely on you
+to help correct these mistakes. At the same time, our time, like yours, is limited so we ask that you
+follow the steps below to make sure your request is handled appropriately. Failure to follow these
+steps may result in a dismissal of your request.
+If you think your work may have been misgraded:
+1. Read through your answer thoroughly and note which rubric items you did/didn't receive.
+2. Read through the posted solution thoroughly and try to map your marked rubric to the
+differences between your answer and the posted solution.
+After you've read your answer, our solution, and the rubric, if you feel that your answer was
+misgraded according to the posted rubric, then you are ready to submit a regrade request. If you
+do not understand the rubric, or believe you have an alternate correct solution, please speak to a
+staff member in office hours or on piazza.
+3. All regrade requests are submitted via Gradescope.
+4. Make sure you've done "the three things": read the posted solution, review your submission,
+and read the rubric items.
+5. To make it as easy as possible for us to give you points back, start your regrade request with "I
+have read the posted solution, my answer, and the rubric items."
+6. Continue your request by noting which specific rubric items you believe you should/shouldn’t
+have gotten and why. If you matched the wrong pages in your original submission, also indicate
+which page your solution appears on for that problem.
+
+Collaboration Policy
+We encourage you to work with your classmates, discuss the material, form study groups, etc.
+However, when completing the individual homework, your submitted assignment must be your own
+10
+
+work. Group homeworks are designed for collaboration and you should of course work together as a
+group on those problems. Group homeworks should also be submitted as a group: one person from
+your group will upload the assignment to Gradescope and tag the other members of your group. If
+your groupmate submitted the assignment, make sure you can see it on your Gradescope account to
+ensure you were properly tagged.
+5. Honor Code
+What is the Honor Code?
+The Honor Code outlines certain standards of ethical conduct for persons associated with the
+College of Engineering at the University of Michigan. The Honor Code applies to all students in EECS
+203, regardless of whether they are in CoE, LSA, or another School or College. The policies of the
+Honor Code apply to graduate and undergraduate students, faculty members, and administrators.
+Read about the UM Honor Code here: (http://www.crlt.umich.edu/faculty/honor). There is also an
+Engineering Honor Code: (also found at http://www.crlt.umich.edu/faculty/honor). In this class, as
+in many others at the University, you will be expected to sign the Honor Pledge on each exam you
+submit. The Honor Pledge is as follows:
+I have neither given nor received unauthorized aid on this assignment, nor have I
+concealed any violations of the Honor Code. I further agree not to discuss any aspect of
+this examination in any way, shape, or form until the solutions have been published.
+The Honor code is based on these tenets:
+o Engineers must possess personal integrity both as students and as professionals. They must be
+honorable people to ensure safety, health, fairness, and the proper use of available resources in
+their undertakings.
+o Students in the College of Engineering community are honorable and trustworthy persons.
+o The students, faculty members, and administrators of the College of Engineering trust each
+other to uphold the principles of the Honor Code. They are jointly responsible for precautions
+against violations of its policies.
+o It is dishonorable for students to receive credit for work that is not the result of their own
+efforts.
+Among other things, the Honor Code forbids plagiarism. To plagiarize is to use another person's
+ideas, writings, etc. as one's own, without crediting the other person. Thus, you must credit specific
+information obtained from other sources, including web sites, e-mail or other written
+communications, conversations, articles, books, etc.

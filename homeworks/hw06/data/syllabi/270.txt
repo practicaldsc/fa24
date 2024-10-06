@@ -1,0 +1,49 @@
+EECS 270
+Overview
+Home / announcements | Course overview | Staff and hours | References / Handouts
+Piazza | Gradescope | Schedule | Homework | Labs
+Textbook
+Digital design, with RTL design, VHDL, and Verilog (second edition) by Frank Vahid
+The book is stupidly expensive, but you really do need it. If push comes to shove, the first edition of the book is better than nothing, but you'll really want the second edition if possible. Note that the midterm and final are (mostly or entirely) open book and open notes. Pdf versions of the book are available, but you won't be allowed to have an ereader, tablet, etc. during the exams.
+
+Many (most?) students find the textbook really useful. In the opinion of the course instructor, it is the most readable technical textbook of any in EECS. It does have it's flaws (and you'll hear about them a fair bit in class), but it is very readable and very useful. If you want more of a reference book, we'd recommend "Digital Design" by John Wakerly. It covers a lot more ground than Vahid and goes into a lot more depth. But it's more of a reference manual (good for learning about a specific topic) than a textbook (good for begineers learning the field).
+
+Course Goals
+This course is intended to give you an understanding of digital logic. We will mostly concern ourselves with gate-level designs, but we will also address one level of abstraction up (larger logic devices such as MUXes, adders, counters etc.) and one level down (CMOS logic, a bit on FPGA architecture). There will be a heavy emphasis on learning design tools in your lab sections, and, in the latter half of the course, the use of a hardware description language (HDL), namely the Verilog HDL, to complete labs.
+Class Labs
+You are to attend your lab section. If there is room (and given our numbers, there generally will be) you are welcome to attend the other lab section. But be aware: priority will be given to folks who are in their "home" lab.
+Labs are best done in lab. During Covid, we worked to have a way of working on the labs remotely. On the whole, we want you physically in the lab, but you can use labsland.com. You can log in using Google and your umich address. Lab due dates/times, as well as the lab documents can be found here. For each day weekday a lab assignment is late, you will be penalized by 20% of the total points earned (so after 5 weekdays you get no points).
+
+Details about the expectations for the lab write-ups will be communicated as those labs are assigned. Notice that failure to do the labs will have a serious impact on your grade.
+
+Homework assignments
+You will be assigned about 12 homework assignments (6 individual, 6 group is the plan).
+Your homework score will be computed by dropping your lowest individual and group homework grades. This policy exists to address issues such as illness, poor internet connects, hungry dogs/cats, useless partners (for group assignments), etc. In the event of exceptional circumstances on more than that, please see the instructor. Individual homework assignments are generally due on Mondays and group assignments on Wednesdays, though that does vary a bit (currently only the week after the midterm is different).
+
+Group Assignments:
+Student groups will consist of no more than three students, though they can be done in groups of 2 or even individually. These assignments will generally be difficult and have a design component. You should schedule about 3-4 hours together to do these assignments. Groups can freely change for each assignment (though we don't recommend it) and having non-contributing members listed on an assignment is an honor code violation. In the past we've see that there is a tempation to break the assignment up so that one person does one assignment, another does the next, etc. That is a really bad idea. You won't learn the material you need for the exams and it's also really likely your grade on the assignment will be much lower than it would be if you all worked together. These assigments are designed to be much easier with a group bouncing around ideas. The are also generally fairly rough.
+
+Doing your own labs and homework
+All labs and individual homeworks are to be done on your own. Violation of this policy will result in the inititiation of formal procedures the Engineering Honor Council. Group assignments are to be done only by members of that group.
+At the same time, we encourage students to help each other learn the course material. As in most courses there is a boundary separating these two situations. In general, you can discuss concepts of the course or the specifics of the lab software. But you may not collaborate in any way when constructing a solution. If you have any questions about what constitutes unacceptable collaboration, please talk to the instructor.
+
+Exams
+There will be 5 quizes (on most Fridays), a midterm and a final.
+The quizzes are generally 15-25 minutes and given starting at 10am in class. They are closed book, closed notes but you may use a simple calculator (nothing with a wireless connection--you won't need anything more than a four function calculator). Your lowest quiz grade is dropped.
+
+The midterm and final will be open book, open note, and open (non-wireless) calculator. There may be parts that are closed book and if so we'll work hard to make it clear what you need to be able to do without notes or a book.
+
+
+Grading
+Lab assignments: 25%
+Homework: 10%
+Quizes: 16%
+Midterm: 24%
+Final: 25%
+Furthermore, for each inlab assignment in which you do not complete, you will have your course grade lowered by 1/3 a letter grade (B to B-, for example.) The class median will likely be a "B", the average around 3.1.
+Regrade Policy
+If you feel that you were graded unfairly on a homework assignment, lab, or exam, you have exactly week from when the assignment is handed back to request a regrade. These regrade requests should be clearly written. The time for regrades will be significantly shorter (often a day or less) for the final exam and other things at the end of the term.
+Regrade requests for exams and homework will be generally handled via gradescope. Lab regrades will be addressed by your lab instructor. You can appeal a regrade request to Dr. Brehob in his office hours (though again, you must do so within a week of when the regrade request was responded to). We reserve the right to regrade the entire assignment when a regrade request is made.
+
+Home / announcements | Course overview | Staff and hours | References / Handouts
+Piazza | Gradescope | Schedule | Homework | Labs

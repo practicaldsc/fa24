@@ -1,0 +1,126 @@
+Overview
+This Course Considers ...
+How can you get a patch accepted in a large software project?
+Can we be confident that your code is correct?
+What can be automated, and what is best done manually?
+How can we measure software qualities?
+How can we avoid problems early?
+Advice From Former Students
+Read what former students say about whether or not to take this course.
+Successful software projects require more than just technical expertise. Figuring out what the client wants, collaborating in a team, managing complexity, mitigating risks, staying on time and budget, and determining, under various constraints, when a product is "good enough" to be shipped are equally important topics that often have a significant human component. This course explores these issues broadly and covers the fundamentals of modern software engineering and analysis.
+
+This course focuses on software engineering and analysis. At a high level, the course is organized around five core topics:
+
+overviewMeasurement and Risk
+qaQuality Assurance (especially testing)
+bugsSoftware Defects
+designSoftware Design
+codingProductivity at Scale
+A culminating assignment involves making a contribution to an open source project: identifying an issue, understanding the local development process, and then actually fixing a bug or adding a feature, with extra credit awarded if your contribution is merged into the project.
+This course is an upper-level CS technical elective for both CS-Eng and CS-LSA. (It does not show up in some versions of the CS-LSA Program Guide, but it does, in fact, count. Students can check their Audits to confirm.) It is not a capstone course or a major design experience course. It focuses on individual mastery of key software engineering concepts. It does not feature a large team project.
+
+The expected workload for this class is "moderate" — one notch harder than UI Design, but two notches easier than Operating Systems.
+
+Advice From Former Students
+Read what former students had to say about how hard this course is.
+What will I learn at the end?
+Skimming a previous final project report can provide a perspective on the sorts of experiences associated with this class. A number of other final project reports are available.
+This course draws inspiration from Carnegie Mellon's Foundations of Software Engineering (15-313) course as well as from the insights of Drs. Prem Devanbu, Christian Kästner, Marouane Kessentini, Kevin Leach, and Claire Le Goues.
+
+Attendance and Participation
+In Fall 2024, this course provides support for:
+
+Section 1 — 1:30-3:00pm — synchronous, in-person lecture attendance and in-person participation activities
+Section 2 — whenever — asynchronous, remote attendance and remote participation activities
+With the exception of lecture attendance and participation, all other aspects of the course are identical between 481-001 and 481-002. In particular:
+
+all sections — access to lecture recordings, access to participation activities from both sections, access to discussion section materials, the same homeworks, the same exams, the same due dates, etc.
+If you are registered and enrolled for Section 1 (EECS 481-001, 1:30-3:00pm) you must attend lectures in person synchronously and complete graded in-class in-person participation activities. These activities typically involve writing an answer on notecards that we pass around or completing in-class coding; they include an aspect of (sampled) "checking attendance".
+
+If you are not registered and enrolled for Section 1, such as because you are on the waiting list or are enrolled in Section 2, you cannot complete the in-person participation activities for credit and must complete the remote participation activities for credit (uploaded to Gradescope). There is a room reserved (1109 FBX, 4:30-6:00pm) and a course staff member will be present, but it will not contain a separate lecture and there is no expectation that you show up. (You can use it to coordinate group projects, ask questions, provide a structured time to watch lecture recordings, etc., but it is entirely optional.)
+
+If you are registered for one section and would like to be in the other, you can switch sections. Switching sections is not handled by the EECS 481 staff.
+
+Some students benefit from in-person instruction: from talking about the material with other students live, from being able to ask questions right in real time, from the structure, and so on. Such students should sign up for, or switch into, Section 1. Other students may benefit from remote, asynchronous instruction: from having the scheduling flexibility to fit in part time jobs, from being able to spend days outside of Ann Arbor for various reasons, from avoiding close proximity to others (e.g., for health or medical reasons), and so on. Such students should sign up for, or switch into, Section 2.
+
+Advice From Former Students
+Read what former students say about lecture attendance.
+Attendance and Participation — All Students
+"Two Plus Infinite" policy: To reduce student stress and provide support for individual circumstances, each student may miss two (please read this whole sentence before worrying) graded participation activities without excuse without penalty and also infinite graded activities with approved excuses without penalty. You do not need to report or request anything for the first two; these will be applied automatically. Students with approved documentation can miss more activities, but to simplify things for students, you do not even have to explain to us why you are missing the first two. (Note that this applies to participation only and not for any other other course quiz or assignment or exam.)
+
+Students are also required to make use of course websites (such as Piazza and Gradescope) and check them for updates. Some information, including information about certain quizzes and assignments, and any last-minute changes or fixes to assignments or policies, is made presented on course webpages. This course does not use Canvas.
+
+If you are uncertain about whether your circumstances are an excused absence, email EECS481Staff@gmail.com with your information and documentation. The course staff will review your information and apply any accommodations merited by course policies. Your email will be read by a real human.
+
+Discussion Sections are in person only. Discussion Sections are not required, do not feature mandatory participation, and do not assess attendance. All discussion section materials are made available online.
+
+
+Attendance and Participation — Section 1
+If you are registered for Section 1, you must attend the 1:30-3:00 lecture slot each day in person. Attendance participation will be assessed through in-class activities (e.g., notecards, coding, etc.). We typically sample attendance (i.e., we may not check every day). The course schedule is available in advance so that you can plan accordingly.
+Attendance and Participation — Section 2 and Waiting List
+If you are not registered for Section 1, such as because you are on the waiting list or because you are registered for Section 2, you should watch the lecture recordings remotely and complete the asynchronous structured participation activities.
+
+
+Section 2 structured participation/attendance activities are released at 4:30pm on the appropriate day and are due 48 hours later.
+Section 2 structured activities are submitted via Gradescope: there will be a freeform text field to describe your experiences watching the lecture and completing the activity.
+Note that there may be different numbers of graded participation activities between Section 1 and Section 2; there is typically slightly more structured work associated with Section 2 (but slightly more time pressure associated with Section 1). Participation counts the same for all students as part of the final grade.
+
+Grading Breakdown
+There are two exams during the semester. Both are delivered remotely. The grading breakdown is as follows:
+
+1%Homework 0 — Dev Setup
+10%Homework 1 — Test Coverage
+10%Homework 2 — Test Automation
+10%Homework 3 — Mutation Testing
+10%Homework 4 — Defect Detection
+10%Homework 5 — Debugging Automation
+15%Homework 6 — Contribution
+5%Comprehension Quizzes
+5%Participation and Professionalism
+12%Examination 1
+12%Examination 2
+By default, this class has no curve. If we do implement a curve (which has not happened in the last few semesters), we only ever curve up. If we do implement a curve, it would be calculated at the end of the semester (and not on a per-each-assignment basis).
+
+The exams are intentionally given a low weight to reduce student stress and the impact of a "bad day". Similarly, because there is no curve, students are never in competition with each other.
+
+
+Advice From Former Students
+Read what former students had to say about how to succeed in this course.
+Homework Assignments
+There are six homework assignments for this course. The assignments involve the electronic submission of artifacts. Some (e.g., test cases) are graded automatically and admit immediate feedback. Others (e.g., prose descriptions) are graded manually. For certain assignments it is possible to work as a team.
+
+
+Advice From Former Students
+Read what former students say about the first homework assignments.
+Reading and Comprehension
+A critical part of software engineering is reading — both code and prose. To encourage you to keep pace with the material, we will regularly assign reading comprehension quizzes. These quizzes may consist of elements such as (1) comprehension questions about any readings, especially those new since the last quiz; (2) questions about the lecture materials; (3) a 4-sentence summary of lecture material; or (4) a random code word shared during a lecture. The goal is to encourage engagement and retention.
+
+For on-line reading comprehension quizzes, you will have a 48 hour span near the associated lecture to begin your reading quiz. We expect to release two quizzes per week (coinciding with the two lectures). Quizzes are announced via their visibility on Gradescope, and not via any sort of mass mailing to the class. Once you begin the quiz, you will typically have 10 minutes to complete it. The quizzes are designed to be completable in 5 minutes, but additional time is given as a blanket accommodation. The quizzes are "open notes" (but are typically constructed to favor completing the reading before starting the quiz).
+
+Software engineering is often more engineering than science: the basic concepts may be easy to grasp, but the trouble is found in the details. Questions such as "which of these methods works best in the real world?" and "what are successful companies actually doing?" are paramount. As a result, many of the readings are experience reports from companies (e.g., Microsoft, Google, etc.) or academic papers (e.g., with human studies). We have structured this course so that there is no expensive textbook and all of the readings are available on-line for free.
+
+Some of the readings are marked optional. Next to each such optional reading is a small "advertisement" for it. The optional readings are not required for any class assignments, but there may be extra credit questions on exams or quizzes that reference them.
+
+Advice From Former Students
+Read what former students had to say about comprehension quizzes and examinations.
+Late Assignment Policy
+EECS 481 does not feature a generous late policy. Assignments, quizzes or exams turned in late typically receive zero points. (In some extenuating cases you may receive h% off, where h is the number of hours late.)
+
+In other classes, late policies may be more lenient (e.g., students may receive a number of fungible "late days", etc.). EECS 481 is different because scheduling and risk for projects are explicitly topics in this course (they are covered in lecture and in the readings, etc.). Staying on schedule is part of the material for the course, and is thus part of the assessment. If you are working for a company that is shipping software by a particular date and you miss that deadline, your contribution will not be included.
+
+To support students, all of the course materials, assignments and due dates are provided on the first day of class. No due dates are ever shifted to be earlier. You can access the autograder for any assignment as early as the first day of class. The freedom and responsibility rest with you. (For example, if you know that you struggle with deadlines, or if your other classes have exams around a particular point, you may want to "pretend" that an assignment in this class is due earlier than it actually is. If you miss your internal deadline by a bit, you can still make the official deadline. If you are used to courses where there are frequent email updates or calendar reminders, this is a good opportunity to practice setting up your own reminders for future situations in which organizational ones may not be available.)
+
+All course materials submitted for a grade must be turned in by midnight on the last date listed on the course syllabus.
+
+Regrade Policy
+Regrade requests for exams, assignments, or written assignments must be received within one week of you receiving your score. All regrade requests should be made via Gradescope if possible (if a request absolutely cannot be made via Gradescope for a certain assignment or exam, please email it privately to the course staff). When we regrade an assignment we will look over it very carefully for correctness: it is possible that after a regrade you will end up with fewer points than before the regrade. Regrades should be treated with caution and used only when the graders have made a clear mistake evaluating your work.
+
+The Waiting List, Course Permission, Overrides
+
+Student Mental Health
+Students often experience strained relationships, increased anxiety, alcohol or drug problems, feeling down, difficulty concentrating, family issues, or a lack of motivation. Student mental health concerns are quite common but we don't always talk about them. The University of Michigan is committed to advancing the mental health and well-being of its students. If you or someone you know is feeling overwhelmed, depressed, or in need of support, confidential mental health services are available on campus.
+
+Research
+Your class work might be used for research purposes. For example, we may use anonymized student assignments to design algorithms or build tools to help programmers. Any student who wishes to opt out can contact the instructor or teaching assistant to do so after final grades have been issued. This has no impact on your grade in any manner.
+
+Students interested in considering undergraduate research should make an appointment to talk about it. I am happy to discuss independent study projects, senior projects, paid research work over the summer, research work for credit, and graduate school.

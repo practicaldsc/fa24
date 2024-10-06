@@ -1,0 +1,22 @@
+Introduction to Computer SecurityFall 2024
+This course teaches the security mindset and introduces the principles and practices of computer security as applied to software, host systems, and networks. It covers the foundations of building, using, and managing secure systems. Topics include standard cryptographic functions and protocols, threats and defenses for real-world systems, incident response, and computer forensics. See the schedule for details.
+
+Professors	Face of J. Alex HaldermanJ. Alex Halderman Face of Ang ChenAng Chen
+TAs	Face of Edwin ChanEdwin Chan Face of Hariharan<br/>ChidambaramHariharan
+Chidambaram Face of Aidan DelwicheAidan Delwiche Face of Santiago GuizaSantiago Guiza Face of Leonardo<br/>LindembergLeonardo
+Lindemberg Face of Jai NarayananJai Narayanan Face of Lani QuachLani Quach Face of Ibrahim Musaddequr<br/>RahmanIbrahim Musaddequr
+Rahman Face of Josh RoyJosh Roy Face of Ben SchwartzBen Schwartz Face of Robert StanleyRobert Stanley Face of Alan ZhangAlan Zhang Face of Sydney ZhongSydney Zhong
+Lectures	Tue./Thu. Noon–1:20, 1670 Beyster
+We encourage you to attend the lectures in person, but you may also review the slides and videos asynchronously. Students registered for the hybrid lecture section are welcome to attend the in-person section if there are open seats.
+Lecture slides and videos will be posted on the day of each class, along with a brief online quiz.
+Labs	See calendar below. Lab sections will introduce tools and techniques that are important for completing the projects. We encourage you to attend the labs in person, but you may also review the slides and videos asynchronously. You may attend any lab section if there are open seats.
+Office Hours	See calendar below. Visit any professor’s office hours for help with course concepts and administrative issues. Visit any TA’s office hours for debugging help and assignment grading concerns.
+Communication	We'll use Piazza for announcements, discussion, and questions about assignments and other course material. Assignments will be submitted electronically, and grades will be returned via Canvas. For administrative issues, email eecs388-staff@umich.edu.
+Reference Books	
+No textbook is required, but if you would like additional references, we recommend:
+Security Engineering by Ross Anderson
+Cryptography Engineering by Ferguson, Schneier, and Kohno
+Resources	Security research at Michigan
+Other security-related courses
+Prerequisites	EECS 281 required; EECS 201 and EECS 370 recommended
+Calendar	The course calendar is displayed below. All listed times are U.S. Eastern. You can also add the class to your personal Google Calendar.

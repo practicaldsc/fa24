@@ -1,0 +1,345 @@
+EECS 280: Programming and Introductory Data Structures
+The University of Michigan, Fall 2024
+
+Computer science fundamentals, with programming in C++. Build a satistical analysis tool, an image processing program, a Euchre card game, a machine learning algorithm, and a text editor. Analyze and implement foundational data structures.
+
+Instructors
+James Juett <jjuett@umich.edu>
+Amir Kamil <akamil@umich.edu>
+Saquib Razak <razak@umich.edu>
+Course Overview
+Lectures are offered via in-person, recorded, and asynchronous formats.
+
+You may attend or engage with any lecture, regardless of your registered lecture section.
+Participation in live lecture is optionally worth 3% of your overall grade. We'll compute it both ways and take the higher. You can max out this credit even if you miss a few lectures.
+Labs are in-person, with exercises completed in small groups. Course staff facilitate lab sessions and are available for questions. Lab attendance is required. We will drop the two lowest lab scores for each student at the end of the term.
+
+Projects may be completed either alone or in a partnership and turned in to an autograder.
+
+Exams will be in-person, on-paper, at a scheduled time.
+
+Office hours will be held in-person and virtually, both one-on-one and in groups.
+
+Communication
+eecs280.org links to all course resources and is required reading.
+
+Ed is the course discussion forum, best for technical questions and project help. Do not publicly post your code.
+
+Administrative request forms via eecs280.org are best for:
+
+Assignment extensions/exceptions due to medical or personal emergencies
+Assignment extensions for students adding the course late
+Excused lab absences due to illness (separate from the regular lab drops)
+SSD documentation and accommodation requests
+Alternate exam requests
+eecs280admin@umich.edu reaches the EECS 280 faculty and administrators (not IAs or GSIs).
+
+Canvas is where we publish important announcements and grades. It is your responsibility to verify you can receive Canvas announcements. Please do not send messages to instructors via Canvas. It is difficult to track these messages and we want to ensure you receive a prompt reply.
+
+Discord is best for social stuff.
+
+Getting Help
+Ed is the course discussion forum, best for technical questions and project help. Do not publicly post your code.
+
+Staff office hours. Check the calendar.
+
+Professor office hours. Check the calendar.
+
+Administrative request forms via eecs280.org for things like extension requests.
+
+Tutoring outside the course.
+
+Diversity and Inclusion
+We care about our course community and want it to be a place where all students feel included, valued, and safe to learn from and with others. Diversity of thought and of people are important to us. We ask that you treat all other students with respect and work to create an inclusive community, and we hold ourselves to the same standard. Please feel free to contact us with any problem, concern, or suggestion. You may also report any concerns or misconduct via the resources linked at https://cse.engin.umich.edu/about/reporting-concerns-and-misconduct/.
+
+Computer and Network Recommendations
+We recommend you have a personal laptop consistent with CAEN recommendations.
+
+Test your internet connection with the U-M Custom Speedtest website and make sure it meets the minimum requirements for any UM service. You'll need more bandwidth if there will be multiple simultaneous users in your household.
+
+Resources for help with computing equipment:
+
+Information and Technology Services (ITS) Laptop loaner program
+College of Engineering (CoE) Office of Student Affairs, email requests to coe-studentaffairs@umich.edu
+You may also use computer workstations in CAEN labs on campus or connect remotely.
+
+Curriculum
+EECS 280 is a second-semester foundational programming course. You'll learn how to write correct programs that are easy for others to understand and modify. We focus on computer science concepts including:
+
+Value and reference semantics	Container Data Structures
+Functional abstraction	Recursion
+Data abstraction	Generic Programming
+Inheritance and Polymorphism	Higher-Order Functions
+Dynamic resource management	Testing and debugging
+Compound Types	Stacks and queues
+Encapsulation	Linked lists and binary trees
+In our exploration of these concepts, we cover many elements of the C++ language:
+
+Arrays and Vectors	Derived types
+File and stream I/O	The Big Three
+Strings	Templates
+Pointers	Iterators
+Structs and classes	Functors
+Operator overloading	Exceptions
+Textbook
+The course notes cover the same material as lecture, sometimes in more depth or with additional examples.
+
+(Optional) C++ Primer by Lippman, Lajoie and Moo. 5th edition. May be used as a reference for the C++ language.
+
+Many C++ reference materials are freely available online.
+
+Prerequisites
+ENGR 101 or ENGR 151 or EECS 180 or EECS 183 or ROB 102 with a minimum grade of "C". Prerequisites may be waived with transfer credit or a proficiency exam. Contact the CSE Advising Office in Beyster 2808 or at ugadmin@eecs.umich.edu.
+
+Exams
+There will be one midterm exam and one final exam, administered in-person, on-paper, at a scheduled time. Exam dates are posted on eecs280.org.
+
+Alternate Exams
+We may provide alternate exam times for students with a valid, documented conflict with a required activity in another course or official university-affiliated activity, or to help students avoid negative academic consequences when their religious obligations conflict with academic requirements.
+
+We also provide alternate exams in cases of unanticipated medical or personal emergencies.
+
+All requests for alternate exams must be submitted through the administrative form linked on the course website.
+
+Labs
+Lab sessions are 110 minutes, starting at the scheduled time. Course staff facilitate labs and are available for questions. At the start of the term, you'll receive two lab group assignments, group A and group B. You'll work on two deliverables during lab:
+
+Main Worksheet ~85 min
+Work with group A on practice exercises, tutorials, and group coding mini-projects.
+Submit a single main worksheet as a group to Gradescope.
+Debrief Worksheet ~20 min
+Work with group B on a short "debrief" worksheet, reviewing or building on your work from the main exercises.
+Submit a single debrief worksheet as a group to Gradescope.
+Every other lab, the roles of groups A and B switch. e.g. For lab 1, work with A for main exercises and debrief with B. For lab 2, work with B for main exercises and debrief with A. And so on...
+
+Labs are graded on completion of both worksheets and submission to Gradescope. Attendance is required to earn any credit for lab. Attendance is taken 30 minutes into the main worktime. Individuals will not receive credit for the lab unless they are present when attendance is taken. Students who leave before completing the debrief with their second group will not receive attendance credit.
+
+Projects
+You will complete six major programming projects ranging in size from ~100 to ~1,000 lines of code.
+
+Project 1: Statistics. Implement a two-sample statistical analysis tool.
+
+Project 2: Computer Vision. Resize images without distortion.
+
+Project 3: Euchre. Simulate a card game popular in Michigan.
+
+Project 4: Machine Learning. Automatically identify the subject of EECS 280 forum posts.
+
+Project 5: Text Editor. Interactively edit text files via the terminal.
+
+Project 6: Binary Search Tree. Implement an efficient map using a binary search tree.
+
+NOTE: In previous terms of EECS 280, we released projects 4 and 6 as a single, combined project. This term, it is split into two individual projects, but the overall workload is unchanged.
+
+We update and improve the projects from time to time, so they may change any time before the project release date.
+
+Retaking the Course
+If you are retaking the course and plan to work alone on a project, you are allowed to reuse your own code. If you choose to work with a partner, you should start the project from scratch to ensure the best learning experience for you and your partner.
+Project Partnerships
+Partnership Availability
+Project 1 is done independently by each student.
+You may work either alone or in a partnership for the remaining projects.
+Partnering Rules
+Eligibility: You may only partner with students registered in EECS 280 this term (any section).
+Collaboration: Both students must engage fully in all aspects of the project. Dividing the project into separate components to work on independently is not allowed.
+Changing Partners: You may change partners between projects but not during a project. In exceptional cases, you may request partnership dissolution via email to eecs280admin@umich.edu. If dissolution is granted, both partners may use previously shared code, but both must work alone on the remainder of the project.
+Submission and Grading
+Registration: You must register your partnership on the autograder before submitting.
+Submissions: You and your partner share the same number of submissions allowed per day as granted to individuals.
+Grading: Both partners receive the same final grade overall for a project.
+Collaboration Strategies
+If you are working with a partner, collaboration is key to your success. Adopt the following strategies to work effectively as a team:
+Collaboration: Complete most of the project together during shared worktime, whether in-person or virtual.
+Pair Programming: Write code together (e.g. one person types, the other reviews) to enable collaborative learning opportunities, catch errors earlier, and promote better program design.
+Task Rotation: Rotate roles and responsibilities regularly to ensure both partners gain experience with all aspects of the project.
+Planning and Communication: Set expectations for work habits and milestones for project completion. Establish means of communication and expected norms for response time.
+Shared Documentation: Maintain a shared document for notes, ideas, and updates to keep everyone on the same page.
+Mutual Support: Offer and seek help from your partner when faced with difficulties. Collaboration is about leveraging each other's strengths.
+Discuss these strategies with potential partners before you begin working together. If you don't agree on these strategies, you should opt to work alone or seek other partners. Not everyone is a great fit together, and that's okay.
+Responsibility and Honor Code
+Accountability: Each student is responsible for the complete project. Both must understand and be able to explain every component of the project.
+Honor Code: Any honor code violation, such as plagiarism or unauthorized collaboration, will be the responsibility of both students in the group. Work together with integrity and adhere to the honor code at all times. By following these strategies, you will enhance your learning experience and develop valuable teamwork skills essential in the professional world.
+Project Grading
+We use a web-based autograder to evaluate correctness, style, and the thoroughness of your tests.
+
+Before the deadline, you may submit up to 3 times per day. After each submission, the autograder shows the results of the public tests released with the project.
+
+After the deadline, the autograder shows the results of private tests, which are usually more thorough than the public tests.
+
+Your final project score is a combination of public and private tests. We use the submission that received the combined best score. If multiple submissions share the best score, we grade the last.
+
+Some projects have a checkpoint worth a small portion of the overall course grade. The full submission for each project is worth the remaining portion. See the course schedule and project specifications for more details.
+
+Programming Environment
+You are free to develop on any platform. You are responsible for any differences between your preferred platform and the autograder platform, so use only ANSI/ISO standard C++17 and compile with the provided Makefile or equivalent compiler options. It is essential to submit your code early and often so that you can identify and fix any compatibility issues reported by the autograder.
+
+Project Tips
+Tips for doing well on the projects include:
+
+Start early. This is the most common problem.
+Try a debugger. One major goal of this course is for you to learn to test and debug your programs independently.
+Ask for help. We want to help you in office hours!
+Back up. We can't help you with lost data.
+Grades
+Letter grades are assigned on a straight scale with curved exams. In general, our goal is be consistent with past semesters.
+
+You can estimate your letter grade using our grade calculator.
+
+Assignment Weighting
+We calculate your total weighted score using these weights.
+
+Assignment	Weight
+Lab (all labs equal weight)	5%
+Projects (P1=4%, P2=10%, P3=10%, P4=5%, P5=10%, P6=5%)	44%
+Midterm Exam	25%
+Final Exam	25%
+Entry and Exit surveys	1%
+Total	100%
+Lecture Participation
+Participation in lecture is highly encouraged and optionally graded.
+
+We'll compute an alternate total weighted score with lecture participation worth 3% (and everything divided by 103% instead of 100%). We take whatever is higher between this and your regular score.
+
+You can earn lecture participation points by:
+
+Live Lectures: Attending in-person and completing a short google form/quiz related to lecture material.
+Async Lectures: Completing the embedded exercises by 11:59pm on the lecture date.
+Each lecture is worth 1 point. Your participation score is computed out of 20. We offer 24 lectures during the term, so you can max out the score even if you miss a few. You cannot earn more than 100% on participation.
+
+Since lecture points are optional, an asynchronous/remote option exists, and several "drops" are provided, we do not consider exception requests to earn points for excused absences or alter the lecture participation grading for individuals.
+
+Exam Curve
+After each exam, we adjust your score to account for the difficulty of the exam. We never adjust scores downward. See our grade calculator for more details and examples of curves on previous exams.
+
+No other assignments are curved.
+
+Minimum Pass Thresholds
+To pass EECS 280 with a C or better, your total weighted project score must be at least 60.0%, and your total weighted curved exam score must be at least 65.0%. Otherwise, the maximum grade you may earn is a C-.
+
+(Note: In previous terms, these thresholds were set higher at the start of the term and adjusted to be more lenient later on. In this term, we've set the thresholds at their appropriate place from the start and do not expect to adjust them.)
+
+Letter Grades
+After computing the total weighted score and considering the minimum pass thresholds, we use these ranges to assign letter grades. Each range is half-inclusive, for example a score of 89.999% is a B+ and a score of 90.0% is an A-.
+
+We do not curve the course overall or otherwise adjust letter grade thresholds.
+
+Total weighted score	Letter grade	
+0 - 50%	E	
+50 - 60%	D
+60 - 70%	C-
+70 - 77%	C	Must Meet Minimum Pass Thresholds
+77 - 80%	C+
+80 - 83%	B-
+83 - 87%	B
+87 - 90%	B+
+90 - 93%	A-
+93 - 97%	A
+97 - 100%	A+
+Extensions and Exceptions
+We do not accept late work. Project and lab submissions are not allowed past the published deadline, except in the circumstances outlined below.
+
+Submit extension/exception requests via the administrative request forms.
+
+Late Adds. Students adding EECS 280 late may petition for additional time to turn in assignments.
+
+Planned Exceptions. We will consider extension requests made at least two weeks in advance, for example, for religious holidays or planned medical procedures.
+
+Emergencies. If you experience a medical or personal emergency, please reach out to us! We will consider exceptions on a case-by-case basis. Please provide documentation of the emergency. Requests must be made at least 24 hours before the assignment deadline, unless the emergency prevents prompt communication to course faculty or staff.
+
+Lab Drops. We drop the lowest 2 lab scores for all students. This policy is intended to cover situations in which you must miss a lab due to e.g. a planned medical procedure, an unanticipated medical or personal emergency, or an official university conflict. If (and only if) you have already used your two drops, you may petition for an additional drop in cases of illness or emergency. Requests will be considered on a case-by-case basis.
+
+Regrades
+Exams are graded by hand. We will provide an opportunity to request a regrade to correct grading errors. We will regrade the entire problem and fix any mistakes (your score may go up or down).
+
+Labs are graded for attendance and completion. You may check your scores on Canvas. Please report any clerical errors.
+
+Projects are automatically graded. We do not accept regrade requests.
+
+In all cases regrade requests are due no later than 7 days after a grade is released unless a shorter deadline is specified.
+
+Academic Integrity
+We encourage collaboration in EECS 280, especially on concepts, tools, specifications, and strategies.
+
+All work you submit must be your own or your partnership's. Collaboration must not result in code that is identifiably similar to other solutions, past or present.
+
+Encouraged Collaboration	Unacceptable collaboration
+Sharing high-level design strategies, e.g., helper function organization or data structure choices	Walking through an important piece of code step-by-step, sharing pseudocode, sharing comments
+Helping others understand the spec or project nuances	Providing your code as a reference
+Helping someone debug	Debugging someone's code for them
+Explaining a compiler error to someone	Fixing a compiler error for someone
+Discussing test strategies	Sharing test code to verify someone else's design, even if test cases are not submitted
+Brainstorming edge cases for testing	Discussing specifics about what tests exposed instructor bugs on the autograder
+Using starter code provided with a project or based on examples shown in lecture	
+Copying code in whole or in part, even if the code is modified
+
+Writing original code for someone else, or paying someone to write your project
+
+Looking at someone else's code to understand concepts or help someone debug	Sharing your code in a way that could be copied, e.g., sending code over email or taking a picture of code
+You are still responsible for following these rules even after finishing the course.
+
+If you are unsure about what constitutes an honor code violation, please contact the course staff with questions.
+
+Code reuse
+If you are retaking the course, you may reuse your own code, provided it was wholly written according to the rules outlined in this syllabus. It is possible for instructors to miss an honor code violation in a previous term, but catch and report it when the code is reused.
+
+Code publishing
+You may not make your code publicly available in any form, for example in a public GitHub repository or personal website. You are still responsible for following these rules even after finishing the course.
+
+Generative AI Policy
+The use of generative AI tools (e.g. GitHub Copilot, ChatGPT, Bard, etc.) is permitted only in the same contexts where collaboration with another person is allowed, following the guidelines above. For example:
+
+Allowed Use	Prohibited Use
+Learning course concepts, generating examples of a particular coding pattern, interactively checking your knowledge, etc.	Generating project code, test cases, or any other work to be submitted (with or without modifications)
+Understanding compiler errors or getting suggestions for debugging a problem	Exhaustively proofreading your code to find and/or correct any mistakes
+Brainstorming and identifying potential edge cases for testing	Asking for a list of test cases (even if they aren't written out as code)
+Generating additional practice exam questions or other use for studying	Using generative AI tools during exams
+Additionally, the use of generative AI in a deceptive or malicious fashion is prohibited. This includes but is not limited to:
+
+Impersonating yourself or others in course contexts, for example in emails, virtual office hours, or online course forums.
+Passing off generated content as your own work when contributing to group assignments.
+Using generative AI to facilitate harassment of others.
+Honor Council Process
+We report suspected violations to the Engineering Honor Council. To identify violations, we use both manual inspection and automated software to compare present solutions with each other, with past solutions, and with code found online. The Honor Council determines whether a violation of academic standards has occurred, as well as any sanctions. Read the Honor Code for detailed definitions of cheating, plagiarism, and other forms of academic misconduct.
+
+Here's what you can expect if you are reported for an Honor Code violation:
+
+The EECS 280 instructors submit an official report to the Honor Council.
+The Honor Council notifies you of the report, and explains the next steps of the process. You receive a copy of the report, including the evidence of the suspected violation.
+The course instructors play no role in adjudicating reported cases.
+The Honor Council notifies course instructors when your case is resolved. Any penalties they prescribe are applied to your grade. If you are found not responsible, your grade is unaffected.
+If you have a pending honor council case at the end of the term, you receive an "I" (incomplete) grade until the case is resolved. We will send you a grade projection via email to help with planning. Your grade is updated once the case is resolved. The "I" should not remain on your transcript.
+
+Course Policies
+Health and Wellness
+Our goal is to provide a safe and effective in-person learning environment in EECS 280 for all students in line with University policies. Please reach out to us to discuss specific health challenges or needs you have.
+
+Commitment to Equal Opportunity
+As indicated in the General Standards of Conduct for Engineering Students, we are committed to a policy of equal opportunity for all persons and do not discriminate on the basis of race, color, national origin, age, marital status, sex, sexual orientation, gender identity, gender expression, disability, religion, height, weight, or veteran status.
+
+Students' Mental Health and Well-being
+University of Michigan is committed to advancing the mental health and well-being of its students. If you or someone you know is feeling overwhelmed, depressed, and/or in need of support, services are available. For help, contact Counseling and Psychological Services (CAPS) at (734) 764-8312 and https://caps.umich.edu during and after hours, on weekends and holidays, or through its counselors physically located in schools on both North and Central Campus. You may also consult University Health Service (UHS) at (734) 764-8320 and https://www.uhs.umich.edu/mentalhealthsvcs, or for alcohol or drug concerns, see www.uhs.umich.edu/aodresources. For a listing of other mental health resources available on and off campus, visit: https://caps.umich.edu/resources.
+
+Wolverine Support Network
+Another resource available to you as a U-M student is Wolverine Support Network, a student organization offering free peer-facilitated weekly groups on campus. With 30+ groups per week, students are placed in a group at a time and location most convenient for them. Trained students lead groups to promote students' well-being and build community in an accessible, confidential, and inclusive environment. To sign up for a group, go to umichwsn.org/join, or email wsndirectors@umich.edu with any questions.
+
+Accommodations for Students with Disabilities
+If you think you need an accommodation for a disability, please let your instructor know during the first three weeks of the semester. Some aspects of this course may be modified to facilitate your participation and progress. As soon as you make us aware of your needs, we can work with the Services for Students with Disabilities (SSD) office to help us determine appropriate academic accommodations. SSD (734-763-3000; http://ssd.umich.edu) typically recommends accommodations through a Verified Individualized Services and Accommodations (VISA) form. Any information you provide is private and confidential and will be treated as such.
+
+FCI Initiative
+This semester, EECS 280 is partnering with the Foundational Course Initiative (FCI) at the Center for Research on Learning and Teaching (CRLT). FCI is a program to improve undergraduate experience and learning in large enrollment courses and involves a course design collaboration between instructional staff, former course students, and FCI consultants. Over the course of the term, FCI consultants may attend class sessions, and you may be asked to complete surveys and/or participate in focus groups aimed at evaluating the effectiveness of specific course elements.
+
+While this is an educational improvement project, it also has a research component to understand educational experiences and document the effectiveness of various course design strategies (IRB: HUM00150716).
+
+Your participation in surveys and focus groups will be voluntary, and at no time will your name or any identifying details be included in any research presented either within or beyond the University of Michigan.
+
+More information on FCI can be found here: Foundational Course Initiative
+
+Please feel free to contact crltfciteam@umich.edu if you have any questions or concerns about this project.
+
+Recordings
+Course lectures may be audio/video recorded and made available to other students in this course. As part of your participation in this course, you may be recorded. If you do not wish to be recorded, please contact your instructor the first week of class to discuss alternative arrangements.
+
+Students may not record or distribute any class activity without written permission from the instructor, except as necessary as part of approved accommodations for students with disabilities. Any approved recordings may only be used for the student's own private use.
+
+Research Disclosure
+Your class work might be used for research purposes. No identifying information about you or your work will be published. For example, we may use anonymized student assignments to design algorithms or build tools to help programmers. Or we might survey responses to help us improve the course and better understand instructional techniques. Any student who wishes to opt out can contact the course staff (eecs280admin@umich.edu) at any time up to seven days after final grades have been issued. This has no impact on your grade in any manner.

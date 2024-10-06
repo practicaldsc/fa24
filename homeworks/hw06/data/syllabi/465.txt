@@ -1,0 +1,46 @@
+EECS 465/ROB 422: Introduction to Algorithmic Robotics
+Fall 2023 Syllabus
+Instructor:
+Dmitry Berenson
+Office: 2268 FRB
+Email: dmitryb [at] umich.edu
+Time: Mon, Weds 3:00pm - 4:30pm
+Location: 1200 EECS
+Course Website: https://berenson.robotics.umich.edu/courses/fall2023iar/index.html
+The instructor reserves the right to modify the course outline and policies mentioned in this
+syllabus at any time during the term.
+Overview: An introduction to the algorithms that form the foundation of robot planning, state
+estimation, and control. Topics include optimization, motion planning, representations of
+uncertainty, Kalman and particle filters, and point cloud processing. Assignments focus on
+programming a robot to perform tasks in simulation.
+Prerequisites:
+- Required: MATH 215 and EECS 280 and (Junior Standing or Senior Standing or
+Graduate Standing) or permission of instructor,
+- Recommended: EECS 281 and (MATH 214/217/417/419 or ROB 101)
+Course Layout: This course will consist of lectures, reading, and implementing and presenting
+a final project employing the ideas covered in the class. Most reading will be from a textbook,
+though other handouts may be used. Students will complete quizzes, homeworks, and a final
+project report.
+Lectures: Students are expected to attend all classes. It is essential that you carefully review
+any required reading before each class and be prepared to share your perspective. Class
+participation is essential.
+Homework: Homework will be assigned throughout the semester. All homework will have
+a due date and no late homework will be accepted. Homework must be typed on single-sided,
+letter-size paper. All homeworks must be done individually.
+Course Schedule: The course schedule is available on the course website.
+Grading:
+Homeworks 50%
+Quizzes (drop lowest) 15%
+Final Project 35%
+Academic Integrity: All work submitted for credit must be your own. Plagiarism is cheating and
+will be dealt with accordingly. Review the college of Engineering’s Honor Code here:
+https://bulletin.engin.umich.edu/rules/
+Student Disability Services: If you need course adaptations or accommodations because of a
+disability, or if you have medical information to share with the instructor, please make an
+appointment with your instructor within the first week of classes.
+References:
+● Steven M. LaValle, Planning Algorithms, Cambridge University Press, 2006.
+● Stuart Russell and Peter Norvig, Artificial Intelligence: A Modern Approach (Third
+edition), Cambridge University Press, 2004
+● Boyd, Stephen, and Lieven Vandenberghe. Convex optimization. Cambridge university
+press, 2004.
