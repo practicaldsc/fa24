@@ -7,12 +7,14 @@ days:
       - name: REV
         type: review
         title: Midterm Review (6-8PM, FXB 1109, led by TAs)
+        problems: https://study.practicaldsc.org/mt-review-monday/index.html
         note: This <b>will</b> be recorded!
   - date: "2024-10-08"
     events:
       - name: LEC 13
         type: lecture
         title: Midterm Review (during lecture, led by Suraj)
+        problems: https://study.practicaldsc.org/mt-review-tuesday/index.html
   - date: "2024-10-09"
     events:
       - name: EXAM
