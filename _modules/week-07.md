@@ -18,6 +18,14 @@ days:
         blank_slides: resources/lectures/lec13/lec13-blank.pdf
         filled_slides: resources/lectures/lec13/lec13-filled.pdf
         recording: https://leccap.engin.umich.edu/leccap/player/r/5ZW0eD
+      - name: OH
+        type: lecture
+        title: Office Hours After Lecture
+        filled_slides: resources/lectures/lec13/midterm-review-office-hours.pdf
+        html: resources/lectures/lec13/different-kinds-of-groupby-methods.html
+        recording: https://www.loom.com/share/4171bfc0e71c4722b10a6c8472d08cb5?sid=e3453f2f-adbc-4d74-8fcb-c233dae591a4
+        github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec13/agg-filter-transform-apply.ipynb
+        note: In office hours, we walked through questions from past discussions and discussed some of the intricacies of the groupby method. The annotated slides, Jupyter Notebook, and a recording of the session can be found here.
   - date: "2024-10-09"
     events:
       - name: EXAM
