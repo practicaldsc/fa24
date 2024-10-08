@@ -16,6 +16,8 @@ days:
         title: Midterm Review (during lecture, led by Suraj)
         problems: https://study.practicaldsc.org/mt-review-tuesday/index.html
         blank_slides: resources/lectures/lec13/lec13-blank.pdf
+        filled_slides: resources/lectures/lec13/lec13-filled.pdf
+        recording: https://leccap.engin.umich.edu/leccap/player/r/5ZW0eD
   - date: "2024-10-09"
     events:
       - name: EXAM
