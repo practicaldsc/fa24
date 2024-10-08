@@ -15,6 +15,7 @@ days:
         type: lecture
         title: Midterm Review (during lecture, led by Suraj)
         problems: https://study.practicaldsc.org/mt-review-tuesday/index.html
+        blank_slides: resources/lectures/lec13/lec13-blank.pdf
   - date: "2024-10-09"
     events:
       - name: EXAM
