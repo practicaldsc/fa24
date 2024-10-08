@@ -8,7 +8,7 @@ days:
         type: review
         title: Midterm Review (6-8PM, FXB 1109, led by TAs)
         problems: https://study.practicaldsc.org/mt-review-monday/index.html
-        note: This <b>will</b> be recorded!
+        recording: https://leccap.engin.umich.edu/leccap/player/r/DkSl0M
   - date: "2024-10-08"
     events:
       - name: LEC 13
