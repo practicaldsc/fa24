@@ -111,6 +111,8 @@ These sites allow you to search for datasets (in CSV format) from a variety of d
 
 Tip: if a site only allows you to download a file as an Excel file, not a CSV file, you can download it, open it in a spreadsheet viewer (Excel, Numbers, Google Sheets), and export it to a CSV.
 
+[Here's a tutorial](https://scribehow.com/shared/How_to_Download_Data_in_Specific_Formats_from_Datagov__iZVhM33aTjaKjFlh9CcYVg) on how to download JSON data from [data.gov](https://data.gov), for example.
+
 ### University of Michigan Library Guides
 
 The university library system maintains several guides on how to conduct research and where to find information. They contain lots of links to local data sources. Here are a few guides of interest:
@@ -120,7 +122,8 @@ The university library system maintains several guides on how to conduct researc
 - Guide on [Geospatial Data](https://guides.lib.umich.edu/c.php?g=283021&p=1885741).
     - Guide on [Detroit Maps](https://guides.lib.umich.edu/detroitmaps).
 - Guide on [Political Science Data](https://guides.lib.umich.edu/polisci).
-    - Watch [this video](https://www.mivideo.it.umich.edu/media/t/1_7fy6i5ze) for guidance on how to search for Political Science data.
+    - Watch [this video](https://www.mivideo.it.umich.edu/media/t/1_7fy6i5ze) for guidance on how to search for Political Science research work.
+    - Here's a related [tutorial](https://scribehow.com/shared/How_to_find_Data_JSON_format_on_ICPSR__IoPj7BYAS_GSQ-Wr-a_hVQ) on how to download raw datasets.
 - Guide on [News Data](https://guides.lib.umich.edu/news).
 - General [Engineering](https://guides.lib.umich.edu/engineering) and [Computer Science](https://guides.lib.umich.edu/cse) research guides.
 
