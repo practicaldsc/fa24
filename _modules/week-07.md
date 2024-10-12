@@ -31,6 +31,7 @@ days:
       - name: EXAM
         type: exam
         title: <b>Midterm Exam (7-9PM)</b>
+        problems: https://study.practicaldsc.org/fa24-midterm/index.html
   - date: "2024-10-10"
     events:
       - title: "No Lecture: (Early) Fall Break 🍁"

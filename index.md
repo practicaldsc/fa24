@@ -25,7 +25,7 @@ EECS 398-003, Fall 2024 at the <b><span style="background-color: #FFCB05; color:
 {% endfor %}
 
 {: .green }
-**The Midterm Exam is on Wednesday 10/9 from 7-9PM! Read [the logistics post on Ed for more details on how to prepare](https://edstem.org/us/courses/61012/discussion/5418567).**
+**Enjoy your Fall Break! Our next office hours are on Wednesday 10/16, and the next lecture is on Thursday 10/17. Midterm Exam scores are available on Gradescope.**
 
 
 [Jump to the current week](#week-6-text-processing){: .btn }

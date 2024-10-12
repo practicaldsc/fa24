@@ -24,7 +24,7 @@
               {% endif %}
             </p>
             <div class="event-links">
-              {%- if event.type == "lecture" or event.type == "review" -%}
+              {%- if event.type == "lecture" or event.type == "review" or event.type == "exam" -%}
                 {%- if event.html -%}
                 <a href="{{ event.html }}" class="btn btn-info btn-sm">📝 filled html</a>
                 {%- endif -%}
