@@ -24,10 +24,6 @@ EECS 398-003, Fall 2024 at the <b><span style="background-color: #FFCB05; color:
 {{ staffer }}
 {% endfor %}
 
-{: .green }
-**Enjoy your Fall Break! Our next office hours are on Wednesday 10/16, and the next lecture is on Thursday 10/17. Midterm Exam scores are available on Gradescope.**
-
-
 [Jump to the current week](#week-8-fall-break-introduction-to-modeling){: .btn }
 
 {% for module in site.modules %}

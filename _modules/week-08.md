@@ -10,6 +10,12 @@ days:
       - name: LEC 14
         type: lecture
         title: Introduction to Modeling
+        blank_slides: resources/lectures/lec14/lec14-blank.pdf
+        videos: https://youtu.be/0s7M8OsnBNA
+        reading: https://learningds.org/ch/04/modeling_intro.html
+        reading_text: LDS 4
+        reading2: resources/other/40a-note-1.pdf
+        reading2_text: UCSD 1.1-1.2
       - name: HW 6
         type: hw
         title: <b>SQL, Regular Expressions, and GPTEECS</b>
