@@ -20,10 +20,10 @@ days:
       - name: HW 7
         type: hw
         title: <b>Loss Functions and Linear Algebra</b>
-        problems: TODO
+        github: https://github.com/practicaldsc/fa24/blob/main/homeworks/hw07/hw07.ipynb
         reading: mle
         reading_text: Maximum Likelihood Estimation (for Question 4)
-        note: Note that Homework 7 doesn't involve writing any code! You will submit a <b>PDF</b> of your answers to Gradescope.
+        note: Note that you will submit Homework 7 as a <b>PDF</b> containing your answers to math questions – you will not submit any code!
   - date: "2024-10-25"
     events:
       - name: DIS 8
