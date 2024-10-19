@@ -66,6 +66,9 @@
                 {%- if event.github -%}
                 <a href="{{ event.github }}" class="btn btn-info btn-sm">{% include icon-github.html %} GitHub</a>
                 {%- endif -%}
+                {%- if event.reading and event.reading_text -%}
+                <a href="{{ event.reading }}" class="btn btn-info btn-sm">📕 Read: {{ event.reading_text }}</a>
+                {%- endif -%}
                 {%- if event.template -%}
                 <a href="{{ event.template }}" class="btn btn-info btn-sm">🍃 template</a>
                 {%- endif -%}

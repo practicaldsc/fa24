@@ -19,7 +19,11 @@ days:
         title: Multiple Linear Regression through Linear Algebra
       - name: HW 7
         type: hw
-        title: Homework 7
+        title: <b>Loss Functions and Linear Algebra</b>
+        problems: TODO
+        reading: mle
+        reading_text: Maximum Likelihood Estimation (for Question 4)
+        note: Note that Homework 7 doesn't involve writing any code! You will submit a <b>PDF</b> of your answers to Gradescope.
   - date: "2024-10-25"
     events:
       - name: DIS 8
