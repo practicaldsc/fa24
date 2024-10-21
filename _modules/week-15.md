@@ -17,12 +17,18 @@ days:
       - name: LEC 27
         type: lecture
         title: Conclusion
-      - name: HW 12
+      - name: HW 11
         type: hw
-        title: Homework 12
+        title: Homework 11
   - date: "2024-12-06"
     events:
       - name: DIS 13
         type: disc
         title: Discussion 13
+  - date: "2024-12-07"
+    events:
+      - name: PR HW
+        type: hw
+        title: Portfolio Homework
+        note: You <b>cannot</b> drop the Portfolio Homework, and cannot use slip days on it!
 ---

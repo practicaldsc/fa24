@@ -17,9 +17,10 @@ days:
       - name: LEC 24
         type: lecture
         title: Logistic Regression
-      - name: HW 11
+      - name: HW 10
         type: hw
-        title: Homework 11
+        title: Homework 10
+        note: We're still updating the homework deadline schedule, so we <i>may</i> move the deadline of Homework 10 earlier.
   - date: "2024-11-22"
     events:
       - name: DIS 12

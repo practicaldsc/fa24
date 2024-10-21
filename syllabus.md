@@ -218,6 +218,17 @@ Note that you may not work with partners on homework assignments, however you're
 encouraged to discuss all assignments with others at a conceptual level in
 office hours and study groups.
 
+<a name="portfolio"></a>
+
+{: .green }
+> 🆕 The last homework of the semester is now called the **Portfolio Homework**. In the Portfolio Homework, you'll work on an open-ended investigation of a dataset of your choosing from a fixed set of options, using the tools from both halves of the semester. Your work will culminate in a public-facing _website_ that you can share with friends, family, and on your resume!
+> We will release more details about the Portfolio Homework in early-mid November to give you at least 3 weeks to work on it, but for now, note that the Portfolio Homework is different than other homework assignments in the following ways:
+> - You **can work with one partner** (but don't have to).
+> - You **cannot use [slip days](#late-policy-slip-days-and-drops)** on the Portfolio Homework (since it's due at the end of the semester and we need time to grade it).
+> - You **cannot drop** the Portfolio Homework – it will be a part of your overall homework grade no matter what. Your lowest score among Homeworks 1-11 will be the one that is dropped.
+> - Otherwise, it is worth the same amount as other homeworks.
+> - The Portfolio Homework will **not be autograded at all**; it will be fully manually graded.
+
 ### Office Hours
 
 To get help on assignments and concepts, course staff will be hosting several
@@ -292,7 +303,7 @@ Here is how we'll compute your grade:
 
 | Component                               | Weight              | Notes                           |
 | --------------------------------------- | ------------------- | ------------------------------- |
-| Homeworks                                    | 50% | lowest score dropped; 6 [slip days](#late-policy-slip-days-and-drops) available   |
+| Homeworks                                    | 50% | • lowest score dropped (though the [Portfolio Homework](#portfolio) cannot be dropped)<br>• ~~6~~ **8** [slip days](#late-policy-slip-days-and-drops) available to use with a max of 2 per homework (0 allowed on the Portfolio Homework)  |
 | Midterm Exam                            | 20%                 | see the [Redemption Policy](#redemption-policy) above |
 | Final Exam                              | 30%                 |                                 |
 
@@ -323,14 +334,14 @@ the deadline, and only the most recent submission will be graded, so it’s a
 good habit to submit early and often.** If you make a submission after the
 deadline, your assignment will be counted as late.
 
-You have **6 "slip days"** to use throughout the semester. A slip day extends
-the deadline of a homework by 24 hours. **You may use up to 2 slip days on any one homework assignment.**
+You have ~~6~~ **8 "slip days"** to use throughout the semester. A slip day extends
+the deadline of a homework by 24 hours. **You may use up to 2 slip days on any one homework assignment, except for the Portfolio Homework, which you cannot use slip days on (since it's due at the end of the semester and we need time to manually grade it).**
 
 Slip days are designed to be a transparent and predictable source of leniency
 in deadlines. You can use a slip day if you are too busy to complete a homework on its original due date (or if you forgot about it). But slip days
 are also meant for things like the internet going down at 11:58PM just as you
 go to submit your homework. Slip days are meant to be used in exceptional
-circumstances, so **you probably should not need to use all 6, but if you have
+circumstances, so **you probably should not need to use all ~~6~~ 8, but if you have
 something going on in your life that is impeding your ability to do your
 classwork on time, please reach out to us as soon as possible so we can work
 something out**. The earlier you let us know that something's going on,

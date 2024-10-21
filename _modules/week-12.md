@@ -17,9 +17,6 @@ days:
       - name: LEC 22
         type: lecture
         title: Gradient Descent
-      - name: HW 10
-        type: hw
-        title: Homework 10
   - date: "2024-11-15"
     events:
       - name: DIS 11
