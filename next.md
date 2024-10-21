@@ -6,6 +6,12 @@ description: >-
   Information about Practical Data Science, offered as EECS 398-002/003 in Winter 2025 at the University of Michigan.
 ---
 
+<style>
+  .main-header {
+    display: none;
+  }
+</style>
+
 # {{ page.title }}
 {: .no_toc }
 {: .mb-2 }
