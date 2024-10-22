@@ -24,18 +24,18 @@
               {% endif %}
             </p>
             <div class="event-links">
-              {%- if event.type == "lecture" or event.type == "review" or event.type == "exam" -%}
-                {%- if event.html -%}
-                <a href="{{ event.html }}" class="btn btn-info btn-sm">📝 filled html</a>
-                {%- endif -%}
-                {%- if event.problems -%}
-                <a href="{{ event.problems }}" class="btn btn-info btn-sm">🧠 problems</a>
-                {%- endif -%}
+                {%- if event.type == "lecture" or event.type == "review" or event.type == "exam" -%}
                 {%- if event.blank_slides -%}
                 <small><a href="{{ event.blank_slides }}" class="btn btn-info btn-sm">🌗 blank slides</a></small>
                 {%- endif -%}
                 {%- if event.filled_slides -%}
                 <small><a href="{{ event.filled_slides }}" class="btn btn-info btn-sm">📝 filled slides</a></small>
+                {%- endif -%}
+                {%- if event.html -%}
+                <a href="{{ event.html }}" class="btn btn-info btn-sm">📝 filled html</a>
+                {%- endif -%}
+                {%- if event.problems -%}
+                <a href="{{ event.problems }}" class="btn btn-info btn-sm">🧠 problems</a>
                 {%- endif -%}
                 {%- if event.extra -%}
                 <a href="{{ event.extra }}" class="btn btn-info btn-sm">🎁 {{ event.extra_text }}</a>
