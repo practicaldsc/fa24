@@ -12,6 +12,7 @@ days:
       - name: LEC 15
         type: lecture
         title: Simple Linear Regression
+        videos: https://youtu.be/WuQs1r0NQiY
   - date: "2024-10-24"
     events:
       - name: LEC 16

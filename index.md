@@ -23,7 +23,7 @@ Interested in taking the course next semester? Read [**this page**](next).
 {{ staffer }}
 {% endfor %}
 
-[Jump to the current week](#week-8-fall-break-introduction-to-modeling){: .btn }
+[Jump to the current week](#week-9-regression){: .btn }
 
 {% for module in site.modules %}
 {{ module }}
