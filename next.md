@@ -94,7 +94,7 @@ The enforced prerequisites are discrete math (EECS 203), programming (EECS 280),
 If you're interested in the class but don't meet one of the prerequisites, email me and we can chat about your background. I encourage students of all backgrounds who are curious about data science to reach out!
 
 {: .green }
-**All students, especially those who haven't taken a linear algebra course, should work through [LARDS: Linear Algebra Review for Data Science](lin-alg) before the semester starts.**
+**All students, especially those who haven't taken a linear algebra course, should work through [LARDS: Linear Algebra Review for Data Science](../lin-alg) before the semester starts.**
 
 ---
 
