@@ -13,14 +13,15 @@ days:
         type: lecture
         title: Simple Linear Regression
         blank_slides: resources/lectures/lec15/lec15-blank.pdf
+        filled_slides: resources/lectures/lec15/lec15-filled.pdf
         github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec15/
         html: resources/lectures/lec15/lec15-filled.html
         reading: https://learningds.org/ch/15/linear_intro.html
         reading_text: LDS 15.1-15.3
         reading2: resources/other/40a-note-2.pdf
         reading2_text: UCSD 2.1
-        # filled_slides: resources/lectures/lec15/lec15-filled.pdf
         videos: https://youtu.be/WuQs1r0NQiY
+        recording: https://leccap.engin.umich.edu/leccap/player/r/MvcfB9
   - date: "2024-10-24"
     events:
       - name: LEC 16
