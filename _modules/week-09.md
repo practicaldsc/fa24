@@ -35,7 +35,7 @@ days:
         reading_text: LDS 15.4-15.5
         reading2: resources/other/40a-note-2.pdf#page=9
         reading2_text: UCSD 2.2
-        recording: https://leccap.engin.umich.edu/leccap/player/r/MvcfB9
+        recording: https://leccap.engin.umich.edu/leccap/player/r/D9Hc2d
         note: In addition to the resources above, it's a good idea to review Linear Algebra Review for Data Science (<a href="lin-alg">LARDS</a>), Section 8, titled <i><a href="lin-alg#projecting-onto-the-span-of-multiple-vectors-again">Projecting onto the span of multiple vectors, again</a></i>.
       - name: HW 7
         type: hw
