@@ -26,7 +26,15 @@ days:
     events:
       - name: LEC 16
         type: lecture
-        title: Multiple Linear Regression through Linear Algebra
+        title: Regression using Linear Algebra
+        blank_slides: resources/lectures/lec16/lec16-blank.pdf
+        github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec16/
+        html: resources/lectures/lec16/lec16-filled.html 
+        reading: https://learningds.org/ch/15/linear_multi_fit.html
+        reading_text: LDS 15.4-15.5
+        reading2: resources/other/40a-note-2.pdf#page=9
+        reading2_text: UCSD 2.2
+        note: In addition to the resources above, it's a good idea to review Linear Algebra Review for Data Science (<a href="lin-alg">LARDS</a>), Section 8, titled <i><a href="lin-alg#projecting-onto-the-span-of-multiple-vectors-again">Projecting onto the span of multiple vectors, again</a></i>.
       - name: HW 7
         type: hw
         title: <b>Loss Functions and Linear Algebra</b>
