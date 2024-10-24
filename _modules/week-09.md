@@ -46,5 +46,6 @@ days:
     events:
       - name: DIS 8
         type: disc
-        title: Discussion 8
+        title: Linear Regression
+        problems: https://study.practicaldsc.org/disc08/index.html
 ---
