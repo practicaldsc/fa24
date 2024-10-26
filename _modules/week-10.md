@@ -17,12 +17,14 @@ days:
       - name: LEC 18
         type: lecture
         title: Feature Engineering
-      - name: HW 8
-        type: hw
-        title: Homework 8
   - date: "2024-11-01"
     events:
       - name: DIS 9
         type: disc
         title: Discussion 9
+      - name: HW 8
+        type: hw
+        title: <b>Linear Regression</b>
+        github: https://github.com/practicaldsc/fa24/blob/main/homeworks/hw08/hw08.ipynb
+        note: Note the later deadline – Happy Halloween! 🎃
 ---
