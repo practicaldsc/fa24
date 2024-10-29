@@ -14,6 +14,11 @@ days:
         title: Multiple Linear Regression and Feature Engineering
         html: resources/lectures/lec17/lec17-filled.html
         github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec17/
+        annotations: resources/lectures/lec17/lec17-annotated.pdf
+        note: The "annotations" link contains a PDF of the annotations I drew on today's lecture slides. The formatting issues from today's lecture are fixed.
+        recording: https://leccap.engin.umich.edu/leccap/player/r/WhzPW8
+        reading: https://learningds.org/ch/15/linear_feature_eng.html
+        reading_text: LDS 15.7-15.9
   - date: "2024-10-31"
     events:
       - name: LEC 18

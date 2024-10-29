@@ -43,6 +43,9 @@
                 {%- if event.github -%}
                 <a href="{{ event.github }}" class="btn btn-info btn-sm">{% include icon-github.html %} GitHub</a>
                 {%- endif -%}
+                {%- if event.html -%}
+                <a href="{{ event.annotations }}" class="btn btn-info btn-sm">✍️ annotations</a>
+                {%- endif -%}
                 {%- if event.recording -%}
                 <a href="{{ event.recording }}" class="btn btn-info btn-sm">🎥 recording</a>
                 {%- endif -%}
