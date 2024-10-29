@@ -41,6 +41,7 @@ days:
         type: hw
         title: <b>Loss Functions and Linear Algebra</b>
         github: https://github.com/practicaldsc/fa24/blob/main/homeworks/hw07/hw07.ipynb
+        solutions: https://edstem.org/us/courses/61012/discussion/5597496
         reading: mle
         reading_text: Maximum Likelihood Estimation (for Question 4)
         note: Note that you will submit Homework 7 as a <b>PDF</b> containing your answers to math questions – you will not submit any code!
