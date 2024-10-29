@@ -11,7 +11,9 @@ days:
     events:
       - name: LEC 17
         type: lecture
-        title: More Regression
+        title: Multiple Linear Regression and Feature Engineering
+        html: resources/lectures/lec17/lec17-filled.html
+        github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec17/
   - date: "2024-10-31"
     events:
       - name: LEC 18
