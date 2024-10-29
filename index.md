@@ -25,6 +25,9 @@ Interested in taking the course next semester? Read [**this page**](next).
 
 [Jump to the current week](#week-10-more-regression-feature-engineering){: .btn }
 
+{: .green }
+**Check out the new [FAQs page](faqs), which has answers to commonly-asked conceptual questions about the second half of the course!**
+
 {% for module in site.modules %}
 {{ module }}
 {% endfor %}
