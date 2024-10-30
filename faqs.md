@@ -117,7 +117,7 @@ $$
 
 And we could not compute the entry of $$C$$, making our matrix multiplication impossible.
 
-In essence, the multiplication of matrices occurs when the inner dimensions of A and B, columns and rows, respectively, match. That is, in order to multiply matrices A and B, the dimensions of A and B must be of the form $$A: n x p$$ and $$B: p x m$$, where n, m, and p are all some integers greater than 0.
+In essence, the multiplication of matrices occurs when the inner dimensions of A and B, columns and rows, respectively, match. That is, in order to multiply matrices A and B, the dimensions of A and B must be of the form $$A: n \times p$$ and $$B: p \times m$$, where $$n, m$$, and $$p$$ are all some integers greater than 0.
 If they are not, then the dot product between the rows of $$A$$ and the columns of $$B$$ would not be possible, and we cannot create a product matrix $$C$$.
 
 ### What's the relationship between spans, projections, and multiple linear regression?
@@ -356,11 +356,12 @@ In linear regression, the design matrix $$X$$ must be full rank to have a unique
 $$
 
     X^T X \vec{w}^* = X^T \vec{y}
-    $$
+
+$$
 
     to have a unique solution.
 
-- **Not Full Rank:**  
+- **Not Full Rank:**
    If $$X$$ is not full rank, then some columns of $$X$$ are linear combinations of other columns. This leads to multicollinearity, which results in infinitely many solutions for the normal equations, all of which minimize mean squared error.
 
 ### In multiple linear regression, is $$\vec{h}^*$$ orthogonal to $$\vec{y}$$?
@@ -373,8 +374,11 @@ When we perform multiple linear regression with two features, we take informatio
 
 Algebraically, if our features are $$x_1$$ and $$x_2$$, our prediction function takes the form
 
+
 $$
-H(\vec{x}) = w_0^* + w_1^*x_1 + w_2^*x_2,
+
+H(\vec{x}) = w_0^* + w_1^*x_1 + w_2^\*x_2,
+
 $$
 
 which is the general formula for a plane.
@@ -504,9 +508,9 @@ So, we have to use the computer to approximate the answer – **and indeed, this
 
 ### From Stats412, I learned that you can use Maximum Likelihood Estimation (MLE) to estimate the most probable values. What’s the difference between making the MLE as smaller as possible and to make the likelihood function as large as possible?
 
-Maximum Likelihood Estimation is a way for us to "estimate" the likelihood of a given probability distribution. We put "estimate" in quotes because, really, we're not estimating! The process of estimating likelihood involves emprically $$\emph{calculating}$$ the parameter $$p$$ that makes the given distribution most probable, or likely, using a process that's incredibly similar to what we did when minimizing mean squared error (MSE). (Take the derivative of the likelihood function with respect to $$p$$, set it equal to 0, then solve for $$p$$). The only difference between the processes used for MLE and MSE is that for MLE, you're $$\emph{maximizing}$$ the function, whereas for MSE, you're $$\emph{minimizing}$$ the function. The reason these are flip-flopped in this way goes back to what we're trying to accomplish in either scenario. When we employ MLE, we are trying to find the best value of $$p$$ that makes the given probability distribution function $$\emph{most likely}$$ - in other words, what is the value of $$p$$ that maximizes the likelihood of observing this particular probability distribution? Hence, we seek to maximize the given likelihood function!
-With MSE, however, recall that our objective is reversed. Here, we're trying to $$\emph{minimize}$$ the overall deviation between our model's predicted values and the true observed values. Here, we want to $$\emph{minimize}$$ the error of our model in making incorrect predictions, often done through a chosen loss function. (In Lecture, we dealt with squared loss)
-Because MLE deals with predicting a probability value given observed data, it is often used in statistics as well to determine the best value of $$p$$ for a given distribution, along with other tasks like constructing confidence intervals or hypothesis testing. For more information about the connection between probability and statistics, or MLE in general, see our note on [Maximum Likelihood Estimation](https://practicaldsc.org/mle/)
+Maximum Likelihood Estimation is a way for us to "estimate" the likelihood of a given probability distribution. We put "estimate" in quotes because, really, we're not estimating! The process for performing MLE involves empirically *calculating* the parameter $$p$$ that makes the given distribution most probable, or likely, using a process that's incredibly similar to the one we use to minimize mean squared error (MSE). (Take the derivative of the likelihood function with respect to $$p$$, set it equal to 0, then solve for $$p$$). The only difference between the two is that for MLE, you're *maximizing* the function, whereas for MSE, you're *minimizing* the function. The reason goes back to what we're trying to accomplish when we employ either MLE or MSE. With MLE, we're trying to find the value of $$p$$ that makes the given probability distribution function *most likely* - in other words, what $$p$$ value maximizes the likelihood of observing this particular probability distribution? With MSE, however, our objective is reversed; here, we're trying to *minimize* the average deviation between our model's predicted values and the true observed values.
+
+Because MLE deals with predicting a probability value given observed data, it is often used in statistics too for determining the best value of $$p$$ for a given distribution. It's also used for other tasks like constructing confidence intervals or hypothesis testing. For more information about the connection between probability and statistics, or MLE in general, see our note about Maximum Likelihood Estimation [here!](https://practicaldsc.org/mle/).
 
 ---
 
@@ -557,6 +561,9 @@ def iqr(s):
 There's a subtle difference between `.agg(iqr)` and `.agg(iqr(s))`. If you actually tried `.agg(iqr(s))`, you'd get an error saying `s` is not defined, since that will try and evaluate `iqr(s)` before talking to `.agg`, and in the global scope of your notebook, there (most likely) aren't any variables named `s`. (There is an `s`, but it's the input to `iqr`.)
 
 But also, `.agg` takes as input a function. `iqr` is a function, hence why we call `.agg(iqr)`. Even if `s` was a Series defined in your notebook and `iqr(s)` worked and returned the difference between the 75th percentile and 25th percentile of this globally-defined `s`, then `.agg(iqr(s))` would end up being something like `.agg(17.39)`. Then, the input to `.agg` isn't a function, as we need it to be, but rather it's a number.
+
+
+$$
 
 $$
 $$
