@@ -8,12 +8,12 @@ toc_max_heading_level: 2
 
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 
-
 # 🙋FAQs
 
 Moving forward, we're going to **try** and update this page each week to provide answers to questions asked (1) live in lecture, (2) at [practicaldsc.org/q](https://practicaldsc.org/q) during lecture, and (3) on Ed. If you have other related questions, feel free to post them on Ed.
 
 Jump to:
+
 - [Regression and Linear Algebra](#regression-and-linear-algebra)
 - [Loss Functions, Summary Statistics, and Simple Linear Regression](#loss-functions-summary-statistics-and-simple-linear-regression)
 - [DataFrame Manipulation](#dataframe-manipulation)
@@ -54,7 +54,6 @@ $$
 
 Therefore, the numerator of the formula for $$w_1^*$$ can be expressed as $$rn\sigma_x\sigma_y$$.
 
-
 #### Step 2: Denominator
 
 Let's start with the formula standard deviation $$\sigma_x$$ defined as
@@ -93,7 +92,7 @@ $$
 
 ### What do you mean by "the inner dimensions need to match in order to perform matrix multiplication"?
 
-Think about the multiplication of two matrices: 
+Think about the multiplication of two matrices:
 
 $$
 A = \begin{bmatrix} a_{11} & a_{12} & a_{13}\\ a_{21} & a_{22} & a_{23}\end{bmatrix} \text{ and }
@@ -118,8 +117,8 @@ $$
 
 And we could not compute the entry of $$C$$, making our matrix multiplication impossible.
 
-In essence, the multiplication of matrices occurs when the inner dimensions of A and B, columns and rows, respectively, match.
-If they do not, the dot product between the rows of $$A$$ and the columns of $$B$$ would not be possible, and we cannot create a product matrix $$C$$.
+In essence, the multiplication of matrices occurs when the inner dimensions of A and B, columns and rows, respectively, match. That is, in order to multiply matrices A and B, the dimensions of A and B must be of the form $$A: n x p$$ and $$B: p x m$$, where n, m, and p are all some integers greater than 0.
+If they are not, then the dot product between the rows of $$A$$ and the columns of $$B$$ would not be possible, and we cannot create a product matrix $$C$$.
 
 ### What's the relationship between spans, projections, and multiple linear regression?
 
@@ -157,8 +156,11 @@ In other words, how close can we get to the observed values of $$\vec{y}$$, whil
 
 This framing of multiple linear regression also leads us to the **normal equations**
 
+
 $$
-\vec{w}^* = (X^\mathrm{T}X)^{-1}X^\mathrm{T}\vec{y}.
+
+\vec{w}^\* = (X^\mathrm{T}X)^{-1}X^\mathrm{T}\vec{y}.
+
 $$
 
 For more visual intuition of this idea, check out this animation!
@@ -178,40 +180,49 @@ Let's give a quick example of this.
 
 Suppose we have a linear regression problem with two features. The design matrix $$X$$ is:
 
+
 $$
+
 X = \begin{bmatrix}
-1 & x_{11} & x_{12} \\
-1 & x_{21} & x_{22} \\
-1 & x_{31} & x_{32}
+1 & x*{11} & x*{12} \\
+1 & x*{21} & x*{22} \\
+1 & x*{31} & x*{32}
 \end{bmatrix}
+
 $$
 
 And the parameter vector $$\vec{w}$$ is:
 
+
 $$
+
 \vec{w} = \begin{bmatrix}
 w_0 \\
 w_1 \\
 w_2
 \end{bmatrix}
+
 $$
 
 To obtain the predicted values $$\vec{h}$$:
 
+
 $$
+
 \vec{h} = X \vec{w} = \begin{bmatrix}
-1 & x_{11} & x_{12} \\
-1 & x_{21} & x_{22} \\
-1 & x_{31} & x_{32}
+1 & x*{11} & x*{12} \\
+1 & x*{21} & x*{22} \\
+1 & x*{31} & x*{32}
 \end{bmatrix} \begin{bmatrix}
-w_0 \\
+w*0 \\
 w_1 \\
 w_2
 \end{bmatrix} = \begin{bmatrix}
-w_0 + w_1 x_{11} + w_2 x_{12} \\
-w_0 + w_1 x_{21} + w_2 x_{22} \\
-w_0 + w_1 x_{31} + w_2 x_{32}
+w_0 + w_1 x*{11} + w*2 x*{12} \\
+w*0 + w_1 x*{21} + w*2 x*{22} \\
+w*0 + w_1 x*{31} + w*2 x*{32}
 \end{bmatrix}
+
 $$
 
 As you can see in this example, our predictions all included the constant bias term $$w_0$$, because in forming our predictions, $$w_0$$ was always scaled by $$1$$, the first entry in each row of our design matrix. This setup ensures that the intercept is included in the model, and does not interfere with the relationship between the other features and the prediction.
@@ -220,8 +231,11 @@ As you can see in this example, our predictions all included the constant bias t
 
 In multiple linear regression, the orthogonal projection of the vector $$\vec{y}$$ onto the span of the vectors $$\{\vec{x}^{(1)}, \vec{x}^{(2)}, ..., \vec{x}^{(n)}\}$$ is expressed as:
 
+
 $$
-\vec{h}^* = X\vec{w}^*.
+
+\vec{h}^_ = X\vec{w}^_.
+
 $$
 
 Here, $$\vec{w}^*$$ is a vector of scalar coefficients ($$ w_1, w_2$$, etc.), and $$X$$ is the design matrix. In other words, $$\vec{w}^*$$ provides the specific coefficients with which to form a linear combinations of your features to make predictions $$\vec{h}^*$$.
@@ -237,20 +251,29 @@ Yes! Let's look at two different cases where this can occur.
 
 If $$X$$ is a column of ones, the model $$H(\vec{x}) = w_0$$ fits a constant line through the data. Using the normal equations,
 
+
 $$
-\vec{1}^T \vec{1} w_0^* = \vec{1}^T \vec{y}.
+
+\vec{1}^T \vec{1} w_0^\* = \vec{1}^T \vec{y}.
+
 $$
 
 $$\vec{1}^T \vec{1} = n$$, where $$n$$ is the number of data points, and $$\vec{1}^T \mathbf{y} = \sum_{i=1}^n y_i$$. Thus, the normal equations become:
 
+
 $$
-n \cdot w_0^* = \sum_{i=1}^n y_i.
+
+n \cdot w*0^\* = \sum*{i=1}^n y_i.
+
 $$
 
 And, solving for $$w_0^*$$, we get
 
+
 $$
-w_0^* = \frac{1}{n} \sum_{i=1}^n y_i,
+
+w*0^\* = \frac{1}{n} \sum*{i=1}^n y_i,
+
 $$
 
 which is the mean of the target values.
@@ -259,38 +282,50 @@ which is the mean of the target values.
 
 Now, let's imagine that $$X$$ is a column vector with different values for each data point, representing a single feature:
 
+
 $$
+
 X = \begin{bmatrix}
 x_1 \\
 x_2 \\
 \vdots \\
 x_n
 \end{bmatrix}.
+
 $$
 
 In this case, the model $$H(x) = w_1^*x$$ fits a line through the origin. The normal equations become
 
+
 $$
-X^T X w_1^* = X^T \vec{y}.
+
+X^T X w_1^\* = X^T \vec{y}.
+
 $$
 
 Calculating the elements, we have
 
+
 $$
-\sum_{i=1}^n x_i^2 \cdot w_1^* = \sum_{i=1}^n x_i y_i,
+
+\sum*{i=1}^n x_i^2 \cdot w_1^\* = \sum*{i=1}^n x_i y_i,
+
 $$
 
 and the normal equations are reduced to
 
+
 $$
-w_1^* = \frac{\sum_{i=1}^n x_i y_i}{\sum_{i=1}^n x_i^2}.
+
+w*1^\* = \frac{\sum*{i=1}^n x*i y_i}{\sum*{i=1}^n x_i^2}.
+
 $$
 
 So, yes, we absolutely can use the normal equations when our design matrix $$X$$ has only one column!
 
 ### When do two vectors in $$\mathbb{R}^2$$ span all of $$\mathbb{R}^2$$? When do $$n$$ vectors in $$\mathbb{R}^n$$ span all of $$\mathbb{R}^n$$?
 
-Two vectors in $$\mathbb{R}^2$$ span all of $$\mathbb{R}^2$$ when they are linearly independent (You cannot express one as a scalar multiple of the other). In other words, if $$\vec{u}$$ and $$\vec{v}$$ are two vectors in $$\mathbb{R}^2$$, they will span all of $$\mathbb{R}^2$$ if $$\vec{u}$$ and $$\vec{v}$$ are not collinear, or on the same line. 
+Two vectors in $$\mathbb{R}^2$$ span all of $$\mathbb{R}^2$$ when they are linearly independent (You cannot express one as a scalar multiple of the other). In other words, if $$\vec{u}$$ and $$\vec{v}$$ are two vectors in $$\mathbb{R}^2$$, they will span all of $$\mathbb{R}^2$$ if $$\vec{u}$$ and $$\vec{v}$$ are not collinear, or on the same line.
 
 Similarly, $$n$$ vectors in $$\mathbb{R}^n$$ span all of $$\mathbb{R}^n$$ when they are linearly independent. This means that no vector in the set can be expressed as a linear combination of the others.
 
@@ -304,7 +339,7 @@ In higher dimensions, the same principle applies. For example, in $$\mathbb{R}^3
 
 <!-- ### When $$X^TX$$ isn't invertible, how do we solve the normal equations?
 
-When $$X^TX$$, we cannot solve the normal equations using traditional methods. That is, if we cannot invert $$X^TX$$, we cannot solve $$w^* = (X^\mathrm{T}X)^{-1}X^\mathrm{T}y$$. 
+When $$X^TX$$, we cannot solve the normal equations using traditional methods. That is, if we cannot invert $$X^TX$$, we cannot solve $$w^* = (X^\mathrm{T}X)^{-1}X^\mathrm{T}y$$.
 
 Generally, this situation arises when one of the columns of our design matrix $$X$$ is a linear combination of the other columns in $$X$$. This leads to an infinite amount of solutions satisfying the normal equations, and so finding a unique solution is impossible. However, if you are interested in other methods with which to solve the normal equations when $$X$$ is not invertible, feel free to explore them! As a starting point, try researching the Moore-Penrose pseudo-inverse and ridge regression as two other approaches to solving for an optimal parameter vector! -->
 
@@ -314,17 +349,19 @@ A matrix is full rank when each column in the matrix is linearly independent.
 
 In linear regression, the design matrix $$X$$ must be full rank to have a unique solution for the normal equations. If $$X$$ is not full rank, it implies multicollinearity among the features, which leads to an infinite amount of solutions when solving for the optimal parameters $$\vec{w}^*$$. For clarity:
 
-- **Full Rank:**  
+- **Full Rank:**
     If the design matrix $$X$$ is full rank, then all of its columns are linearly independent. This allows the normal equations:
 
-    $$
+
+$$
+
     X^T X \vec{w}^* = X^T \vec{y}
     $$
 
     to have a unique solution.
 
 - **Not Full Rank:**  
-    If $$X$$ is not full rank, then some columns of $$X$$ are linear combinations of other columns. This leads to multicollinearity, which results in infinitely many solutions for the normal equations, all of which minimize mean squared error.
+   If $$X$$ is not full rank, then some columns of $$X$$ are linear combinations of other columns. This leads to multicollinearity, which results in infinitely many solutions for the normal equations, all of which minimize mean squared error.
 
 ### In multiple linear regression, is $$\vec{h}^*$$ orthogonal to $$\vec{y}$$?
 
@@ -332,7 +369,7 @@ $$\vec{h}^*$$ is the optimal hypothesis vector; That is, $$\vec{h}^* = X\vec{w}^
 
 ### Why does the multiple linear regression model with two features look like a plane?
 
-When we perform multiple linear regression with two features, we take information from two independent variables and predict some value for our target variable. Let's think about this relates to a plane, both algebraically and geometrically. 
+When we perform multiple linear regression with two features, we take information from two independent variables and predict some value for our target variable. Let's think about this as it relates to a plane, both algebraically and geometrically.
 
 Algebraically, if our features are $$x_1$$ and $$x_2$$, our prediction function takes the form
 
@@ -431,7 +468,7 @@ The question was referring to a summation like this one:
 
 $$\sum_{i = 1}^n (y_i - w_0 - w_1 x_i) x_i$$
 
-Here, $$x_i$$ is indeed a part of the summation. The sum is of $$n$$ terms, each of which are the form $$(y_i - w_0 - w_1 x_i) \cdot x_i$$. That is, the summation above is equivalent to:
+Here, $$x_i$$ is indeed a part of the summation. The sum is of $$n$$ terms, each of which are of the form $$(y_i - w_0 - w_1 x_i) \cdot x_i$$. That is, the summation above is equivalent to:
 
 $$\sum_{i = 1}^n \left( (y_i - w_0 - w_1 x_i) x_i \right)$$
 
@@ -465,32 +502,42 @@ $$R_\text{abs}(w_0, w_1) = \frac{1}{n} \sum_{i = 1}^n \lvert y_i - (w_0 + w_1 x_
 
 So, we have to use the computer to approximate the answer – **and indeed, this is exactly what you're doing in Homework 8!** Regression with squared loss is called "least squares regression," but regression with absolute loss is called "least absolute deviations regression." You can learn more [here](https://en.wikipedia.org/wiki/Least_absolute_deviations)!
 
+### From Stats412, I learned that you can use Maximum Likelihood Estimation (MLE) to estimate the most probable values. What’s the difference between making the MLE as smaller as possible and to make the likelihood function as large as possible?
+
+Maximum Likelihood Estimation is a way for us to "estimate" the likelihood of a given probability distribution. We put "estimate" in quotes because, really, we're not estimating! The process of estimating likelihood involves emprically $$\emph{calculating}$$ the parameter $$p$$ that makes the given distribution most probable, or likely, using a process that's incredibly similar to what we did when minimizing mean squared error (MSE). (Take the derivative of the likelihood function with respect to $$p$$, set it equal to 0, then solve for $$p$$). The only difference between the processes used for MLE and MSE is that for MLE, you're $$\emph{maximizing}$$ the function, whereas for MSE, you're $$\emph{minimizing}$$ the function. The reason these are flip-flopped in this way goes back to what we're trying to accomplish in either scenario. When we employ MLE, we are trying to find the best value of $$p$$ that makes the given probability distribution function $$\emph{most likely}$$ - in other words, what is the value of $$p$$ that maximizes the likelihood of observing this particular probability distribution? Hence, we seek to maximize the given likelihood function!
+With MSE, however, recall that our objective is reversed. Here, we're trying to $$\emph{minimize}$$ the overall deviation between our model's predicted values and the true observed values. Here, we want to $$\emph{minimize}$$ the error of our model in making incorrect predictions, often done through a chosen loss function. (In Lecture, we dealt with squared loss)
+Because MLE deals with predicting a probability value given observed data, it is often used in statistics as well to determine the best value of $$p$$ for a given distribution, along with other tasks like constructing confidence intervals or hypothesis testing. For more information about the connection between probability and statistics, or MLE in general, see our note on [Maximum Likelihood Estimation](https://practicaldsc.org/mle/)
+
 ---
 
 ## DataFrame Manipulation
 
 ### Why does `round`ing 0.5 sometimes round down?
+
 #### Question
-Sometimes when I try use `Series.round()` or `np.round()` on a number that's exactly x.5, it rounds **down**—why is this?
+
+Sometimes when I try to use `Series.round()` or `np.round()` on a number that's exactly x.5, it rounds **down**—why is this?
 
 #### Answer
+
 This is expected behavior by `pandas` and `numpy` ([documentation](https://numpy.org/doc/stable/reference/generated/numpy.round.html#numpy.round:~:text=For%20values%20exactly%20halfway%20between%20rounded%20decimal%20values%2C%20NumPy%20rounds%20to%20the%20nearest%20even%20value.%20Thus%201.5%20and%202.5%20round%20to%202.0%2C%20%2D0.5%20and%200.5%20round%20to%200.0%2C%20etc.)), even though Python's `round()` function does not do this:
+
 > For values exactly halfway between rounded decimal values, NumPy rounds to the _nearest even value_. Thus 1.5 and 2.5 round to 2.0, -0.5 and 0.5 round to 0.0, etc.
 
 <img src="/assets/site-images/pandas-rounding.png" alt="Illustration of Pandas series rounding" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 One reason to do this is to avoid biasing a dataset's average upwards by always rounding up at 0.5. From a great [StackOverflow answer](https://stackoverflow.com/a/68788317):
+
 > This kind of rounding is called rounding to even (or banker’s rounding). It is the case because if we always round 0.5 up to the next largest number, then the average of a large data set rounded numbers is likely to be slightly larger than the average of the unrounded numbers: this bias or drift can have very bad effects on some numerical algorithms and make them inaccurate.
-
-
 
 ### Why do we pass in just `iqr` to `agg`?
 
-#### Question 
-In lecture, we defined `iqr` as a function that takes in a series, why here we don't pass any argument explicitly as `agg(iqr(s))`, where `s` is the Series we get by `groupby('species')[body_mass_g]`?
+#### Question
+
+In lecture, we defined `iqr` as a function that takes in a series. Here, why don't we pass any argument explicitly as `agg(iqr(s))`, where `s` is the Series we get by `groupby('species')[body_mass_g]`?
 
 ```py
-def iqr(s): 
+def iqr(s):
     # s is a series
     # return the interquartile range for s
     return np.percentile(s, 75) - np.percentile(s, 25)
@@ -505,9 +552,11 @@ def iqr(s):
 )
 ```
 
-
 #### Answer:
+
 There's a subtle difference between `.agg(iqr)` and `.agg(iqr(s))`. If you actually tried `.agg(iqr(s))`, you'd get an error saying `s` is not defined, since that will try and evaluate `iqr(s)` before talking to `.agg`, and in the global scope of your notebook, there (most likely) aren't any variables named `s`. (There is an `s`, but it's the input to `iqr`.)
 
-But also, `.agg`  takes as input a function. `iqr` is a function, hence why we call `.agg(iqr)`. Even if `s` was a Series defined in your notebook and `iqr(s)` worked and returned the difference between the 75th percentile and 25th percentile of this globally-defined `s`, then `.agg(iqr(s))` would end up being something like `.agg(17.39)`. Then, the input to `.agg` isn't a function, as we need it to be, but rather it's a number.
+But also, `.agg` takes as input a function. `iqr` is a function, hence why we call `.agg(iqr)`. Even if `s` was a Series defined in your notebook and `iqr(s)` worked and returned the difference between the 75th percentile and 25th percentile of this globally-defined `s`, then `.agg(iqr(s))` would end up being something like `.agg(17.39)`. Then, the input to `.agg` isn't a function, as we need it to be, but rather it's a number.
 
+$$
+$$
