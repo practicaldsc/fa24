@@ -17,9 +17,6 @@ days:
       - name: LEC 20
         type: lecture
         title: Regularization and Cross-Validation
-      - name: HW 9
-        type: hw
-        title: Homework 9
   - date: "2024-11-08"
     events:
       - name: DIS 10

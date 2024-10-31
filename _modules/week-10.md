@@ -27,6 +27,7 @@ days:
         html: resources/lectures/lec18/lec18-filled.html
         github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec18/
         recording: https://leccap.engin.umich.edu/leccap/player/r/M7Uj16
+        annotations: resources/lectures/lec18/lec18-annotated.pdf
   - date: "2024-11-01"
     events:
       - name: DIS 9

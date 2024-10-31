@@ -2,8 +2,12 @@
 title: "Week 12: Decision Trees, Gradient Descent"
 weekNumber: 12
 days:
-  # - date: "2024-11-11"
-  #   events:
+  - date: "2024-11-11"
+    events:
+      - name: HW 9
+        type: hw
+        title: Homework 9
+        note: Note the later deadline! We will release Homework 9 by 11/4 at the latest.
       # - name: CHK 10
       #   type: checkpoint
       #   title: Checkpoint 10
