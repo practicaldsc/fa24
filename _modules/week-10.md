@@ -18,17 +18,20 @@ days:
         note: The "annotations" link contains a PDF of the annotations I drew on today's lecture slides. The formatting issues from today's lecture are fixed.
         recording: https://leccap.engin.umich.edu/leccap/player/r/WhzPW8
         reading: https://learningds.org/ch/15/linear_feature_eng.html
-        reading_text: LDS 15.7-15.9
+        
   - date: "2024-10-31"
     events:
       - name: LEC 18
         type: lecture
-        title: Feature Engineering
+        title: Feature Engineering, Continued
+        html: resources/lectures/lec18/lec18-filled.html
+        github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec18/
   - date: "2024-11-01"
     events:
       - name: DIS 9
         type: disc
-        title: Discussion 9
+        title: Multiple Linear Regression and Feature Engineering
+        problems: https://study.practicaldsc.org/disc09/index.html
       - name: HW 8
         type: hw
         title: <b>Linear Regression</b>
