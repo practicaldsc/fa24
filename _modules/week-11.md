@@ -12,6 +12,7 @@ days:
       - name: LEC 19
         type: lecture
         title: Generalization
+        note: We will still have class on Election Day, but as always, lecture is recorded, so don't hesitate to miss class if you need the time to vote.
   - date: "2024-11-07"
     events:
       - name: LEC 20

@@ -6,8 +6,9 @@ days:
     events:
       - name: HW 9
         type: hw
-        title: Homework 9
-        note: Note the later deadline! We will release Homework 9 by 11/4 at the latest.
+        title: <b>Multiple Linear Regression, Feature Engineering</b>
+        github: https://github.com/practicaldsc/fa24/blob/main/homeworks/hw09/hw09.ipynb
+        note: Note the later deadline!
       # - name: CHK 10
       #   type: checkpoint
       #   title: Checkpoint 10
