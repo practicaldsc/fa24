@@ -66,6 +66,12 @@
                 {%- if event.problems -%}
                 <a href="{{ event.problems }}" class="btn btn-info btn-sm">🧠 problems</a>
                 {%- endif -%}
+                {%- if event.description -%}
+                <a href="{{ event.description }}" class="btn btn-info btn-sm">📄 description</a>
+                {%- endif -%}
+                {%- if event.gradescope -%}
+                <a href="{{ event.gradescope }}" class="btn btn-info btn-sm">✅ submission</a>
+                {%- endif -%}
                 {%- if event.github -%}
                 <a href="{{ event.github }}" class="btn btn-info btn-sm">{% include icon-github.html %} GitHub</a>
                 {%- endif -%}
