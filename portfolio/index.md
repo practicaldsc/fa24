@@ -30,11 +30,11 @@ The Portfolio Homework is worth 100 points total; the breakdown is described in 
 - There is a **checkpoint**, due right before Thanksgiving, worth 15 points out of the 100 points the homework is scored out of. It exists to make sure you've picked a dataset and started some preliminary work. See the [Checkpoint Submission](#checkpoint-submission) section for more details and for the Gradescope submission link.
 - You **cannot use slip days** on either the checkpoint or the final submission, since they're due so close to the end of the semester that we need all the time we can get to grade them. All components of the homework are **manually graded**.
 - You **cannot drop** the Portfolio Homework – it will be a part of your overall homework grade no matter what. Your lowest score among Homeworks 1-11 will be the one that is dropped. Otherwise, it's **worth the same amount** as other homeworks.
-- As your final deliverables, you'll submit two things to us:
+- As your final deliverables, you'll submit two things to us:∂
    - a **public-facing website**. We'll eventually create a public "showcase" site that has links to everyone's submissions – **that is, your website will be available to the entire internet!**
    - a **PDF of your Jupyter Notebook**. 
 
-Before we get into the details of what's expected of you, note that this homework in particular is meant to encourage you to build something you're proud of. This is a chance to put something concrete on your resume to show potential employers. Grading will likely be lenient, so you may be able to get away with a good grade on the homework without putting much effort into it, but your work will be publicly available **forever**!
+Before we get into the details of what's expected of you, note that this homework in particular is meant to encourage you to build something you're proud of. This is a chance to put something concrete on your resume to show potential employers. Grading will likely be lenient, but your work will be publicly available **forever**!
 
 As alluded to above, the homework is broken into two parts:
 
