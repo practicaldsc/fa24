@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Portfolio Homework"
+title: Portfolio Homework 📊
 description: Description of the Portfolio Homework, the final assignment of the semester.
 nav_exclude: true
 ---
@@ -12,7 +12,7 @@ nav_exclude: true
 <!-- ### Checkpoint due Monday, November 25th at 11:59PM (no slip days allowed!)<br>Final Submission due Saturday, December 7th at 11:59PM (no slip days allowed!) -->
 {:.no_toc}
 
-- [Checkpoint](https://www.gradescope.com/courses/823979/assignments/5267579) due **Monday, November 25th at 11:59PM** (no slip days allowed!)
+- [Checkpoint](#checkpoint-submission) due **Monday, November 25th at 11:59PM** (no slip days allowed!)
 - Final Submission due **Saturday, December 7th at 11:59PM** (no slip days allowed!)
 
 ---
@@ -29,8 +29,8 @@ The Portfolio Homework is worth 100 points total; the breakdown is described in 
 - You **can work with one partner** (but don't have to). If you choose to work with a partner, read the [Partner Guidelines](#partner-guidelines) section at the bottom.
 - There is a **checkpoint**, due right before Thanksgiving, worth 15 points out of the 100 points the homework is scored out of. It exists to make sure you've picked a dataset and started some preliminary work. See the [Checkpoint Submission](#checkpoint-submission) section for more details and for the Gradescope submission link.
 - You **cannot use slip days** on either the checkpoint or the final submission, since they're due so close to the end of the semester that we need all the time we can get to grade them. All components of the homework are **manually graded**.
-- You **cannot drop** the Portfolio Homework – it will be a part of your overall homework grade no matter what. Your lowest score among Homeworks 1-11 will be the one that is dropped. Otherwise, it's **worth the same amount** as other homeworks.
-- As your final deliverables, you'll submit two things to us:∂
+- You **cannot drop** the Portfolio Homework – it will be a part of your overall homework grade no matter what. Your lowest score among Homeworks 1-11 will be the one that is dropped.
+- As your final deliverables, you'll submit two things to us:
    - a **public-facing website**. We'll eventually create a public "showcase" site that has links to everyone's submissions – **that is, your website will be available to the entire internet!**
    - a **PDF of your Jupyter Notebook**. 
 
@@ -65,7 +65,7 @@ We expect that the majority of students will choose **one** of the following thr
 
 The dataset description pages linked above each have three sections:
 - **Getting the Data**: Describes how to access the data and, in some cases, what various features mean. (In general, you're going to have to understand what your data means on your own!) **You're welcome to download additional data to help with your analyses, in addition to using the data that's provided for you.**
-- **Example Questions and Prediction Problems**: Example questions to explore in Part 1: Steps 1-2, and example prediction problems to build models for in Part 1: Steps 3-5. Use these as inspiration, but feel free to come up with your own questions and prediction problems!
+- **Example Questions and Prediction Problems**: Use these as inspiration, but feel free to come up with your own questions and prediction problems!
 - **Special Considerations**: Things to be aware of when working with the given dataset, e.g. some additional requirements.
 
 When selecting which dataset you are going to use for your homework, try choosing the one whose topic appeals to you the most as that will make finishing the homework a lot more enjoyable.
@@ -74,7 +74,6 @@ To help contextualize the kinds of analysis you can do in this homework, it migh
 
 1. [League of Legends First Blood Statistical Analysis](https://krystalqjx.github.io/LOL-analysis/): This homework excelled in clarifying their research aims, making the study understandable to a broader audience. In your own homework, ensure that you provide a lucid and detailed explanation of your research focus.
 2. [Analyzing Power Outages](https://nghosh24.github.io/power-outages/): This homework presents a noval way to do the data visualization. In your homework, please think about what is the best way to present your data.
-3. [Investigation on the Relationship Between Amount of Sugar and Rating of Recipes](https://cecilia-lin.github.io/Recipehomework/): In this homework, the students have effectively highlighted the improvement they made based on the baseline model. In your own homework, also ensure that you explain what you have done to improve your baseline model.
 
 {: .green }
 Before choosing a dataset, read the rest of this page to see what's required of you!
@@ -83,7 +82,7 @@ Before choosing a dataset, read the rest of this page to see what's required of 
 
 You may not be interested in any of the above datasets, or may already be doing research/other work involving a dataset that is of particular interest to you. If that's the case, you _may_ be permitted to use a different dataset. **To request approval**, send Suraj (rampure@umich.edu) an email with the following:
 
-1. A one paragraph description of why you've chosen the dataset you've chosen and what your plans for analysis are. Comment on what makes you drawn to it over the default options, what preliminary questions you plan to answer, and what features you plan to use in a predictive model. Part of our filtering is making sure that your plans are sufficiently scoped for the homework – that is, your proposal isn't too easy and isn't too difficult – so the more details, the better.
+1. A one paragraph description of why you’ve chosen this dataset and your plans for analysis. Comment on what draws you to this dataset over the default options, what preliminary questions you plan to answer, and what features you plan to use in a predictive model. Part of our filtering is making sure that your plans are sufficiently scoped for the homework – that is, your proposal is neither too easy nor too difficult – so the more details, the better.
 1. Proof that you already have access to the data you want to work with. Ideally, attach a link to the data source or the file so that we can see it ourselves and verify that your plans are possible.
 
 **The deadline to request approval to use a different dataset is the same as the deadline of the checkpoint, November 25th.** Once you email Suraj with the above, you should hear back within 48 hours with your approval or denial and reasoning. Note that submitting the checkpoint is not the same as requesting approval; the only way to request approval to use a different dataset is to email Suraj with answers to the questions above. After November 25th, if you haven't requested approval, you **must** choose one of the default three options.
@@ -146,9 +145,9 @@ In Steps 3-5, you will build a predictive model, based on the knowledge of your 
 
 ### Style
 
-While your website will neatly organized and tailored for public consumption, it is important to keep your analysis notebook organized as well. Follow these guidelines:
+While your website will be neatly organized and tailored for public consumption, it is important to keep your analysis notebook organized as well. Follow these guidelines:
 
-- Your work for each of the eight homework steps described above (Introduction, Data Cleaning and Exploratory Data Analysis, ..., Final Model) should be completed in code cells underneath the Markdown header of that section's name.
+- Your work for each of the five homework steps described above (Introduction, Data Cleaning and Exploratory Data Analysis, ..., Final Model) should be completed in code cells underneath the Markdown header of that section's name.
 - You should **only include work that is relevant** to posing, explaining, and answering the question(s) you state in your website. You should include data quality, cleaning, and missingness assessments, and intermediate models and features you tried, though these should broadly be relevant to the tasks at hand.
 - Make sure to clearly explain what each component of your notebook **means**. Specifically:
   - All plots should have titles, labels, and a legend (if applicable), even if they don't make it into your website. Plots should be self-contained – readers should be able to understand what they describe without having to read anything else.

@@ -2,9 +2,10 @@
 layout: page
 title: League of Legends ⌨️
 description: Description of the League of Legends dataset option for the Portfolio Homework.
-parent: 'Portfolio Homework'
 nav_exclude: true
 ---
+
+<small> <a href="../#choosing-a-dataset">go back to the Portfolio Homework spec</a> </small>
 
 # League of Legends ⌨️
 {:.no_toc}

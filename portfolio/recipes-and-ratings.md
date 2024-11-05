@@ -2,9 +2,10 @@
 layout: page
 title: Recipes and Ratings 🍽️
 description: Description of the recipes and ratings dataset option for the Portfolio Homework.
-parent: 'Portfolio Homework'
 nav_exclude: true
 ---
+
+<small> <a href="../#choosing-a-dataset">go back to the Portfolio Homework spec</a> </small>
 
 # Recipes and Ratings 🍽️
 {:.no_toc}

@@ -29,6 +29,7 @@ days:
     events:
       - name: PR HW
         type: hw
-        title: Portfolio Homework
+        title: <b>Portfolio Homework (no slip days!)</b>
+        description: portfolio/index.html
         note: You <b>cannot</b> drop the Portfolio Homework, and cannot use slip days on it!
 ---
