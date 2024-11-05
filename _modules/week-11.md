@@ -11,7 +11,11 @@ days:
     events:
       - name: LEC 19
         type: lecture
-        title: Generalization
+        title: Pipelines, Generalization
+        html: resources/lectures/lec19/lec19-filled.html
+        github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec19/
+        reading: https://learningds.org/ch/16/ms_intro.html
+        reading_text: LDS 16
         note: We will still have class on Election Day, but as always, lecture is recorded, so don't hesitate to miss class if you need the time to vote.
   - date: "2024-11-07"
     events:

@@ -23,7 +23,7 @@ Interested in taking the course next semester? Read [**this page**](next).
 {{ staffer }}
 {% endfor %}
 
-[Jump to the current week](#week-10-more-regression-feature-engineering){: .btn }
+[Jump to the current week](#week-11-generalization){: .btn }
 
 {: .green }
 **Check out the new [FAQs page](faqs), which has answers to commonly-asked conceptual questions about the second half of the course!**

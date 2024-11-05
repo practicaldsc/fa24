@@ -38,5 +38,6 @@ days:
         type: hw
         title: <b>Linear Regression</b>
         github: https://github.com/practicaldsc/fa24/blob/main/homeworks/hw08/hw08.ipynb
+        solutions: https://edstem.org/us/courses/61012/discussion/5648287
         note: Note the later deadline – Happy Halloween! 🎃
 ---
