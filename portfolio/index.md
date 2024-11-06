@@ -15,10 +15,9 @@ nav_exclude: true
 - [Checkpoint](#checkpoint-submission) due **Monday, November 25th at 11:59PM** (no slip days allowed!)
 - Final Submission due **Saturday, December 7th at 11:59PM** (no slip days allowed!)
 
----
+_last updated November 5th at 9:49PM_
 
-{: .red }
-**We're still finalizing the specifications for the Portfolio Homework – anything you see here is tentative until this disclaimer is removed!**
+---
 
 Welcome to Portfolio Homework, the final homework assignment of the semester! 👋
 
@@ -244,7 +243,7 @@ What will be a bit trickier is embedding `plotly` plots in your site so that the
 - `iframe` stands for "inline frame"; it allows us to embed HTML files within other HTML files.
 - You can change the `width` and `height` arguments, but don't change the `frameBorder` argument.
 
-Refer [here](https://github.com/surajrampure/dsc80-proj3-test1) for a working example.
+Refer [here](https://rampure.org/dsc80-proj3-test1/#assessment-of-missingness) for a working example (and [here](https://github.com/surajrampure/dsc80-proj3-test1) for its source code).
 
 {: .note }
 Try your best to make your plots look professional and unique to your group – add axis labels, change the font and colors, add annotations, etc. Remember, potential employers will see this – you don't want your plots to look like everyone else's! If you'd like to match the styles of the `plotly` plots used in lecture (e.g. with the white backgrounds), you can import and use the `lec_utils.py` file that's in the `homeworks/portfolio` folder of our public repo, alongside `template.ipynb`.

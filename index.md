@@ -26,7 +26,7 @@ Interested in taking the course next semester? Read [**this page**](next).
 [Jump to the current week](#week-11-generalization){: .btn }
 
 {: .green }
-**Check out the new [FAQs page](faqs), which has answers to commonly-asked conceptual questions about the second half of the course!**
+The specifications for the Portfolio Homework have been released; take a look [**here**](portfolio)!
 
 {% for module in site.modules %}
 {{ module }}
