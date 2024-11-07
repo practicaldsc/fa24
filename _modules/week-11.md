@@ -31,6 +31,7 @@ days:
         reading2_text: MLU Explain
         reading2: https://mlu-explain.github.io/cross-validation/
         annotations: resources/lectures/lec20/lec20-annotated.pdf
+        recording: https://leccap.engin.umich.edu/leccap/player/r/R8c30y
   - date: "2024-11-08"
     events:
       - name: DIS 10
