@@ -1,5 +1,5 @@
 ---
-title: "Week 14: Logistic Regression; Thanksgiving"
+title: "Week 14: Decision Trees; Thanksgiving"
 weekNumber: 14
 days:
   - date: "2024-11-25"
@@ -12,7 +12,7 @@ days:
     events:
       - name: LEC 25
         type: lecture
-        title: Logistic Regression, Continued
+        title: Decision Trees and Random Forests
   - date: "2024-11-28"
     events:
       - title: "No Lecture: Thanksgiving Break 🦃"

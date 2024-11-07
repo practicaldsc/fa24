@@ -1,5 +1,5 @@
 ---
-title: "Week 13: Gradient Descent, Logistic Regression"
+title: "Week 13: Logistic Regression"
 weekNumber: 13
 days:
   # - date: "2024-11-18"
@@ -11,12 +11,12 @@ days:
     events:
       - name: LEC 23
         type: lecture
-        title: Gradient Descent, Continued
+        title: Logistic Regression
   - date: "2024-11-21"
     events:
       - name: LEC 24
         type: lecture
-        title: Logistic Regression
+        title: Logistic Regression, Continued
       - name: HW 10
         type: hw
         title: Homework 10

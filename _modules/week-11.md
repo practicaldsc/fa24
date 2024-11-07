@@ -23,7 +23,11 @@ days:
     events:
       - name: LEC 20
         type: lecture
-        title: Regularization and Cross-Validation
+        title: Cross-Validation and Regularization
+        reading_text: LDS 16
+        reading: https://learningds.org/ch/16/ms_intro.html
+        reading2_text: MLU Explain
+        reading2: https://mlu-explain.github.io/cross-validation/
   - date: "2024-11-08"
     events:
       - name: DIS 10

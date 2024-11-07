@@ -1,5 +1,5 @@
 ---
-title: "Week 12: Decision Trees, Gradient Descent"
+title: "Week 12: Gradient Descent"
 weekNumber: 12
 days:
   - date: "2024-11-11"
@@ -16,12 +16,12 @@ days:
     events:
       - name: LEC 21
         type: lecture
-        title: Decision Trees and Random Forests
+        title: Gradient Descent
   - date: "2024-11-14"
     events:
       - name: LEC 22
         type: lecture
-        title: Gradient Descent
+        title: Gradient Descent, Continued
   - date: "2024-11-15"
     events:
       - name: DIS 11
