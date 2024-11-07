@@ -24,6 +24,8 @@ days:
       - name: LEC 20
         type: lecture
         title: Cross-Validation and Regularization
+        html: resources/lectures/lec20/lec20-filled.html
+        github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec20/
         reading_text: LDS 16
         reading: https://learningds.org/ch/16/ms_intro.html
         reading2_text: MLU Explain
