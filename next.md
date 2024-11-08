@@ -26,6 +26,12 @@ EECS 398-002/003, Winter 2025 at the <b><span style="background-color: #FFCB05; 
 
 ---
 
+> As a third year data science major, this has been my favorite course I've taken throughout my time in college. It's the first course that's felt tailored to my major and relevant to the industry. I've loved the combination of learning core Python skills and ML techniques, and have gained a breadth of understanding in just a semester. – current student
+
+Read what other students have said in the [Testimonies](#testimonies) section below!
+
+---
+
 1. TOC
 {:toc}
 
@@ -107,6 +113,18 @@ There is only one live, in-person lecture, from **MW 3-4:30 in 1670 BBB** (as is
 In-person discussion attendance will be required, make sure you can attend your enrolled discussion section.
 
 Office hours will largely be in-person, but there will be some remote options as well.
+
+---
+
+### Testimonies
+
+The following quotes are by students who are currently in the course. They were submitted anonymously and have not been edited.
+
+> I couldn't recommend this class enough! I'm a second year CS-LSA student and I'm taking this class as my first ULCS class with EECS 281. Despite not having the strongest foundation in linear algebra coming in, I’ve found the material very accessible with a bit of extra effort. The lectures, led by Suraj, are both engaging and informative; he has a talent in presenting complex ideas in a clear and interesting way that keeps you interested. The homework assignments are particularly cool—they push you to think creatively while applying what you’ve learned in class. The course is manageable with consistent effort, and I’ve found the resources provided by the staff to be helpful for filling in any gaps. If you're interested in diving deeper into data science and machine learning concepts, I’d definitely recommend taking this course.
+
+> As a third year data science major, this has been my favorite course I've taken throughout my time in college. It's the first course that's felt tailored to my major and relevant to the industry. I've loved the combination of learning core Python skills and ML techniques, and have gained a breadth of understanding in just a semester. While the homework can be time-consuming and challenging, it's so worth it to gain a better understanding of class content. Not only that, but the concepts taught have helped me excel while interviewing for data science roles, and even land multiple offers. Also, the course staff are amazing -- they're incredibly intelligent and friendly, I've always had a great experience in office hours. Would highly recommend this course to anyone interested in data science!
+
+> This is one of my favorite classes I've taken at umich. I have enjoyed the content of almost every lecture, and I wish I had taken this class before my past internship because it would've helped a ton. I really appreciate the structure of this course, with weekly homeworks and a good amount of late days, but not enough to fall behind. I actually don't have a single complaint about how this class is run. The professor gives out a grade report after the midterm, so we can see how many points we have in the class so far, what our current grade is, and how many late days we have remaining. I took linear algebra at a community college and learned pretty much nothing, but I still felt as though I could keep up because of the provided linear algebra review. I would recommend this course to anyone!
 
 ---
 
