@@ -36,5 +36,6 @@ days:
     events:
       - name: DIS 10
         type: disc
-        title: Discussion 10
+        title: Generalization, Cross-Validation, Regularization
+        problems: https://study.practicaldsc.org/disc10/index.html
 ---
