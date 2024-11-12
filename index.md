@@ -23,7 +23,7 @@ Interested in taking the course next semester? Read [**this page**](next).
 {{ staffer }}
 {% endfor %}
 
-[Jump to the current week](#week-11-generalization){: .btn }
+[Jump to the current week](#week-12-regularization-gradient-descent){: .btn }
 
 {: .green }
 The specifications for the Portfolio Homework have been released; take a look [**here**](portfolio)!

@@ -1,5 +1,5 @@
 ---
-title: "Week 12: Gradient Descent"
+title: "Week 12: Regularization, Gradient Descent"
 weekNumber: 12
 days:
   - date: "2024-11-11"
@@ -16,7 +16,10 @@ days:
     events:
       - name: LEC 21
         type: lecture
-        title: Gradient Descent
+        title: Regularization, Gradient Descent
+        html: resources/lectures/lec21/lec21-filled.html
+        github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec21/
+
   - date: "2024-11-14"
     events:
       - name: LEC 22
