@@ -28,7 +28,7 @@ EECS 398-002/003, Winter 2025 at the <b><span style="background-color: #FFCB05; 
 
 > As a third year data science major, this has been my favorite course I've taken throughout my time in college. It's the first course that's felt tailored to my major and relevant to the industry. I've loved the combination of learning core Python skills and ML techniques, and have gained a breadth of understanding in just a semester. – current student
 
-Read what other students have said in the [Testimonies](#testimonies) section below!
+Read what other students have said in the [Testimonials](#testimonials) section below!
 
 ---
 
@@ -49,7 +49,7 @@ Read what other students have said in the [Testimonies](#testimonies) section be
 
 This course will train students to use industry-standard tools to solve real-world problems, while giving them an understanding of how these tools work under the hood. After taking this course, students will be prepared to build data science portfolios, participate in research across campus, succeed in data science internships, and reason about abstract mathematical problems about the foundations of machine learning models.
 
-The course will roughly be split in two halves.
+The course will roughly be split into two halves.
 
 <center>
 <div class="two-columns-grid">
@@ -106,17 +106,17 @@ If you're interested in the class but don't meet one of the prerequisites, email
 
 ### Enrollment Logistics
 
-If you'd like to enroll in the course, sign up for EECS 398 (LEC 002 or LEC 003) and (DIS 021, 022, 023, or 024).
+If you'd like to enroll in the course, sign up for EECS 398 lecture (LEC 002 or LEC 003) and discussion (DIS 021, 022, 023, or 024).
 
-There is only one live, in-person lecture, from **MW 3-4:30 in 1670 BBB** (as is listed for LEC 002), and lecture attendance is not required. All students, regardless of section, will have access to lecture recordings. Students can also attend the in-person lectures, space permitting on the day of the attendance. Usually, enough students consume material remotely that we don't anticipate in-person space to be a bottleneck for anyone wishing to attend the class in-person.
+There is only one live, in-person lecture, **Monday and Wednesday 3-4:30PM in 1670 BBB** (as is listed for LEC 002), and lecture attendance is not required. All students, regardless of section, will have access to lecture recordings. Students can also attend the in-person lectures, space permitting on the day of the attendance. Usually, enough students consume material remotely that we don't anticipate in-person space to be a bottleneck for anyone wishing to attend the class in-person.
 
-In-person discussion attendance will be required, make sure you can attend your enrolled discussion section.
+In-person discussion attendance will be required: make sure you can attend your enrolled discussion section.
 
 Office hours will largely be in-person, but there will be some remote options as well.
 
 ---
 
-### Testimonies
+### Testimonials
 
 The following quotes are by students who are currently in the course. They were submitted anonymously and have not been edited.
 
