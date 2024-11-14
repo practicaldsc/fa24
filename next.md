@@ -19,7 +19,7 @@ EECS 398-002/003, Winter 2025 at the <b><span style="background-color: #FFCB05; 
 {: .no_toc }
 {: .fs-6 .fw-300 .mb-2 }
 
-4 credits • ULCS for Computer Science majors, Advanced Technical Elective or Application Elective for Data Science majors, Flexible Technical Elective for Electrical Engineering majors
+4 credits • Open to all majors • ULCS for Computer Science majors, Advanced Technical Elective or Application Elective for Data Science majors, Flexible Technical Elective for Electrical Engineering majors
 
 {: .green }
 **Welcome! 👋** If you're reading this, you're likely interested in enrolling in Practical Data Science in Winter 2025. This page will give an overview of the course and provide logistical information you'll need before you enroll.<br><br>But, the best way to see what the course is about is to browse the resources (slides, code, recordings, homeworks, exams, etc.) on our [**Fall 2024 course homepage**](../)!<br><br>If you have any questions at all, or want to set up a meeting to discuss whether the course makes sense for you, reach out to Suraj at <b><a href="mailto:rampure@umich.edu">rampure@umich.edu</a></b>.
@@ -84,7 +84,7 @@ Students will be expected to complete **weekly homework assignments**, which wil
 
 The course will have **in-person, on-paper midterm and final exams that involve a mix of multiple choice, short answer, fill in the blank code, math, and English problems** (for context, see the Fall 2024 Midterm Exam and solutions [**here**](https://study.practicaldsc.org/fa24-midterm)).
 
-Other from the Fall 2024 offering can be found linked from the [**course homepage**](../).
+Other materials from the Fall 2024 offering can be found linked from the [**course homepage**](../).
 
 ---
 
@@ -97,20 +97,24 @@ The enforced prerequisites are discrete math (EECS 203), programming (EECS 280),
 <!-- - One of Math 214, Math 217, Math 296, Math 417, or Math 419, OR
 - ROB 101, in combination with one of Math 116, Math 156, Math 176, or Math 186. (To be clear, ROB 101 itself is not a prereq. All you need to have taken is one linear algebra class, but if the linear algebra class you've taken is ROB 101, you need to also have taken a separate calculus class.) -->
 
-If you're interested in the class but don't meet one of the prerequisites, email me and we can chat about your background. I encourage students of all backgrounds who are curious about data science to reach out!
+If you're interested in the class but don't meet one of the prerequisites, **email me and we can chat about your background and a potential override**. I encourage students of all backgrounds who are curious about data science to reach out!
 
 {: .green }
-**All students, especially those who haven't taken a linear algebra course, should work through [LARDS: Linear Algebra Review for Data Science](../lin-alg) before the semester starts.**
+**All students, especially those who haven't taken a linear algebra course and receive an override, should work through [LARDS: Linear Algebra Review for Data Science](../lin-alg) before the semester starts.**
 
 ---
 
 ### Enrollment Logistics
 
-If you'd like to enroll in the course, sign up for EECS 398 lecture (LEC 002 or LEC 003) and discussion (DIS 021, 022, 023, or 024).
+If you'd like to enroll in the course, sign up for these EECS 398 sections:
+- lecture LEC 002 or LEC 003, **and**
+- discussion DIS 021, 022, 023, or 024.
 
-There is only one live, in-person lecture, **Monday and Wednesday 3-4:30PM in 1670 BBB** (as is listed for LEC 002), and lecture attendance is not required. All students, regardless of section, will have access to lecture recordings. Students can also attend the in-person lectures, space permitting on the day of the attendance. Usually, enough students consume material remotely that we don't anticipate in-person space to be a bottleneck for anyone wishing to attend the class in-person.
+There is only one live, in-person lecture, **Monday and Wednesday 3-4:30PM in 1670 BBB** (as is listed for LEC 002), and lecture attendance is not required.
+- All students, regardless of section, will have access to lecture recordings.
+- All students, regardless of enrolled section, can also attend the in-person lectures, space permitting on the day of the attendance. Usually, enough students consume material remotely that we don't anticipate in-person space to be a bottleneck for anyone wishing to attend the class in-person.
 
-In-person discussion attendance will be required: make sure you can attend your enrolled discussion section.
+In-person discussion attendance **will be required or incentivized**: make sure you can attend your enrolled discussion section.
 
 Office hours will largely be in-person, but there will be some remote options as well.
 
