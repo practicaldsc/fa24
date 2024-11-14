@@ -39,5 +39,5 @@ days:
       - name: DIS 11
         type: disc
         title: Gradient Descent and Convexity
-        # problems: https://study.practicaldsc.org/disc11/index.html
+        problems: https://study.practicaldsc.org/disc11/index.html
 ---
