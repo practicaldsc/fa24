@@ -130,6 +130,8 @@ The following quotes are by students who are currently in the course. They were 
 
 > This is one of my favorite classes I've taken at umich. I have enjoyed the content of almost every lecture, and I wish I had taken this class before my past internship because it would've helped a ton. I really appreciate the structure of this course, with weekly homeworks and a good amount of late days, but not enough to fall behind. I actually don't have a single complaint about how this class is run. The professor gives out a grade report after the midterm, so we can see how many points we have in the class so far, what our current grade is, and how many late days we have remaining. I took linear algebra at a community college and learned pretty much nothing, but I still felt as though I could keep up because of the provided linear algebra review. I would recommend this course to anyone!
 
+> As a CS senior, this is one of the best courses I've taken at Michigan! The course is incredibly well organized: each week's homework and discussion worksheet aligns well with the content covered in lecture, staff is very open to feedback, and the workload is very reasonable with consistent effort and doable alongside other difficult courses. Suraj is also such an engaging lecturer, and his notes/presentations are a really great mix of content, interactive demos, and practice problems. I would definitely recommend this course!
+
 ---
 
 ### Frequently Asked Questions
