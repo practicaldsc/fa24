@@ -260,6 +260,18 @@ displays a string, containing the Markdown representation of the first 5 rows of
 
 The above instructions give you all you need to create and make updates to your site. However, you _may_ want to set up Jekyll locally, so that you can look at how changes to your site would look without having to push and wait for GitHub to re-build your site. To do so, follow the steps [here](https://jekyllrb.com/docs/installation/) and then [here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
 
+{: .red }
+> If, after running the above steps, running `bundle exec jekyll serve` in your local website repository doesn't work, then follow these steps.
+> 1. In your Terminal, `cd` to your local website repository (folder).
+> 1. Run `bundle init` to create a Gemfile (a file that specifies which Ruby extensions your project needs).
+> 1. Open the Gemfile created in your local repository, delete everything that's currently there, and replace it all with:
+   ```
+   source "https://rubygems.org"
+   gem "github-pages", group: :jekyll_plugins
+   ```
+> 1. Run `bundle install` and then `bundle exec jekyll serve`.
+If, after that, you still can't render your site locally, let us know what error `bundle exec jekyll serve` throws for you and we'll try and troubleshoot!
+
 ---
 
 ## Submission and Rubric
