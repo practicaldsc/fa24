@@ -9,9 +9,7 @@ days:
         title: <b>Multiple Linear Regression, Feature Engineering</b>
         github: https://github.com/practicaldsc/fa24/blob/main/homeworks/hw09/hw09.ipynb
         note: Note the later deadline!
-      # - name: CHK 10
-      #   type: checkpoint
-      #   title: Checkpoint 10
+        solutions: https://edstem.org/us/courses/61012/discussion/5729132
   - date: "2024-11-12"
     events:
       - name: LEC 21
