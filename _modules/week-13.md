@@ -1,17 +1,16 @@
 ---
-title: "Week 13: Logistic Regression"
+title: "Week 13: Classification and Logistic Regression"
 weekNumber: 13
 days:
-  # - date: "2024-11-18"
-  #   events:
-      # - name: CHK 11
-      #   type: checkpoint
-      #   title: Checkpoint 11
   - date: "2024-11-19"
     events:
       - name: LEC 23
         type: lecture
-        title: Logistic Regression
+        title: Classification
+        html: resources/lectures/lec23/lec23-filled.html
+        github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec23/
+        reading: https://learningds.org/ch/19/class_intro.html
+        reading_text: LDS 19
   - date: "2024-11-21"
     events:
       - name: LEC 24
@@ -20,7 +19,7 @@ days:
       - name: HW 10
         type: hw
         title: Homework 10
-        note: We're still updating the homework deadline schedule, so we <i>may</i> move the deadline of Homework 10 earlier.
+        note: Once Homework 10 is released, we'll update the deadline to be later than currently stated.
   - date: "2024-11-22"
     events:
       - name: DIS 12

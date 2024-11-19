@@ -23,10 +23,10 @@ Interested in taking the course next semester? Read [**this page**](next).
 {{ staffer }}
 {% endfor %}
 
-[Jump to the current week](#week-12-regularization-gradient-descent){: .btn }
+[Jump to the current week](#week-13-classification-and-logistic-regression){: .btn }
 
-{: .green }
-The specifications for the Portfolio Homework have been released; take a look [**here**](portfolio)!
+<!-- {: .green }
+The specifications for the Portfolio Homework have been released; take a look [**here**](portfolio)! -->
 
 {% for module in site.modules %}
 {{ module }}
