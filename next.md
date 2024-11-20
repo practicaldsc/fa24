@@ -132,6 +132,8 @@ The following quotes are by students who are currently in the course. They were 
 
 > As a CS senior, this is one of the best courses I've taken at Michigan! The course is incredibly well organized: each week's homework and discussion worksheet aligns well with the content covered in lecture, staff is very open to feedback, and the workload is very reasonable with consistent effort and doable alongside other difficult courses. Suraj is also such an engaging lecturer, and his notes/presentations are a really great mix of content, interactive demos, and practice problems. I would definitely recommend this course!
 
+> Coming into this class, I hadn't had too much experience with Python and Data Science in general, so I was a bit unsure of how it would go. However, the result was completely unexpected: I now find myself really enjoying the course content not only because it is taught in an engaging way but also because I can see the value in the practical applications that come out of these concepts. Every week, even if I was unsure about a certain topic, I knew I could either come to office hours and get the help I needed, or reinforce those concepts through the homework problems, which really helped me build confidence in my understanding of the material. Most importantly, the course can really help you realize an interest for this content that you may have never known to have, as it did with me: I now am pursuing future courses like Machine Learning because the content in this class was taught so well and gave me a good foundation for future ULCS classes. Overall, the course is meant to challenge you, but it is quite rewarding in the end, and it is an enjoyable experience!
+
 ---
 
 ### Frequently Asked Questions
