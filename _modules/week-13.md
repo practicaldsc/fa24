@@ -19,6 +19,8 @@ days:
       - name: LEC 24
         type: lecture
         title: Logistic Regression
+        html: resources/lectures/lec24/lec24-filled.html
+        github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec24/
   - date: "2024-11-22"
     events:
       - name: DIS 12
