@@ -13,6 +13,7 @@ days:
         reading_text: LDS 19
         recording: https://leccap.engin.umich.edu/leccap/player/r/1pYVtk
         annotations: resources/lectures/lec23/lec23-annotated.pdf
+        note: There are some slides involving logistic regression in this lecture, but we greatly improved them for Lecture 24, so look there for logistic regression!
   - date: "2024-11-21"
     events:
       - name: LEC 24

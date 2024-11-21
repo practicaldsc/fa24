@@ -26,7 +26,12 @@ Interested in taking the course next semester? Read [**this page**](next).
 [Jump to the current week](#week-13-classification-and-logistic-regression){: .btn }
 
 <!-- {: .green }
-The specifications for the Portfolio Homework have been released; take a look [**here**](portfolio)! -->
+> Note that we have three deadlines in the last week of class:
+> - Homework 10, due Monday, December 2nd.
+> - Homework 11, due Thursday, December 5th.
+> - The Portfolio Homework, due Saturday, December 7th.<br>
+> 
+> Try and finish Homework 10 before the break, and come to office hours! -->
 
 {% for module in site.modules %}
 {{ module }}
