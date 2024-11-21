@@ -21,6 +21,12 @@ days:
         title: Logistic Regression
         html: resources/lectures/lec24/lec24-filled.html
         github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec24/
+        reading: https://learningds.org/ch/19/class_log_model.html
+        reading_text: LDS 19.3-19.6
+        reading2: https://ds100.org/course-notes/logistic_regression_1/logistic_reg_1.html
+        reading2_text: Berkeley 22-23
+        annotations: resources/lectures/lec24/lec24-annotated.pdf
+        # recording: 
   - date: "2024-11-22"
     events:
       - name: DIS 12
