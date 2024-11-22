@@ -31,5 +31,6 @@ days:
     events:
       - name: DIS 12
         type: disc
-        title: Discussion 12
+        title: Classifier Evaluation and Logistic Regression
+        problems: https://study.practicaldsc.org/disc12/index.html
 ---
