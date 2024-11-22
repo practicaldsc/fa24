@@ -134,6 +134,14 @@ The following quotes are by students who are currently in the course. They were 
 
 > Coming into this class, I hadn't had too much experience with Python and Data Science in general, so I was a bit unsure of how it would go. However, the result was completely unexpected: I now find myself really enjoying the course content not only because it is taught in an engaging way but also because I can see the value in the practical applications that come out of these concepts. Every week, even if I was unsure about a certain topic, I knew I could either come to office hours and get the help I needed, or reinforce those concepts through the homework problems, which really helped me build confidence in my understanding of the material. Most importantly, the course can really help you realize an interest for this content that you may have never known to have, as it did with me: I now am pursuing future courses like Machine Learning because the content in this class was taught so well and gave me a good foundation for future ULCS classes. Overall, the course is meant to challenge you, but it is quite rewarding in the end, and it is an enjoyable experience!
 
+> I think this course should be required for any DS (or frankly even CS major). There's a lot to learn in the class. Although we spend a rather brief amount of time covering some of the topics, this class gives a great idea of lot's of things out there. It may be called practical data science, but the second half goes more into depth for a decent mathematical understanding of basic, but crucial, ML components. There's lot's of skills you pick up through it (SQL, Pandas, Latex, Numpy, SciKit Learn, Plotly, Regex, etc.). I also believe that the course is what you make of it. Suraj, and the staff, put in a lot of time to  gather resources to you can dwell deeper into areas of interest. 
+> 
+> My main cons of the course are that it's not were related to depth, regarding some APIs such as Pandas. If you're more into lower level programming (computer architecture, systems, DSA in C/C++), then this may not be the course for you. Although if you want a chill class which teaches you a thing or two, I'd say check it out. Bare through the initial few weeks and the content get's pretty sweet! Believe me, I went through it myself.
+> 
+> Make sure you know your linear algebra if you really want to appreciate the content in the second half of the course!
+> 
+> I think the ideal time to take the course is right after 203 and 280, probably alongside 281. Not only are you locking yourself into some internship experience (especially in today's ML heavy workforce) but also get to branch into some other areas."
+
 ---
 
 ### Frequently Asked Questions
