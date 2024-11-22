@@ -84,6 +84,10 @@ Students will be expected to complete **weekly homework assignments**, which wil
 
 The course will have **in-person, on-paper midterm and final exams that involve a mix of multiple choice, short answer, fill in the blank code, math, and English problems** (for context, see the Fall 2024 Midterm Exam and solutions [**here**](https://study.practicaldsc.org/fa24-midterm)).
 
+The exams are scheduled for the following times:
+- Midterm Exam: Tuesday, February 25th, 7-9PM (**tentative and subject to change**)
+- Final Exam: Monday, April 28th, 10:30AM-12:30PM
+
 Other materials from the Fall 2024 offering can be found linked from the [**course homepage**](../).
 
 ---
@@ -140,7 +144,7 @@ The following quotes are by students who are currently in the course. They were 
 > 
 > Make sure you know your linear algebra if you really want to appreciate the content in the second half of the course!
 > 
-> I think the ideal time to take the course is right after 203 and 280, probably alongside 281. Not only are you locking yourself into some internship experience (especially in today's ML heavy workforce) but also get to branch into some other areas."
+> I think the ideal time to take the course is right after 203 and 280, probably alongside 281. Not only are you locking yourself into some internship experience (especially in today's ML heavy workforce) but also get to branch into some other areas.
 
 ---
 
