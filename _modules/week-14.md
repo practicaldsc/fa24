@@ -12,7 +12,9 @@ days:
     events:
       - name: LEC 25
         type: lecture
-        title: Decision Trees and Random Forests
+        title: Thresholds, Multiclass Classification
+        html: resources/lectures/lec25/lec25-filled.html
+        github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec25/
   - date: "2024-11-28"
     events:
       - title: "No Lecture: Thanksgiving Break 🦃"
