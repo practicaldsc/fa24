@@ -15,6 +15,10 @@ days:
         title: Thresholds, Multiclass Classification
         html: resources/lectures/lec25/lec25-filled.html
         github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec25/
+        annotations: resources/lectures/lec25/lec25-annotated.pdf
+        recording: https://leccap.engin.umich.edu/leccap/player/r/2433bN
+        reading_text: Last week's readings
+        reading: '#week-13-classification-and-logistic-regression'
   - date: "2024-11-28"
     events:
       - title: "No Lecture: Thanksgiving Break 🦃"
