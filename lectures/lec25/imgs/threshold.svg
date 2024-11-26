@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <!-- Threshold Label with proper LaTeX rendering -->
+  <text x="200" y="140" text-anchor="middle" font-size="16">T = 0.6</text>
+
+  <!-- Column 1 (Predicted Probabilities) -->
+  <text x="100" y="50" text-anchor="middle" font-weight="bold">Predicted Probabilities</text>
+  <text x="100" y="100" text-anchor="middle">0.32</text>
+  <text x="100" y="130" text-anchor="middle">0.55</text>
+  <text x="100" y="160" text-anchor="middle">0.68</text>
+  <text x="100" y="190" text-anchor="middle">0.42</text>
+  <text x="100" y="220" text-anchor="middle">0.85</text>
+
+  <!-- Arrow -->
+  <path d="M150,150 L250,150" stroke="black" stroke-width="2" fill="none"/>
+  <polygon points="250,150 240,145 240,155" fill="black"/>
+
+  <!-- Column 2 (Predicted Classes) -->
+  <text x="300" y="50" text-anchor="middle" font-weight="bold">Predicted Classes</text>
+  <text x="300" y="100" text-anchor="middle" fill="orange">0</text>
+  <text x="300" y="130" text-anchor="middle" fill="orange">0</text>
+  <text x="300" y="160" text-anchor="middle" fill="blue">1</text>
+  <text x="300" y="190" text-anchor="middle" fill="orange">0</text>
+  <text x="300" y="220" text-anchor="middle" fill="blue">1</text>
+</svg>
