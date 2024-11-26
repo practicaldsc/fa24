@@ -23,7 +23,7 @@ Interested in taking the course next semester? Read [**this page**](next).
 {{ staffer }}
 {% endfor %}
 
-[Jump to the current week](#week-13-classification-and-logistic-regression){: .btn }
+[Jump to the current week](#week-14-more-classification-thanksgiving){: .btn }
 
 <!-- {: .green }
 > Note that we have three deadlines in the last week of class:

@@ -1,5 +1,5 @@
 ---
-title: "Week 14: Decision Trees; Thanksgiving"
+title: "Week 14: More Classification; Thanksgiving"
 weekNumber: 14
 days:
   - date: "2024-11-25"
