@@ -7,8 +7,8 @@ days:
       - name: HW 10
         type: hw
         title: <b>Cross-Validation, Regularization, Gradient Descent, and Logistic Regression</b>
-        note: See <a href="https://edstem.org/us/courses/61012/discussion/5755262">this thread on Ed</a> for important clarifications.
-        github: https://github.com/practicaldsc/fa24/blob/main/homeworks/hw10/hw10.ipynb
+        note: See <a href="https://edstem.org/us/courses/61012/discussion/5792510">this thread on Ed</a> for an important update!
+        github: https://github.com/practicaldsc/fa24/blob/main/homeworks/hw10/hw10-updated.ipynb
   - date: "2024-12-03"
     events:
       - name: LEC 26
