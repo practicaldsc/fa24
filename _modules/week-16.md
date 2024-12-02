@@ -5,7 +5,7 @@ days:
   - date: "2024-12-09"
     events:
       - name: HW 10
-        type: homework
+        type: hw
         title: <b>(Optional) Homework 10 Question 3.4 Prediction Competition</b>
   - date: "2024-12-12"
     events:
