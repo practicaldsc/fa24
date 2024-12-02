@@ -23,15 +23,11 @@ Interested in taking the course next semester? Read [**this page**](next).
 {{ staffer }}
 {% endfor %}
 
-[Jump to the current week](#week-14-more-classification-thanksgiving){: .btn }
+[Jump to the current week](#week-15-conclusion){: .btn }
 
 <!-- {: .green }
-> Note that we have three deadlines in the last week of class:
-> - Homework 10, due Monday, December 2nd.
-> - Homework 11, due Thursday, December 5th.
-> - The Portfolio Homework, due Saturday, December 7th.<br>
-> 
-> Try and finish Homework 10 before the break, and come to office hours! -->
+> Homework 10 is due on Monday, December 2nd. Make sure to work out of the updated notebook, `hw10-updated.ipynb`, and read [this Ed post](https://edstem.org/us/courses/61012/discussion/5814556). The autograder denominator has been lowered from 24 to 22.
+>  -->
 
 {% for module in site.modules %}
 {{ module }}

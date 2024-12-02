@@ -6,8 +6,8 @@ days:
     events:
       - name: HW 10
         type: hw
-        title: <b>Cross-Validation, Regularization, Gradient Descent, and Logistic Regression</b>
-        note: See <a href="https://edstem.org/us/courses/61012/discussion/5792510">this thread on Ed</a> for an important update!
+        title: <b>CV, Regularization, Grad. Desc., and Log. Reg.</b>
+        note: See <a href="https://edstem.org/us/courses/61012/discussion/5814556">this thread on Ed</a> for an important update! There's an updated notebook (<code>hw10-updated.ipynb</code>) the autograder denominator has been lowered from 24 to 22, and the (optional) prediction competition is extended until 12/9.
         github: https://github.com/practicaldsc/fa24/blob/main/homeworks/hw10/hw10-updated.ipynb
   - date: "2024-12-03"
     events:
