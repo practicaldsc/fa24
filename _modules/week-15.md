@@ -32,7 +32,7 @@ days:
     events:
       - name: DIS 13
         type: disc
-        title: Discussion 13
+        title: Group Office Hours (come with questions!)
   - date: "2024-12-07"
     events:
       - name: PR HW
