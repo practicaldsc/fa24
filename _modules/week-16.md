@@ -17,7 +17,8 @@ days:
         title: "Review: Post-Midterm (5-7PM, 1670 BBB)"
       - name: SUR
         type: survey
-        title: <b>End-of-Semester Survey and Official Evals</b>
+        title: <b><a href="https://docs.google.com/forms/d/e/1FAIpQLSfM0KHvq71kkyYHAKXHAD4Dk_mJx1P38o7PKhaN4U_xequ00Q/viewform">End-of-Semester Survey</a> and <a href="https://umich.bluera.com/umich/">Official Evals</a></b>
+        note: "If at least 85% of the class fills out both by 12/10 at 11:59PM, we'll add 1% of extra credit to everyone's overall grade."
   - date: "2024-12-12"
     events:
       - name: EXAM

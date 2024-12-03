@@ -19,9 +19,7 @@ days:
       - name: LEC 27
         type: lecture
         title: Conclusion
-      - name: HW 11
-        type: hw
-        title: Homework 11
+        note: "There will be no Homework 11 – everyone will receive full credit for it!"
   - date: "2024-12-06"
     events:
       - name: DIS 13
