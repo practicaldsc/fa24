@@ -4,9 +4,20 @@ weekNumber: 16
 days:
   - date: "2024-12-09"
     events:
+      - name: REV 1
+        type: review
+        title: "Review: Pre-Midterm (6:30-8:30PM, 1670 BBB)"
       - name: HW 10
         type: hw
-        title: <b>(Optional) Homework 10 Question 3.4 Prediction Competition</b>
+        title: <b>(Optional) HW 10 Prediction Competition</b>
+  - date: "2024-12-10"
+    events:
+      - name: REV 2
+        type: review
+        title: "Review: Post-Midterm (5-7PM, 1670 BBB)"
+      - name: SUR
+        type: survey
+        title: <b>End-of-Semester Survey and Official Evals</b>
   - date: "2024-12-12"
     events:
       - name: EXAM
