@@ -20,6 +20,7 @@ days:
         reading_text: Berkeley 26
         reading2: https://stats.stackexchange.com/questions/133656/how-to-understand-the-drawbacks-of-k-means
         reading2_text: StackExchange
+        annotations: resources/lectures/lec26/lec26-annotated.pdf
   - date: "2024-12-05"
     events:
       - name: LEC 27
