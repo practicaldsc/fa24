@@ -21,6 +21,7 @@ days:
         reading2: https://stats.stackexchange.com/questions/133656/how-to-understand-the-drawbacks-of-k-means
         reading2_text: StackExchange
         annotations: resources/lectures/lec26/lec26-annotated.pdf
+        recording: https://leccap.engin.umich.edu/leccap/player/r/LOywTq
   - date: "2024-12-05"
     events:
       - name: LEC 27
