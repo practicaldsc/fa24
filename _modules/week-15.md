@@ -14,6 +14,12 @@ days:
       - name: LEC 26
         type: lecture
         title: Clustering
+        html: resources/lectures/lec26/lec26-filled.html
+        github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec26/
+        reading: https://ds100.org/course-notes/clustering/clustering.html
+        reading_text: Berkeley 26
+        reading2: https://stats.stackexchange.com/questions/133656/how-to-understand-the-drawbacks-of-k-means
+        reading2_text: StackExchange
   - date: "2024-12-05"
     events:
       - name: LEC 27
