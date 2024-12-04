@@ -512,6 +512,18 @@ $$R_\text{abs}(w_0, w_1) = \frac{1}{n} \sum_{i = 1}^n \lvert y_i - (w_0 + w_1 x_
 
 So, we have to use the computer to approximate the answer – **and indeed, this is exactly what you're doing in Homework 8!** Regression with squared loss is called "least squares regression," but regression with absolute loss is called "least absolute deviations regression." You can learn more [here](https://en.wikipedia.org/wiki/Least_absolute_deviations)!
 
+### I'm having trouble making progress on proof questions or those that ask me to "show" something.
+
+This sort of question can definitely be tough! It's hard to write down an exact set of steps for questions like this, but a few strategies that can help are are:
+- In general, what you have written should get more complex before it gets simpler: a common pattern is first expanding definitions, then grouping like terms, and finally simplifying. If you find that your first few steps make things more complicated, don't despair.
+- Breaking up any math into parts you do already have defined. If you know something about, say, the first $$n$$ terms, split a summation up into the first $$n$$ and all the rest.
+- Making sure you use every piece of information that's given. It's all there for a reason.
+- For questions that ask you to show some sort of equivalence that isn't very messy (say, showing two sums or means are equal), you should expect terms to simplify nicely once you move towards the end.
+
+It's definitely challenging at first and you should often expect to try a few things (substitutions, simplifications, etc) in an exploratory fashion before you get to a strategy that works. As you do more of this, you'll likely build an intuition of what steps to try for a given question to work towards your goal.
+
+
+
 ---
 
 ## DataFrame Manipulation
