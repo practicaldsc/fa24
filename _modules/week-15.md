@@ -26,7 +26,9 @@ days:
     events:
       - name: LEC 27
         type: lecture
-        title: Conclusion
+        title: Computer Vision, Conclusion
+        html: resources/lectures/lec27/lec27-filled.html
+        github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec27/
         note: "There will be no Homework 11 – everyone will receive full credit for it!"
   - date: "2024-12-06"
     events:
