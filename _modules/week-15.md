@@ -29,6 +29,8 @@ days:
         title: Computer Vision, Conclusion
         html: resources/lectures/lec27/lec27-filled.html
         github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec27/
+        annotated: resources/lectures/lec27/lec27-annotated.pdf
+        recording: https://leccap.engin.umich.edu/leccap/player/r/ZVmI1b
         note: "There will be no Homework 11 – everyone will receive full credit for it!"
   - date: "2024-12-06"
     events:
