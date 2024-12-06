@@ -33,9 +33,9 @@ days:
         recording: https://leccap.engin.umich.edu/leccap/player/r/ZVmI1b
         reading: http://deeplearning.stanford.edu/tutorial/supervised/SoftmaxRegression/
         reading_text: Stanford Softmax Notes
-        reading2: https://ds100.org/course-notes/pca_2/pca_2.html
-        reading2_text: Berkeley PCA Notes
-        note: "The new content in this lecture – multinomial logistic regression, PCA, and the idea of computer vision in general – won't appear on the Final Exam."
+        reading2: https://rampure.org/resources/data100/notes/pca-demo.html
+        reading2_text: PCA TA Notes
+        note: I wrote the "PCA TA Notes" above when I was a TA for a similar class; take a look if you're curious, and read <a href="https://ds100.org/course-notes/pca_2/pca_2.html">this</a> if you want to learn even more about PCA. Neither PCA nor softmax regression are in scope for the Final Exam.
   - date: "2024-12-06"
     events:
       - name: DIS 13
