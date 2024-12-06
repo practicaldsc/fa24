@@ -31,7 +31,11 @@ days:
         github: https://github.com/practicaldsc/fa24/blob/main/lectures/lec27/
         annotations: resources/lectures/lec27/lec27-annotated.pdf
         recording: https://leccap.engin.umich.edu/leccap/player/r/ZVmI1b
-        note: "There will be no Homework 11 – everyone will receive full credit for it!"
+        reading: http://deeplearning.stanford.edu/tutorial/supervised/SoftmaxRegression/
+        reading_text: Stanford Softmax Notes
+        reading2: https://ds100.org/course-notes/pca_2/pca_2.html
+        reading2_text: Berkeley PCA Notes
+        note: "The new content in this lecture – multinomial logistic regression, PCA, and the idea of computer vision in general – won't appear on the Final Exam."
   - date: "2024-12-06"
     events:
       - name: DIS 13
