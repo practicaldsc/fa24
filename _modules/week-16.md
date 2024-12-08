@@ -7,7 +7,7 @@ days:
       - name: REV 1
         type: review
         title: "Take Up Midterm Exam (6:30-8:30PM, 1670 BBB)"
-        note: We'll take up the <a href="https://study.practicaldsc.org/fa24-midterm/index.html">Midterm Exam from this semester</a>, discuss common misconceptions, and recap key ideas (both on paper and in code!).
+        problems: https://study.practicaldsc.org/fa24-midterm/index.html
       - name: HW 10
         type: hw
         title: <b>(Optional) HW 10 Prediction Competition</b>
@@ -15,8 +15,8 @@ days:
     events:
       - name: REV 2
         type: review
-        title: "Review Post-Midterm Problems (5-7PM, 1670 BBB)"
-        note: We'll take up relevant problems from the <a href="https://study.practicaldsc.org">Study Site</a>. Specific problems will be linked on Ed in advance.
+        title: "Review Post-Midterm Content (5-7PM, 1670 BBB)"
+        problems: https://study.practicaldsc.org/fi-review-tuesday/index.html
       - name: SUR
         type: survey
         title: <b><a href="https://docs.google.com/forms/d/e/1FAIpQLSfM0KHvq71kkyYHAKXHAD4Dk_mJx1P38o7PKhaN4U_xequ00Q/viewform">End-of-Semester Survey</a> and <a href="https://umich.bluera.com/umich/">Official Evals</a></b>
