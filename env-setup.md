@@ -28,7 +28,7 @@ It's a long, but useful video. In addition to walking you through the setup stag
 - [11:25](https://www.loom.com/share/b74ed3c77fe74ef4a4fa4fcc2b247699?t=685): Launching JupyterLab
 - [12:28](https://www.loom.com/share/b74ed3c77fe74ef4a4fa4fcc2b247699?t=748): Jupyter Notebook basics and the autograder
 - [22:09](https://www.loom.com/share/b74ed3c77fe74ef4a4fa4fcc2b247699?t=1329): Restarting the kernel and submitting to Gradescope
-- [24:53](https://www.loom.com/share/b74ed3c77fe74ef4a4fa4fcc2b247699?t=1493): JupyterLab, Jupyter Notebook, Juypter Notebook Classic, VSCode, and Bash Profiles
+- [24:53](https://www.loom.com/share/b74ed3c77fe74ef4a4fa4fcc2b247699?t=1493): JupyterLab, Jupyter Notebook, Jupyter Notebook Classic, VSCode, and Bash Profiles
 - [29:25](https://www.loom.com/share/b74ed3c77fe74ef4a4fa4fcc2b247699?t=1765): Verifying public tests pass on Gradescope
 
 You're encouraged to follow along by walking through and submitting the "Example Homework", which can be found in our public course GitHub repository. It is not a real assignment, but just exists to make sure you know how to access, run, and submit our assignments.
