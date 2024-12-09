@@ -6,7 +6,7 @@ days:
     events:
       - name: REV 1
         type: review
-        title: "Take Up Midterm Exam (6:30-8:30PM, 1670 BBB)"
+        title: "Take Up Midterm Exam (6:30-8:30PM, 1017 DOW)"
         problems: https://study.practicaldsc.org/fa24-midterm/index.html
         github: https://github.com/practicaldsc/fa24/blob/main/review/
       - name: HW 10
