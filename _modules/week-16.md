@@ -15,7 +15,7 @@ days:
     events:
       - name: REV 2
         type: review
-        title: "Review Post-Midterm Content (5-7PM, 1670 BBB)"
+        title: "Review Post-Midterm Content (5-8PM, 1670 BBB)"
         problems: https://study.practicaldsc.org/fi-review-tuesday/index.html
       - name: SUR
         type: survey
