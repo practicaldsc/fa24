@@ -10,6 +10,7 @@ days:
         problems: https://study.practicaldsc.org/fa24-midterm/index.html
         html: resources/other/midterm-review.html
         github: https://github.com/practicaldsc/fa24/blob/main/review/
+        recording: https://leccap.engin.umich.edu/leccap/player/r/Epq9QZ
       - name: HW 10
         type: hw
         title: <b>(Optional) HW 10 Prediction Competition</b>
