@@ -13,13 +13,15 @@ days:
         recording: https://leccap.engin.umich.edu/leccap/player/r/Epq9QZ
       - name: HW 10
         type: hw
-        title: <b>(Optional) HW 10 Prediction Competition</b>
+        title: <b>(\\ HW 10 Prediction Competition</b>
   - date: "2024-12-10"
     events:
       - name: REV 2
         type: review
         title: "Review Post-Midterm Content (5-8PM, 1670 BBB)"
         problems: https://study.practicaldsc.org/fi-review-tuesday/index.html
+        recording: https://leccap.engin.umich.edu/leccap/player/r/FE2S7p
+        filled_slides: resources/lectures/review/final-review-filled.pdf
       - name: SUR
         type: survey
         title: <b><a href="https://docs.google.com/forms/d/e/1FAIpQLSfM0KHvq71kkyYHAKXHAD4Dk_mJx1P38o7PKhaN4U_xequ00Q/viewform">End-of-Semester Survey</a> and <a href="https://umich.bluera.com/umich/">Official Evals</a></b>
