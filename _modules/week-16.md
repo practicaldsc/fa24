@@ -13,7 +13,7 @@ days:
         recording: https://leccap.engin.umich.edu/leccap/player/r/Epq9QZ
       - name: HW 10
         type: hw
-        title: <b>(\\ HW 10 Prediction Competition</b>
+        title: <b>HW 10 Prediction Competition</b>
   - date: "2024-12-10"
     events:
       - name: REV 2
