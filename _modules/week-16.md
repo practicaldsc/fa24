@@ -22,6 +22,7 @@ days:
         problems: https://study.practicaldsc.org/fi-review-tuesday/index.html
         recording: https://leccap.engin.umich.edu/leccap/player/r/FE2S7p
         filled_slides: resources/lectures/review/final-review-filled.pdf
+        note: The last hour of the review session doesn't appear in the recording. For that material, watch <a href="https://youtu.be/p00OOny9Wyo"><b>this video</b></a>.
       - name: SUR
         type: survey
         title: <b><a href="https://docs.google.com/forms/d/e/1FAIpQLSfM0KHvq71kkyYHAKXHAD4Dk_mJx1P38o7PKhaN4U_xequ00Q/viewform">End-of-Semester Survey</a> and <a href="https://umich.bluera.com/umich/">Official Evals</a></b>
