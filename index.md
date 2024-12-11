@@ -26,10 +26,7 @@ Interested in taking the course next semester? Read [**this page**](next).
 [Jump to the current week](#week-16-final-exam){: .btn }
 
 {: .green }
-> We're in the final stretch! Some updates:
-> - We have two review sessions: Monday 12/9 from 6:30-8:30PM (1017 DOW) and Tuesday 12/10 from 5-8PM (1670 BBB). Both are in 1670 BBB and are recorded. Scroll down to see the content covered in each one.
-> - If at least 85% of the class fills out both the internal [End-of-Semester Survey](https://docs.google.com/forms/d/e/1FAIpQLSfM0KHvq71kkyYHAKXHAD4Dk_mJx1P38o7PKhaN4U_xequ00Q/viewform) and the [Official Course Evaluations](https://umich.bluera.com/umich/) by Tuesday 12/10 at 11:59PM, we'll add 1% of extra credit to everyone's overall grade. **As of Sunday 12/8, we're only at ~60% completion!**
-> - The deadline for the optional prediction competition in Homework 10 has been extended until Monday 12/9.
+The Final Exam is on Thursday 12/12 from 4-6PM! Read [this post on Ed](https://edstem.org/us/courses/61012/discussion/5866998) for information on how to study. Recordings and materials from this week's review sessions can be found below.
 
 {% for module in site.modules %}
 {{ module }}
