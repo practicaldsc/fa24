@@ -6,6 +6,9 @@ description: >-
 nav_order: 2
 ---
 
+{: .red }
+**This is the course website for a previous iteration of the course. If you're looking for the most recent course website, look at [practicaldsc.org](https://practicaldsc.org).**
+
 # 📖 Syllabus
 {:.no_toc}
 

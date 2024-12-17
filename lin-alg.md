@@ -4,7 +4,8 @@ nav_order: 7
 title: "🧮 Linear Algebra Review"
 ---
 
-<!-- [⬅️ back home](../) -->
+{: .red }
+**This is the course website for a previous iteration of the course. If you're looking for the most recent course website, look at [practicaldsc.org](https://practicaldsc.org).**
 
 # LARDS: Linear Algebra Review for Data Science
 {: .no_toc }

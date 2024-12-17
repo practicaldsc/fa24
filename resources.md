@@ -5,6 +5,9 @@ nav_order: 5
 description: Supplementary resources around the internet – some made for this class, some not.
 ---
 
+{: .red }
+**This is the course website for a previous iteration of the course. If you're looking for the most recent course website, look at [practicaldsc.org](https://practicaldsc.org).**
+
 # {{ page.title }}
 {:.no_toc}
 

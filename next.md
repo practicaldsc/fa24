@@ -28,7 +28,7 @@ EECS 398-002/003, Winter 2025 at the <b><span style="background-color: #FFCB05; 
 
 > As a third year data science major, this has been my favorite course I've taken throughout my time in college. It's the first course that's felt tailored to my major and relevant to the industry. I've loved the combination of learning core Python skills and ML techniques, and have gained a breadth of understanding in just a semester. – current student
 
-Read what other students have said in the [Testimonials](#testimonials) section below!
+Read what other students have said about the course and its workload in the [Testimonials and Workload](#testimonials) section below!
 
 ---
 

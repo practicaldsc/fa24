@@ -17,7 +17,7 @@ title: EECS 398-003
 tagline: Practical Data Science, Fall 2024 at the University of Michigan
 # description: A modern, highly customizable, responsive Jekyll template for course websites
 author: Practical Data Science course staff
-baseurl: '/' # the subpath of your site, e.g. /blog
+baseurl: '/fa24' # the subpath of your site, e.g. /blog
 url: 'https://practicaldsc.org' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 

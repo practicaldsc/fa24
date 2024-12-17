@@ -6,6 +6,9 @@ nav_order: 7
 toc_max_heading_level: 2
 ---
 
+{: .red }
+**This is the course website for a previous iteration of the course. If you're looking for the most recent course website, look at [practicaldsc.org](https://practicaldsc.org).**
+
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 
 
